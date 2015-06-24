@@ -1,0 +1,345 @@
+nohup: ignoring input
+MATLAB is selecting SOFTWARE OPENGL rendering.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+Creating M1048576_256 in n117.bluewave.umbc.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: M1048576_256DB.user: rootDB.type: Accumulo
+Creating M1048576_256 in n117.bluewave.umbc.edu:2181 Accumulo
+INGEST time (sec) = 0.363
+INGEST time (sec) = 0.149
+INGEST time (sec) = 0.164
+Now initializing the input matrix in M1048576
+  Columns 1 through 7
+
+    'Machines are'    'n117'    'n118'    'n119'    'n120'    'n121'    'n122'
+
+  Columns 8 through 14
+
+    'n123'    'n124'    'n125'    'n126'    'n127'    'n128'    'n129'
+
+  Columns 15 through 17
+
+    'n130'    'n131'    'n132'
+
+Submitting SaveGraphData on 76 processor(s).
+No pid files found
+Nothing to delete.
+Launching MPI rank: 75 on: n132
+Launching MPI rank: 74 on: n132
+Launching MPI rank: 73 on: n132
+Launching MPI rank: 72 on: n132
+Launching MPI rank: 71 on: n132
+Launching MPI rank: 70 on: n131
+Launching MPI rank: 69 on: n131
+Launching MPI rank: 68 on: n131
+Launching MPI rank: 67 on: n131
+Launching MPI rank: 66 on: n131
+Launching MPI rank: 65 on: n130
+Launching MPI rank: 64 on: n130
+Launching MPI rank: 63 on: n130
+Launching MPI rank: 62 on: n130
+Launching MPI rank: 61 on: n130
+Launching MPI rank: 60 on: n129
+Launching MPI rank: 59 on: n129
+Launching MPI rank: 58 on: n129
+Launching MPI rank: 57 on: n129
+Launching MPI rank: 56 on: n129
+Launching MPI rank: 55 on: n128
+Launching MPI rank: 54 on: n128
+Launching MPI rank: 53 on: n128
+Launching MPI rank: 52 on: n128
+Launching MPI rank: 51 on: n128
+Launching MPI rank: 50 on: n127
+Launching MPI rank: 49 on: n127
+Launching MPI rank: 48 on: n127
+Launching MPI rank: 47 on: n127
+Launching MPI rank: 46 on: n127
+Launching MPI rank: 45 on: n126
+Launching MPI rank: 44 on: n126
+Launching MPI rank: 43 on: n126
+Launching MPI rank: 42 on: n126
+Launching MPI rank: 41 on: n126
+Launching MPI rank: 40 on: n125
+Launching MPI rank: 39 on: n125
+Launching MPI rank: 38 on: n125
+Launching MPI rank: 37 on: n125
+Launching MPI rank: 36 on: n125
+Launching MPI rank: 35 on: n124
+Launching MPI rank: 34 on: n124
+Launching MPI rank: 33 on: n124
+Launching MPI rank: 32 on: n124
+Launching MPI rank: 31 on: n124
+Launching MPI rank: 30 on: n123
+Launching MPI rank: 29 on: n123
+Launching MPI rank: 28 on: n123
+Launching MPI rank: 27 on: n123
+Launching MPI rank: 26 on: n123
+Launching MPI rank: 25 on: n122
+Launching MPI rank: 24 on: n122
+Launching MPI rank: 23 on: n122
+Launching MPI rank: 22 on: n122
+Launching MPI rank: 21 on: n122
+Launching MPI rank: 20 on: n121
+Launching MPI rank: 19 on: n121
+Launching MPI rank: 18 on: n121
+Launching MPI rank: 17 on: n121
+Launching MPI rank: 16 on: n121
+Launching MPI rank: 15 on: n120
+Launching MPI rank: 14 on: n120
+Launching MPI rank: 13 on: n120
+Launching MPI rank: 12 on: n120
+Launching MPI rank: 11 on: n120
+Launching MPI rank: 10 on: n119
+Launching MPI rank: 9 on: n119
+Launching MPI rank: 8 on: n119
+Launching MPI rank: 7 on: n119
+Launching MPI rank: 6 on: n119
+Launching MPI rank: 5 on: n118
+Launching MPI rank: 4 on: n118
+Launching MPI rank: 3 on: n118
+Launching MPI rank: 2 on: n118
+Launching MPI rank: 1 on: n118
+Launching MPI rank: 0 on: n117
+
+unix_launch =
+
+ ssh n132 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n132.71.sh  ' 2>>./MatMPI/remote.out &
+ ssh n131 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n131.66.sh  ' 2>>./MatMPI/remote.out &
+ ssh n130 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n130.61.sh  ' 2>>./MatMPI/remote.out &
+ ssh n129 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n129.56.sh  ' 2>>./MatMPI/remote.out &
+ ssh n128 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n128.51.sh  ' 2>>./MatMPI/remote.out &
+ ssh n127 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n127.46.sh  ' 2>>./MatMPI/remote.out &
+ ssh n126 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n126.41.sh  ' 2>>./MatMPI/remote.out &
+ ssh n125 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n125.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh n124 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n124.31.sh  ' 2>>./MatMPI/remote.out &
+ ssh n123 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n123.26.sh  ' 2>>./MatMPI/remote.out &
+ ssh n122 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n122.21.sh  ' 2>>./MatMPI/remote.out &
+ ssh n121 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n121.16.sh  ' 2>>./MatMPI/remote.out &
+ ssh n120 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n120.11.sh  ' 2>>./MatMPI/remote.out &
+ ssh n119 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n119.6.sh  ' 2>>./MatMPI/remote.out &
+ ssh n118 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n118.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.n117.0.sh &
+
+
+**********Inside SaveGraphData***************
+******Inside Sym, start copying to local disk************
+........................
+****Done copy*********
+*******Now inserting into Accumulo****
+INGEST time (sec) = 2.802
+INGEST time (sec) = 2.546
+INGEST time (sec) = 2.455
+INGEST time (sec) = 3.268
+INGEST time (sec) = 4.329
+INGEST time (sec) = 4.342
+INGEST time (sec) = 5.395
+INGEST time (sec) = 8.615
+INGEST time (sec) = 18.517
+INGEST time (sec) = 33.281
+INGEST time (sec) = 21.25
+INGEST time (sec) = 42.22
+INGEST time (sec) = 33.887
+INGEST time (sec) = 21.946
+INGEST time (sec) = 31.6
+INGEST time (sec) = 19.237
+INGEST time (sec) = 23.396
+INGEST time (sec) = 18.321
+INGEST time (sec) = 20.107
+INGEST time (sec) = 19.857
+INGEST time (sec) = 19.377
+INGEST time (sec) = 20.998
+INGEST time (sec) = 28.662
+INGEST time (sec) = 29.79
+INGEST time (sec) = 20.11
+INGEST time (sec) = 25.812
+INGEST time (sec) = 17.434
+INGEST time (sec) = 27.044
+INGEST time (sec) = 21.402
+INGEST time (sec) = 18.082
+INGEST time (sec) = 24.922
+INGEST time (sec) = 13.764
+INGEST time (sec) = 17.591
+INGEST time (sec) = 18.55
+INGEST time (sec) = 20.401
+INGEST time (sec) = 16.661
+INGEST time (sec) = 18.402
+INGEST time (sec) = 21.396
+INGEST time (sec) = 25.976
+INGEST time (sec) = 15.032
+INGEST time (sec) = 18.624
+INGEST time (sec) = 17.906
+INGEST time (sec) = 16.1
+INGEST time (sec) = 22.371
+INGEST time (sec) = 22.582
+INGEST time (sec) = 28.628
+INGEST time (sec) = 26.399
+INGEST time (sec) = 23.081
+INGEST time (sec) = 26.806
+INGEST time (sec) = 20.618
+INGEST time (sec) = 22.571
+INGEST time (sec) = 20.823
+INGEST time (sec) = 27.55
+INGEST time (sec) = 25.848
+INGEST time (sec) = 20.638
+INGEST time (sec) = 28.277
+INGEST time (sec) = 32.225
+INGEST time (sec) = 27.497
+INGEST time (sec) = 29.988
+INGEST time (sec) = 27.525
+INGEST time (sec) = 14.671
+INGEST time (sec) = 25.029
+INGEST time (sec) = 19.675
+INGEST time (sec) = 27.246
+INGEST time (sec) = 23.574
+INGEST time (sec) = 16.229
+INGEST time (sec) = 20.466
+INGEST time (sec) = 16.435
+INGEST time (sec) = 20.611
+INGEST time (sec) = 24.036
+INGEST time (sec) = 22.734
+INGEST time (sec) = 17.887
+INGEST time (sec) = 16.455
+INGEST time (sec) = 18.99
+INGEST time (sec) = 22.87
+INGEST time (sec) = 18.123
+INGEST time (sec) = 31.925
+INGEST time (sec) = 28.115
+INGEST time (sec) = 253.106
+INGEST time (sec) = 19.907
+INGEST time (sec) = 43.868
+INGEST time (sec) = 39.759
+INGEST time (sec) = 17.812
+INGEST time (sec) = 17.203
+INGEST time (sec) = 23.643
+INGEST time (sec) = 22.946
+INGEST time (sec) = 34.015
+INGEST time (sec) = 25.352
+INGEST time (sec) = 15.648
+INGEST time (sec) = 16.006
+INGEST time (sec) = 22.065
+INGEST time (sec) = 20.446
+INGEST time (sec) = 22.202
+INGEST time (sec) = 30.972
+INGEST time (sec) = 32.579
+INGEST time (sec) = 29.26
+INGEST time (sec) = 15.537
+INGEST time (sec) = 21.919
+INGEST time (sec) = 28.691
+INGEST time (sec) = 25.567
+INGEST time (sec) = 50.848
+INGEST time (sec) = 10.797
+INGEST time (sec) = 10.25
+INGEST time (sec) = 9.692
+INGEST time (sec) = 29.483
+INGEST time (sec) = 14.501
+INGEST time (sec) = 7.86
+INGEST time (sec) = 9.719
+INGEST time (sec) = 20.833
+INGEST time (sec) = 13.826
+INGEST time (sec) = 11.427
+INGEST time (sec) = 8.981
+INGEST time (sec) = 16.017
+INGEST time (sec) = 12.953
+INGEST time (sec) = 12.271
+INGEST time (sec) = 16.123
+INGEST time (sec) = 15.067
+INGEST time (sec) = 13.107
+INGEST time (sec) = 11.515
+INGEST time (sec) = 13.481
+INGEST time (sec) = 14.112
+INGEST time (sec) = 20.299
+INGEST time (sec) = 10.32
+INGEST time (sec) = 11.531
+INGEST time (sec) = 11.715
+INGEST time (sec) = 9.397
+INGEST time (sec) = 11.322
+INGEST time (sec) = 13.017
+INGEST time (sec) = 10.041
+INGEST time (sec) = 11.576
+INGEST time (sec) = 13.786
+INGEST time (sec) = 11.864
+INGEST time (sec) = 12.433
+INGEST time (sec) = 11.69
+INGEST time (sec) = 14.668
+INGEST time (sec) = 10.106
+INGEST time (sec) = 15.13
+INGEST time (sec) = 11.169
+INGEST time (sec) = 11.751
+INGEST time (sec) = 9.375
+INGEST time (sec) = 9.875
+INGEST time (sec) = 10.001
+INGEST time (sec) = 10.434
+INGEST time (sec) = 8.319
+INGEST time (sec) = 15.737
+INGEST time (sec) = 12.95
+INGEST time (sec) = 8.826
+INGEST time (sec) = 10.615
+INGEST time (sec) = 11.507
+INGEST time (sec) = 8.121
+INGEST time (sec) = 9.642
+INGEST time (sec) = 14.988
+INGEST time (sec) = 14.195
+INGEST time (sec) = 10.198
+INGEST time (sec) = 11.968
+INGEST time (sec) = 10.879
+INGEST time (sec) = 11.9
+INGEST time (sec) = 14.404
+INGEST time (sec) = 10.438
+INGEST time (sec) = 13.054
+INGEST time (sec) = 11.908
+INGEST time (sec) = 9.042
+INGEST time (sec) = 9.811
+INGEST time (sec) = 10.8
+INGEST time (sec) = 11.878
+INGEST time (sec) = 11.65
+INGEST time (sec) = 11.579
+INGEST time (sec) = 11.812
+INGEST time (sec) = 16.859
+INGEST time (sec) = 11.477
+INGEST time (sec) = 16.624
+INGEST time (sec) = 9.908
+INGEST time (sec) = 14.181
+INGEST time (sec) = 17.076
+INGEST time (sec) = 10.254
+INGEST time (sec) = 8.761
+INGEST time (sec) = 10.9
+INGEST time (sec) = 14.503
+INGEST time (sec) = 13.411
+INGEST time (sec) = 12.906
+INGEST time (sec) = 13.256
+INGEST time (sec) = 9.773
+INGEST time (sec) = 10.061
+INGEST time (sec) = 9.399
+INGEST time (sec) = 10.63
+INGEST time (sec) = 11.859
+INGEST time (sec) = 12.974
+INGEST time (sec) = 8.49
+INGEST time (sec) = 12.606
+INGEST time (sec) = 13.044
+INGEST time (sec) = 9.574
+INGEST time (sec) = 16.567
+INGEST time (sec) = 10.889
+INGEST time (sec) = 10.453
+INGEST time (sec) = 9.485
+INGEST time (sec) = 14.09
+INGEST time (sec) = 9.183
+INGEST time (sec) = 17.958
+INGEST time (sec) = 11.669
+INGEST time (sec) = 10.222
+INGEST time (sec) = 13.539
+INGEST time (sec) = 11.018
+INGEST time (sec) = 4.46
+*****Complete insertion************
+1 my initialization has completed!
+Total time to initialize M1048576 is 4264.1617

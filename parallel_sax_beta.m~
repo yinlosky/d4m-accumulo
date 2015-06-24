@@ -1,0 +1,80 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% File name: parallel_sax_beta.m
+%% Function: This function will calculate beta_i-1 * v_i-1
+%% 			beta is the table 'beta_t';
+%% 			v is the table 'lz_q'
+%% 			i is read from table 'cur_it'
+%%	     Output in 'beta_sax_temp'
+%% Author: Yin Huang
+%% Date: Dec 11, 2014
+
+myDB; %% connect to DB and return a binding named DB.
+machines_t = DB('NumOfMachines');
+nodes_t = DB('NumOfNodes');
+cur_it = DB('cur_it');
+parallel_sax_beta_beta_t = DB('beta');
+
+parallel_sax_beta_output = DB('beta_sax_temp');
+
+NumOfMachines = str2num(Val(machines_t('1,','1,')));
+NumOfNodes = str2num(Val(nodes_t('1,','1,')));
+it = str2num(Val(cur_it('1,','1,')));
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Only calculate when it is not 1 because it is 0, otherwise there is no 0 situation
+	%if(~isempty(parallel_sax_beta_beta_t(sprintf('%d,',it - 1),'1,')))
+	%parallel_sax_beta_value = str2num(Val(parallel_sax_beta_beta_t(sprintf('%d,',it - 1),'1,'))); %beta_i-1
+	%else
+	%parallel_sax_beta_value = 0;
+	%end
+   	[betaRow,betaCol,betaVal]=parallel_sax_beta_beta_t(sprintf('%d,',it-1),'1,'); 
+
+	parallel_sax_beta_value = str2num(betaVal);
+
+	vector = ['lz_q' num2str(it - 1)];
+	parallel_sax_beta_v_t = DB(vector);  %% v_i-1
+
+	gap = floor(NumOfNodes / NumOfMachines);
+	w = zeros(NumOfMachines,1,map([Np 1],{},0:Np-1));
+	myMachine = global_ind(w); %Parallel
+
+	for i = myMachine
+        start_node = (i-1)*gap+1;
+	if (i<NumOfMachines)
+	end_node = i*gap ;
+	else 
+	end_node = NumOfNodes ;
+	end
+	disp(['start index: ' num2str(start_node) ' end index: ' num2str(end_node)]);
+	disp(['Iteration ' num2str(it) ' beta ' num2str(parallel_sax_beta_value) ' times ' vector]);
+	
+	[vectorRow,vectorCol,vectorVal] = parallel_sax_beta_v_t(sprintf('%d,',start_node:end_node),'1,');	
+	vectorVal = str2num(vectorVal);
+	vectorVal = vectorVal * parallel_sax_beta_value;  % vector_i-1 * beta_i-1
+	valStr = sprintf('%.15f,',vectorVal);
+	rowStr = sprintf('%d,',str2num(vectorRow));
+	colStr = sprintf('%d,',str2num(vectorCol));
+	put(parallel_sax_beta_output,Assoc(rowStr,colStr,valStr));
+		%for j = start_node:end_node  
+		% j is the row_id for the vector! We need to set Output = y - x*alph  
+		% y = str2num(Val(y(sprintf('%d,',j),'1,'))); 
+		% x = str2num(Val(x(sprintf('%d,',j),'1,')));
+		% newV = y - x * alph;
+		% newAssoc = Assoc(sprintf('%d,',j),'1,',sprintf('%.15f,',newV));
+		% put(output,newAssoc);
+		%% This operation might need optimization 
+     		%if(~isempty(parallel_sax_beta_v_t(sprintf('%d,',j),'1,')))
+     		%vx = str2num(Val(parallel_sax_beta_v_t(sprintf('%d,',j),'1,')));
+		%else 
+		%vx = 0;
+		%end
+		%disp(num2str(vx));
+     		%newV = vx * parallel_sax_beta_value;
+     		%newAssoc = Assoc(sprintf('%d,',j),'1,',sprintf('%.15f,',newV));
+     			%put(parallel_sax_beta_output,newAssoc);
+		%	end	
+		
+	end
+	agg(w);

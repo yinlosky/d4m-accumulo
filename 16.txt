@@ -1,0 +1,2966 @@
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Creating beta_sax_temp in localhost:2181 Accumulo
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+Creating lz_norm_B16_temp in localhost:2181 Accumulo
+Creating rtv_temp in localhost:2181 Accumulo
+Creating dot_temp in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_B16_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Creating alpha in localhost:2181 Accumulo
+Creating beta in localhost:2181 Accumulo
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Creating beta_sax_temp in localhost:2181 Accumulo
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+Creating lz_norm_B16_temp in localhost:2181 Accumulo
+Creating so_rpath in localhost:2181 Accumulo
+Creating cur_loop_j in localhost:2181 Accumulo
+Creating rtv_temp in localhost:2181 Accumulo
+Creating so_rrtv in localhost:2181 Accumulo
+INGEST time (sec) = 0.348
+INGEST time (sec) = 0.307
+INGEST time (sec) = 0.27
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q2DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q3DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q4DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q5DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q6DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q7DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q8DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q9DB.user: rootDB.type: Accumulo
+Creating 16lz_q10 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q10DB.user: rootDB.type: Accumulo
+	Running Yingen with the following configuration:
+
+    '2'    'machines:'    'hec-51'    'hec-50'    [1x1 char]
+
+2 processors	
+16 nodes	
+9 max iterations	
+6 top eigen values
+Initializing the random vector b in table B16
+In initB.m: 
+
+NumOfNodes: 16	NumOfProcessors: 2
+
+    'Machines: '    'hec-51'    'hec-50'
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: B16DB.user: rootDB.type: Accumulo
+Creating B16 in localhost:2181 Accumulo
+Now initialize vector B!
+Submitting SaveB on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Total time to initialize B16 is 4.1257
+Submitting parallel_lz_norm_B_p1 on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Running p2!
+Try to verify if temp_t has 2 elemetns!
+Before sqrt: 0.000000000000000,
+After sqrt: 0.000000000000000,
+INGEST time (sec) = 0.262
+In p2 Sum is: 0.000000000000000
+In table: 0.000000000000000
+
+Time for summing the local files0.33436
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_B16_tempDB.user: rootDB.type: Accumulo
+In main process Sum is: 0.000000000000000
+Store scalar_b in table scalar_b
+Time for normalizing B vector is: 1.2219
+Submitting parallel_scalarmult_B on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Time for scalar multiply B vector is: 4.111
+Time for running initializing B is: 4.1113
+**************myEigen iterations***********************
+computing v=Aq 1 ...
+INGEST time (sec) = 0.386
+Creating mv_temp in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Creating 16lz_vpath in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Result of v = Aq 1 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(1)
+Submitting parallel_dotproduct_p1 on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.236
+Result of alpha[1] =0 is saved.
+Submitting parallel_sax_alpha on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Submitting parallel_sax_v on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[1]...
+Submitting parallel_lz_norm_v_p1 on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Running p2!
+Try to verify if temp_t has 2 elemetns!
+Before sqrt: 0.000000000000000,
+After sqrt: 0.000000000000000,
+INGEST time (sec) = 0.303
+In p2 Sum is: 0.000000000000000
+In table: 0.000000000000000
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[1] = 0
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+Starting so, iterations # is 1 beta_it value is: 0
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/1 th vector:0compare to 0
+V need to be reorthogalized by 1th Ritz Vector
+Reorthogonalizing against1th Ritz vector
+Store j: 1 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.208
+Submitting parallel_computeR on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Submitting parallel_rtv_p1 on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+INGEST time (sec) = 0.358
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Submitting parallel_so_updatev on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Number of orthongalization: 1
+Recomputing beta[1]
+Submitting parallel_lz_norm_v_p1 on 2 processor(s).
+No pid files found
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-50 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /home/hduser/Optimized; /bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh  ' 2>>./MatMPI/remote.out &
+
+
+Running p2!
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+Try to verify if temp_t has 2 elemetns!
+Before sqrt: 0.000000000000000,
+After sqrt: 0.000000000000000,
+INGEST time (sec) = 0.161
+In p2 Sum is: 0.000000000000000
+In table: 0.000000000000000
+
+beta[1]=0
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+The new vector converged. Finishing ...
+**************Now constructing T matrix from alpha and beta******************
+----------EigenValues of Tm are:--------------
+
+myD =
+
+     0
+
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.029
+**************Now constructing T matrix from alpha and beta******************
+{Attempted to access i(0); index must be a positive integer or logical.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('Str2mat', '/home/hduser/d4m_api/matlab_src/Str2mat.m', 22)" style="font-weight:bold">Str2mat</a> (<a href="matlab: opentoline('/home/hduser/d4m_api/matlab_src/Str2mat.m',22,0)">line 22</a>)
+  i = cumsum(x) + 1;  i(end) = i(end-1);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('StrUnique', '/home/hduser/d4m_api/matlab_src/StrUnique.m', 18)" style="font-weight:bold">StrUnique</a> (<a href="matlab: opentoline('/home/hduser/d4m_api/matlab_src/StrUnique.m',18,0)">line 18</a>)
+  mat = Str2mat(str);  % Convert to matrix.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('Assoc', '/home/hduser/d4m_api/matlab_src/@Assoc/Assoc.m', 51)" style="font-weight:bold">Assoc</a> (<a href="matlab: opentoline('/home/hduser/d4m_api/matlab_src/@Assoc/Assoc.m',51,0)">line 51</a>)
+    [A.val  v_out2in v] = StrUnique(val,'first');
+
+Error in <a href="matlab:helpUtils.errorDocCallback('save_tridiagonal_matrix', '/home/hduser/Optimized/save_tridiagonal_matrix.m', 27)" style="font-weight:bold">save_tridiagonal_matrix</a> (<a href="matlab: opentoline('/home/hduser/Optimized/save_tridiagonal_matrix.m',27,0)">line 27</a>)
+matAsso = Assoc('1,','1,',str);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('startYingen', '/home/hduser/Optimized/startYingen.m', 244)" style="font-weight:bold">startYingen</a> (<a href="matlab: opentoline('/home/hduser/Optimized/startYingen.m',244,0)">line 244</a>)
+	save_tridiagonal_matrix(alpha, bet, it);
+} 
+startYingen(1,1,16,9,6)
+Start time: 
+
+
+ans =
+
+13-Feb-2015 00:50:30
+
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Creating beta_sax_temp in localhost:2181 Accumulo
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+Creating lz_norm_B16_temp in localhost:2181 Accumulo
+Creating rtv_temp in localhost:2181 Accumulo
+Creating 16lz_vpath in localhost:2181 Accumulo
+Creating dot_temp in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_B16_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Creating alpha in localhost:2181 Accumulo
+Creating beta in localhost:2181 Accumulo
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Creating beta_sax_temp in localhost:2181 Accumulo
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+Creating lz_norm_B16_temp in localhost:2181 Accumulo
+Creating so_rpath in localhost:2181 Accumulo
+Creating cur_loop_j in localhost:2181 Accumulo
+Creating rtv_temp in localhost:2181 Accumulo
+Creating so_rrtv in localhost:2181 Accumulo
+INGEST time (sec) = 0.451
+INGEST time (sec) = 0.204
+INGEST time (sec) = 0.137
+Creating 16lz_q2 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q2DB.user: rootDB.type: Accumulo
+Creating 16lz_q3 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q3DB.user: rootDB.type: Accumulo
+Creating 16lz_q4 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q4DB.user: rootDB.type: Accumulo
+Creating 16lz_q5 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q5DB.user: rootDB.type: Accumulo
+Creating 16lz_q6 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q6DB.user: rootDB.type: Accumulo
+Creating 16lz_q7 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q7DB.user: rootDB.type: Accumulo
+Creating 16lz_q8 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q8DB.user: rootDB.type: Accumulo
+Creating 16lz_q9 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q9DB.user: rootDB.type: Accumulo
+Creating 16lz_q10 in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_q10DB.user: rootDB.type: Accumulo
+	Running Yingen with the following configuration:
+
+    '1'    'machines:'    [1x1 char]
+
+1 processors	
+16 nodes	
+9 max iterations	
+6 top eigen values
+Initializing the random vector b in table B16
+In initB.m: 
+
+NumOfNodes: 16	NumOfProcessors: 1
+
+    'Machines: '
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: B16DB.user: rootDB.type: Accumulo
+Creating B16 in localhost:2181 Accumulo
+Now initialize vector B!
+Submitting SaveB on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+
+gap =
+
+    16
+
+INGEST time (sec) = 0.231
+Total time to initialize B16 is 4.4494
+Submitting parallel_lz_norm_B_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_B16_tempDB.user: rootDB.type: Accumulo
+Creating lz_norm_B16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 4.781687523246280,
+INGEST time (sec) = 1.762
+Time: 1.8021
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     4.781687523246280
+Before sqrt: 4.781687523246280,
+After sqrt: 2.186707004435272,
+INGEST time (sec) = 0.214
+In p2 Sum is: 2.186707004435272
+In table: 2.186707004435272
+
+Time for summing the local files0.25395
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_B16_tempDB.user: rootDB.type: Accumulo
+In main process Sum is: 2.186707004435272
+Store scalar_b in table scalar_b
+Time for normalizing B vector is: 1.0218
+Submitting parallel_scalarmult_B on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Scalar value is: 0.45731
+start index: 1 end index: 16length: 16
+INGEST time (sec) = 0.23
+Time for parallel_scalarmult_B is: 0.25106
+Time for scalar multiply B vector is: 0.25389
+Time for running initializing B is: 0.25449
+**************myEigen iterations***********************
+computing v=Aq 1 ...
+INGEST time (sec) = 0.151
+Creating mv_temp in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16lz_q1 into mv_temp ************
+INGEST time (sec) = 0.229
+Total Running time is: 0.7299
+Total syn time is: 0.003269
+Creating 16lz_vpath in localhost:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 16lz_q1 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 16lz_vpath in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.684
+Result of v = Aq 1 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(1)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.69
+Total Running time is: 3.2456
+Total syn time is: 0.003546
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.239
+Result of alpha[1] =1.3364 is saved.
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating 1.3364 times vector: 16lz_q1
+start index: 1 end index: 16
+INGEST time (sec) = 0.291
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 16
+INGEST time (sec) = 0.161
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[1]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 2.517207244357546,
+INGEST time (sec) = 0.275
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     2.517207244357546
+Before sqrt: 2.517207244357546,
+After sqrt: 1.586570907447110,
+INGEST time (sec) = 0.185
+In p2 Sum is: 1.586570907447110
+In table: 1.586570907447110
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[1] = 1.5866
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+Starting so, iterations # is 1 beta_it value is: 1.5866
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/1 th vector:1.5866compare to 1.984e-08
+Number of orthongalization: 0
+Computing q2...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating 16lz_q2 in localhost:2181 Accumulo
+start index: 1 end index: 16
+Iteration 1 beta 0.63029 times16lz_vpath
+INGEST time (sec) = 1.722
+q_{2} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+----------EigenValues of Tm are:--------------
+
+myD =
+
+     1.336370848029058e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.029
+**************Now constructing T matrix from alpha and beta******************
+INGEST time (sec) = 0.026
+Iteration: 1total running time is !!! 25.6161 !!!
+**************myEigen iterations***********************
+computing v=Aq 2 ...
+INGEST time (sec) = 0.143
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16lz_q2 into mv_temp ************
+INGEST time (sec) = 0.262
+Total Running time is: 0.75348
+Total syn time is: 0.004681
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 16lz_q2 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 16lz_vpath in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.682
+Result of v = Aq 2 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(2)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.676
+Total Running time is: 3.1415
+Total syn time is: 0.004995
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.176
+Result of alpha[2] =-0.90756 is saved.
+Creating beta_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+start index: 1 end index: 16
+Iteration 2 beta 1.5866 times 16lz_q1
+INGEST time (sec) = 0.248
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating -0.90756 times vector: 16lz_q2
+start index: 1 end index: 16
+INGEST time (sec) = 0.266
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 16
+INGEST time (sec) = 0.143
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[2]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 0.912042689751402,
+INGEST time (sec) = 1.681
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     0.912042689751402
+Before sqrt: 0.912042689751402,
+After sqrt: 0.955009261605039,
+INGEST time (sec) = 0.073
+In p2 Sum is: 0.955009261605039
+In table: 0.955009261605039
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[2] = 0.95501
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.336370848029058e+00     1.586570907447110e+00
+     1.586570907447110e+00    -9.075581428078400e-01
+
+Starting so, iterations # is 2 beta_it value is: 0.95501
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/2 th vector:0.84813compare to 3.2031e-08
+Error of2/2 th vector:0.439compare to 3.2031e-08
+Number of orthongalization: 0
+Computing q3...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating 16lz_q3 in localhost:2181 Accumulo
+start index: 1 end index: 16
+Iteration 2 beta 1.0471 times16lz_vpath
+INGEST time (sec) = 0.179
+q_{3} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.336370848029058e+00     1.586570907447110e+00
+     1.586570907447110e+00    -9.075581428078400e-01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -1.728789873542870e+00
+     2.157602578764087e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.019
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.336370848029058e+00     1.586570907447110e+00
+     1.586570907447110e+00    -9.075581428078400e-01
+
+INGEST time (sec) = 0.108
+Iteration: 2total running time is !!! 34.22 !!!
+**************myEigen iterations***********************
+computing v=Aq 3 ...
+INGEST time (sec) = 0.115
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16lz_q3 into mv_temp ************
+INGEST time (sec) = 0.397
+Total Running time is: 0.91481
+Total syn time is: 0.003687
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 16lz_q3 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 16lz_vpath in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.692
+Result of v = Aq 3 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(3)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.682
+Total Running time is: 3.0828
+Total syn time is: 0.001626
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.172
+Result of alpha[3] =-0.37233 is saved.
+Creating beta_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+start index: 1 end index: 16
+Iteration 3 beta 0.95501 times 16lz_q2
+INGEST time (sec) = 0.597
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating -0.37233 times vector: 16lz_q3
+start index: 1 end index: 16
+INGEST time (sec) = 0.291
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 16
+INGEST time (sec) = 0.175
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[3]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 0.486663950126130,
+INGEST time (sec) = 1.702
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     0.486663950126130
+Before sqrt: 0.486663950126130,
+After sqrt: 0.697613037525912,
+INGEST time (sec) = 0.08
+In p2 Sum is: 0.697613037525912
+In table: 0.697613037525912
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[3] = 0.69761
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+
+Starting so, iterations # is 3 beta_it value is: 0.69761
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/3 th vector:0.30707compare to 3.321e-08
+Error of2/3 th vector:0.61399compare to 3.321e-08
+Error of3/3 th vector:0.12404compare to 3.321e-08
+Number of orthongalization: 0
+Computing q4...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating 16lz_q4 in localhost:2181 Accumulo
+start index: 1 end index: 16
+Iteration 3 beta 1.4335 times16lz_vpath
+INGEST time (sec) = 1.686
+q_{4} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.145074373787774e+00
+    -3.542461545122122e-02
+     2.236980209268856e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.115
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+
+INGEST time (sec) = 0.105
+Iteration: 3total running time is !!! 36.4695 !!!
+**************myEigen iterations***********************
+computing v=Aq 4 ...
+INGEST time (sec) = 0.12
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16lz_q4 into mv_temp ************
+INGEST time (sec) = 0.458
+Total Running time is: 0.91692
+Total syn time is: 0.004828
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 16lz_q4 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 16lz_vpath in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.687
+Result of v = Aq 4 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(4)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.719
+Total Running time is: 3.4169
+Total syn time is: 0.002143
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.149
+Result of alpha[4] =-0.40263 is saved.
+Creating beta_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+start index: 1 end index: 16
+Iteration 4 beta 0.69761 times 16lz_q3
+INGEST time (sec) = 0.241
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating -0.40263 times vector: 16lz_q4
+start index: 1 end index: 16
+INGEST time (sec) = 0.282
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 16
+INGEST time (sec) = 0.192
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[4]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 1.954930319750897,
+INGEST time (sec) = 1.715
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     1.954930319750897
+Before sqrt: 1.954930319750897,
+After sqrt: 1.398188227582716,
+INGEST time (sec) = 0.109
+In p2 Sum is: 1.398188227582716
+In table: 1.398188227582716
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[4] = 1.3982
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+
+  Column 4
+
+                         0
+                         0
+     6.976130375259123e-01
+    -4.026311541354870e-01
+
+Starting so, iterations # is 4 beta_it value is: 1.3982
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/4 th vector:0.25954compare to 3.3303e-08
+Error of2/4 th vector:1.0818compare to 3.3303e-08
+Error of3/4 th vector:0.84398compare to 3.3303e-08
+Error of4/4 th vector:0.070432compare to 3.3303e-08
+Number of orthongalization: 0
+Computing q5...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating 16lz_q5 in localhost:2181 Accumulo
+start index: 1 end index: 16
+Iteration 4 beta 0.71521 times16lz_vpath
+INGEST time (sec) = 1.773
+q_{5} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+
+  Column 4
+
+                         0
+                         0
+     6.976130375259123e-01
+    -4.026311541354870e-01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.203165319476491e+00
+    -8.182053433525981e-01
+     4.319838427967964e-01
+     2.243236885926668e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.234
+INGEST time (sec) = 0.037
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+
+  Column 4
+
+                         0
+                         0
+     6.976130375259123e-01
+    -4.026311541354870e-01
+
+INGEST time (sec) = 0.023
+Iteration: 4total running time is !!! 35.8007 !!!
+**************myEigen iterations***********************
+computing v=Aq 5 ...
+INGEST time (sec) = 0.104
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16lz_q5 into mv_temp ************
+INGEST time (sec) = 0.41
+Total Running time is: 0.92722
+Total syn time is: 0.003438
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 16lz_q5 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 16lz_vpath in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.7
+Result of v = Aq 5 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(5)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.709
+Total Running time is: 3.186
+Total syn time is: 0.001326
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.121
+Result of alpha[5] =0.32913 is saved.
+Creating beta_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+start index: 1 end index: 16
+Iteration 5 beta 1.3982 times 16lz_q4
+INGEST time (sec) = 0.253
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating 0.32913 times vector: 16lz_q5
+start index: 1 end index: 16
+INGEST time (sec) = 0.33
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 16
+INGEST time (sec) = 0.176
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[5]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 0.128096738803222,
+INGEST time (sec) = 1.691
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     0.128096738803222
+Before sqrt: 0.128096738803222,
+After sqrt: 0.357906047452711,
+INGEST time (sec) = 0.105
+In p2 Sum is: 0.357906047452711
+In table: 0.357906047452711
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[5] = 0.35791
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+
+  Columns 4 through 5
+
+                         0                         0
+                         0                         0
+     6.976130375259123e-01                         0
+    -4.026311541354870e-01     1.398188227582716e+00
+     1.398188227582716e+00     3.291343708324700e-01
+
+Starting so, iterations # is 5 beta_it value is: 0.35791
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/5 th vector:0.060732compare to 3.3368e-08
+Error of2/5 th vector:0.18966compare to 3.3368e-08
+Error of3/5 th vector:0.13637compare to 3.3368e-08
+Error of4/5 th vector:0.26333compare to 3.3368e-08
+Error of5/5 th vector:0.022263compare to 3.3368e-08
+Number of orthongalization: 0
+Computing q6...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating 16lz_q6 in localhost:2181 Accumulo
+start index: 1 end index: 16
+Iteration 5 beta 2.794 times16lz_vpath
+INGEST time (sec) = 1.688
+q_{6} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+
+  Columns 4 through 5
+
+                         0                         0
+                         0                         0
+     6.976130375259123e-01                         0
+    -4.026311541354870e-01     1.398188227582716e+00
+     1.398188227582716e+00     3.291343708324700e-01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.248304581881890e+00
+    -1.543694818719162e+00
+     2.064349342990622e-02
+     1.506710862282790e+00
+     2.247629481615200e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.027
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+
+  Columns 4 through 5
+
+                         0                         0
+                         0                         0
+     6.976130375259123e-01                         0
+    -4.026311541354870e-01     1.398188227582716e+00
+     1.398188227582716e+00     3.291343708324700e-01
+
+INGEST time (sec) = 0.027
+Iteration: 5total running time is !!! 35.5291 !!!
+**************myEigen iterations***********************
+computing v=Aq 6 ...
+INGEST time (sec) = 0.132
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16lz_q6 into mv_temp ************
+INGEST time (sec) = 0.356
+Total Running time is: 0.83815
+Total syn time is: 0.002356
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 16lz_q6 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 16lz_vpath in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.709
+Result of v = Aq 6 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(6)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.721
+Total Running time is: 3.2693
+Total syn time is: 0.001784
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.141
+Result of alpha[6] =0.85475 is saved.
+Creating beta_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+start index: 1 end index: 16
+Iteration 6 beta 0.35791 times 16lz_q5
+INGEST time (sec) = 0.258
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating 0.85475 times vector: 16lz_q6
+start index: 1 end index: 16
+INGEST time (sec) = 0.294
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 16
+INGEST time (sec) = 0.079
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[6]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 0.589894870370998,
+INGEST time (sec) = 1.675
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     0.589894870370998
+Before sqrt: 0.589894870370998,
+After sqrt: 0.768046138178559,
+INGEST time (sec) = 0.118
+In p2 Sum is: 0.768046138178559
+In table: 0.768046138178559
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[6] = 0.76805
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+
+Starting so, iterations # is 6 beta_it value is: 0.76805
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/6 th vector:0.015408compare to 3.3374e-08
+Error of2/6 th vector:0.060896compare to 3.3374e-08
+Error of3/6 th vector:0.1237compare to 3.3374e-08
+Error of4/6 th vector:0.70831compare to 3.3374e-08
+Error of5/6 th vector:0.26224compare to 3.3374e-08
+Error of6/6 th vector:0.013345compare to 3.3374e-08
+Number of orthongalization: 0
+Computing q7...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating 16lz_q7 in localhost:2181 Accumulo
+start index: 1 end index: 16
+Iteration 6 beta 1.302 times16lz_vpath
+INGEST time (sec) = 1.659
+q_{7} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.249523242348844e+00
+    -1.558780650452651e+00
+    -1.625666821143116e-03
+     7.972019906424977e-01
+     1.602448998802815e+00
+     2.248016389460418e+00
+
+TOP K eigenValues are:
+
+ans =
+
+    -2.249523242348844e+00
+    -1.558780650452651e+00
+    -1.625666821143116e-03
+     7.972019906424977e-01
+     1.602448998802815e+00
+     2.248016389460418e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.031
+INGEST time (sec) = 0.029
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+
+INGEST time (sec) = 0.031
+Iteration: 6total running time is !!! 35.4443 !!!
+**************myEigen iterations***********************
+computing v=Aq 7 ...
+INGEST time (sec) = 0.122
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16lz_q7 into mv_temp ************
+INGEST time (sec) = 0.25
+Total Running time is: 0.75131
+Total syn time is: 0.003442
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 16lz_q7 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 16lz_vpath in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.66
+Result of v = Aq 7 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(7)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.698
+Total Running time is: 3.2356
+Total syn time is: 0.00365
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.113
+Result of alpha[7] =0.30949 is saved.
+Creating beta_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+start index: 1 end index: 16
+Iteration 7 beta 0.76805 times 16lz_q6
+INGEST time (sec) = 0.348
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating 0.30949 times vector: 16lz_q7
+start index: 1 end index: 16
+INGEST time (sec) = 0.258
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 16
+INGEST time (sec) = 0.158
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[7]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 3.516606261418025,
+INGEST time (sec) = 1.688
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     3.516606261418025
+Before sqrt: 3.516606261418025,
+After sqrt: 1.875261651455078,
+INGEST time (sec) = 0.087
+In p2 Sum is: 1.875261651455078
+In table: 1.875261651455078
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[7] = 1.8753
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+                         0                         0     7.680461381785589e-01
+
+  Column 7
+
+                         0
+                         0
+                         0
+                         0
+                         0
+     7.680461381785589e-01
+     3.094860647012790e-01
+
+Starting so, iterations # is 7 beta_it value is: 1.8753
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/7 th vector:0.012221compare to 3.3376e-08
+Error of2/7 th vector:0.070153compare to 3.3376e-08
+Error of3/7 th vector:1.4371compare to 3.3376e-08
+Error of4/7 th vector:0.50753compare to 3.3376e-08
+Error of5/7 th vector:0.93312compare to 3.3376e-08
+Error of6/7 th vector:0.56374compare to 3.3376e-08
+Error of7/7 th vector:0.016925compare to 3.3376e-08
+Number of orthongalization: 0
+Computing q8...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating 16lz_q8 in localhost:2181 Accumulo
+start index: 1 end index: 16
+Iteration 7 beta 0.53326 times16lz_vpath
+INGEST time (sec) = 1.697
+q_{8} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+                         0                         0     7.680461381785589e-01
+
+  Column 7
+
+                         0
+                         0
+                         0
+                         0
+                         0
+     7.680461381785589e-01
+     3.094860647012790e-01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.249623658398678e+00
+    -1.561060487145466e+00
+    -2.590097253216906e-01
+     3.444672708509346e-02
+     1.246474374942581e+00
+     1.687859806989423e+00
+     2.248136845833109e+00
+
+TOP K eigenValues are:
+
+ans =
+
+    -2.249623658398678e+00
+    -1.561060487145466e+00
+    -2.590097253216906e-01
+     3.444672708509346e-02
+     1.246474374942581e+00
+     1.687859806989423e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.03
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+                         0                         0     7.680461381785589e-01
+
+  Column 7
+
+                         0
+                         0
+                         0
+                         0
+                         0
+     7.680461381785589e-01
+     3.094860647012790e-01
+
+INGEST time (sec) = 0.022
+Iteration: 7total running time is !!! 35.6501 !!!
+**************myEigen iterations***********************
+computing v=Aq 8 ...
+INGEST time (sec) = 0.14
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16lz_q8 into mv_temp ************
+INGEST time (sec) = 0.156
+Total Running time is: 0.62736
+Total syn time is: 0.003001
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 16lz_q8 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 16lz_vpath in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.675
+Result of v = Aq 8 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(8)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.936
+Total Running time is: 3.62
+Total syn time is: 0.006933
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.147
+Result of alpha[8] =-0.33892 is saved.
+Creating beta_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+start index: 1 end index: 16
+Iteration 8 beta 1.8753 times 16lz_q7
+INGEST time (sec) = 0.307
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating -0.33892 times vector: 16lz_q8
+start index: 1 end index: 16
+INGEST time (sec) = 0.272
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 16
+INGEST time (sec) = 0.283
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[8]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 0.587944459342386,
+INGEST time (sec) = 2.415
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     0.587944459342386
+Before sqrt: 0.587944459342386,
+After sqrt: 0.766775364329336,
+INGEST time (sec) = 0.122
+In p2 Sum is: 0.766775364329336
+In table: 0.766775364329336
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[8] = 0.76678
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+                         0                         0     7.680461381785589e-01
+                         0                         0                         0
+
+  Columns 7 through 8
+
+                         0                         0
+                         0                         0
+                         0                         0
+                         0                         0
+                         0                         0
+     7.680461381785589e-01                         0
+     3.094860647012790e-01     1.875261651455078e+00
+     1.875261651455078e+00    -3.389208666572240e-01
+
+Starting so, iterations # is 8 beta_it value is: 0.76678
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/8 th vector:0.02208compare to 3.3395e-08
+Error of2/8 th vector:0.56093compare to 3.3395e-08
+Error of3/8 th vector:0.056479compare to 3.3395e-08
+Error of4/8 th vector:0.052225compare to 3.3395e-08
+Error of5/8 th vector:0.29157compare to 3.3395e-08
+Error of6/8 th vector:0.14533compare to 3.3395e-08
+Error of7/8 th vector:0.39641compare to 3.3395e-08
+Error of8/8 th vector:0.060162compare to 3.3395e-08
+Number of orthongalization: 0
+Computing q9...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating 16lz_q9 in localhost:2181 Accumulo
+start index: 1 end index: 16
+Iteration 8 beta 1.3042 times16lz_vpath
+INGEST time (sec) = 1.697
+q_{9} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+                         0                         0     7.680461381785589e-01
+                         0                         0                         0
+
+  Columns 7 through 8
+
+                         0                         0
+                         0                         0
+                         0                         0
+                         0                         0
+                         0                         0
+     7.680461381785589e-01                         0
+     3.094860647012790e-01     1.875261651455078e+00
+     1.875261651455078e+00    -3.389208666572240e-01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.249975803843067e+00
+    -2.008959823116661e+00
+    -1.555858241737487e+00
+    -3.138034655766336e-03
+     6.409692278842788e-01
+     1.549543252012918e+00
+     2.186244118303294e+00
+     2.249478322479638e+00
+
+TOP K eigenValues are:
+
+ans =
+
+    -2.249975803843067e+00
+    -2.008959823116661e+00
+    -1.555858241737487e+00
+    -3.138034655766336e-03
+     6.409692278842788e-01
+     1.549543252012918e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.03
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+                         0                         0     7.680461381785589e-01
+                         0                         0                         0
+
+  Columns 7 through 8
+
+                         0                         0
+                         0                         0
+                         0                         0
+                         0                         0
+                         0                         0
+     7.680461381785589e-01                         0
+     3.094860647012790e-01     1.875261651455078e+00
+     1.875261651455078e+00    -3.389208666572240e-01
+
+INGEST time (sec) = 0.03
+Iteration: 8total running time is !!! 37.6911 !!!
+**************myEigen iterations***********************
+computing v=Aq 9 ...
+INGEST time (sec) = 0.177
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in localhost:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16lz_q9 into mv_temp ************
+INGEST time (sec) = 0.28
+Total Running time is: 0.80719
+Total syn time is: 0.003614
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: 16lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 16lz_q9 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 16lz_vpath in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.694
+Result of v = Aq 9 is saved in table 16lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(9)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating dot_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 1.759
+Total Running time is: 3.2813
+Total syn time is: 0.003785
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.182
+Result of alpha[9] =-0.8083 is saved.
+Creating beta_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+start index: 1 end index: 16
+Iteration 9 beta 0.76678 times 16lz_q8
+INGEST time (sec) = 0.263
+Creating alpha_sax_temp in localhost:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating -0.8083 times vector: 16lz_q9
+start index: 1 end index: 16
+INGEST time (sec) = 0.318
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 16
+INGEST time (sec) = 0.232
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 16lz_vpath table
+Computing beta[9]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 0.000000000000000,
+INGEST time (sec) = 1.679
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     0.000000000000000
+Before sqrt: 0.000000000000000,
+After sqrt: 0.000000000000000,
+INGEST time (sec) = 0.092
+In p2 Sum is: 0.000000000000000
+In table: 0.000000000000000
+
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+beta[9] = 0
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 3
+
+     1.336370848029058e+00     1.586570907447110e+00                         0
+     1.586570907447110e+00    -9.075581428078400e-01     9.550092616050391e-01
+                         0     9.550092616050391e-01    -3.723314851913560e-01
+                         0                         0     6.976130375259123e-01
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 4 through 6
+
+                         0                         0                         0
+                         0                         0                         0
+     6.976130375259123e-01                         0                         0
+    -4.026311541354870e-01     1.398188227582716e+00                         0
+     1.398188227582716e+00     3.291343708324700e-01     3.579060474527107e-01
+                         0     3.579060474527107e-01     8.547533825562480e-01
+                         0                         0     7.680461381785589e-01
+                         0                         0                         0
+                         0                         0                         0
+
+  Columns 7 through 9
+
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+     7.680461381785589e-01                         0                         0
+     3.094860647012790e-01     1.875261651455078e+00                         0
+     1.875261651455078e+00    -3.389208666572240e-01     7.667753643293360e-01
+                         0     7.667753643293360e-01    -8.083030173271490e-01
+
+Starting so, iterations # is 9 beta_it value is: 0
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/9 th vector:0compare to 3.3481e-08
+V need to be reorthogalized by 1th Ritz Vector
+Reorthogonalizing against1th Ritz vector
+Store j: 1 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.189
+Submitting parallel_computeR on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+INGEST time (sec) = 0.275
+Submitting parallel_rtv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 16
+INGEST time (sec) = 0.271
+INGEST time (sec) = 0.209
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 16
+INGEST time (sec) = 0.427
+Submitting parallel_so_updatev on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 16
+INGEST time (sec) = 0.445
+Error of2/9 th vector:0compare to 3.3481e-08
+V need to be reorthogalized by 2th Ritz Vector
+Reorthogonalizing against2th Ritz vector
+Store j: 2 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.088
+Submitting parallel_computeR on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+INGEST time (sec) = 0.153
+Submitting parallel_rtv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+Creating rtv_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 0.161
+INGEST time (sec) = 0.094
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 16
+INGEST time (sec) = 0.244
+Submitting parallel_so_updatev on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 16
+INGEST time (sec) = 0.27
+Error of3/9 th vector:0compare to 3.3481e-08
+V need to be reorthogalized by 3th Ritz Vector
+Reorthogonalizing against3th Ritz vector
+Store j: 3 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.089
+Submitting parallel_computeR on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+INGEST time (sec) = 0.146
+Submitting parallel_rtv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+Creating rtv_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 0.255
+INGEST time (sec) = 0.072
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 16
+INGEST time (sec) = 0.244
+Submitting parallel_so_updatev on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 16
+INGEST time (sec) = 0.243
+Error of4/9 th vector:0compare to 3.3481e-08
+V need to be reorthogalized by 4th Ritz Vector
+Reorthogonalizing against4th Ritz vector
+Store j: 4 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.135
+Submitting parallel_computeR on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+INGEST time (sec) = 0.211
+Submitting parallel_rtv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+Creating rtv_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 0.19
+INGEST time (sec) = 0.069
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 16
+INGEST time (sec) = 0.193
+Submitting parallel_so_updatev on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 16
+INGEST time (sec) = 0.231
+Error of5/9 th vector:0compare to 3.3481e-08
+V need to be reorthogalized by 5th Ritz Vector
+Reorthogonalizing against5th Ritz vector
+Store j: 5 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.08
+Submitting parallel_computeR on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+INGEST time (sec) = 0.23
+Submitting parallel_rtv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+Creating rtv_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 0.212
+INGEST time (sec) = 0.079
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 16
+INGEST time (sec) = 0.207
+Submitting parallel_so_updatev on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 16
+INGEST time (sec) = 0.226
+Error of6/9 th vector:0compare to 3.3481e-08
+V need to be reorthogalized by 6th Ritz Vector
+Reorthogonalizing against6th Ritz vector
+Store j: 6 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.236
+Submitting parallel_computeR on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+INGEST time (sec) = 0.16
+Submitting parallel_rtv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+Creating rtv_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 0.165
+INGEST time (sec) = 0.1
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 16
+INGEST time (sec) = 0.376
+Submitting parallel_so_updatev on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 16
+INGEST time (sec) = 0.222
+Error of7/9 th vector:0compare to 3.3481e-08
+V need to be reorthogalized by 7th Ritz Vector
+Reorthogonalizing against7th Ritz vector
+Store j: 7 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.106
+Submitting parallel_computeR on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+INGEST time (sec) = 0.183
+Submitting parallel_rtv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+Creating rtv_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 0.224
+INGEST time (sec) = 0.105
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 16
+INGEST time (sec) = 0.215
+Submitting parallel_so_updatev on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 16
+INGEST time (sec) = 0.207
+Error of8/9 th vector:0compare to 3.3481e-08
+V need to be reorthogalized by 8th Ritz Vector
+Reorthogonalizing against8th Ritz vector
+Store j: 8 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.087
+Submitting parallel_computeR on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+INGEST time (sec) = 0.194
+Submitting parallel_rtv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+Creating rtv_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 0.205
+INGEST time (sec) = 0.083
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 16
+INGEST time (sec) = 0.221
+Submitting parallel_so_updatev on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 16
+INGEST time (sec) = 0.213
+Error of9/9 th vector:0compare to 3.3481e-08
+V need to be reorthogalized by 9th Ritz Vector
+Reorthogonalizing against9th Ritz vector
+Store j: 9 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.067
+Submitting parallel_computeR on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+INGEST time (sec) = 0.173
+Submitting parallel_rtv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+Creating rtv_temp in localhost:2181 Accumulo
+start index: 1 end index: 16
+INGEST time (sec) = 0.176
+INGEST time (sec) = 0.078
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 16
+INGEST time (sec) = 0.269
+Submitting parallel_so_updatev on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 16
+INGEST time (sec) = 0.12
+Number of orthongalization: 9
+Recomputing beta[9]
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: jay-ThinkPad-W520
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.jay-ThinkPad-W520.0.sh &
+
+
+Creating lz_norm_v16_temp in localhost:2181 Accumulo
+start index: 1 end index: 16length: 16
+Result in 1 th processor is 0.000000000000000,
+INGEST time (sec) = 1.674
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     0.000000000000000
+Before sqrt: 0.000000000000000,
+After sqrt: 0.000000000000000,
+INGEST time (sec) = 0.096
+In p2 Sum is: 0.000000000000000
+In table: 0.000000000000000
+
+beta[9]=0
+DB.instanceName: myaccumuloDB.host: localhost:2181Table Name to be deleted: lz_norm_v16_tempDB.user: rootDB.type: Accumulo
+The new vector converged. Finishing ...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+   1.336370848029058   1.586570907447110                   0                   0                   0
+   1.586570907447110  -0.907558142807840   0.955009261605039                   0                   0
+                   0   0.955009261605039  -0.372331485191356   0.697613037525912                   0
+                   0                   0   0.697613037525912  -0.402631154135487   1.398188227582716
+                   0                   0                   0   1.398188227582716   0.329134370832470
+                   0                   0                   0                   0   0.357906047452711
+                   0                   0                   0                   0                   0
+                   0                   0                   0                   0                   0
+                   0                   0                   0                   0                   0
+
+  Columns 6 through 9
+
+                   0                   0                   0                   0
+                   0                   0                   0                   0
+                   0                   0                   0                   0
+                   0                   0                   0                   0
+   0.357906047452711                   0                   0                   0
+   0.854753382556248   0.768046138178559                   0                   0
+   0.768046138178559   0.309486064701279   1.875261651455078                   0
+                   0   1.875261651455078  -0.338920866657224   0.766775364329336
+                   0                   0   0.766775364329336  -0.808303017327149
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+  -2.255245041597807
+  -2.236067977499789
+  -1.558206254538786
+  -0.697038787059019
+  -0.000000000000001
+   0.697038787059022
+   1.558206254538784
+   2.236067977499790
+   2.255245041597805
+
+TOP K eigenValues are:
+
+ans =
+
+  -2.255245041597807
+  -2.236067977499789
+  -1.558206254538786
+  -0.697038787059019
+  -0.000000000000001
+   0.697038787059022
+
+Creating lanczos.ab in localhost:2181 Accumulo
+Creating lanczos.trimat in localhost:2181 Accumulo
+INGEST time (sec) = 0.02
+INGEST time (sec) = 0.032
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+   1.336370848029058   1.586570907447110                   0                   0                   0
+   1.586570907447110  -0.907558142807840   0.955009261605039                   0                   0
+                   0   0.955009261605039  -0.372331485191356   0.697613037525912                   0
+                   0                   0   0.697613037525912  -0.402631154135487   1.398188227582716
+                   0                   0                   0   1.398188227582716   0.329134370832470
+                   0                   0                   0                   0   0.357906047452711
+                   0                   0                   0                   0                   0
+                   0                   0                   0                   0                   0
+                   0                   0                   0                   0                   0
+
+  Columns 6 through 9
+
+                   0                   0                   0                   0
+                   0                   0                   0                   0
+                   0                   0                   0                   0
+                   0                   0                   0                   0
+   0.357906047452711                   0                   0                   0
+   0.854753382556248   0.768046138178559                   0                   0
+   0.768046138178559   0.309486064701279   1.875261651455078                   0
+                   0   1.875261651455078  -0.338920866657224   0.766775364329336
+                   0                   0   0.766775364329336  -0.808303017327149
+
+INGEST time (sec) = 0.024
+!!!!!!Reached the max iterations. Finishing...
+Summarizing alpha[] and bet[]...
+
+	alpha	beta
+1	1.3364		1.5866
+2	-0.90756		0.95501
+3	-0.37233		0.69761
+4	-0.40263		1.3982
+5	0.32913		0.35791
+6	0.85475		0.76805
+7	0.30949		1.8753
+8	-0.33892		0.76678
+9	-0.8083		0
+Total running time is: 255.6465

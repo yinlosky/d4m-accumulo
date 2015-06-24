@@ -1,0 +1,4404 @@
+Warning: No display specified.  You will not be able to display graphics on the screen.
+[?1h=Warning: No window system found.  Java option 'MWT' ignored
+
+                                                     < M A T L A B (R) >
+                                           Copyright 1984-2012 The MathWorks, Inc.
+                                Version 7.11.2.1031 (R2010b) Service Pack 2 64-bit (glnxa64)
+                                                        March 2, 2012
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+Start time: 
+
+Creating lz_norm_v65536_temp in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v65536_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_B65536_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: extraDB.user: rootDB.type: Accumulo
+Creating alpha in hec-59.cs.iit.edu:2181 Accumulo
+Creating beta in hec-59.cs.iit.edu:2181 Accumulo
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v65536_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B65536_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating so_rpath in hec-59.cs.iit.edu:2181 Accumulo
+Creating cur_loop_j in hec-59.cs.iit.edu:2181 Accumulo
+Creating rtv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating so_rrtv in hec-59.cs.iit.edu:2181 Accumulo
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating 65536lz_vpath in hec-59.cs.iit.edu:2181 Accumulo
+Creating extra in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.562
+INGEST time (sec) = 0.067
+INGEST time (sec) = 0.073
+INGEST time (sec) = 0.059
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_q2DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_q3DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_q4DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_q5DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_q6DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_q7DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_q8DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_q9DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 65536lz_q10DB.user: rootDB.type: Accumulo
+Creating 65536lz_q2 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 65536lz_q3 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 65536lz_q4 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 65536lz_q5 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 65536lz_q6 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 65536lz_q7 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 65536lz_q8 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 65536lz_q9 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 65536lz_q10 in hec-59.cs.iit.edu:2181 Accumulo
+	Running Yingen with the following configuration:
+
+  Columns 1 through 10
+
+    '8'    'machines:'    'hec-63'    'hec-62'    'hec-60'    'hec-59'    'hec-58'    'hec-56'    'hec-55'    'hec-53'
+
+  Column 11
+
+    [1x1 char]
+
+50 processors	
+65536 nodes	
+9 max iterations	
+6 top eigen values
+Initializing the random vector b in table B65536
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: Cut65536DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: Entries65536DB.user: rootDB.type: Accumulo
+Creating Cut65536 in hec-59.cs.iit.edu:2181 Accumulo
+Creating Entries65536 in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting myscheduler on 50 processor(s).
+ ssh hec-53 -n  'kill -9 3679'
+bash: line 0: kill: (3679) - No such process
+[?1h= ssh hec-53 -n  'kill -9 3722'
+bash: line 0: kill: (3722) - No such process
+[?1h= ssh hec-53 -n  'kill -9 3780'
+bash: line 0: kill: (3780) - No such process
+[?1h= ssh hec-53 -n  'kill -9 3862'
+bash: line 0: kill: (3862) - No such process
+[?1h= ssh hec-53 -n  'kill -9 3935'
+bash: line 0: kill: (3935) - No such process
+[?1h= ssh hec-53 -n  'kill -9 3985'
+bash: line 0: kill: (3985) - No such process
+[?1h= ssh hec-53 -n  'kill -9 4067'
+bash: line 0: kill: (4067) - No such process
+[?1h= ssh hec-55 -n  'kill -9 1954'
+bash: line 0: kill: (1954) - No such process
+[?1h= ssh hec-55 -n  'kill -9 1998'
+bash: line 0: kill: (1998) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2064'
+bash: line 0: kill: (2064) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2115'
+bash: line 0: kill: (2115) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2178'
+bash: line 0: kill: (2178) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2254'
+bash: line 0: kill: (2254) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2338'
+bash: line 0: kill: (2338) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12179'
+bash: line 0: kill: (12179) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12206'
+bash: line 0: kill: (12206) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12268'
+bash: line 0: kill: (12268) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12332'
+bash: line 0: kill: (12332) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12427'
+bash: line 0: kill: (12427) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12484'
+bash: line 0: kill: (12484) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12558'
+bash: line 0: kill: (12558) - No such process
+[?1h= ssh hec-58 -n  'kill -9 24432'
+bash: line 0: kill: (24432) - No such process
+[?1h= ssh hec-58 -n  'kill -9 24480'
+bash: line 0: kill: (24480) - No such process
+[?1h= ssh hec-58 -n  'kill -9 24526'
+bash: line 0: kill: (24526) - No such process
+[?1h= ssh hec-58 -n  'kill -9 24597'
+bash: line 0: kill: (24597) - No such process
+[?1h= ssh hec-58 -n  'kill -9 24676'
+bash: line 0: kill: (24676) - No such process
+[?1h= ssh hec-58 -n  'kill -9 24747'
+bash: line 0: kill: (24747) - No such process
+[?1h= ssh hec-58 -n  'kill -9 24851'
+bash: line 0: kill: (24851) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32008'
+bash: line 0: kill: (32008) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32051'
+bash: line 0: kill: (32051) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32096'
+bash: line 0: kill: (32096) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32172'
+bash: line 0: kill: (32172) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32248'
+bash: line 0: kill: (32248) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32323'
+bash: line 0: kill: (32323) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32379'
+bash: line 0: kill: (32379) - No such process
+[?1h= ssh hec-60 -n  'kill -9 10418'
+bash: line 0: kill: (10418) - No such process
+[?1h= ssh hec-60 -n  'kill -9 10461'
+bash: line 0: kill: (10461) - No such process
+[?1h= ssh hec-60 -n  'kill -9 10508'
+bash: line 0: kill: (10508) - No such process
+[?1h= ssh hec-60 -n  'kill -9 10582'
+bash: line 0: kill: (10582) - No such process
+[?1h= ssh hec-60 -n  'kill -9 10629'
+bash: line 0: kill: (10629) - No such process
+[?1h= ssh hec-60 -n  'kill -9 10706'
+bash: line 0: kill: (10706) - No such process
+[?1h= ssh hec-60 -n  'kill -9 10776'
+bash: line 0: kill: (10776) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12587'
+bash: line 0: kill: (12587) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12647'
+bash: line 0: kill: (12647) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12740'
+bash: line 0: kill: (12740) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12837'
+bash: line 0: kill: (12837) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12892'
+bash: line 0: kill: (12892) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12962'
+bash: line 0: kill: (12962) - No such process
+[?1h= ssh hec-62 -n  'kill -9 13026'
+bash: line 0: kill: (13026) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=My processes # is :1
+I am just waiting!
+Scheduler 1 running time: 476.3871s
+
+In testscheduler!
+Even load is: 397376.3878
+Even col is: 1337.4694
+Total entries are: 19471443
+Range query time: 1.1678
+INGEST time (sec) = 0.052
+INGEST time (sec) = 0.039
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.025
+INGEST time (sec) = 0.024
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.069
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.024
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.024
+INGEST time (sec) = 0.038
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.024
+INGEST time (sec) = 0.038
+INGEST time (sec) = 0.054
+INGEST time (sec) = 0.028
+INGEST time (sec) = 0.026
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.026
+INGEST time (sec) = 0.027
+INGEST time (sec) = 0.026
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.026
+INGEST time (sec) = 0.024
+INGEST time (sec) = 0.031
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.024
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.02
+INGEST time (sec) = 0.028
+INGEST time (sec) = 0.028
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.024
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.026
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.03
+Done
+Scheduler 2 running time: 1431.8229s
+[?1h=Submitting store on 50 processor(s).
+ ssh hec-53 -n  'kill -9 8585'
+bash: line 0: kill: (8585) - No such process
+[?1h= ssh hec-53 -n  'kill -9 8604'
+bash: line 0: kill: (8604) - No such process
+[?1h= ssh hec-53 -n  'kill -9 8675'
+bash: line 0: kill: (8675) - No such process
+[?1h= ssh hec-53 -n  'kill -9 8739'
+bash: line 0: kill: (8739) - No such process
+[?1h= ssh hec-53 -n  'kill -9 8809'
+bash: line 0: kill: (8809) - No such process
+[?1h= ssh hec-53 -n  'kill -9 8904'
+bash: line 0: kill: (8904) - No such process
+[?1h= ssh hec-53 -n  'kill -9 8970'
+bash: line 0: kill: (8970) - No such process
+[?1h= ssh hec-55 -n  'kill -9 1905'
+bash: line 0: kill: (1905) - No such process
+[?1h= ssh hec-55 -n  'kill -9 1948'
+bash: line 0: kill: (1948) - No such process
+[?1h= ssh hec-55 -n  'kill -9 1992'
+bash: line 0: kill: (1992) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2074'
+bash: line 0: kill: (2074) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2144'
+bash: line 0: kill: (2144) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2229'
+bash: line 0: kill: (2229) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2304'
+bash: line 0: kill: (2304) - No such process
+[?1h= ssh hec-56 -n  'kill -9 22916'
+bash: line 0: kill: (22916) - No such process
+[?1h= ssh hec-56 -n  'kill -9 22959'
+bash: line 0: kill: (22959) - No such process
+[?1h= ssh hec-56 -n  'kill -9 23004'
+bash: line 0: kill: (23004) - No such process
+[?1h= ssh hec-56 -n  'kill -9 23085'
+bash: line 0: kill: (23085) - No such process
+[?1h= ssh hec-56 -n  'kill -9 23162'
+bash: line 0: kill: (23162) - No such process
+[?1h= ssh hec-56 -n  'kill -9 23242'
+bash: line 0: kill: (23242) - No such process
+[?1h= ssh hec-56 -n  'kill -9 23309'
+bash: line 0: kill: (23309) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30915'
+bash: line 0: kill: (30915) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30964'
+bash: line 0: kill: (30964) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31029'
+bash: line 0: kill: (31029) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31078'
+bash: line 0: kill: (31078) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31168'
+bash: line 0: kill: (31168) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31244'
+bash: line 0: kill: (31244) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31298'
+bash: line 0: kill: (31298) - No such process
+[?1h= ssh hec-59 -n  'kill -9 30616'
+bash: line 0: kill: (30616) - No such process
+[?1h= ssh hec-59 -n  'kill -9 30659'
+bash: line 0: kill: (30659) - No such process
+[?1h= ssh hec-59 -n  'kill -9 30704'
+bash: line 0: kill: (30704) - No such process
+[?1h= ssh hec-59 -n  'kill -9 30773'
+bash: line 0: kill: (30773) - No such process
+[?1h= ssh hec-59 -n  'kill -9 30863'
+bash: line 0: kill: (30863) - No such process
+[?1h= ssh hec-59 -n  'kill -9 30944'
+bash: line 0: kill: (30944) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31016'
+bash: line 0: kill: (31016) - No such process
+[?1h= ssh hec-60 -n  'kill -9 22157'
+bash: line 0: kill: (22157) - No such process
+[?1h= ssh hec-60 -n  'kill -9 22201'
+bash: line 0: kill: (22201) - No such process
+[?1h= ssh hec-60 -n  'kill -9 22246'
+bash: line 0: kill: (22246) - No such process
+[?1h= ssh hec-60 -n  'kill -9 22313'
+bash: line 0: kill: (22313) - No such process
+[?1h= ssh hec-60 -n  'kill -9 22401'
+bash: line 0: kill: (22401) - No such process
+[?1h= ssh hec-60 -n  'kill -9 22471'
+bash: line 0: kill: (22471) - No such process
+[?1h= ssh hec-60 -n  'kill -9 22557'
+bash: line 0: kill: (22557) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23234'
+bash: line 0: kill: (23234) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23277'
+bash: line 0: kill: (23277) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23292'
+bash: line 0: kill: (23292) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23386'
+bash: line 0: kill: (23386) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23474'
+bash: line 0: kill: (23474) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23535'
+bash: line 0: kill: (23535) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23618'
+bash: line 0: kill: (23618) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=****************** Now Running Store.m ***********************
+I am just waiting!
+Store running time: 506.1034s
+**************myEigen iterations***********************
+computing v=Aq 1 ...
+INGEST time (sec) = 0.079
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting Row_mv on 50 processor(s).
+ ssh hec-53 -n  'kill -9 21905'
+bash: line 0: kill: (21905) - No such process
+[?1h= ssh hec-53 -n  'kill -9 21948'
+bash: line 0: kill: (21948) - No such process
+[?1h= ssh hec-53 -n  'kill -9 21992'
+bash: line 0: kill: (21992) - No such process
+[?1h= ssh hec-53 -n  'kill -9 22070'
+bash: line 0: kill: (22070) - No such process
+[?1h= ssh hec-53 -n  'kill -9 22146'
+bash: line 0: kill: (22146) - No such process
+[?1h= ssh hec-53 -n  'kill -9 22231'
+bash: line 0: kill: (22231) - No such process
+[?1h= ssh hec-53 -n  'kill -9 22299'
+bash: line 0: kill: (22299) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14546'
+bash: line 0: kill: (14546) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14570'
+bash: line 0: kill: (14570) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14633'
+bash: line 0: kill: (14633) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14714'
+bash: line 0: kill: (14714) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14791'
+bash: line 0: kill: (14791) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14871'
+bash: line 0: kill: (14871) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14944'
+bash: line 0: kill: (14944) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12917'
+bash: line 0: kill: (12917) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12961'
+bash: line 0: kill: (12961) - No such process
+[?1h= ssh hec-56 -n  'kill -9 13027'
+bash: line 0: kill: (13027) - No such process
+[?1h= ssh hec-56 -n  'kill -9 13093'
+bash: line 0: kill: (13093) - No such process
+[?1h= ssh hec-56 -n  'kill -9 13159'
+bash: line 0: kill: (13159) - No such process
+[?1h= ssh hec-56 -n  'kill -9 13244'
+bash: line 0: kill: (13244) - No such process
+[?1h= ssh hec-56 -n  'kill -9 13318'
+bash: line 0: kill: (13318) - No such process
+[?1h= ssh hec-58 -n  'kill -9 11783'
+bash: line 0: kill: (11783) - No such process
+[?1h= ssh hec-58 -n  'kill -9 11826'
+bash: line 0: kill: (11826) - No such process
+[?1h= ssh hec-58 -n  'kill -9 11870'
+bash: line 0: kill: (11870) - No such process
+[?1h= ssh hec-58 -n  'kill -9 11949'
+bash: line 0: kill: (11949) - No such process
+[?1h= ssh hec-58 -n  'kill -9 12025'
+bash: line 0: kill: (12025) - No such process
+[?1h= ssh hec-58 -n  'kill -9 12097'
+bash: line 0: kill: (12097) - No such process
+[?1h= ssh hec-58 -n  'kill -9 12173'
+bash: line 0: kill: (12173) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10621'
+bash: line 0: kill: (10621) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10664'
+bash: line 0: kill: (10664) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10708'
+bash: line 0: kill: (10708) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10775'
+bash: line 0: kill: (10775) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10860'
+bash: line 0: kill: (10860) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10939'
+bash: line 0: kill: (10939) - No such process
+[?1h= ssh hec-59 -n  'kill -9 11020'
+bash: line 0: kill: (11020) - No such process
+[?1h= ssh hec-60 -n  'kill -9 32673'
+bash: line 0: kill: (32673) - No such process
+[?1h= ssh hec-60 -n  'kill -9 32716'
+bash: line 0: kill: (32716) - No such process
+[?1h= ssh hec-60 -n  'kill -9 32763'
+bash: line 0: kill: (32763) - No such process
+[?1h= ssh hec-60 -n  'kill -9 360'
+bash: line 0: kill: (360) - No such process
+[?1h= ssh hec-60 -n  'kill -9 441'
+bash: line 0: kill: (441) - No such process
+[?1h= ssh hec-60 -n  'kill -9 516'
+bash: line 0: kill: (516) - No such process
+[?1h= ssh hec-60 -n  'kill -9 596'
+bash: line 0: kill: (596) - No such process
+[?1h= ssh hec-62 -n  'kill -9 2997'
+bash: line 0: kill: (2997) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3040'
+bash: line 0: kill: (3040) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3104'
+bash: line 0: kill: (3104) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3168'
+bash: line 0: kill: (3168) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3220'
+bash: line 0: kill: (3220) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3309'
+bash: line 0: kill: (3309) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3383'
+bash: line 0: kill: (3383) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=****************** Now Running Row_mv.m ***********************
+I am just waiting!
+Iteration 1 Row_mv takes: 178.5404
+Result of v = Aq 1 is saved in table 65536lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(1)
+[?1h=Submitting parallel_dotproduct_p1 on 50 processor(s).
+ ssh hec-53 -n  'kill -9 9485'
+bash: line 0: kill: (9485) - No such process
+[?1h= ssh hec-53 -n  'kill -9 9530'
+bash: line 0: kill: (9530) - No such process
+[?1h= ssh hec-53 -n  'kill -9 9575'
+bash: line 0: kill: (9575) - No such process
+[?1h= ssh hec-53 -n  'kill -9 9640'
+bash: line 0: kill: (9640) - No such process
+[?1h= ssh hec-53 -n  'kill -9 9724'
+bash: line 0: kill: (9724) - No such process
+[?1h= ssh hec-53 -n  'kill -9 9807'
+bash: line 0: kill: (9807) - No such process
+[?1h= ssh hec-53 -n  'kill -9 9885'
+bash: line 0: kill: (9885) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24103'
+bash: line 0: kill: (24103) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24148'
+bash: line 0: kill: (24148) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24206'
+bash: line 0: kill: (24206) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24287'
+bash: line 0: kill: (24287) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24360'
+bash: line 0: kill: (24360) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24410'
+bash: line 0: kill: (24410) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24491'
+bash: line 0: kill: (24491) - No such process
+[?1h= ssh hec-56 -n  'kill -9 5354'
+bash: line 0: kill: (5354) - No such process
+[?1h= ssh hec-56 -n  'kill -9 5397'
+bash: line 0: kill: (5397) - No such process
+[?1h= ssh hec-56 -n  'kill -9 5442'
+bash: line 0: kill: (5442) - No such process
+[?1h= ssh hec-56 -n  'kill -9 5508'
+bash: line 0: kill: (5508) - No such process
+[?1h= ssh hec-56 -n  'kill -9 5601'
+bash: line 0: kill: (5601) - No such process
+[?1h= ssh hec-56 -n  'kill -9 5659'
+bash: line 0: kill: (5659) - No such process
+[?1h= ssh hec-56 -n  'kill -9 5740'
+bash: line 0: kill: (5740) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31948'
+bash: line 0: kill: (31948) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31977'
+bash: line 0: kill: (31977) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32046'
+bash: line 0: kill: (32046) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32133'
+bash: line 0: kill: (32133) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32209'
+bash: line 0: kill: (32209) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32263'
+bash: line 0: kill: (32263) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32327'
+bash: line 0: kill: (32327) - No such process
+[?1h= ssh hec-59 -n  'kill -9 30960'
+bash: line 0: kill: (30960) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31003'
+bash: line 0: kill: (31003) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31048'
+bash: line 0: kill: (31048) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31118'
+bash: line 0: kill: (31118) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31207'
+bash: line 0: kill: (31207) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31279'
+bash: line 0: kill: (31279) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31352'
+bash: line 0: kill: (31352) - No such process
+[?1h= ssh hec-60 -n  'kill -9 18829'
+bash: line 0: kill: (18829) - No such process
+[?1h= ssh hec-60 -n  'kill -9 18872'
+bash: line 0: kill: (18872) - No such process
+[?1h= ssh hec-60 -n  'kill -9 18916'
+bash: line 0: kill: (18916) - No such process
+[?1h= ssh hec-60 -n  'kill -9 19003'
+bash: line 0: kill: (19003) - No such process
+[?1h= ssh hec-60 -n  'kill -9 19076'
+bash: line 0: kill: (19076) - No such process
+[?1h= ssh hec-60 -n  'kill -9 19125'
+bash: line 0: kill: (19125) - No such process
+[?1h= ssh hec-60 -n  'kill -9 19202'
+bash: line 0: kill: (19202) - No such process
+[?1h= ssh hec-62 -n  'kill -9 18921'
+bash: line 0: kill: (18921) - No such process
+[?1h= ssh hec-62 -n  'kill -9 18965'
+bash: line 0: kill: (18965) - No such process
+[?1h= ssh hec-62 -n  'kill -9 19008'
+bash: line 0: kill: (19008) - No such process
+[?1h= ssh hec-62 -n  'kill -9 19089'
+bash: line 0: kill: (19089) - No such process
+[?1h= ssh hec-62 -n  'kill -9 19166'
+bash: line 0: kill: (19166) - No such process
+[?1h= ssh hec-62 -n  'kill -9 19239'
+bash: line 0: kill: (19239) - No such process
+[?1h= ssh hec-62 -n  'kill -9 19311'
+bash: line 0: kill: (19311) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=I am just waiting
+Iteration 1 Calculating alpha takes: 89.8826
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.157
+Result of alpha[1] =217.0751 is saved.
+[?1h=Submitting onetime_saxv on 50 processor(s).
+ ssh hec-53 -n  'kill -9 26938'
+bash: line 0: kill: (26938) - No such process
+[?1h= ssh hec-53 -n  'kill -9 26967'
+bash: line 0: kill: (26967) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27025'
+bash: line 0: kill: (27025) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27106'
+bash: line 0: kill: (27106) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27184'
+bash: line 0: kill: (27184) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27237'
+bash: line 0: kill: (27237) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27303'
+bash: line 0: kill: (27303) - No such process
+[?1h= ssh hec-55 -n  'kill -9 11976'
+bash: line 0: kill: (11976) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12020'
+bash: line 0: kill: (12020) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12085'
+bash: line 0: kill: (12085) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12159'
+bash: line 0: kill: (12159) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12223'
+bash: line 0: kill: (12223) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12297'
+bash: line 0: kill: (12297) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12363'
+bash: line 0: kill: (12363) - No such process
+[?1h= ssh hec-56 -n  'kill -9 27496'
+bash: line 0: kill: (27496) - No such process
+[?1h= ssh hec-56 -n  'kill -9 27530'
+bash: line 0: kill: (27530) - No such process
+[?1h= ssh hec-56 -n  'kill -9 27583'
+bash: line 0: kill: (27583) - No such process
+[?1h= ssh hec-56 -n  'kill -9 27664'
+bash: line 0: kill: (27664) - No such process
+[?1h= ssh hec-56 -n  'kill -9 27737'
+bash: line 0: kill: (27737) - No such process
+[?1h= ssh hec-56 -n  'kill -9 27795'
+bash: line 0: kill: (27795) - No such process
+[?1h= ssh hec-56 -n  'kill -9 27882'
+bash: line 0: kill: (27882) - No such process
+[?1h= ssh hec-58 -n  'kill -9 18209'
+bash: line 0: kill: (18209) - No such process
+[?1h= ssh hec-58 -n  'kill -9 18253'
+bash: line 0: kill: (18253) - No such process
+[?1h= ssh hec-58 -n  'kill -9 18318'
+bash: line 0: kill: (18318) - No such process
+[?1h= ssh hec-58 -n  'kill -9 18391'
+bash: line 0: kill: (18391) - No such process
+[?1h= ssh hec-58 -n  'kill -9 18455'
+bash: line 0: kill: (18455) - No such process
+[?1h= ssh hec-58 -n  'kill -9 18528'
+bash: line 0: kill: (18528) - No such process
+[?1h= ssh hec-58 -n  'kill -9 18595'
+bash: line 0: kill: (18595) - No such process
+[?1h= ssh hec-59 -n  'kill -9 18014'
+bash: line 0: kill: (18014) - No such process
+[?1h= ssh hec-59 -n  'kill -9 18058'
+bash: line 0: kill: (18058) - No such process
+[?1h= ssh hec-59 -n  'kill -9 18122'
+bash: line 0: kill: (18122) - No such process
+[?1h= ssh hec-59 -n  'kill -9 18195'
+bash: line 0: kill: (18195) - No such process
+[?1h= ssh hec-59 -n  'kill -9 18250'
+bash: line 0: kill: (18250) - No such process
+[?1h= ssh hec-59 -n  'kill -9 18373'
+bash: line 0: kill: (18373) - No such process
+[?1h= ssh hec-59 -n  'kill -9 18479'
+bash: line 0: kill: (18479) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5093'
+bash: line 0: kill: (5093) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5136'
+bash: line 0: kill: (5136) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5179'
+bash: line 0: kill: (5179) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5260'
+bash: line 0: kill: (5260) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5337'
+bash: line 0: kill: (5337) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5411'
+bash: line 0: kill: (5411) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5473'
+bash: line 0: kill: (5473) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3152'
+bash: line 0: kill: (3152) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3195'
+bash: line 0: kill: (3195) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3255'
+bash: line 0: kill: (3255) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3333'
+bash: line 0: kill: (3333) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3405'
+bash: line 0: kill: (3405) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3476'
+bash: line 0: kill: (3476) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3544'
+bash: line 0: kill: (3544) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=**************In onetime_saxv****************
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 1337
+I am just waiting
+Iteration 1 onetime_saxv: 77.9142
+v is saved in 65536lz_vpath table
+Computing beta[1]...
+[?1h=Submitting parallel_lz_norm_v_p1 on 50 processor(s).
+ ssh hec-53 -n  'kill -9 27738'
+bash: line 0: kill: (27738) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27757'
+bash: line 0: kill: (27757) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27825'
+bash: line 0: kill: (27825) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27910'
+bash: line 0: kill: (27910) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27979'
+bash: line 0: kill: (27979) - No such process
+[?1h= ssh hec-53 -n  'kill -9 28036'
+bash: line 0: kill: (28036) - No such process
+[?1h= ssh hec-53 -n  'kill -9 28134'
+bash: line 0: kill: (28134) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12691'
+bash: line 0: kill: (12691) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12736'
+bash: line 0: kill: (12736) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12795'
+bash: line 0: kill: (12795) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12868'
+bash: line 0: kill: (12868) - No such process
+[?1h= ssh hec-55 -n  'kill -9 12934'
+bash: line 0: kill: (12934) - No such process
+[?1h= ssh hec-55 -n  'kill -9 13006'
+bash: line 0: kill: (13006) - No such process
+[?1h= ssh hec-55 -n  'kill -9 13079'
+bash: line 0: kill: (13079) - No such process
+[?1h= ssh hec-56 -n  'kill -9 28274'
+bash: line 0: kill: (28274) - No such process
+[?1h= ssh hec-56 -n  'kill -9 28318'
+bash: line 0: kill: (28318) - No such process
+[?1h= ssh hec-56 -n  'kill -9 28377'
+bash: line 0: kill: (28377) - No such process
+[?1h= ssh hec-56 -n  'kill -9 28443'
+bash: line 0: kill: (28443) - No such process
+[?1h= ssh hec-56 -n  'kill -9 28514'
+bash: line 0: kill: (28514) - No such process
+[?1h= ssh hec-56 -n  'kill -9 28585'
+bash: line 0: kill: (28585) - No such process
+[?1h= ssh hec-56 -n  'kill -9 28666'
+bash: line 0: kill: (28666) - No such process
+[?1h= ssh hec-58 -n  'kill -9 18996'
+bash: line 0: kill: (18996) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19036'
+bash: line 0: kill: (19036) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19087'
+bash: line 0: kill: (19087) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19158'
+bash: line 0: kill: (19158) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19234'
+bash: line 0: kill: (19234) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19297'
+bash: line 0: kill: (19297) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19389'
+bash: line 0: kill: (19389) - No such process
+[?1h= ssh hec-59 -n  'kill -9 18924'
+bash: line 0: kill: (18924) - No such process
+[?1h= ssh hec-59 -n  'kill -9 18958'
+bash: line 0: kill: (18958) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19011'
+bash: line 0: kill: (19011) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19099'
+bash: line 0: kill: (19099) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19174'
+bash: line 0: kill: (19174) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19236'
+bash: line 0: kill: (19236) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19317'
+bash: line 0: kill: (19317) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5733'
+bash: line 0: kill: (5733) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5776'
+bash: line 0: kill: (5776) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5840'
+bash: line 0: kill: (5840) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5908'
+bash: line 0: kill: (5908) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5973'
+bash: line 0: kill: (5973) - No such process
+[?1h= ssh hec-60 -n  'kill -9 6033'
+bash: line 0: kill: (6033) - No such process
+[?1h= ssh hec-60 -n  'kill -9 6122'
+bash: line 0: kill: (6122) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3838'
+bash: line 0: kill: (3838) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3881'
+bash: line 0: kill: (3881) - No such process
+[?1h= ssh hec-62 -n  'kill -9 3937'
+bash: line 0: kill: (3937) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4011'
+bash: line 0: kill: (4011) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4085'
+bash: line 0: kill: (4085) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4150'
+bash: line 0: kill: (4150) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4227'
+bash: line 0: kill: (4227) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 50 elemetns!
+(1,1)     236441.231839557789499
+(10,1)     10542.614574495866691
+(11,1)     2329.256652884694631
+(12,1)     1021.698947206856133
+(13,1)     48405.724010560712486
+(14,1)     17613.783658615167951
+(15,1)     3468.461376382328126
+(16,1)     9818.139904788353306
+(17,1)     3060.649520024573121
+(18,1)     1104.179350257365968
+(19,1)     9841.200397565740786
+(2,1)     55921.782452732499223
+(20,1)     2963.793707155776247
+(21,1)     1190.117345492005597
+(22,1)     2052.753361563755789
+(23,1)     1036.333833035143925
+(24,1)     863.890530091091136
+(25,1)     47087.056477537698811
+(26,1)     11023.091389678904306
+(27,1)     10985.783827168401331
+(28,1)     9602.994671179871148
+(29,1)     2262.475943225688752
+(3,1)     11739.261265030141658
+(30,1)     2156.509502963470368
+(31,1)     8634.863321637598347
+(32,1)     3226.630093322534776
+(33,1)     2060.498861793636024
+(34,1)     2002.455894514424017
+(35,1)     1002.068786376636808
+(36,1)     953.710850734948281
+(37,1)     8427.094280377281393
+(38,1)     3385.781824422732370
+(39,1)     2024.754986003536260
+(4,1)     54823.168239541300863
+(40,1)     1973.430911052631245
+(41,1)     1107.063033630594418
+(42,1)     918.912579788065273
+(43,1)     1941.759041185420983
+(44,1)     1077.388029833794917
+(45,1)     964.666377232113177
+(46,1)     1009.763992701078678
+(47,1)     866.849521071757295
+(48,1)     911.878799816398327
+(49,1)     975.785587805244973
+(5,1)     11423.763576697812823
+(6,1)     2425.104454317233831
+(7,1)     54493.489515384870174
+(8,1)     11279.839238852075141
+(9,1)     3097.412365537519690
+INGEST time (sec) = 0.058
+Iteration 1 beta takes: 83.8148
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v65536_tempDB.user: rootDB.type: Accumulo
+beta[1] = 826.7653
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+NumOfMachines in SO: 8Starting so, iterations # is 1 beta_it value is: 826.7653
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/1 th vector:826.7653compare to 3.2227e-06
+Iteration 1 SO takes: 0.13786
+Number of orthongalization: 0
+Computing q2...
+[?1h=Submitting parallel_update_q on 50 processor(s).
+ ssh hec-53 -n  'kill -9 28479'
+bash: line 0: kill: (28479) - No such process
+[?1h= ssh hec-53 -n  'kill -9 28523'
+bash: line 0: kill: (28523) - No such process
+[?1h= ssh hec-53 -n  'kill -9 28567'
+bash: line 0: kill: (28567) - No such process
+[?1h= ssh hec-53 -n  'kill -9 28636'
+bash: line 0: kill: (28636) - No such process
+[?1h= ssh hec-53 -n  'kill -9 28711'
+bash: line 0: kill: (28711) - No such process
+[?1h= ssh hec-53 -n  'kill -9 28802'
+bash: line 0: kill: (28802) - No such process
+[?1h= ssh hec-53 -n  'kill -9 28869'
+bash: line 0: kill: (28869) - No such process
+[?1h= ssh hec-55 -n  'kill -9 13424'
+bash: line 0: kill: (13424) - No such process
+[?1h= ssh hec-55 -n  'kill -9 13467'
+bash: line 0: kill: (13467) - No such process
+[?1h= ssh hec-55 -n  'kill -9 13511'
+bash: line 0: kill: (13511) - No such process
+[?1h= ssh hec-55 -n  'kill -9 13589'
+bash: line 0: kill: (13589) - No such process
+[?1h= ssh hec-55 -n  'kill -9 13662'
+bash: line 0: kill: (13662) - No such process
+[?1h= ssh hec-55 -n  'kill -9 13735'
+bash: line 0: kill: (13735) - No such process
+[?1h= ssh hec-55 -n  'kill -9 13814'
+bash: line 0: kill: (13814) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29029'
+bash: line 0: kill: (29029) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29073'
+bash: line 0: kill: (29073) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29129'
+bash: line 0: kill: (29129) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29194'
+bash: line 0: kill: (29194) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29268'
+bash: line 0: kill: (29268) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29347'
+bash: line 0: kill: (29347) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29422'
+bash: line 0: kill: (29422) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19749'
+bash: line 0: kill: (19749) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19793'
+bash: line 0: kill: (19793) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19852'
+bash: line 0: kill: (19852) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19925'
+bash: line 0: kill: (19925) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19985'
+bash: line 0: kill: (19985) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20064'
+bash: line 0: kill: (20064) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20141'
+bash: line 0: kill: (20141) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19640'
+bash: line 0: kill: (19640) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19654'
+bash: line 0: kill: (19654) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19727'
+bash: line 0: kill: (19727) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19774'
+bash: line 0: kill: (19774) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19857'
+bash: line 0: kill: (19857) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19941'
+bash: line 0: kill: (19941) - No such process
+[?1h= ssh hec-59 -n  'kill -9 19996'
+bash: line 0: kill: (19996) - No such process
+[?1h= ssh hec-60 -n  'kill -9 6371'
+bash: line 0: kill: (6371) - No such process
+[?1h= ssh hec-60 -n  'kill -9 6415'
+bash: line 0: kill: (6415) - No such process
+[?1h= ssh hec-60 -n  'kill -9 6472'
+bash: line 0: kill: (6472) - No such process
+[?1h= ssh hec-60 -n  'kill -9 6536'
+bash: line 0: kill: (6536) - No such process
+[?1h= ssh hec-60 -n  'kill -9 6611'
+bash: line 0: kill: (6611) - No such process
+[?1h= ssh hec-60 -n  'kill -9 6683'
+bash: line 0: kill: (6683) - No such process
+[?1h= ssh hec-60 -n  'kill -9 6752'
+bash: line 0: kill: (6752) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4495'
+bash: line 0: kill: (4495) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4538'
+bash: line 0: kill: (4538) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4597'
+bash: line 0: kill: (4597) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4667'
+bash: line 0: kill: (4667) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4734'
+bash: line 0: kill: (4734) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4818'
+bash: line 0: kill: (4818) - No such process
+[?1h= ssh hec-62 -n  'kill -9 4891'
+bash: line 0: kill: (4891) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=I am just waiting
+Iteration 1 Update Q takes: 77.8417
+q_{2} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+----------EigenValues of Tm are:--------------
+
+myD =
+
+  217.0751
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.0090
+**************Now constructing T matrix from alpha and beta******************
+INGEST time (sec) = 0.015
+Iteration: 1: 510.9622s
+**************myEigen iterations***********************
+computing v=Aq 2 ...
+INGEST time (sec) = 0.074
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting Row_mv on 50 processor(s).
+ ssh hec-53 -n  'kill -9 29259'
+bash: line 0: kill: (29259) - No such process
+[?1h= ssh hec-53 -n  'kill -9 29295'
+bash: line 0: kill: (29295) - No such process
+[?1h= ssh hec-53 -n  'kill -9 29347'
+bash: line 0: kill: (29347) - No such process
+[?1h= ssh hec-53 -n  'kill -9 29415'
+bash: line 0: kill: (29415) - No such process
+[?1h= ssh hec-53 -n  'kill -9 29501'
+bash: line 0: kill: (29501) - No such process
+[?1h= ssh hec-53 -n  'kill -9 29577'
+bash: line 0: kill: (29577) - No such process
+[?1h= ssh hec-53 -n  'kill -9 29665'
+bash: line 0: kill: (29665) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14142'
+bash: line 0: kill: (14142) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14185'
+bash: line 0: kill: (14185) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14249'
+bash: line 0: kill: (14249) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14305'
+bash: line 0: kill: (14305) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14383'
+bash: line 0: kill: (14383) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14453'
+bash: line 0: kill: (14453) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14512'
+bash: line 0: kill: (14512) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29731'
+bash: line 0: kill: (29731) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29777'
+bash: line 0: kill: (29777) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29842'
+bash: line 0: kill: (29842) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29909'
+bash: line 0: kill: (29909) - No such process
+[?1h= ssh hec-56 -n  'kill -9 29959'
+bash: line 0: kill: (29959) - No such process
+[?1h= ssh hec-56 -n  'kill -9 30047'
+bash: line 0: kill: (30047) - No such process
+[?1h= ssh hec-56 -n  'kill -9 30126'
+bash: line 0: kill: (30126) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20528'
+bash: line 0: kill: (20528) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20575'
+bash: line 0: kill: (20575) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20641'
+bash: line 0: kill: (20641) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20695'
+bash: line 0: kill: (20695) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20773'
+bash: line 0: kill: (20773) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20853'
+bash: line 0: kill: (20853) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20908'
+bash: line 0: kill: (20908) - No such process
+[?1h= ssh hec-59 -n  'kill -9 20351'
+bash: line 0: kill: (20351) - No such process
+[?1h= ssh hec-59 -n  'kill -9 20379'
+bash: line 0: kill: (20379) - No such process
+[?1h= ssh hec-59 -n  'kill -9 20437'
+bash: line 0: kill: (20437) - No such process
+[?1h= ssh hec-59 -n  'kill -9 20524'
+bash: line 0: kill: (20524) - No such process
+[?1h= ssh hec-59 -n  'kill -9 20598'
+bash: line 0: kill: (20598) - No such process
+[?1h= ssh hec-59 -n  'kill -9 20654'
+bash: line 0: kill: (20654) - No such process
+[?1h= ssh hec-59 -n  'kill -9 20738'
+bash: line 0: kill: (20738) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7002'
+bash: line 0: kill: (7002) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7044'
+bash: line 0: kill: (7044) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7101'
+bash: line 0: kill: (7101) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7158'
+bash: line 0: kill: (7158) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7242'
+bash: line 0: kill: (7242) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7327'
+bash: line 0: kill: (7327) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7398'
+bash: line 0: kill: (7398) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5153'
+bash: line 0: kill: (5153) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5196'
+bash: line 0: kill: (5196) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5261'
+bash: line 0: kill: (5261) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5327'
+bash: line 0: kill: (5327) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5393'
+bash: line 0: kill: (5393) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5486'
+bash: line 0: kill: (5486) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5550'
+bash: line 0: kill: (5550) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=****************** Now Running Row_mv.m ***********************
+I am just waiting!
+Iteration 2 Row_mv takes: 168.9263
+Result of v = Aq 2 is saved in table 65536lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(2)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting parallel_dotproduct_p1 on 50 processor(s).
+ ssh hec-53 -n  'kill -9 30084'
+bash: line 0: kill: (30084) - No such process
+[?1h= ssh hec-53 -n  'kill -9 30112'
+bash: line 0: kill: (30112) - No such process
+[?1h= ssh hec-53 -n  'kill -9 30170'
+bash: line 0: kill: (30170) - No such process
+[?1h= ssh hec-53 -n  'kill -9 30235'
+bash: line 0: kill: (30235) - No such process
+[?1h= ssh hec-53 -n  'kill -9 30327'
+bash: line 0: kill: (30327) - No such process
+[?1h= ssh hec-53 -n  'kill -9 30399'
+bash: line 0: kill: (30399) - No such process
+[?1h= ssh hec-53 -n  'kill -9 30477'
+bash: line 0: kill: (30477) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14875'
+bash: line 0: kill: (14875) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14918'
+bash: line 0: kill: (14918) - No such process
+[?1h= ssh hec-55 -n  'kill -9 14978'
+bash: line 0: kill: (14978) - No such process
+[?1h= ssh hec-55 -n  'kill -9 15044'
+bash: line 0: kill: (15044) - No such process
+[?1h= ssh hec-55 -n  'kill -9 15117'
+bash: line 0: kill: (15117) - No such process
+[?1h= ssh hec-55 -n  'kill -9 15187'
+bash: line 0: kill: (15187) - No such process
+[?1h= ssh hec-55 -n  'kill -9 15266'
+bash: line 0: kill: (15266) - No such process
+[?1h= ssh hec-56 -n  'kill -9 30466'
+bash: line 0: kill: (30466) - No such process
+[?1h= ssh hec-56 -n  'kill -9 30509'
+bash: line 0: kill: (30509) - No such process
+[?1h= ssh hec-56 -n  'kill -9 30553'
+bash: line 0: kill: (30553) - No such process
+[?1h= ssh hec-56 -n  'kill -9 30618'
+bash: line 0: kill: (30618) - No such process
+[?1h= ssh hec-56 -n  'kill -9 30688'
+bash: line 0: kill: (30688) - No such process
+[?1h= ssh hec-56 -n  'kill -9 30763'
+bash: line 0: kill: (30763) - No such process
+[?1h= ssh hec-56 -n  'kill -9 30858'
+bash: line 0: kill: (30858) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21290'
+bash: line 0: kill: (21290) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21336'
+bash: line 0: kill: (21336) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21380'
+bash: line 0: kill: (21380) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21461'
+bash: line 0: kill: (21461) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21536'
+bash: line 0: kill: (21536) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21615'
+bash: line 0: kill: (21615) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21694'
+bash: line 0: kill: (21694) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21072'
+bash: line 0: kill: (21072) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21115'
+bash: line 0: kill: (21115) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21172'
+bash: line 0: kill: (21172) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21241'
+bash: line 0: kill: (21241) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21320'
+bash: line 0: kill: (21320) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21393'
+bash: line 0: kill: (21393) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21462'
+bash: line 0: kill: (21462) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7650'
+bash: line 0: kill: (7650) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7689'
+bash: line 0: kill: (7689) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7737'
+bash: line 0: kill: (7737) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7807'
+bash: line 0: kill: (7807) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7869'
+bash: line 0: kill: (7869) - No such process
+[?1h= ssh hec-60 -n  'kill -9 7968'
+bash: line 0: kill: (7968) - No such process
+[?1h= ssh hec-60 -n  'kill -9 8041'
+bash: line 0: kill: (8041) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5827'
+bash: line 0: kill: (5827) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5870'
+bash: line 0: kill: (5870) - No such process
+[?1h= ssh hec-62 -n  'kill -9 5929'
+bash: line 0: kill: (5929) - No such process
+[?1h= ssh hec-62 -n  'kill -9 6004'
+bash: line 0: kill: (6004) - No such process
+[?1h= ssh hec-62 -n  'kill -9 6088'
+bash: line 0: kill: (6088) - No such process
+[?1h= ssh hec-62 -n  'kill -9 6166'
+bash: line 0: kill: (6166) - No such process
+[?1h= ssh hec-62 -n  'kill -9 6215'
+bash: line 0: kill: (6215) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=I am just waiting
+Iteration 2 Calculating alpha takes: 84.8531
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.161
+Result of alpha[2] =1598.334 is saved.
+[?1h=Submitting onetime_saxv on 50 processor(s).
+ ssh hec-53 -n  'kill -9 15592'
+bash: line 0: kill: (15592) - No such process
+[?1h= ssh hec-53 -n  'kill -9 15635'
+bash: line 0: kill: (15635) - No such process
+[?1h= ssh hec-53 -n  'kill -9 15695'
+bash: line 0: kill: (15695) - No such process
+[?1h= ssh hec-53 -n  'kill -9 15745'
+bash: line 0: kill: (15745) - No such process
+[?1h= ssh hec-53 -n  'kill -9 15838'
+bash: line 0: kill: (15838) - No such process
+[?1h= ssh hec-53 -n  'kill -9 15890'
+bash: line 0: kill: (15890) - No such process
+[?1h= ssh hec-53 -n  'kill -9 15977'
+bash: line 0: kill: (15977) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2686'
+bash: line 0: kill: (2686) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2729'
+bash: line 0: kill: (2729) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2799'
+bash: line 0: kill: (2799) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2853'
+bash: line 0: kill: (2853) - No such process
+[?1h= ssh hec-55 -n  'kill -9 2946'
+bash: line 0: kill: (2946) - No such process
+[?1h= ssh hec-55 -n  'kill -9 3036'
+bash: line 0: kill: (3036) - No such process
+[?1h= ssh hec-55 -n  'kill -9 3122'
+bash: line 0: kill: (3122) - No such process
+[?1h= ssh hec-56 -n  'kill -9 18504'
+bash: line 0: kill: (18504) - No such process
+[?1h= ssh hec-56 -n  'kill -9 18547'
+bash: line 0: kill: (18547) - No such process
+[?1h= ssh hec-56 -n  'kill -9 18591'
+bash: line 0: kill: (18591) - No such process
+[?1h= ssh hec-56 -n  'kill -9 18658'
+bash: line 0: kill: (18658) - No such process
+[?1h= ssh hec-56 -n  'kill -9 18750'
+bash: line 0: kill: (18750) - No such process
+[?1h= ssh hec-56 -n  'kill -9 18810'
+bash: line 0: kill: (18810) - No such process
+[?1h= ssh hec-56 -n  'kill -9 18882'
+bash: line 0: kill: (18882) - No such process
+[?1h= ssh hec-58 -n  'kill -9 7757'
+bash: line 0: kill: (7757) - No such process
+[?1h= ssh hec-58 -n  'kill -9 7803'
+bash: line 0: kill: (7803) - No such process
+[?1h= ssh hec-58 -n  'kill -9 7847'
+bash: line 0: kill: (7847) - No such process
+[?1h= ssh hec-58 -n  'kill -9 7928'
+bash: line 0: kill: (7928) - No such process
+[?1h= ssh hec-58 -n  'kill -9 7995'
+bash: line 0: kill: (7995) - No such process
+[?1h= ssh hec-58 -n  'kill -9 8074'
+bash: line 0: kill: (8074) - No such process
+[?1h= ssh hec-58 -n  'kill -9 8151'
+bash: line 0: kill: (8151) - No such process
+[?1h= ssh hec-59 -n  'kill -9 8373'
+bash: line 0: kill: (8373) - No such process
+[?1h= ssh hec-59 -n  'kill -9 8403'
+bash: line 0: kill: (8403) - No such process
+[?1h= ssh hec-59 -n  'kill -9 8459'
+bash: line 0: kill: (8459) - No such process
+[?1h= ssh hec-59 -n  'kill -9 8540'
+bash: line 0: kill: (8540) - No such process
+[?1h= ssh hec-59 -n  'kill -9 8608'
+bash: line 0: kill: (8608) - No such process
+[?1h= ssh hec-59 -n  'kill -9 8685'
+bash: line 0: kill: (8685) - No such process
+[?1h= ssh hec-59 -n  'kill -9 8749'
+bash: line 0: kill: (8749) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26073'
+bash: line 0: kill: (26073) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26116'
+bash: line 0: kill: (26116) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26159'
+bash: line 0: kill: (26159) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26225'
+bash: line 0: kill: (26225) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26296'
+bash: line 0: kill: (26296) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26362'
+bash: line 0: kill: (26362) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26457'
+bash: line 0: kill: (26457) - No such process
+[?1h= ssh hec-62 -n  'kill -9 22659'
+bash: line 0: kill: (22659) - No such process
+[?1h= ssh hec-62 -n  'kill -9 22706'
+bash: line 0: kill: (22706) - No such process
+[?1h= ssh hec-62 -n  'kill -9 22771'
+bash: line 0: kill: (22771) - No such process
+[?1h= ssh hec-62 -n  'kill -9 22831'
+bash: line 0: kill: (22831) - No such process
+[?1h= ssh hec-62 -n  'kill -9 22903'
+bash: line 0: kill: (22903) - No such process
+[?1h= ssh hec-62 -n  'kill -9 22975'
+bash: line 0: kill: (22975) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23053'
+bash: line 0: kill: (23053) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=**************In onetime_saxv****************
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 1337
+I am just waiting
+Iteration 2 onetime_saxv: 77.8539
+v is saved in 65536lz_vpath table
+Computing beta[2]...
+Creating lz_norm_v65536_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting parallel_lz_norm_v_p1 on 50 processor(s).
+ ssh hec-53 -n  'kill -9 16387'
+bash: line 0: kill: (16387) - No such process
+[?1h= ssh hec-53 -n  'kill -9 16431'
+bash: line 0: kill: (16431) - No such process
+[?1h= ssh hec-53 -n  'kill -9 16474'
+bash: line 0: kill: (16474) - No such process
+[?1h= ssh hec-53 -n  'kill -9 16554'
+bash: line 0: kill: (16554) - No such process
+[?1h= ssh hec-53 -n  'kill -9 16629'
+bash: line 0: kill: (16629) - No such process
+[?1h= ssh hec-53 -n  'kill -9 16701'
+bash: line 0: kill: (16701) - No such process
+[?1h= ssh hec-53 -n  'kill -9 16785'
+bash: line 0: kill: (16785) - No such process
+[?1h= ssh hec-55 -n  'kill -9 3462'
+bash: line 0: kill: (3462) - No such process
+[?1h= ssh hec-55 -n  'kill -9 3476'
+bash: line 0: kill: (3476) - No such process
+[?1h= ssh hec-55 -n  'kill -9 3549'
+bash: line 0: kill: (3549) - No such process
+[?1h= ssh hec-55 -n  'kill -9 3630'
+bash: line 0: kill: (3630) - No such process
+[?1h= ssh hec-55 -n  'kill -9 3704'
+bash: line 0: kill: (3704) - No such process
+[?1h= ssh hec-55 -n  'kill -9 3776'
+bash: line 0: kill: (3776) - No such process
+[?1h= ssh hec-55 -n  'kill -9 3854'
+bash: line 0: kill: (3854) - No such process
+[?1h= ssh hec-56 -n  'kill -9 19245'
+bash: line 0: kill: (19245) - No such process
+[?1h= ssh hec-56 -n  'kill -9 19289'
+bash: line 0: kill: (19289) - No such process
+[?1h= ssh hec-56 -n  'kill -9 19346'
+bash: line 0: kill: (19346) - No such process
+[?1h= ssh hec-56 -n  'kill -9 19420'
+bash: line 0: kill: (19420) - No such process
+[?1h= ssh hec-56 -n  'kill -9 19499'
+bash: line 0: kill: (19499) - No such process
+[?1h= ssh hec-56 -n  'kill -9 19554'
+bash: line 0: kill: (19554) - No such process
+[?1h= ssh hec-56 -n  'kill -9 19635'
+bash: line 0: kill: (19635) - No such process
+[?1h= ssh hec-58 -n  'kill -9 8545'
+bash: line 0: kill: (8545) - No such process
+[?1h= ssh hec-58 -n  'kill -9 8589'
+bash: line 0: kill: (8589) - No such process
+[?1h= ssh hec-58 -n  'kill -9 8658'
+bash: line 0: kill: (8658) - No such process
+[?1h= ssh hec-58 -n  'kill -9 8725'
+bash: line 0: kill: (8725) - No such process
+[?1h= ssh hec-58 -n  'kill -9 8796'
+bash: line 0: kill: (8796) - No such process
+[?1h= ssh hec-58 -n  'kill -9 8851'
+bash: line 0: kill: (8851) - No such process
+[?1h= ssh hec-58 -n  'kill -9 8930'
+bash: line 0: kill: (8930) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9117'
+bash: line 0: kill: (9117) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9161'
+bash: line 0: kill: (9161) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9207'
+bash: line 0: kill: (9207) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9294'
+bash: line 0: kill: (9294) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9359'
+bash: line 0: kill: (9359) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9415'
+bash: line 0: kill: (9415) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9489'
+bash: line 0: kill: (9489) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26688'
+bash: line 0: kill: (26688) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26731'
+bash: line 0: kill: (26731) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26796'
+bash: line 0: kill: (26796) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26844'
+bash: line 0: kill: (26844) - No such process
+[?1h= ssh hec-60 -n  'kill -9 26928'
+bash: line 0: kill: (26928) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27005'
+bash: line 0: kill: (27005) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27080'
+bash: line 0: kill: (27080) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23349'
+bash: line 0: kill: (23349) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23391'
+bash: line 0: kill: (23391) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23435'
+bash: line 0: kill: (23435) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23522'
+bash: line 0: kill: (23522) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23577'
+bash: line 0: kill: (23577) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23659'
+bash: line 0: kill: (23659) - No such process
+[?1h= ssh hec-62 -n  'kill -9 23738'
+bash: line 0: kill: (23738) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 50 elemetns!
+(1,1)     210789.365021937031997
+(10,1)     15166.363766720338390
+(11,1)     7615.535329187672687
+(12,1)     4201.347770971528007
+(13,1)     40250.065498630974616
+(14,1)     20924.124214072653558
+(15,1)     9958.583123203739888
+(16,1)     13948.990324573511316
+(17,1)     8063.545633891413672
+(18,1)     4586.852766245906423
+(19,1)     13812.010575018812233
+(2,1)     47729.187942840355390
+(20,1)     7910.100577461797911
+(21,1)     4957.180924969302396
+(22,1)     6338.260450306169332
+(23,1)     4216.972527987651119
+(24,1)     3503.704535561630109
+(25,1)     37456.279601290392748
+(26,1)     16897.759126536053373
+(27,1)     16353.608033959320892
+(28,1)     13499.329672287371068
+(29,1)     7483.971611789707822
+(3,1)     17944.251453040291381
+(30,1)     6700.385766256041279
+(31,1)     11470.690476268846396
+(32,1)     9171.198482654512190
+(33,1)     6429.433736383291944
+(34,1)     5935.811328451574809
+(35,1)     4044.813342048065351
+(36,1)     4001.186011936895738
+(37,1)     10888.387581820139530
+(38,1)     9700.613764783001898
+(39,1)     6017.180859086756755
+(4,1)     46824.043221704145253
+(40,1)     5869.462986690742582
+(41,1)     4672.034897686921795
+(42,1)     3618.878302849099782
+(43,1)     5704.445236753294012
+(44,1)     4633.440656129155286
+(45,1)     3746.970130565824547
+(46,1)     4371.512902773640235
+(47,1)     3507.846250339713151
+(48,1)     3925.406219075597164
+(49,1)     4910.937528625699997
+(5,1)     16667.643790740443364
+(6,1)     8027.200529402068241
+(7,1)     45349.235648013855098
+(8,1)     17421.522062595569878
+(9,1)     8567.910612761197626
+INGEST time (sec) = 0.055
+Iteration 2 beta takes: 108.4759
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v65536_tempDB.user: rootDB.type: Accumulo
+beta[2] = 892.0681
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+03 *
+
+    0.2171    0.8268
+    0.8268    1.5983
+
+NumOfMachines in SO: 8Starting so, iterations # is 2 beta_it value is: 892.0681
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/2 th vector:377.8978compare to 2.9469e-05
+Error of2/2 th vector:808.0711compare to 2.9469e-05
+Iteration 2 SO takes: 0.14692
+Number of orthongalization: 0
+Computing q3...
+[?1h=Submitting parallel_update_q on 50 processor(s).
+ ssh hec-53 -n  'kill -9 17188'
+bash: line 0: kill: (17188) - No such process
+[?1h= ssh hec-53 -n  'kill -9 17214'
+bash: line 0: kill: (17214) - No such process
+[?1h= ssh hec-53 -n  'kill -9 17274'
+bash: line 0: kill: (17274) - No such process
+[?1h= ssh hec-53 -n  'kill -9 17346'
+bash: line 0: kill: (17346) - No such process
+[?1h= ssh hec-53 -n  'kill -9 17406'
+bash: line 0: kill: (17406) - No such process
+[?1h= ssh hec-53 -n  'kill -9 17501'
+bash: line 0: kill: (17501) - No such process
+[?1h= ssh hec-53 -n  'kill -9 17574'
+bash: line 0: kill: (17574) - No such process
+[?1h= ssh hec-55 -n  'kill -9 4203'
+bash: line 0: kill: (4203) - No such process
+[?1h= ssh hec-55 -n  'kill -9 4246'
+bash: line 0: kill: (4246) - No such process
+[?1h= ssh hec-55 -n  'kill -9 4311'
+bash: line 0: kill: (4311) - No such process
+[?1h= ssh hec-55 -n  'kill -9 4379'
+bash: line 0: kill: (4379) - No such process
+[?1h= ssh hec-55 -n  'kill -9 4444'
+bash: line 0: kill: (4444) - No such process
+[?1h= ssh hec-55 -n  'kill -9 4517'
+bash: line 0: kill: (4517) - No such process
+[?1h= ssh hec-55 -n  'kill -9 4594'
+bash: line 0: kill: (4594) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20017'
+bash: line 0: kill: (20017) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20060'
+bash: line 0: kill: (20060) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20119'
+bash: line 0: kill: (20119) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20169'
+bash: line 0: kill: (20169) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20243'
+bash: line 0: kill: (20243) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20332'
+bash: line 0: kill: (20332) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20405'
+bash: line 0: kill: (20405) - No such process
+[?1h= ssh hec-58 -n  'kill -9 9329'
+bash: line 0: kill: (9329) - No such process
+[?1h= ssh hec-58 -n  'kill -9 9372'
+bash: line 0: kill: (9372) - No such process
+[?1h= ssh hec-58 -n  'kill -9 9428'
+bash: line 0: kill: (9428) - No such process
+[?1h= ssh hec-58 -n  'kill -9 9487'
+bash: line 0: kill: (9487) - No such process
+[?1h= ssh hec-58 -n  'kill -9 9577'
+bash: line 0: kill: (9577) - No such process
+[?1h= ssh hec-58 -n  'kill -9 9649'
+bash: line 0: kill: (9649) - No such process
+[?1h= ssh hec-58 -n  'kill -9 9721'
+bash: line 0: kill: (9721) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10045'
+bash: line 0: kill: (10045) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10138'
+bash: line 0: kill: (10138) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10191'
+bash: line 0: kill: (10191) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10282'
+bash: line 0: kill: (10282) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9892'
+bash: line 0: kill: (9892) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9935'
+bash: line 0: kill: (9935) - No such process
+[?1h= ssh hec-59 -n  'kill -9 9991'
+bash: line 0: kill: (9991) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27354'
+bash: line 0: kill: (27354) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27397'
+bash: line 0: kill: (27397) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27453'
+bash: line 0: kill: (27453) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27529'
+bash: line 0: kill: (27529) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27600'
+bash: line 0: kill: (27600) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27673'
+bash: line 0: kill: (27673) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27743'
+bash: line 0: kill: (27743) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24036'
+bash: line 0: kill: (24036) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24079'
+bash: line 0: kill: (24079) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24138'
+bash: line 0: kill: (24138) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24211'
+bash: line 0: kill: (24211) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24281'
+bash: line 0: kill: (24281) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24361'
+bash: line 0: kill: (24361) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24433'
+bash: line 0: kill: (24433) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=I am just waiting
+Iteration 2 Update Q takes: 83.9808
+q_{3} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+03 *
+
+    0.2171    0.8268
+    0.8268    1.5983
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   1.0e+03 *
+
+   -0.1696
+    1.9850
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.012
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+03 *
+
+    0.2171    0.8268
+    0.8268    1.5983
+
+INGEST time (sec) = 0.015
+Iteration: 2: 527.2609s
+**************myEigen iterations***********************
+computing v=Aq 3 ...
+INGEST time (sec) = 0.046
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting Row_mv on 50 processor(s).
+ ssh hec-53 -n  'kill -9 18008'
+bash: line 0: kill: (18008) - No such process
+[?1h= ssh hec-53 -n  'kill -9 18036'
+bash: line 0: kill: (18036) - No such process
+[?1h= ssh hec-53 -n  'kill -9 18094'
+bash: line 0: kill: (18094) - No such process
+[?1h= ssh hec-53 -n  'kill -9 18181'
+bash: line 0: kill: (18181) - No such process
+[?1h= ssh hec-53 -n  'kill -9 18254'
+bash: line 0: kill: (18254) - No such process
+[?1h= ssh hec-53 -n  'kill -9 18336'
+bash: line 0: kill: (18336) - No such process
+[?1h= ssh hec-53 -n  'kill -9 18403'
+bash: line 0: kill: (18403) - No such process
+[?1h= ssh hec-55 -n  'kill -9 4965'
+bash: line 0: kill: (4965) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5008'
+bash: line 0: kill: (5008) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5073'
+bash: line 0: kill: (5073) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5134'
+bash: line 0: kill: (5134) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5203'
+bash: line 0: kill: (5203) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5276'
+bash: line 0: kill: (5276) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5356'
+bash: line 0: kill: (5356) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20771'
+bash: line 0: kill: (20771) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20814'
+bash: line 0: kill: (20814) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20858'
+bash: line 0: kill: (20858) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20939'
+bash: line 0: kill: (20939) - No such process
+[?1h= ssh hec-56 -n  'kill -9 20996'
+bash: line 0: kill: (20996) - No such process
+[?1h= ssh hec-56 -n  'kill -9 21082'
+bash: line 0: kill: (21082) - No such process
+[?1h= ssh hec-56 -n  'kill -9 21157'
+bash: line 0: kill: (21157) - No such process
+[?1h= ssh hec-58 -n  'kill -9 10151'
+bash: line 0: kill: (10151) - No such process
+[?1h= ssh hec-58 -n  'kill -9 10194'
+bash: line 0: kill: (10194) - No such process
+[?1h= ssh hec-58 -n  'kill -9 10254'
+bash: line 0: kill: (10254) - No such process
+[?1h= ssh hec-58 -n  'kill -9 10326'
+bash: line 0: kill: (10326) - No such process
+[?1h= ssh hec-58 -n  'kill -9 10408'
+bash: line 0: kill: (10408) - No such process
+[?1h= ssh hec-58 -n  'kill -9 10480'
+bash: line 0: kill: (10480) - No such process
+[?1h= ssh hec-58 -n  'kill -9 10545'
+bash: line 0: kill: (10545) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10636'
+bash: line 0: kill: (10636) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10679'
+bash: line 0: kill: (10679) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10723'
+bash: line 0: kill: (10723) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10806'
+bash: line 0: kill: (10806) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10876'
+bash: line 0: kill: (10876) - No such process
+[?1h= ssh hec-59 -n  'kill -9 10951'
+bash: line 0: kill: (10951) - No such process
+[?1h= ssh hec-59 -n  'kill -9 11035'
+bash: line 0: kill: (11035) - No such process
+[?1h= ssh hec-60 -n  'kill -9 27998'
+bash: line 0: kill: (27998) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28041'
+bash: line 0: kill: (28041) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28084'
+bash: line 0: kill: (28084) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28166'
+bash: line 0: kill: (28166) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28245'
+bash: line 0: kill: (28245) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28310'
+bash: line 0: kill: (28310) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28388'
+bash: line 0: kill: (28388) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24713'
+bash: line 0: kill: (24713) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24756'
+bash: line 0: kill: (24756) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24820'
+bash: line 0: kill: (24820) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24888'
+bash: line 0: kill: (24888) - No such process
+[?1h= ssh hec-62 -n  'kill -9 24950'
+bash: line 0: kill: (24950) - No such process
+[?1h= ssh hec-62 -n  'kill -9 25030'
+bash: line 0: kill: (25030) - No such process
+[?1h= ssh hec-62 -n  'kill -9 25081'
+bash: line 0: kill: (25081) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=****************** Now Running Row_mv.m ***********************
+I am just waiting!
+Iteration 3 Row_mv takes: 174.8574
+Result of v = Aq 3 is saved in table 65536lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(3)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting parallel_dotproduct_p1 on 50 processor(s).
+ ssh hec-53 -n  'kill -9 18823'
+bash: line 0: kill: (18823) - No such process
+[?1h= ssh hec-53 -n  'kill -9 18866'
+bash: line 0: kill: (18866) - No such process
+[?1h= ssh hec-53 -n  'kill -9 18909'
+bash: line 0: kill: (18909) - No such process
+[?1h= ssh hec-53 -n  'kill -9 18990'
+bash: line 0: kill: (18990) - No such process
+[?1h= ssh hec-53 -n  'kill -9 19066'
+bash: line 0: kill: (19066) - No such process
+[?1h= ssh hec-53 -n  'kill -9 19146'
+bash: line 0: kill: (19146) - No such process
+[?1h= ssh hec-53 -n  'kill -9 19224'
+bash: line 0: kill: (19224) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5688'
+bash: line 0: kill: (5688) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5731'
+bash: line 0: kill: (5731) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5791'
+bash: line 0: kill: (5791) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5870'
+bash: line 0: kill: (5870) - No such process
+[?1h= ssh hec-55 -n  'kill -9 5937'
+bash: line 0: kill: (5937) - No such process
+[?1h= ssh hec-55 -n  'kill -9 6019'
+bash: line 0: kill: (6019) - No such process
+[?1h= ssh hec-55 -n  'kill -9 6088'
+bash: line 0: kill: (6088) - No such process
+[?1h= ssh hec-56 -n  'kill -9 21515'
+bash: line 0: kill: (21515) - No such process
+[?1h= ssh hec-56 -n  'kill -9 21558'
+bash: line 0: kill: (21558) - No such process
+[?1h= ssh hec-56 -n  'kill -9 21602'
+bash: line 0: kill: (21602) - No such process
+[?1h= ssh hec-56 -n  'kill -9 21682'
+bash: line 0: kill: (21682) - No such process
+[?1h= ssh hec-56 -n  'kill -9 21745'
+bash: line 0: kill: (21745) - No such process
+[?1h= ssh hec-56 -n  'kill -9 21812'
+bash: line 0: kill: (21812) - No such process
+[?1h= ssh hec-56 -n  'kill -9 21906'
+bash: line 0: kill: (21906) - No such process
+[?1h= ssh hec-58 -n  'kill -9 10933'
+bash: line 0: kill: (10933) - No such process
+[?1h= ssh hec-58 -n  'kill -9 10967'
+bash: line 0: kill: (10967) - No such process
+[?1h= ssh hec-58 -n  'kill -9 11026'
+bash: line 0: kill: (11026) - No such process
+[?1h= ssh hec-58 -n  'kill -9 11107'
+bash: line 0: kill: (11107) - No such process
+[?1h= ssh hec-58 -n  'kill -9 11166'
+bash: line 0: kill: (11166) - No such process
+[?1h= ssh hec-58 -n  'kill -9 11256'
+bash: line 0: kill: (11256) - No such process
+[?1h= ssh hec-58 -n  'kill -9 11329'
+bash: line 0: kill: (11329) - No such process
+[?1h= ssh hec-59 -n  'kill -9 11355'
+bash: line 0: kill: (11355) - No such process
+[?1h= ssh hec-59 -n  'kill -9 11398'
+bash: line 0: kill: (11398) - No such process
+[?1h= ssh hec-59 -n  'kill -9 11442'
+bash: line 0: kill: (11442) - No such process
+[?1h= ssh hec-59 -n  'kill -9 11523'
+bash: line 0: kill: (11523) - No such process
+[?1h= ssh hec-59 -n  'kill -9 11596'
+bash: line 0: kill: (11596) - No such process
+[?1h= ssh hec-59 -n  'kill -9 11674'
+bash: line 0: kill: (11674) - No such process
+[?1h= ssh hec-59 -n  'kill -9 11732'
+bash: line 0: kill: (11732) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28657'
+bash: line 0: kill: (28657) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28700'
+bash: line 0: kill: (28700) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28745'
+bash: line 0: kill: (28745) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28813'
+bash: line 0: kill: (28813) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28894'
+bash: line 0: kill: (28894) - No such process
+[?1h= ssh hec-60 -n  'kill -9 28954'
+bash: line 0: kill: (28954) - No such process
+[?1h= ssh hec-60 -n  'kill -9 29032'
+bash: line 0: kill: (29032) - No such process
+[?1h= ssh hec-62 -n  'kill -9 25415'
+bash: line 0: kill: (25415) - No such process
+[?1h= ssh hec-62 -n  'kill -9 25468'
+bash: line 0: kill: (25468) - No such process
+[?1h= ssh hec-62 -n  'kill -9 25511'
+bash: line 0: kill: (25511) - No such process
+[?1h= ssh hec-62 -n  'kill -9 25578'
+bash: line 0: kill: (25578) - No such process
+[?1h= ssh hec-62 -n  'kill -9 25663'
+bash: line 0: kill: (25663) - No such process
+[?1h= ssh hec-62 -n  'kill -9 25737'
+bash: line 0: kill: (25737) - No such process
+[?1h= ssh hec-62 -n  'kill -9 25797'
+bash: line 0: kill: (25797) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=I am just waiting
+Iteration 3 Calculating alpha takes: 83.7216
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.158
+Result of alpha[3] =-237.9242 is saved.
+[?1h=Submitting onetime_saxv on 50 processor(s).
+ ssh hec-53 -n  'kill -9 4091'
+bash: line 0: kill: (4091) - No such process
+[?1h= ssh hec-53 -n  'kill -9 4135'
+bash: line 0: kill: (4135) - No such process
+[?1h= ssh hec-53 -n  'kill -9 4195'
+bash: line 0: kill: (4195) - No such process
+[?1h= ssh hec-53 -n  'kill -9 4257'
+bash: line 0: kill: (4257) - No such process
+[?1h= ssh hec-53 -n  'kill -9 4316'
+bash: line 0: kill: (4316) - No such process
+[?1h= ssh hec-53 -n  'kill -9 4410'
+bash: line 0: kill: (4410) - No such process
+[?1h= ssh hec-53 -n  'kill -9 4538'
+bash: line 0: kill: (4538) - No such process
+[?1h= ssh hec-55 -n  'kill -9 25730'
+bash: line 0: kill: (25730) - No such process
+[?1h= ssh hec-55 -n  'kill -9 25773'
+bash: line 0: kill: (25773) - No such process
+[?1h= ssh hec-55 -n  'kill -9 25824'
+bash: line 0: kill: (25824) - No such process
+[?1h= ssh hec-55 -n  'kill -9 25890'
+bash: line 0: kill: (25890) - No such process
+[?1h= ssh hec-55 -n  'kill -9 25982'
+bash: line 0: kill: (25982) - No such process
+[?1h= ssh hec-55 -n  'kill -9 26037'
+bash: line 0: kill: (26037) - No such process
+[?1h= ssh hec-55 -n  'kill -9 26110'
+bash: line 0: kill: (26110) - No such process
+[?1h= ssh hec-56 -n  'kill -9 9351'
+bash: line 0: kill: (9351) - No such process
+[?1h= ssh hec-56 -n  'kill -9 9394'
+bash: line 0: kill: (9394) - No such process
+[?1h= ssh hec-56 -n  'kill -9 9440'
+bash: line 0: kill: (9440) - No such process
+[?1h= ssh hec-56 -n  'kill -9 9525'
+bash: line 0: kill: (9525) - No such process
+[?1h= ssh hec-56 -n  'kill -9 9601'
+bash: line 0: kill: (9601) - No such process
+[?1h= ssh hec-56 -n  'kill -9 9667'
+bash: line 0: kill: (9667) - No such process
+[?1h= ssh hec-56 -n  'kill -9 9740'
+bash: line 0: kill: (9740) - No such process
+[?1h= ssh hec-58 -n  'kill -9 29813'
+bash: line 0: kill: (29813) - No such process
+[?1h= ssh hec-58 -n  'kill -9 29859'
+bash: line 0: kill: (29859) - No such process
+[?1h= ssh hec-58 -n  'kill -9 29903'
+bash: line 0: kill: (29903) - No such process
+[?1h= ssh hec-58 -n  'kill -9 29976'
+bash: line 0: kill: (29976) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30050'
+bash: line 0: kill: (30050) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30116'
+bash: line 0: kill: (30116) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30192'
+bash: line 0: kill: (30192) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31022'
+bash: line 0: kill: (31022) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31065'
+bash: line 0: kill: (31065) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31108'
+bash: line 0: kill: (31108) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31189'
+bash: line 0: kill: (31189) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31268'
+bash: line 0: kill: (31268) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31335'
+bash: line 0: kill: (31335) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31391'
+bash: line 0: kill: (31391) - No such process
+[?1h= ssh hec-60 -n  'kill -9 14441'
+bash: line 0: kill: (14441) - No such process
+[?1h= ssh hec-60 -n  'kill -9 14484'
+bash: line 0: kill: (14484) - No such process
+[?1h= ssh hec-60 -n  'kill -9 14540'
+bash: line 0: kill: (14540) - No such process
+[?1h= ssh hec-60 -n  'kill -9 14606'
+bash: line 0: kill: (14606) - No such process
+[?1h= ssh hec-60 -n  'kill -9 14653'
+bash: line 0: kill: (14653) - No such process
+[?1h= ssh hec-60 -n  'kill -9 14737'
+bash: line 0: kill: (14737) - No such process
+[?1h= ssh hec-60 -n  'kill -9 14831'
+bash: line 0: kill: (14831) - No such process
+[?1h= ssh hec-62 -n  'kill -9 10015'
+bash: line 0: kill: (10015) - No such process
+[?1h= ssh hec-62 -n  'kill -9 9630'
+bash: line 0: kill: (9630) - No such process
+[?1h= ssh hec-62 -n  'kill -9 9686'
+bash: line 0: kill: (9686) - No such process
+[?1h= ssh hec-62 -n  'kill -9 9729'
+bash: line 0: kill: (9729) - No such process
+[?1h= ssh hec-62 -n  'kill -9 9810'
+bash: line 0: kill: (9810) - No such process
+[?1h= ssh hec-62 -n  'kill -9 9882'
+bash: line 0: kill: (9882) - No such process
+[?1h= ssh hec-62 -n  'kill -9 9959'
+bash: line 0: kill: (9959) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=**************In onetime_saxv****************
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 1337
+I am just waiting
+Iteration 3 onetime_saxv: 78.1333
+v is saved in 65536lz_vpath table
+Computing beta[3]...
+Creating lz_norm_v65536_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting parallel_lz_norm_v_p1 on 50 processor(s).
+ ssh hec-53 -n  'kill -9 5127'
+bash: line 0: kill: (5127) - No such process
+[?1h= ssh hec-53 -n  'kill -9 5194'
+bash: line 0: kill: (5194) - No such process
+[?1h= ssh hec-53 -n  'kill -9 5251'
+bash: line 0: kill: (5251) - No such process
+[?1h= ssh hec-53 -n  'kill -9 5313'
+bash: line 0: kill: (5313) - No such process
+[?1h= ssh hec-53 -n  'kill -9 5395'
+bash: line 0: kill: (5395) - No such process
+[?1h= ssh hec-53 -n  'kill -9 5469'
+bash: line 0: kill: (5469) - No such process
+[?1h= ssh hec-53 -n  'kill -9 5568'
+bash: line 0: kill: (5568) - No such process
+[?1h= ssh hec-55 -n  'kill -9 26458'
+bash: line 0: kill: (26458) - No such process
+[?1h= ssh hec-55 -n  'kill -9 26484'
+bash: line 0: kill: (26484) - No such process
+[?1h= ssh hec-55 -n  'kill -9 26547'
+bash: line 0: kill: (26547) - No such process
+[?1h= ssh hec-55 -n  'kill -9 26606'
+bash: line 0: kill: (26606) - No such process
+[?1h= ssh hec-55 -n  'kill -9 26677'
+bash: line 0: kill: (26677) - No such process
+[?1h= ssh hec-55 -n  'kill -9 26757'
+bash: line 0: kill: (26757) - No such process
+[?1h= ssh hec-55 -n  'kill -9 26844'
+bash: line 0: kill: (26844) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10099'
+bash: line 0: kill: (10099) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10142'
+bash: line 0: kill: (10142) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10185'
+bash: line 0: kill: (10185) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10256'
+bash: line 0: kill: (10256) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10336'
+bash: line 0: kill: (10336) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10412'
+bash: line 0: kill: (10412) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10485'
+bash: line 0: kill: (10485) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30595'
+bash: line 0: kill: (30595) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30638'
+bash: line 0: kill: (30638) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30686'
+bash: line 0: kill: (30686) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30747'
+bash: line 0: kill: (30747) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30818'
+bash: line 0: kill: (30818) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30884'
+bash: line 0: kill: (30884) - No such process
+[?1h= ssh hec-58 -n  'kill -9 30974'
+bash: line 0: kill: (30974) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31740'
+bash: line 0: kill: (31740) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31783'
+bash: line 0: kill: (31783) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31826'
+bash: line 0: kill: (31826) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31908'
+bash: line 0: kill: (31908) - No such process
+[?1h= ssh hec-59 -n  'kill -9 31957'
+bash: line 0: kill: (31957) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32040'
+bash: line 0: kill: (32040) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32123'
+bash: line 0: kill: (32123) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15076'
+bash: line 0: kill: (15076) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15119'
+bash: line 0: kill: (15119) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15162'
+bash: line 0: kill: (15162) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15227'
+bash: line 0: kill: (15227) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15291'
+bash: line 0: kill: (15291) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15365'
+bash: line 0: kill: (15365) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15449'
+bash: line 0: kill: (15449) - No such process
+[?1h= ssh hec-62 -n  'kill -9 10323'
+bash: line 0: kill: (10323) - No such process
+[?1h= ssh hec-62 -n  'kill -9 10366'
+bash: line 0: kill: (10366) - No such process
+[?1h= ssh hec-62 -n  'kill -9 10430'
+bash: line 0: kill: (10430) - No such process
+[?1h= ssh hec-62 -n  'kill -9 10497'
+bash: line 0: kill: (10497) - No such process
+[?1h= ssh hec-62 -n  'kill -9 10563'
+bash: line 0: kill: (10563) - No such process
+[?1h= ssh hec-62 -n  'kill -9 10624'
+bash: line 0: kill: (10624) - No such process
+[?1h= ssh hec-62 -n  'kill -9 10690'
+bash: line 0: kill: (10690) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 50 elemetns!
+(1,1)     27365.493554987471725
+(10,1)     1485.508291612592075
+(11,1)     903.754986925994672
+(12,1)     647.677710200321371
+(13,1)     3829.265991016175576
+(14,1)     1808.129889855956662
+(15,1)     1048.338894896235388
+(16,1)     1338.582355070753465
+(17,1)     880.003556471481261
+(18,1)     698.837455511495136
+(19,1)     1471.613836756172077
+(2,1)     4254.498895502204505
+(20,1)     900.753049441183180
+(21,1)     688.901839328227993
+(22,1)     985.104976369407609
+(23,1)     844.824465860406804
+(24,1)     774.396198790521566
+(25,1)     4106.738645898580216
+(26,1)     1572.093681068366777
+(27,1)     1519.475771616195971
+(28,1)     1348.193565196636428
+(29,1)     842.573799795473064
+(3,1)     1656.715524115616745
+(30,1)     851.578914330995190
+(31,1)     1402.186765476779556
+(32,1)     968.920533997078223
+(33,1)     814.666779533137742
+(34,1)     925.047725832516790
+(35,1)     603.645924632126821
+(36,1)     986.322124526097241
+(37,1)     1702.618676105611712
+(38,1)     1001.117455835944384
+(39,1)     746.511353433967088
+(4,1)     4176.997210230612836
+(40,1)     903.898778540873195
+(41,1)     685.770706800879793
+(42,1)     799.732578317482989
+(43,1)     1449.058690823367215
+(44,1)     683.657353965595462
+(45,1)     815.824560987771406
+(46,1)     1443.373356382489192
+(47,1)     817.856380616172373
+(48,1)     1471.362817537744149
+(49,1)     2449.247546199899261
+(5,1)     1558.960659612558629
+(6,1)     874.647626520500012
+(7,1)     4059.942569076702966
+(8,1)     1563.242759139382770
+(9,1)     931.086769906076711
+INGEST time (sec) = 0.049
+Iteration 3 beta takes: 78.8311
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v65536_tempDB.user: rootDB.type: Accumulo
+beta[3] = 309.2875
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+03 *
+
+    0.2171    0.8268         0
+    0.8268    1.5983    0.8921
+         0    0.8921   -0.2379
+
+NumOfMachines in SO: 8Starting so, iterations # is 3 beta_it value is: 309.2875
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/3 th vector:249.2535compare to 3.3454e-05
+Error of2/3 th vector:155.0692compare to 3.3454e-05
+Error of3/3 th vector:97.3909compare to 3.3454e-05
+Iteration 3 SO takes: 0.12398
+Number of orthongalization: 0
+Computing q4...
+[?1h=Submitting parallel_update_q on 50 processor(s).
+ ssh hec-53 -n  'kill -9 5999'
+bash: line 0: kill: (5999) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6018'
+bash: line 0: kill: (6018) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6071'
+bash: line 0: kill: (6071) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6151'
+bash: line 0: kill: (6151) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6239'
+bash: line 0: kill: (6239) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6320'
+bash: line 0: kill: (6320) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6392'
+bash: line 0: kill: (6392) - No such process
+[?1h= ssh hec-55 -n  'kill -9 27218'
+bash: line 0: kill: (27218) - No such process
+[?1h= ssh hec-55 -n  'kill -9 27261'
+bash: line 0: kill: (27261) - No such process
+[?1h= ssh hec-55 -n  'kill -9 27318'
+bash: line 0: kill: (27318) - No such process
+[?1h= ssh hec-55 -n  'kill -9 27387'
+bash: line 0: kill: (27387) - No such process
+[?1h= ssh hec-55 -n  'kill -9 27459'
+bash: line 0: kill: (27459) - No such process
+[?1h= ssh hec-55 -n  'kill -9 27562'
+bash: line 0: kill: (27562) - No such process
+[?1h= ssh hec-55 -n  'kill -9 27619'
+bash: line 0: kill: (27619) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10898'
+bash: line 0: kill: (10898) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10940'
+bash: line 0: kill: (10940) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10985'
+bash: line 0: kill: (10985) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11067'
+bash: line 0: kill: (11067) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11144'
+bash: line 0: kill: (11144) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11219'
+bash: line 0: kill: (11219) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11299'
+bash: line 0: kill: (11299) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31401'
+bash: line 0: kill: (31401) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31451'
+bash: line 0: kill: (31451) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31500'
+bash: line 0: kill: (31500) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31566'
+bash: line 0: kill: (31566) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31649'
+bash: line 0: kill: (31649) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31735'
+bash: line 0: kill: (31735) - No such process
+[?1h= ssh hec-58 -n  'kill -9 31792'
+bash: line 0: kill: (31792) - No such process
+[?1h= ssh hec-59 -n  'kill -9 310'
+bash: line 0: kill: (310) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32537'
+bash: line 0: kill: (32537) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32565'
+bash: line 0: kill: (32565) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32623'
+bash: line 0: kill: (32623) - No such process
+[?1h= ssh hec-59 -n  'kill -9 32690'
+bash: line 0: kill: (32690) - No such process
+[?1h= ssh hec-59 -n  'kill -9 396'
+bash: line 0: kill: (396) - No such process
+[?1h= ssh hec-59 -n  'kill -9 467'
+bash: line 0: kill: (467) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15743'
+bash: line 0: kill: (15743) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15786'
+bash: line 0: kill: (15786) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15831'
+bash: line 0: kill: (15831) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15896'
+bash: line 0: kill: (15896) - No such process
+[?1h= ssh hec-60 -n  'kill -9 15990'
+bash: line 0: kill: (15990) - No such process
+[?1h= ssh hec-60 -n  'kill -9 16068'
+bash: line 0: kill: (16068) - No such process
+[?1h= ssh hec-60 -n  'kill -9 16140'
+bash: line 0: kill: (16140) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11055'
+bash: line 0: kill: (11055) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11100'
+bash: line 0: kill: (11100) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11160'
+bash: line 0: kill: (11160) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11230'
+bash: line 0: kill: (11230) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11303'
+bash: line 0: kill: (11303) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11382'
+bash: line 0: kill: (11382) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11432'
+bash: line 0: kill: (11432) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=I am just waiting
+Iteration 3 Update Q takes: 88.603
+q_{4} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+03 *
+
+    0.2171    0.8268         0
+    0.8268    1.5983    0.8921
+         0    0.8921   -0.2379
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   1.0e+03 *
+
+   -0.7321
+    0.0562
+    2.2534
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.013
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+03 *
+
+    0.2171    0.8268         0
+    0.8268    1.5983    0.8921
+         0    0.8921   -0.2379
+
+INGEST time (sec) = 0.012
+Iteration: 3: 507.1067s
+**************myEigen iterations***********************
+computing v=Aq 4 ...
+INGEST time (sec) = 0.055
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting Row_mv on 50 processor(s).
+ ssh hec-53 -n  'kill -9 6764'
+bash: line 0: kill: (6764) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6779'
+bash: line 0: kill: (6779) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6813'
+bash: line 0: kill: (6813) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6852'
+bash: line 0: kill: (6852) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6884'
+bash: line 0: kill: (6884) - No such process
+[?1h= ssh hec-53 -n  'kill -9 6997'
+bash: line 0: kill: (6997) - No such process
+[?1h= ssh hec-53 -n  'kill -9 7115'
+bash: line 0: kill: (7115) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28057'
+bash: line 0: kill: (28057) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28113'
+bash: line 0: kill: (28113) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28210'
+bash: line 0: kill: (28210) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28233'
+bash: line 0: kill: (28233) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28327'
+bash: line 0: kill: (28327) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28394'
+bash: line 0: kill: (28394) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28483'
+bash: line 0: kill: (28483) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11612'
+bash: line 0: kill: (11612) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11641'
+bash: line 0: kill: (11641) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11670'
+bash: line 0: kill: (11670) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11695'
+bash: line 0: kill: (11695) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11784'
+bash: line 0: kill: (11784) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11845'
+bash: line 0: kill: (11845) - No such process
+[?1h= ssh hec-56 -n  'kill -9 11891'
+bash: line 0: kill: (11891) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32174'
+bash: line 0: kill: (32174) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32187'
+bash: line 0: kill: (32187) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32246'
+bash: line 0: kill: (32246) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32275'
+bash: line 0: kill: (32275) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32396'
+bash: line 0: kill: (32396) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32457'
+bash: line 0: kill: (32457) - No such process
+[?1h= ssh hec-58 -n  'kill -9 32546'
+bash: line 0: kill: (32546) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1007'
+bash: line 0: kill: (1007) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1049'
+bash: line 0: kill: (1049) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1114'
+bash: line 0: kill: (1114) - No such process
+[?1h= ssh hec-59 -n  'kill -9 790'
+bash: line 0: kill: (790) - No such process
+[?1h= ssh hec-59 -n  'kill -9 802'
+bash: line 0: kill: (802) - No such process
+[?1h= ssh hec-59 -n  'kill -9 842'
+bash: line 0: kill: (842) - No such process
+[?1h= ssh hec-59 -n  'kill -9 897'
+bash: line 0: kill: (897) - No such process
+[?1h= ssh hec-60 -n  'kill -9 16368'
+bash: line 0: kill: (16368) - No such process
+[?1h= ssh hec-60 -n  'kill -9 16386'
+bash: line 0: kill: (16386) - No such process
+[?1h= ssh hec-60 -n  'kill -9 16430'
+bash: line 0: kill: (16430) - No such process
+[?1h= ssh hec-60 -n  'kill -9 16499'
+bash: line 0: kill: (16499) - No such process
+[?1h= ssh hec-60 -n  'kill -9 16559'
+bash: line 0: kill: (16559) - No such process
+[?1h= ssh hec-60 -n  'kill -9 16615'
+bash: line 0: kill: (16615) - No such process
+[?1h= ssh hec-60 -n  'kill -9 16727'
+bash: line 0: kill: (16727) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11719'
+bash: line 0: kill: (11719) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11738'
+bash: line 0: kill: (11738) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11773'
+bash: line 0: kill: (11773) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11848'
+bash: line 0: kill: (11848) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11887'
+bash: line 0: kill: (11887) - No such process
+[?1h= ssh hec-62 -n  'kill -9 11982'
+bash: line 0: kill: (11982) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12085'
+bash: line 0: kill: (12085) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=****************** Now Running Row_mv.m ***********************
+I am just waiting!
+Iteration 4 Row_mv takes: 200.7413
+Result of v = Aq 4 is saved in table 65536lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(4)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting parallel_dotproduct_p1 on 50 processor(s).
+ ssh hec-53 -n  'kill -9 7562'
+bash: line 0: kill: (7562) - No such process
+[?1h= ssh hec-53 -n  'kill -9 7574'
+bash: line 0: kill: (7574) - No such process
+[?1h= ssh hec-53 -n  'kill -9 7590'
+bash: line 0: kill: (7590) - No such process
+[?1h= ssh hec-53 -n  'kill -9 7613'
+bash: line 0: kill: (7613) - No such process
+[?1h= ssh hec-53 -n  'kill -9 7637'
+bash: line 0: kill: (7637) - No such process
+[?1h= ssh hec-53 -n  'kill -9 7684'
+bash: line 0: kill: (7684) - No such process
+[?1h= ssh hec-53 -n  'kill -9 7719'
+bash: line 0: kill: (7719) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28878'
+bash: line 0: kill: (28878) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28890'
+bash: line 0: kill: (28890) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28912'
+bash: line 0: kill: (28912) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28947'
+bash: line 0: kill: (28947) - No such process
+[?1h= ssh hec-55 -n  'kill -9 28987'
+bash: line 0: kill: (28987) - No such process
+[?1h= ssh hec-55 -n  'kill -9 29026'
+bash: line 0: kill: (29026) - No such process
+[?1h= ssh hec-55 -n  'kill -9 29193'
+bash: line 0: kill: (29193) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12341'
+bash: line 0: kill: (12341) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12350'
+bash: line 0: kill: (12350) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12373'
+bash: line 0: kill: (12373) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12408'
+bash: line 0: kill: (12408) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12458'
+bash: line 0: kill: (12458) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12583'
+bash: line 0: kill: (12583) - No such process
+[?1h= ssh hec-56 -n  'kill -9 12679'
+bash: line 0: kill: (12679) - No such process
+[?1h= ssh hec-58 -n  'kill -9 487'
+bash: line 0: kill: (487) - No such process
+[?1h= ssh hec-58 -n  'kill -9 497'
+bash: line 0: kill: (497) - No such process
+[?1h= ssh hec-58 -n  'kill -9 509'
+bash: line 0: kill: (509) - No such process
+[?1h= ssh hec-58 -n  'kill -9 537'
+bash: line 0: kill: (537) - No such process
+[?1h= ssh hec-58 -n  'kill -9 585'
+bash: line 0: kill: (585) - No such process
+[?1h= ssh hec-58 -n  'kill -9 636'
+bash: line 0: kill: (636) - No such process
+[?1h= ssh hec-58 -n  'kill -9 729'
+bash: line 0: kill: (729) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1538'
+bash: line 0: kill: (1538) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1548'
+bash: line 0: kill: (1548) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1564'
+bash: line 0: kill: (1564) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1604'
+bash: line 0: kill: (1604) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1663'
+bash: line 0: kill: (1663) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1789'
+bash: line 0: kill: (1789) - No such process
+[?1h= ssh hec-59 -n  'kill -9 1907'
+bash: line 0: kill: (1907) - No such process
+[?1h= ssh hec-60 -n  'kill -9 17007'
+bash: line 0: kill: (17007) - No such process
+[?1h= ssh hec-60 -n  'kill -9 17019'
+bash: line 0: kill: (17019) - No such process
+[?1h= ssh hec-60 -n  'kill -9 17035'
+bash: line 0: kill: (17035) - No such process
+[?1h= ssh hec-60 -n  'kill -9 17057'
+bash: line 0: kill: (17057) - No such process
+[?1h= ssh hec-60 -n  'kill -9 17102'
+bash: line 0: kill: (17102) - No such process
+[?1h= ssh hec-60 -n  'kill -9 17131'
+bash: line 0: kill: (17131) - No such process
+[?1h= ssh hec-60 -n  'kill -9 17287'
+bash: line 0: kill: (17287) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12385'
+bash: line 0: kill: (12385) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12397'
+bash: line 0: kill: (12397) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12425'
+bash: line 0: kill: (12425) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12469'
+bash: line 0: kill: (12469) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12503'
+bash: line 0: kill: (12503) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12533'
+bash: line 0: kill: (12533) - No such process
+[?1h= ssh hec-62 -n  'kill -9 12689'
+bash: line 0: kill: (12689) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=I am just waiting
+Iteration 4 Calculating alpha takes: 89.9406
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.148
+Result of alpha[4] =174.3276 is saved.
+[?1h=Submitting onetime_saxv on 50 processor(s).
+ ssh hec-53 -n  'kill -9 25073'
+bash: line 0: kill: (25073) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25088'
+bash: line 0: kill: (25088) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25128'
+bash: line 0: kill: (25128) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25160'
+bash: line 0: kill: (25160) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25204'
+bash: line 0: kill: (25204) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25336'
+bash: line 0: kill: (25336) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25445'
+bash: line 0: kill: (25445) - No such process
+[?1h= ssh hec-55 -n  'kill -9 16577'
+bash: line 0: kill: (16577) - No such process
+[?1h= ssh hec-55 -n  'kill -9 16587'
+bash: line 0: kill: (16587) - No such process
+[?1h= ssh hec-55 -n  'kill -9 16609'
+bash: line 0: kill: (16609) - No such process
+[?1h= ssh hec-55 -n  'kill -9 16635'
+bash: line 0: kill: (16635) - No such process
+[?1h= ssh hec-55 -n  'kill -9 16729'
+bash: line 0: kill: (16729) - No such process
+[?1h= ssh hec-55 -n  'kill -9 16856'
+bash: line 0: kill: (16856) - No such process
+[?1h= ssh hec-55 -n  'kill -9 16897'
+bash: line 0: kill: (16897) - No such process
+[?1h= ssh hec-56 -n  'kill -9 330'
+bash: line 0: kill: (330) - No such process
+[?1h= ssh hec-56 -n  'kill -9 341'
+bash: line 0: kill: (341) - No such process
+[?1h= ssh hec-56 -n  'kill -9 360'
+bash: line 0: kill: (360) - No such process
+[?1h= ssh hec-56 -n  'kill -9 391'
+bash: line 0: kill: (391) - No such process
+[?1h= ssh hec-56 -n  'kill -9 432'
+bash: line 0: kill: (432) - No such process
+[?1h= ssh hec-56 -n  'kill -9 480'
+bash: line 0: kill: (480) - No such process
+[?1h= ssh hec-56 -n  'kill -9 641'
+bash: line 0: kill: (641) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19234'
+bash: line 0: kill: (19234) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19247'
+bash: line 0: kill: (19247) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19265'
+bash: line 0: kill: (19265) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19294'
+bash: line 0: kill: (19294) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19320'
+bash: line 0: kill: (19320) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19358'
+bash: line 0: kill: (19358) - No such process
+[?1h= ssh hec-58 -n  'kill -9 19402'
+bash: line 0: kill: (19402) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21300'
+bash: line 0: kill: (21300) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21312'
+bash: line 0: kill: (21312) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21331'
+bash: line 0: kill: (21331) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21356'
+bash: line 0: kill: (21356) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21404'
+bash: line 0: kill: (21404) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21470'
+bash: line 0: kill: (21470) - No such process
+[?1h= ssh hec-59 -n  'kill -9 21493'
+bash: line 0: kill: (21493) - No such process
+[?1h= ssh hec-60 -n  'kill -9 2988'
+bash: line 0: kill: (2988) - No such process
+[?1h= ssh hec-60 -n  'kill -9 2998'
+bash: line 0: kill: (2998) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3013'
+bash: line 0: kill: (3013) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3044'
+bash: line 0: kill: (3044) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3067'
+bash: line 0: kill: (3067) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3108'
+bash: line 0: kill: (3108) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3182'
+bash: line 0: kill: (3182) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29209'
+bash: line 0: kill: (29209) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29221'
+bash: line 0: kill: (29221) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29234'
+bash: line 0: kill: (29234) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29262'
+bash: line 0: kill: (29262) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29280'
+bash: line 0: kill: (29280) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29375'
+bash: line 0: kill: (29375) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29484'
+bash: line 0: kill: (29484) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=**************In onetime_saxv****************
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 1337
+I am just waiting
+Iteration 4 onetime_saxv: 111.0863
+v is saved in 65536lz_vpath table
+Computing beta[4]...
+Creating lz_norm_v65536_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting parallel_lz_norm_v_p1 on 50 processor(s).
+ ssh hec-53 -n  'kill -9 25860'
+bash: line 0: kill: (25860) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25872'
+bash: line 0: kill: (25872) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25895'
+bash: line 0: kill: (25895) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25954'
+bash: line 0: kill: (25954) - No such process
+[?1h= ssh hec-53 -n  'kill -9 25985'
+bash: line 0: kill: (25985) - No such process
+[?1h= ssh hec-53 -n  'kill -9 26038'
+bash: line 0: kill: (26038) - No such process
+[?1h= ssh hec-53 -n  'kill -9 26156'
+bash: line 0: kill: (26156) - No such process
+[?1h= ssh hec-55 -n  'kill -9 17308'
+bash: line 0: kill: (17308) - No such process
+[?1h= ssh hec-55 -n  'kill -9 17321'
+bash: line 0: kill: (17321) - No such process
+[?1h= ssh hec-55 -n  'kill -9 17354'
+bash: line 0: kill: (17354) - No such process
+[?1h= ssh hec-55 -n  'kill -9 17379'
+bash: line 0: kill: (17379) - No such process
+[?1h= ssh hec-55 -n  'kill -9 17407'
+bash: line 0: kill: (17407) - No such process
+[?1h= ssh hec-55 -n  'kill -9 17441'
+bash: line 0: kill: (17441) - No such process
+[?1h= ssh hec-55 -n  'kill -9 17500'
+bash: line 0: kill: (17500) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1092'
+bash: line 0: kill: (1092) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1106'
+bash: line 0: kill: (1106) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1132'
+bash: line 0: kill: (1132) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1159'
+bash: line 0: kill: (1159) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1191'
+bash: line 0: kill: (1191) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1269'
+bash: line 0: kill: (1269) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1360'
+bash: line 0: kill: (1360) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20030'
+bash: line 0: kill: (20030) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20043'
+bash: line 0: kill: (20043) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20060'
+bash: line 0: kill: (20060) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20092'
+bash: line 0: kill: (20092) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20137'
+bash: line 0: kill: (20137) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20178'
+bash: line 0: kill: (20178) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20240'
+bash: line 0: kill: (20240) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22032'
+bash: line 0: kill: (22032) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22046'
+bash: line 0: kill: (22046) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22077'
+bash: line 0: kill: (22077) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22103'
+bash: line 0: kill: (22103) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22133'
+bash: line 0: kill: (22133) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22173'
+bash: line 0: kill: (22173) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22340'
+bash: line 0: kill: (22340) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3671'
+bash: line 0: kill: (3671) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3686'
+bash: line 0: kill: (3686) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3705'
+bash: line 0: kill: (3705) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3736'
+bash: line 0: kill: (3736) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3770'
+bash: line 0: kill: (3770) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3806'
+bash: line 0: kill: (3806) - No such process
+[?1h= ssh hec-60 -n  'kill -9 3866'
+bash: line 0: kill: (3866) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29882'
+bash: line 0: kill: (29882) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29892'
+bash: line 0: kill: (29892) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29907'
+bash: line 0: kill: (29907) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29925'
+bash: line 0: kill: (29925) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29958'
+bash: line 0: kill: (29958) - No such process
+[?1h= ssh hec-62 -n  'kill -9 29995'
+bash: line 0: kill: (29995) - No such process
+[?1h= ssh hec-62 -n  'kill -9 30034'
+bash: line 0: kill: (30034) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 50 elemetns!
+(1,1)     13175.697175097362560
+(10,1)     871.956132801018612
+(11,1)     389.544255593366074
+(12,1)     216.214091713007292
+(13,1)     2773.368212586209665
+(14,1)     1302.279022583770256
+(15,1)     509.833910200219236
+(16,1)     849.698671174063179
+(17,1)     416.216236217042308
+(18,1)     243.149152754262388
+(19,1)     785.645892184406534
+(2,1)     3281.103292760242766
+(20,1)     410.487162209422081
+(21,1)     266.565692267355928
+(22,1)     298.140992358446738
+(23,1)     182.067631298575691
+(24,1)     165.223314514332344
+(25,1)     2528.230304693617654
+(26,1)     999.388588596568752
+(27,1)     917.902979680146814
+(28,1)     822.576416114531298
+(29,1)     390.461483423904156
+(3,1)     1002.668082881501959
+(30,1)     337.534711393955320
+(31,1)     694.247997658007080
+(32,1)     457.460276829842542
+(33,1)     328.291758026513492
+(34,1)     293.102793949691147
+(35,1)     218.630366251778980
+(36,1)     149.647466202694488
+(37,1)     631.402992923277679
+(38,1)     482.956594158304938
+(39,1)     327.829468831843428
+(4,1)     3147.916522188928866
+(40,1)     266.331766982778220
+(41,1)     250.202910032173747
+(42,1)     164.740874522814011
+(43,1)     191.282356020003334
+(44,1)     268.748746941035392
+(45,1)     163.916625514620506
+(46,1)     122.387376805890696
+(47,1)     146.623003730080285
+(48,1)     95.420875180763829
+(49,1)     71.254251628033671
+(5,1)     965.523709969954552
+(6,1)     405.111775549174467
+(7,1)     3147.411842154536771
+(8,1)     1006.021076801273125
+(9,1)     445.491990160860325
+INGEST time (sec) = 0.077
+Iteration 4 beta takes: 81.7468
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v65536_tempDB.user: rootDB.type: Accumulo
+beta[4] = 218.1236
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+03 *
+
+    0.2171    0.8268         0         0
+    0.8268    1.5983    0.8921         0
+         0    0.8921   -0.2379    0.3093
+         0         0    0.3093    0.1743
+
+NumOfMachines in SO: 8Starting so, iterations # is 4 beta_it value is: 218.1236
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/4 th vector:55.7783compare to 3.3523e-05
+Error of2/4 th vector:102.4371compare to 3.3523e-05
+Error of3/4 th vector:184.0283compare to 3.3523e-05
+Error of4/4 th vector:10.3406compare to 3.3523e-05
+Iteration 4 SO takes: 0.1224
+Number of orthongalization: 0
+Computing q5...
+[?1h=Submitting parallel_update_q on 50 processor(s).
+ ssh hec-53 -n  'kill -9 26721'
+bash: line 0: kill: (26721) - No such process
+[?1h= ssh hec-53 -n  'kill -9 26735'
+bash: line 0: kill: (26735) - No such process
+[?1h= ssh hec-53 -n  'kill -9 26751'
+bash: line 0: kill: (26751) - No such process
+[?1h= ssh hec-53 -n  'kill -9 26775'
+bash: line 0: kill: (26775) - No such process
+[?1h= ssh hec-53 -n  'kill -9 26811'
+bash: line 0: kill: (26811) - No such process
+[?1h= ssh hec-53 -n  'kill -9 26875'
+bash: line 0: kill: (26875) - No such process
+[?1h= ssh hec-53 -n  'kill -9 26948'
+bash: line 0: kill: (26948) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18102'
+bash: line 0: kill: (18102) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18112'
+bash: line 0: kill: (18112) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18136'
+bash: line 0: kill: (18136) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18201'
+bash: line 0: kill: (18201) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18244'
+bash: line 0: kill: (18244) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18287'
+bash: line 0: kill: (18287) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18336'
+bash: line 0: kill: (18336) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1948'
+bash: line 0: kill: (1948) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1966'
+bash: line 0: kill: (1966) - No such process
+[?1h= ssh hec-56 -n  'kill -9 1987'
+bash: line 0: kill: (1987) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2036'
+bash: line 0: kill: (2036) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2089'
+bash: line 0: kill: (2089) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2139'
+bash: line 0: kill: (2139) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2243'
+bash: line 0: kill: (2243) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20877'
+bash: line 0: kill: (20877) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20896'
+bash: line 0: kill: (20896) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20926'
+bash: line 0: kill: (20926) - No such process
+[?1h= ssh hec-58 -n  'kill -9 20960'
+bash: line 0: kill: (20960) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21000'
+bash: line 0: kill: (21000) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21053'
+bash: line 0: kill: (21053) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21115'
+bash: line 0: kill: (21115) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22815'
+bash: line 0: kill: (22815) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22827'
+bash: line 0: kill: (22827) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22841'
+bash: line 0: kill: (22841) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22866'
+bash: line 0: kill: (22866) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22900'
+bash: line 0: kill: (22900) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22954'
+bash: line 0: kill: (22954) - No such process
+[?1h= ssh hec-59 -n  'kill -9 23000'
+bash: line 0: kill: (23000) - No such process
+[?1h= ssh hec-60 -n  'kill -9 4363'
+bash: line 0: kill: (4363) - No such process
+[?1h= ssh hec-60 -n  'kill -9 4374'
+bash: line 0: kill: (4374) - No such process
+[?1h= ssh hec-60 -n  'kill -9 4389'
+bash: line 0: kill: (4389) - No such process
+[?1h= ssh hec-60 -n  'kill -9 4478'
+bash: line 0: kill: (4478) - No such process
+[?1h= ssh hec-60 -n  'kill -9 4555'
+bash: line 0: kill: (4555) - No such process
+[?1h= ssh hec-60 -n  'kill -9 4659'
+bash: line 0: kill: (4659) - No such process
+[?1h= ssh hec-60 -n  'kill -9 4702'
+bash: line 0: kill: (4702) - No such process
+[?1h= ssh hec-62 -n  'kill -9 30579'
+bash: line 0: kill: (30579) - No such process
+[?1h= ssh hec-62 -n  'kill -9 30589'
+bash: line 0: kill: (30589) - No such process
+[?1h= ssh hec-62 -n  'kill -9 30608'
+bash: line 0: kill: (30608) - No such process
+[?1h= ssh hec-62 -n  'kill -9 30636'
+bash: line 0: kill: (30636) - No such process
+[?1h= ssh hec-62 -n  'kill -9 30677'
+bash: line 0: kill: (30677) - No such process
+[?1h= ssh hec-62 -n  'kill -9 30724'
+bash: line 0: kill: (30724) - No such process
+[?1h= ssh hec-62 -n  'kill -9 30807'
+bash: line 0: kill: (30807) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=I am just waiting
+Iteration 4 Update Q takes: 111.3009
+q_{5} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+03 *
+
+    0.2171    0.8268         0         0
+    0.8268    1.5983    0.8921         0
+         0    0.8921   -0.2379    0.3093
+         0         0    0.3093    0.1743
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   1.0e+03 *
+
+   -0.7981
+   -0.0278
+    0.3197
+    2.2580
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.0090
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+03 *
+
+    0.2171    0.8268         0         0
+    0.8268    1.5983    0.8921         0
+         0    0.8921   -0.2379    0.3093
+         0         0    0.3093    0.1743
+
+INGEST time (sec) = 0.0090
+Iteration: 4: 597.9579s
+**************myEigen iterations***********************
+computing v=Aq 5 ...
+INGEST time (sec) = 0.044
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+[?1h=Submitting Row_mv on 50 processor(s).
+ ssh hec-53 -n  'kill -9 27521'
+bash: line 0: kill: (27521) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27539'
+bash: line 0: kill: (27539) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27550'
+bash: line 0: kill: (27550) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27572'
+bash: line 0: kill: (27572) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27591'
+bash: line 0: kill: (27591) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27618'
+bash: line 0: kill: (27618) - No such process
+[?1h= ssh hec-53 -n  'kill -9 27648'
+bash: line 0: kill: (27648) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18823'
+bash: line 0: kill: (18823) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18834'
+bash: line 0: kill: (18834) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18852'
+bash: line 0: kill: (18852) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18887'
+bash: line 0: kill: (18887) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18925'
+bash: line 0: kill: (18925) - No such process
+[?1h= ssh hec-55 -n  'kill -9 18940'
+bash: line 0: kill: (18940) - No such process
+[?1h= ssh hec-55 -n  'kill -9 19029'
+bash: line 0: kill: (19029) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2721'
+bash: line 0: kill: (2721) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2730'
+bash: line 0: kill: (2730) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2746'
+bash: line 0: kill: (2746) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2786'
+bash: line 0: kill: (2786) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2809'
+bash: line 0: kill: (2809) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2839'
+bash: line 0: kill: (2839) - No such process
+[?1h= ssh hec-56 -n  'kill -9 2896'
+bash: line 0: kill: (2896) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21660'
+bash: line 0: kill: (21660) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21670'
+bash: line 0: kill: (21670) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21684'
+bash: line 0: kill: (21684) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21702'
+bash: line 0: kill: (21702) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21731'
+bash: line 0: kill: (21731) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21762'
+bash: line 0: kill: (21762) - No such process
+[?1h= ssh hec-58 -n  'kill -9 21869'
+bash: line 0: kill: (21869) - No such process
+[?1h= ssh hec-59 -n  'kill -9 23552'
+bash: line 0: kill: (23552) - No such process
+[?1h= ssh hec-59 -n  'kill -9 23561'
+bash: line 0: kill: (23561) - No such process
+[?1h= ssh hec-59 -n  'kill -9 23578'
+bash: line 0: kill: (23578) - No such process
+[?1h= ssh hec-59 -n  'kill -9 23587'
+bash: line 0: kill: (23587) - No such process
+[?1h= ssh hec-59 -n  'kill -9 23626'
+bash: line 0: kill: (23626) - No such process
+[?1h= ssh hec-59 -n  'kill -9 23653'
+bash: line 0: kill: (23653) - No such process
+[?1h= ssh hec-59 -n  'kill -9 23701'
+bash: line 0: kill: (23701) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5011'
+bash: line 0: kill: (5011) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5022'
+bash: line 0: kill: (5022) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5034'
+bash: line 0: kill: (5034) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5049'
+bash: line 0: kill: (5049) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5066'
+bash: line 0: kill: (5066) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5093'
+bash: line 0: kill: (5093) - No such process
+[?1h= ssh hec-60 -n  'kill -9 5165'
+bash: line 0: kill: (5165) - No such process
+[?1h= ssh hec-62 -n  'kill -9 31247'
+bash: line 0: kill: (31247) - No such process
+[?1h= ssh hec-62 -n  'kill -9 31257'
+bash: line 0: kill: (31257) - No such process
+[?1h= ssh hec-62 -n  'kill -9 31270'
+bash: line 0: kill: (31270) - No such process
+[?1h= ssh hec-62 -n  'kill -9 31306'
+bash: line 0: kill: (31306) - No such process
+[?1h= ssh hec-62 -n  'kill -9 31345'
+bash: line 0: kill: (31345) - No such process
+[?1h= ssh hec-62 -n  'kill -9 31407'
+bash: line 0: kill: (31407) - No such process
+[?1h= ssh hec-62 -n  'kill -9 31521'
+bash: line 0: kill: (31521) - No such process
+[?1h=[?1h=[?1h=[?1h=Launching MPI rank: 49 on: hec-53
+[?1h=Launching MPI rank: 48 on: hec-53
+[?1h=Launching MPI rank: 47 on: hec-53
+[?1h=Launching MPI rank: 46 on: hec-53
+[?1h=Launching MPI rank: 45 on: hec-53
+[?1h=Launching MPI rank: 44 on: hec-53
+[?1h=Launching MPI rank: 43 on: hec-53
+[?1h=Launching MPI rank: 42 on: hec-55
+[?1h=Launching MPI rank: 41 on: hec-55
+[?1h=Launching MPI rank: 40 on: hec-55
+[?1h=Launching MPI rank: 39 on: hec-55
+[?1h=Launching MPI rank: 38 on: hec-55
+[?1h=Launching MPI rank: 37 on: hec-55
+[?1h=Launching MPI rank: 36 on: hec-55
+[?1h=Launching MPI rank: 35 on: hec-56
+[?1h=Launching MPI rank: 34 on: hec-56
+[?1h=Launching MPI rank: 33 on: hec-56
+[?1h=Launching MPI rank: 32 on: hec-56
+[?1h=Launching MPI rank: 31 on: hec-56
+[?1h=Launching MPI rank: 30 on: hec-56
+[?1h=Launching MPI rank: 29 on: hec-56
+[?1h=Launching MPI rank: 28 on: hec-58
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-59
+[?1h=Launching MPI rank: 20 on: hec-59
+[?1h=Launching MPI rank: 19 on: hec-59
+[?1h=Launching MPI rank: 18 on: hec-59
+[?1h=Launching MPI rank: 17 on: hec-59
+[?1h=Launching MPI rank: 16 on: hec-59
+[?1h=Launching MPI rank: 15 on: hec-59
+[?1h=Launching MPI rank: 14 on: hec-60
+[?1h=Launching MPI rank: 13 on: hec-60
+[?1h=Launching MPI rank: 12 on: hec-60
+[?1h=Launching MPI rank: 11 on: hec-60
+[?1h=Launching MPI rank: 10 on: hec-60
+[?1h=Launching MPI rank: 9 on: hec-60
+[?1h=Launching MPI rank: 8 on: hec-60
+[?1h=Launching MPI rank: 7 on: hec-62
+[?1h=Launching MPI rank: 6 on: hec-62
+[?1h=Launching MPI rank: 5 on: hec-62
+[?1h=Launching MPI rank: 4 on: hec-62
+[?1h=Launching MPI rank: 3 on: hec-62
+[?1h=Launching MPI rank: 2 on: hec-62
+[?1h=Launching MPI rank: 1 on: hec-62
+[?1h=Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-53 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-53.43.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-55.36.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-56.29.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-58.22.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-59.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-60.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/Rowbased; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+[?1h=****************** Now Running Row_mv.m ***********************
+I am just waiting!

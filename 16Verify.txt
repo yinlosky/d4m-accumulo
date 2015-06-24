@@ -1,0 +1,4010 @@
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_norm_v_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_norm_B_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Creating alpha in hec-51.cs.iit.edu:2181 Accumulo
+Creating beta in hec-51.cs.iit.edu:2181 Accumulo
+Creating alpha_sax_temp in hec-51.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-51.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v_temp in hec-51.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B_temp in hec-51.cs.iit.edu:2181 Accumulo
+Creating so_rpath in hec-51.cs.iit.edu:2181 Accumulo
+Creating cur_loop_j in hec-51.cs.iit.edu:2181 Accumulo
+Creating rtv_temp in hec-51.cs.iit.edu:2181 Accumulo
+Creating so_rrtv in hec-51.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.399
+INGEST time (sec) = 0.04
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_q2DB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_q3DB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_q4DB.user: rootDB.type: Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_q5DB.user: rootDB.type: Accumulo
+Creating lz_q6 in hec-51.cs.iit.edu:2181 Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_q6DB.user: rootDB.type: Accumulo
+Creating lz_q7 in hec-51.cs.iit.edu:2181 Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_q7DB.user: rootDB.type: Accumulo
+Creating lz_q8 in hec-51.cs.iit.edu:2181 Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_q8DB.user: rootDB.type: Accumulo
+Creating lz_q9 in hec-51.cs.iit.edu:2181 Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_q9DB.user: rootDB.type: Accumulo
+Creating lz_q10 in hec-51.cs.iit.edu:2181 Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_q10DB.user: rootDB.type: Accumulo
+**************myEigen iterations***********************
+computing v=Aq 1 ...
+INGEST time (sec) = 0.073
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 20161'
+bash: line 0: kill: (20161) - No such process
+ ssh hec-49 -n  'kill -9 11628'
+bash: line 0: kill: (11628) - No such process
+ ssh hec-50 -n  'kill -9 27179'
+bash: line 0: kill: (27179) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: lz_q1 into mv_temp ************
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+current j is:1
+INGEST time (sec) = 0.039
+current j is:2
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.014
+current j is:3
+INGEST time (sec) = 0.021
+current j is:4
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.012
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 20391'
+bash: line 0: kill: (20391) - No such process
+ ssh hec-49 -n  'kill -9 13425'
+bash: line 0: kill: (13425) - No such process
+ ssh hec-50 -n  'kill -9 28823'
+bash: line 0: kill: (28823) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector lz_q1 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 0.03
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.014
+Result of v = Aq 1 is saved in table lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(1)
+Submitting parallel_dotproduct_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 20486'
+bash: line 0: kill: (20486) - No such process
+ ssh hec-49 -n  'kill -9 13643'
+bash: line 0: kill: (13643) - No such process
+ ssh hec-50 -n  'kill -9 28998'
+bash: line 0: kill: (28998) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Creating dot_temp in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 0.085
+INGEST time (sec) = 0.049
+Saving alpha to alpha_t
+INGEST time (sec) = 0.05
+Result of alpha[1] =0.96957 is saved.
+Submitting parallel_sax_alpha on 4 processor(s).
+ ssh hec-48 -n  'kill -9 20592'
+bash: line 0: kill: (20592) - No such process
+ ssh hec-49 -n  'kill -9 13904'
+bash: line 0: kill: (13904) - No such process
+ ssh hec-50 -n  'kill -9 29144'
+bash: line 0: kill: (29144) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating 0.96957 times vector: lz_q1
+start index: 1 end index: 4
+INGEST time (sec) = 0.047
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.013
+Submitting parallel_sax_v on 4 processor(s).
+ ssh hec-48 -n  'kill -9 20681'
+bash: line 0: kill: (20681) - No such process
+ ssh hec-49 -n  'kill -9 14048'
+bash: line 0: kill: (14048) - No such process
+ ssh hec-50 -n  'kill -9 29313'
+bash: line 0: kill: (29313) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 4
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.035
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.02
+v is saved in lz_vpath table
+Computing beta[1]...
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 20778'
+bash: line 0: kill: (20778) - No such process
+ ssh hec-49 -n  'kill -9 14224'
+bash: line 0: kill: (14224) - No such process
+ ssh hec-50 -n  'kill -9 29455'
+bash: line 0: kill: (29455) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 0.315852659956338,
+INGEST time (sec) = 0.045
+Running p2!
+(1,1)     0.315852659956338
+(2,1)     1.354277707037783
+(3,1)     1.513185084299375
+(4,1)     0.138652165030126
+temp 1th is: 0.31585
+temp 2th is: 1.3543
+temp 3th is: 1.5132
+temp 4th is: 0.13865
+Before sqrt: 3.321967616323622,
+After sqrt: 1.822626570727976,
+INGEST time (sec) = 0.054
+In p2 Sum is: 1.822626570727976
+In table: 1.822626570727976
+
+beta[1] = 1.8226
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+Starting so, iterations # is 1 beta_it value is: 1.8226
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/1 th vector:1.8226
+Number of orthongalization: 0
+Computing q2...
+Submitting parallel_update_q on 4 processor(s).
+ ssh hec-48 -n  'kill -9 20873'
+bash: line 0: kill: (20873) - No such process
+ ssh hec-49 -n  'kill -9 14356'
+bash: line 0: kill: (14356) - No such process
+ ssh hec-50 -n  'kill -9 29577'
+bash: line 0: kill: (29577) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Creating lz_q2 in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+Iteration 1 beta 0.54866 times lz_vpath
+INGEST time (sec) = 0.122
+INGEST time (sec) = 0.016
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.014
+q_{2} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    0.9696
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-51.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-51.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.03
+INGEST time (sec) = 0.089
+**************Now constructing T matrix from alpha and beta******************
+INGEST time (sec) = 0.028
+**************myEigen iterations***********************
+computing v=Aq 2 ...
+INGEST time (sec) = 0.037
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 20964'
+bash: line 0: kill: (20964) - No such process
+ ssh hec-49 -n  'kill -9 14501'
+bash: line 0: kill: (14501) - No such process
+ ssh hec-50 -n  'kill -9 29693'
+bash: line 0: kill: (29693) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: lz_q2 into mv_temp ************
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+current j is:1
+INGEST time (sec) = 0.044
+current j is:2
+INGEST time (sec) = 0.019
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+current j is:3
+INGEST time (sec) = 0.014
+current j is:4
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.013
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21061'
+bash: line 0: kill: (21061) - No such process
+ ssh hec-49 -n  'kill -9 14677'
+bash: line 0: kill: (14677) - No such process
+ ssh hec-50 -n  'kill -9 29813'
+bash: line 0: kill: (29813) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector lz_q2 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 0.029
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.012
+Result of v = Aq 2 is saved in table lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(2)
+Submitting parallel_dotproduct_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21156'
+bash: line 0: kill: (21156) - No such process
+ ssh hec-49 -n  'kill -9 14826'
+bash: line 0: kill: (14826) - No such process
+ ssh hec-50 -n  'kill -9 29947'
+bash: line 0: kill: (29947) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+INGEST time (sec) = 0.029
+INGEST time (sec) = 0.032
+Saving alpha to alpha_t
+INGEST time (sec) = 0.039
+Result of alpha[2] =-0.56353 is saved.
+Submitting parallel_sax_beta on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21259'
+bash: line 0: kill: (21259) - No such process
+ ssh hec-49 -n  'kill -9 14970'
+bash: line 0: kill: (14970) - No such process
+ ssh hec-50 -n  'kill -9 30064'
+bash: line 0: kill: (30064) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+Iteration 2 beta 1.8226 times lz_q1
+INGEST time (sec) = 0.047
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.013
+Submitting parallel_sax_alpha on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21350'
+bash: line 0: kill: (21350) - No such process
+ ssh hec-49 -n  'kill -9 15112'
+bash: line 0: kill: (15112) - No such process
+ ssh hec-50 -n  'kill -9 30213'
+bash: line 0: kill: (30213) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating -0.56353 times vector: lz_q2
+start index: 1 end index: 4
+INGEST time (sec) = 0.036
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.023
+Submitting parallel_sax_v on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21449'
+bash: line 0: kill: (21449) - No such process
+ ssh hec-49 -n  'kill -9 15252'
+bash: line 0: kill: (15252) - No such process
+ ssh hec-50 -n  'kill -9 30353'
+bash: line 0: kill: (30353) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 4
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.02
+INGEST time (sec) = 0.021
+v is saved in lz_vpath table
+Computing beta[2]...
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21546'
+bash: line 0: kill: (21546) - No such process
+ ssh hec-49 -n  'kill -9 15406'
+bash: line 0: kill: (15406) - No such process
+ ssh hec-50 -n  'kill -9 30476'
+bash: line 0: kill: (30476) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 0.313520141369877,
+INGEST time (sec) = 0.034
+Running p2!
+(1,1)     0.313520141369877
+(2,1)     0.454583456784889
+(3,1)     0.072406308677816
+(4,1)     0.377928061983888
+temp 1th is: 0.31352
+temp 2th is: 0.45458
+temp 3th is: 0.072406
+temp 4th is: 0.37793
+Before sqrt: 1.218437968816470,
+After sqrt: 1.103828776947072,
+INGEST time (sec) = 0.019
+In p2 Sum is: 1.103828776947072
+In table: 1.103828776947072
+
+beta[2] = 1.1038
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226
+    1.8226   -0.5635
+
+Starting so, iterations # is 2 beta_it value is: 1.1038
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/2 th vector:0.91946
+Error of2/2 th vector:0.61077
+Number of orthongalization: 0
+Computing q3...
+Submitting parallel_update_q on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21651'
+bash: line 0: kill: (21651) - No such process
+ ssh hec-49 -n  'kill -9 15574'
+bash: line 0: kill: (15574) - No such process
+ ssh hec-50 -n  'kill -9 30597'
+bash: line 0: kill: (30597) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Creating lz_q3 in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+Iteration 2 beta 0.90594 times lz_vpath
+INGEST time (sec) = 0.03
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.012
+q_{3} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226
+    1.8226   -0.5635
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   -1.7742
+    2.1803
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-51.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-51.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.051
+INGEST time (sec) = 0.028
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226
+    1.8226   -0.5635
+
+INGEST time (sec) = 0.038
+**************myEigen iterations***********************
+computing v=Aq 3 ...
+INGEST time (sec) = 0.034
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21741'
+bash: line 0: kill: (21741) - No such process
+ ssh hec-49 -n  'kill -9 15699'
+bash: line 0: kill: (15699) - No such process
+ ssh hec-50 -n  'kill -9 30700'
+bash: line 0: kill: (30700) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: lz_q3 into mv_temp ************
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+current j is:1
+INGEST time (sec) = 0.048
+current j is:2
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.025
+INGEST time (sec) = 0.012
+current j is:3
+INGEST time (sec) = 0.01
+current j is:4
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.0090
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21839'
+bash: line 0: kill: (21839) - No such process
+ ssh hec-49 -n  'kill -9 15867'
+bash: line 0: kill: (15867) - No such process
+ ssh hec-50 -n  'kill -9 30830'
+bash: line 0: kill: (30830) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector lz_q3 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 0.034
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.013
+Result of v = Aq 3 is saved in table lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(3)
+Submitting parallel_dotproduct_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 21940'
+bash: line 0: kill: (21940) - No such process
+ ssh hec-49 -n  'kill -9 16035'
+bash: line 0: kill: (16035) - No such process
+ ssh hec-50 -n  'kill -9 30988'
+bash: line 0: kill: (30988) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+INGEST time (sec) = 0.035
+INGEST time (sec) = 0.041
+Saving alpha to alpha_t
+INGEST time (sec) = 0.039
+Result of alpha[3] =-0.28639 is saved.
+Submitting parallel_sax_beta on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22045'
+bash: line 0: kill: (22045) - No such process
+ ssh hec-49 -n  'kill -9 16197'
+bash: line 0: kill: (16197) - No such process
+ ssh hec-50 -n  'kill -9 31110'
+bash: line 0: kill: (31110) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+Iteration 3 beta 1.1038 times lz_q2
+INGEST time (sec) = 0.04
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.018
+Submitting parallel_sax_alpha on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22134'
+bash: line 0: kill: (22134) - No such process
+ ssh hec-49 -n  'kill -9 16327'
+bash: line 0: kill: (16327) - No such process
+ ssh hec-50 -n  'kill -9 31231'
+bash: line 0: kill: (31231) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating -0.28639 times vector: lz_q3
+start index: 1 end index: 4
+INGEST time (sec) = 0.034
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+Submitting parallel_sax_v on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22229'
+bash: line 0: kill: (22229) - No such process
+ ssh hec-49 -n  'kill -9 16472'
+bash: line 0: kill: (16472) - No such process
+ ssh hec-50 -n  'kill -9 31342'
+bash: line 0: kill: (31342) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 4
+INGEST time (sec) = 0.025
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.01
+v is saved in lz_vpath table
+Computing beta[3]...
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22326'
+bash: line 0: kill: (22326) - No such process
+ ssh hec-49 -n  'kill -9 16633'
+bash: line 0: kill: (16633) - No such process
+ ssh hec-50 -n  'kill -9 31468'
+bash: line 0: kill: (31468) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 0.201809859612094,
+INGEST time (sec) = 0.066
+Running p2!
+(1,1)     0.201809859612094
+(2,1)     0.227258353301675
+(3,1)     0.105076838486891
+(4,1)     0.019434059248900
+temp 1th is: 0.20181
+temp 2th is: 0.22726
+temp 3th is: 0.10508
+temp 4th is: 0.019434
+Before sqrt: 0.553579110649560,
+After sqrt: 0.744028971646642,
+INGEST time (sec) = 0.019
+In p2 Sum is: 0.744028971646642
+In table: 0.744028971646642
+
+beta[3] = 0.74403
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0
+    1.8226   -0.5635    1.1038
+         0    1.1038   -0.2864
+
+Starting so, iterations # is 3 beta_it value is: 0.74403
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/3 th vector:0.32935
+Error of2/3 th vector:0.64183
+Error of3/3 th vector:0.18213
+Number of orthongalization: 0
+Computing q4...
+Submitting parallel_update_q on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22421'
+bash: line 0: kill: (22421) - No such process
+ ssh hec-49 -n  'kill -9 16773'
+bash: line 0: kill: (16773) - No such process
+ ssh hec-50 -n  'kill -9 31583'
+bash: line 0: kill: (31583) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Creating lz_q4 in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+Iteration 3 beta 1.344 times lz_vpath
+INGEST time (sec) = 0.065
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+q_{4} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0
+    1.8226   -0.5635    1.1038
+         0    1.1038   -0.2864
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   -2.2292
+    0.0141
+    2.3347
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-51.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-51.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.048
+INGEST time (sec) = 0.03
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0
+    1.8226   -0.5635    1.1038
+         0    1.1038   -0.2864
+
+INGEST time (sec) = 0.027
+**************myEigen iterations***********************
+computing v=Aq 4 ...
+INGEST time (sec) = 0.035
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22514'
+bash: line 0: kill: (22514) - No such process
+ ssh hec-49 -n  'kill -9 16915'
+bash: line 0: kill: (16915) - No such process
+ ssh hec-50 -n  'kill -9 31693'
+bash: line 0: kill: (31693) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: lz_q4 into mv_temp ************
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+current j is:1
+INGEST time (sec) = 0.051
+current j is:2
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.013
+current j is:3
+INGEST time (sec) = 0.013
+current j is:4
+INGEST time (sec) = 0.016
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.012
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22611'
+bash: line 0: kill: (22611) - No such process
+ ssh hec-49 -n  'kill -9 17064'
+bash: line 0: kill: (17064) - No such process
+ ssh hec-50 -n  'kill -9 31812'
+bash: line 0: kill: (31812) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector lz_q4 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 0.032
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.015
+Result of v = Aq 4 is saved in table lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(4)
+Submitting parallel_dotproduct_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22706'
+bash: line 0: kill: (22706) - No such process
+ ssh hec-49 -n  'kill -9 17220'
+bash: line 0: kill: (17220) - No such process
+ ssh hec-50 -n  'kill -9 31972'
+bash: line 0: kill: (31972) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+INGEST time (sec) = 0.035
+INGEST time (sec) = 0.04
+Saving alpha to alpha_t
+INGEST time (sec) = 0.043
+Result of alpha[4] =0.46799 is saved.
+Submitting parallel_sax_beta on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22813'
+bash: line 0: kill: (22813) - No such process
+ ssh hec-49 -n  'kill -9 17368'
+bash: line 0: kill: (17368) - No such process
+ ssh hec-50 -n  'kill -9 32142'
+bash: line 0: kill: (32142) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+Iteration 4 beta 0.74403 times lz_q3
+INGEST time (sec) = 0.033
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+Submitting parallel_sax_alpha on 4 processor(s).
+ ssh hec-48 -n  'kill -9 22902'
+bash: line 0: kill: (22902) - No such process
+ ssh hec-49 -n  'kill -9 17498'
+bash: line 0: kill: (17498) - No such process
+ ssh hec-50 -n  'kill -9 32273'
+bash: line 0: kill: (32273) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating 0.46799 times vector: lz_q4
+start index: 1 end index: 4
+INGEST time (sec) = 0.025
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.015
+Submitting parallel_sax_v on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23000'
+bash: line 0: kill: (23000) - No such process
+ ssh hec-49 -n  'kill -9 17661'
+bash: line 0: kill: (17661) - No such process
+ ssh hec-50 -n  'kill -9 32398'
+bash: line 0: kill: (32398) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 4
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+v is saved in lz_vpath table
+Computing beta[4]...
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23095'
+bash: line 0: kill: (23095) - No such process
+ ssh hec-49 -n  'kill -9 17814'
+bash: line 0: kill: (17814) - No such process
+ ssh hec-50 -n  'kill -9 32515'
+bash: line 0: kill: (32515) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 1.434616260564151,
+INGEST time (sec) = 0.042
+Running p2!
+(1,1)     1.434616260564151
+(2,1)     0.372240956302703
+(3,1)     0.278051651546003
+(4,1)     0.392572087704252
+temp 1th is: 1.4346
+temp 2th is: 0.37224
+temp 3th is: 0.27805
+temp 4th is: 0.39257
+Before sqrt: 2.477480956117109,
+After sqrt: 1.574001574369323,
+INGEST time (sec) = 0.022
+In p2 Sum is: 1.574001574369323
+In table: 1.574001574369323
+
+beta[4] = 1.574
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0
+    1.8226   -0.5635    1.1038         0
+         0    1.1038   -0.2864    0.7440
+         0         0    0.7440    0.4680
+
+Starting so, iterations # is 4 beta_it value is: 1.574
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/4 th vector:0.20131
+Error of2/4 th vector:0.88222
+Error of3/4 th vector:1.2768
+Error of4/4 th vector:0.16889
+Number of orthongalization: 0
+Computing q5...
+Submitting parallel_update_q on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23194'
+bash: line 0: kill: (23194) - No such process
+ ssh hec-49 -n  'kill -9 17970'
+bash: line 0: kill: (17970) - No such process
+ ssh hec-50 -n  'kill -9 32638'
+bash: line 0: kill: (32638) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Creating lz_q5 in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+Iteration 4 beta 0.63532 times lz_vpath
+INGEST time (sec) = 0.042
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.01
+q_{5} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0
+    1.8226   -0.5635    1.1038         0
+         0    1.1038   -0.2864    0.7440
+         0         0    0.7440    0.4680
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   -2.2717
+   -0.4241
+    0.9290
+    2.3544
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-51.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-51.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.025
+INGEST time (sec) = 0.031
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0
+    1.8226   -0.5635    1.1038         0
+         0    1.1038   -0.2864    0.7440
+         0         0    0.7440    0.4680
+
+INGEST time (sec) = 0.04
+**************myEigen iterations***********************
+computing v=Aq 5 ...
+INGEST time (sec) = 0.033
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23284'
+bash: line 0: kill: (23284) - No such process
+ ssh hec-49 -n  'kill -9 18112'
+bash: line 0: kill: (18112) - No such process
+ ssh hec-50 -n  'kill -9 32758'
+bash: line 0: kill: (32758) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: lz_q5 into mv_temp ************
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+current j is:1
+INGEST time (sec) = 0.035
+current j is:2
+INGEST time (sec) = 0.016
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+current j is:3
+INGEST time (sec) = 0.012
+current j is:4
+INGEST time (sec) = 0.019
+INGEST time (sec) = 0.068
+INGEST time (sec) = 0.012
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23379'
+bash: line 0: kill: (23379) - No such process
+ ssh hec-49 -n  'kill -9 18291'
+bash: line 0: kill: (18291) - No such process
+ ssh hec-50 -n  'kill -9 452'
+bash: line 0: kill: (452) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector lz_q5 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 0.042
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.02
+Result of v = Aq 5 is saved in table lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(5)
+Submitting parallel_dotproduct_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23474'
+bash: line 0: kill: (23474) - No such process
+ ssh hec-49 -n  'kill -9 18430'
+bash: line 0: kill: (18430) - No such process
+ ssh hec-50 -n  'kill -9 588'
+bash: line 0: kill: (588) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+INGEST time (sec) = 0.037
+INGEST time (sec) = 0.03
+Saving alpha to alpha_t
+INGEST time (sec) = 0.035
+Result of alpha[5] =-0.35879 is saved.
+Submitting parallel_sax_beta on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23584'
+bash: line 0: kill: (23584) - No such process
+ ssh hec-49 -n  'kill -9 18610'
+bash: line 0: kill: (18610) - No such process
+ ssh hec-50 -n  'kill -9 753'
+bash: line 0: kill: (753) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+Iteration 5 beta 1.574 times lz_q4
+INGEST time (sec) = 0.033
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.0090
+Submitting parallel_sax_alpha on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23675'
+bash: line 0: kill: (23675) - No such process
+ ssh hec-49 -n  'kill -9 18738'
+bash: line 0: kill: (18738) - No such process
+ ssh hec-50 -n  'kill -9 912'
+bash: line 0: kill: (912) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating -0.35879 times vector: lz_q5
+start index: 1 end index: 4
+INGEST time (sec) = 0.035
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.012
+Submitting parallel_sax_v on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23770'
+bash: line 0: kill: (23770) - No such process
+ ssh hec-49 -n  'kill -9 18873'
+bash: line 0: kill: (18873) - No such process
+ ssh hec-50 -n  'kill -9 1037'
+bash: line 0: kill: (1037) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 4
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.02
+INGEST time (sec) = 0.012
+v is saved in lz_vpath table
+Computing beta[5]...
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23867'
+bash: line 0: kill: (23867) - No such process
+ ssh hec-49 -n  'kill -9 19035'
+bash: line 0: kill: (19035) - No such process
+ ssh hec-50 -n  'kill -9 1185'
+bash: line 0: kill: (1185) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 0.245006173951779,
+INGEST time (sec) = 0.057
+Running p2!
+(1,1)     0.245006173951779
+(2,1)     0.170059536788508
+(3,1)     0.271613384714269
+(4,1)     0.014172198515393
+temp 1th is: 0.24501
+temp 2th is: 0.17006
+temp 3th is: 0.27161
+temp 4th is: 0.014172
+Before sqrt: 0.700851293969949,
+After sqrt: 0.837168617406284,
+INGEST time (sec) = 0.029
+In p2 Sum is: 0.837168617406284
+In table: 0.837168617406284
+
+beta[5] = 0.83717
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0
+    1.8226   -0.5635    1.1038         0         0
+         0    1.1038   -0.2864    0.7440         0
+         0         0    0.7440    0.4680    1.5740
+         0         0         0    1.5740   -0.3588
+
+Starting so, iterations # is 5 beta_it value is: 0.83717
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/5 th vector:0.15941
+Error of2/5 th vector:0.60674
+Error of3/5 th vector:0.29724
+Error of4/5 th vector:0.4559
+Error of5/5 th vector:0.10539
+Number of orthongalization: 0
+Computing q6...
+Submitting parallel_update_q on 4 processor(s).
+ ssh hec-48 -n  'kill -9 23967'
+bash: line 0: kill: (23967) - No such process
+ ssh hec-49 -n  'kill -9 19183'
+bash: line 0: kill: (19183) - No such process
+ ssh hec-50 -n  'kill -9 1320'
+bash: line 0: kill: (1320) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Creating lz_q6 in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+Iteration 5 beta 1.1945 times lz_vpath
+INGEST time (sec) = 0.042
+INGEST time (sec) = 0.02
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.012
+q_{6} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0
+    1.8226   -0.5635    1.1038         0         0
+         0    1.1038   -0.2864    0.7440         0
+         0         0    0.7440    0.4680    1.5740
+         0         0         0    1.5740   -0.3588
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   -2.3110
+   -1.6063
+   -0.0360
+    1.8063
+    2.3760
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-51.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-51.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.079
+INGEST time (sec) = 0.034
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0
+    1.8226   -0.5635    1.1038         0         0
+         0    1.1038   -0.2864    0.7440         0
+         0         0    0.7440    0.4680    1.5740
+         0         0         0    1.5740   -0.3588
+
+INGEST time (sec) = 0.038
+**************myEigen iterations***********************
+computing v=Aq 6 ...
+INGEST time (sec) = 0.041
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24057'
+bash: line 0: kill: (24057) - No such process
+ ssh hec-49 -n  'kill -9 19300'
+bash: line 0: kill: (19300) - No such process
+ ssh hec-50 -n  'kill -9 1442'
+bash: line 0: kill: (1442) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: lz_q6 into mv_temp ************
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+current j is:1
+INGEST time (sec) = 0.085
+current j is:2
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+current j is:3
+INGEST time (sec) = 0.011
+current j is:4
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24154'
+bash: line 0: kill: (24154) - No such process
+ ssh hec-49 -n  'kill -9 19445'
+bash: line 0: kill: (19445) - No such process
+ ssh hec-50 -n  'kill -9 1602'
+bash: line 0: kill: (1602) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector lz_q6 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 0.031
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.018
+Result of v = Aq 6 is saved in table lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(6)
+Submitting parallel_dotproduct_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24249'
+bash: line 0: kill: (24249) - No such process
+ ssh hec-49 -n  'kill -9 19653'
+bash: line 0: kill: (19653) - No such process
+ ssh hec-50 -n  'kill -9 1766'
+bash: line 0: kill: (1766) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+INGEST time (sec) = 0.057
+INGEST time (sec) = 0.042
+Saving alpha to alpha_t
+INGEST time (sec) = 0.038
+Result of alpha[6] =-0.01135 is saved.
+Submitting parallel_sax_beta on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24352'
+bash: line 0: kill: (24352) - No such process
+ ssh hec-49 -n  'kill -9 19802'
+bash: line 0: kill: (19802) - No such process
+ ssh hec-50 -n  'kill -9 1894'
+bash: line 0: kill: (1894) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+Iteration 6 beta 0.83717 times lz_q5
+INGEST time (sec) = 0.041
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+Submitting parallel_sax_alpha on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24441'
+bash: line 0: kill: (24441) - No such process
+ ssh hec-49 -n  'kill -9 19936'
+bash: line 0: kill: (19936) - No such process
+ ssh hec-50 -n  'kill -9 2028'
+bash: line 0: kill: (2028) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating -0.01135 times vector: lz_q6
+start index: 1 end index: 4
+INGEST time (sec) = 0.024
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.01
+Submitting parallel_sax_v on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24540'
+bash: line 0: kill: (24540) - No such process
+ ssh hec-49 -n  'kill -9 20079'
+bash: line 0: kill: (20079) - No such process
+ ssh hec-50 -n  'kill -9 2145'
+bash: line 0: kill: (2145) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 4
+INGEST time (sec) = 0.026
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.017
+v is saved in lz_vpath table
+Computing beta[6]...
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24639'
+bash: line 0: kill: (24639) - No such process
+ ssh hec-49 -n  'kill -9 20241'
+bash: line 0: kill: (20241) - No such process
+ ssh hec-50 -n  'kill -9 2281'
+bash: line 0: kill: (2281) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 0.787060409744988,
+INGEST time (sec) = 0.042
+Running p2!
+(1,1)     0.787060409744988
+(2,1)     0.812218312212116
+(3,1)     0.391689427327620
+(4,1)     0.852780678545956
+temp 1th is: 0.78706
+temp 2th is: 0.81222
+temp 3th is: 0.39169
+temp 4th is: 0.85278
+Before sqrt: 2.843748827830680,
+After sqrt: 1.686341847856087,
+INGEST time (sec) = 0.029
+In p2 Sum is: 1.686341847856087
+In table: 1.686341847856087
+
+beta[6] = 1.6863
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0
+         0         0    0.7440    0.4680    1.5740         0
+         0         0         0    1.5740   -0.3588    0.8372
+         0         0         0         0    0.8372   -0.0113
+
+Starting so, iterations # is 6 beta_it value is: 1.6863
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/6 th vector:0.15588
+Error of2/6 th vector:0.54876
+Error of3/6 th vector:0.94122
+Error of4/6 th vector:1.2057
+Error of5/6 th vector:0.41229
+Error of6/6 th vector:0.093405
+Number of orthongalization: 0
+Computing q7...
+Submitting parallel_update_q on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24734'
+bash: line 0: kill: (24734) - No such process
+ ssh hec-49 -n  'kill -9 20377'
+bash: line 0: kill: (20377) - No such process
+ ssh hec-50 -n  'kill -9 2394'
+bash: line 0: kill: (2394) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Creating lz_q7 in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+Iteration 6 beta 0.593 times lz_vpath
+INGEST time (sec) = 0.044
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+q_{7} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0
+         0         0    0.7440    0.4680    1.5740         0
+         0         0         0    1.5740   -0.3588    0.8372
+         0         0         0         0    0.8372   -0.0113
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   -2.3259
+   -1.8170
+   -0.2487
+    0.3056
+    1.9216
+    2.3818
+
+TOP K eigenValues are:
+
+ans =
+
+   -2.3259
+   -1.8170
+   -0.2487
+    0.3056
+    1.9216
+    2.3818
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-51.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-51.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.03
+INGEST time (sec) = 0.05
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0
+         0         0    0.7440    0.4680    1.5740         0
+         0         0         0    1.5740   -0.3588    0.8372
+         0         0         0         0    0.8372   -0.0113
+
+INGEST time (sec) = 0.068
+**************myEigen iterations***********************
+computing v=Aq 7 ...
+INGEST time (sec) = 0.049
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24824'
+bash: line 0: kill: (24824) - No such process
+ ssh hec-49 -n  'kill -9 20510'
+bash: line 0: kill: (20510) - No such process
+ ssh hec-50 -n  'kill -9 2493'
+bash: line 0: kill: (2493) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: lz_q7 into mv_temp ************
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+current j is:1
+INGEST time (sec) = 0.035
+current j is:2
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.0090
+current j is:3
+INGEST time (sec) = 0.012
+current j is:4
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.0090
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 24919'
+bash: line 0: kill: (24919) - No such process
+ ssh hec-49 -n  'kill -9 20665'
+bash: line 0: kill: (20665) - No such process
+ ssh hec-50 -n  'kill -9 2644'
+bash: line 0: kill: (2644) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector lz_q7 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 1.536
+INGEST time (sec) = 0.016
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.0090
+Result of v = Aq 7 is saved in table lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(7)
+Submitting parallel_dotproduct_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25017'
+bash: line 0: kill: (25017) - No such process
+ ssh hec-49 -n  'kill -9 20827'
+bash: line 0: kill: (20827) - No such process
+ ssh hec-50 -n  'kill -9 2799'
+bash: line 0: kill: (2799) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+INGEST time (sec) = 0.033
+INGEST time (sec) = 0.047
+Saving alpha to alpha_t
+INGEST time (sec) = 0.041
+Result of alpha[7] =0.26199 is saved.
+Submitting parallel_sax_beta on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25120'
+bash: line 0: kill: (25120) - No such process
+ ssh hec-49 -n  'kill -9 20972'
+bash: line 0: kill: (20972) - No such process
+ ssh hec-50 -n  'kill -9 2935'
+bash: line 0: kill: (2935) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+Iteration 7 beta 1.6863 times lz_q6
+INGEST time (sec) = 0.043
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.012
+Submitting parallel_sax_alpha on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25211'
+bash: line 0: kill: (25211) - No such process
+ ssh hec-49 -n  'kill -9 21119'
+bash: line 0: kill: (21119) - No such process
+ ssh hec-50 -n  'kill -9 3085'
+bash: line 0: kill: (3085) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating 0.26199 times vector: lz_q7
+start index: 1 end index: 4
+INGEST time (sec) = 0.042
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.0090
+Submitting parallel_sax_v on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25306'
+bash: line 0: kill: (25306) - No such process
+ ssh hec-49 -n  'kill -9 21255'
+bash: line 0: kill: (21255) - No such process
+ ssh hec-50 -n  'kill -9 3205'
+bash: line 0: kill: (3205) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 4
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.022
+v is saved in lz_vpath table
+Computing beta[7]...
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25406'
+bash: line 0: kill: (25406) - No such process
+ ssh hec-49 -n  'kill -9 21426'
+bash: line 0: kill: (21426) - No such process
+ ssh hec-50 -n  'kill -9 3339'
+bash: line 0: kill: (3339) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 0.456714855441828,
+INGEST time (sec) = 0.033
+Running p2!
+(1,1)     0.456714855441828
+(2,1)     0.342341047814445
+(3,1)     0.204037588926349
+(4,1)     0.031229873686611
+temp 1th is: 0.45671
+temp 2th is: 0.34234
+temp 3th is: 0.20404
+temp 4th is: 0.03123
+Before sqrt: 1.034323365869233,
+After sqrt: 1.017016895567243,
+INGEST time (sec) = 0.032
+In p2 Sum is: 1.017016895567243
+In table: 1.017016895567243
+
+beta[7] = 1.017
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0         0
+         0         0    0.7440    0.4680    1.5740         0         0
+         0         0         0    1.5740   -0.3588    0.8372         0
+         0         0         0         0    0.8372   -0.0113    1.6863
+         0         0         0         0         0    1.6863    0.2620
+
+Starting so, iterations # is 7 beta_it value is: 1.017
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/7 th vector:0.14907
+Error of2/7 th vector:0.38075
+Error of3/7 th vector:0.54751
+Error of4/7 th vector:0.17894
+Error of5/7 th vector:0.54478
+Error of6/7 th vector:0.46807
+Error of7/7 th vector:0.13955
+Number of orthongalization: 0
+Computing q8...
+Submitting parallel_update_q on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25501'
+bash: line 0: kill: (25501) - No such process
+ ssh hec-49 -n  'kill -9 21562'
+bash: line 0: kill: (21562) - No such process
+ ssh hec-50 -n  'kill -9 3443'
+bash: line 0: kill: (3443) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Creating lz_q8 in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+Iteration 7 beta 0.98327 times lz_vpath
+INGEST time (sec) = 0.038
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.0090
+q_{8} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0         0
+         0         0    0.7440    0.4680    1.5740         0         0
+         0         0         0    1.5740   -0.3588    0.8372         0
+         0         0         0         0    0.8372   -0.0113    1.6863
+         0         0         0         0         0    1.6863    0.2620
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   -2.3493
+   -2.0563
+   -1.1948
+   -0.0269
+    1.5502
+    2.1618
+    2.3949
+
+TOP K eigenValues are:
+
+ans =
+
+   -2.3493
+   -2.0563
+   -1.1948
+   -0.0269
+    1.5502
+    2.1618
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-51.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-51.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.054
+INGEST time (sec) = 0.015
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0         0
+         0         0    0.7440    0.4680    1.5740         0         0
+         0         0         0    1.5740   -0.3588    0.8372         0
+         0         0         0         0    0.8372   -0.0113    1.6863
+         0         0         0         0         0    1.6863    0.2620
+
+INGEST time (sec) = 0.021
+**************myEigen iterations***********************
+computing v=Aq 8 ...
+INGEST time (sec) = 0.032
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25591'
+bash: line 0: kill: (25591) - No such process
+ ssh hec-49 -n  'kill -9 21689'
+bash: line 0: kill: (21689) - No such process
+ ssh hec-50 -n  'kill -9 3553'
+bash: line 0: kill: (3553) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: lz_q8 into mv_temp ************
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+current j is:1
+INGEST time (sec) = 0.051
+current j is:2
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+current j is:3
+INGEST time (sec) = 0.015
+current j is:4
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.01
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25690'
+bash: line 0: kill: (25690) - No such process
+ ssh hec-49 -n  'kill -9 21866'
+bash: line 0: kill: (21866) - No such process
+ ssh hec-50 -n  'kill -9 3698'
+bash: line 0: kill: (3698) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector lz_q8 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 0.027
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.01
+Result of v = Aq 8 is saved in table lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(8)
+Submitting parallel_dotproduct_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25790'
+bash: line 0: kill: (25790) - No such process
+ ssh hec-49 -n  'kill -9 22052'
+bash: line 0: kill: (22052) - No such process
+ ssh hec-50 -n  'kill -9 3838'
+bash: line 0: kill: (3838) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+INGEST time (sec) = 0.031
+INGEST time (sec) = 0.035
+Saving alpha to alpha_t
+INGEST time (sec) = 0.042
+Result of alpha[8] =-1.1818 is saved.
+Submitting parallel_sax_beta on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25893'
+bash: line 0: kill: (25893) - No such process
+ ssh hec-49 -n  'kill -9 22207'
+bash: line 0: kill: (22207) - No such process
+ ssh hec-50 -n  'kill -9 3962'
+bash: line 0: kill: (3962) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+Iteration 8 beta 1.017 times lz_q7
+INGEST time (sec) = 0.029
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.011
+Submitting parallel_sax_alpha on 4 processor(s).
+ ssh hec-48 -n  'kill -9 25987'
+bash: line 0: kill: (25987) - No such process
+ ssh hec-49 -n  'kill -9 22343'
+bash: line 0: kill: (22343) - No such process
+ ssh hec-50 -n  'kill -9 4098'
+bash: line 0: kill: (4098) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating -1.1818 times vector: lz_q8
+start index: 1 end index: 4
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.012
+Submitting parallel_sax_v on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26086'
+bash: line 0: kill: (26086) - No such process
+ ssh hec-49 -n  'kill -9 22498'
+bash: line 0: kill: (22498) - No such process
+ ssh hec-50 -n  'kill -9 4224'
+bash: line 0: kill: (4224) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 4
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.018
+v is saved in lz_vpath table
+Computing beta[8]...
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26185'
+bash: line 0: kill: (26185) - No such process
+ ssh hec-49 -n  'kill -9 22650'
+bash: line 0: kill: (22650) - No such process
+ ssh hec-50 -n  'kill -9 4349'
+bash: line 0: kill: (4349) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 0.013974805277303,
+INGEST time (sec) = 0.035
+Running p2!
+(1,1)     0.013974805277303
+(2,1)     0.011787891959488
+(3,1)     0.000868174657126
+(4,1)     0.000030441570121
+temp 1th is: 0.013975
+temp 2th is: 0.011788
+temp 3th is: 0.00086817
+temp 4th is: 3.0442e-05
+Before sqrt: 0.026661313464038,
+After sqrt: 0.163282924594209,
+INGEST time (sec) = 0.028
+In p2 Sum is: 0.163282924594209
+In table: 0.163282924594209
+
+beta[8] = 0.16328
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0         0         0
+         0         0    0.7440    0.4680    1.5740         0         0         0
+         0         0         0    1.5740   -0.3588    0.8372         0         0
+         0         0         0         0    0.8372   -0.0113    1.6863         0
+         0         0         0         0         0    1.6863    0.2620    1.0170
+         0         0         0         0         0         0    1.0170   -1.1818
+
+Starting so, iterations # is 8 beta_it value is: 0.16328
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/8 th vector:0.051197
+Error of2/8 th vector:0.059381
+Error of3/8 th vector:0.088004
+Error of4/8 th vector:0.10317
+Error of5/8 th vector:0.024917
+Error of6/8 th vector:0.02781
+Error of7/8 th vector:0.025014
+Error of8/8 th vector:0.010256
+Number of orthongalization: 0
+Computing q9...
+Submitting parallel_update_q on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26284'
+bash: line 0: kill: (26284) - No such process
+ ssh hec-49 -n  'kill -9 22797'
+bash: line 0: kill: (22797) - No such process
+ ssh hec-50 -n  'kill -9 4479'
+bash: line 0: kill: (4479) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Creating lz_q9 in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+Iteration 8 beta 6.1243 times lz_vpath
+INGEST time (sec) = 0.06
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+q_{9} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0         0         0
+         0         0    0.7440    0.4680    1.5740         0         0         0
+         0         0         0    1.5740   -0.3588    0.8372         0         0
+         0         0         0         0    0.8372   -0.0113    1.6863         0
+         0         0         0         0         0    1.6863    0.2620    1.0170
+         0         0         0         0         0         0    1.0170   -1.1818
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   -2.4030
+   -2.2349
+   -1.6432
+   -0.7072
+    0.0009
+    1.6456
+    2.2357
+    2.4038
+
+TOP K eigenValues are:
+
+ans =
+
+   -2.4030
+   -2.2349
+   -1.6432
+   -0.7072
+    0.0009
+    1.6456
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-51.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-51.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.04
+INGEST time (sec) = 0.028
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0         0         0
+         0         0    0.7440    0.4680    1.5740         0         0         0
+         0         0         0    1.5740   -0.3588    0.8372         0         0
+         0         0         0         0    0.8372   -0.0113    1.6863         0
+         0         0         0         0         0    1.6863    0.2620    1.0170
+         0         0         0         0         0         0    1.0170   -1.1818
+
+INGEST time (sec) = 0.036
+**************myEigen iterations***********************
+computing v=Aq 9 ...
+INGEST time (sec) = 0.029
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26378'
+bash: line 0: kill: (26378) - No such process
+ ssh hec-49 -n  'kill -9 22935'
+bash: line 0: kill: (22935) - No such process
+ ssh hec-50 -n  'kill -9 4610'
+bash: line 0: kill: (4610) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: lz_q9 into mv_temp ************
+Creating mv_temp in hec-51.cs.iit.edu:2181 Accumulo
+current j is:1
+INGEST time (sec) = 0.042
+current j is:2
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.011
+current j is:3
+INGEST time (sec) = 0.01
+current j is:4
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.01
+DB.instanceName: accumuloDB.host: hec-51.cs.iit.edu:2181Table Name to be deleted: lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26475'
+bash: line 0: kill: (26475) - No such process
+ ssh hec-49 -n  'kill -9 23080'
+bash: line 0: kill: (23080) - No such process
+ ssh hec-50 -n  'kill -9 4735'
+bash: line 0: kill: (4735) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector lz_q9 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating lz_vpath in hec-51.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 4
+INGEST time (sec) = 0.058
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.011
+Result of v = Aq 9 is saved in table lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(9)
+Submitting parallel_dotproduct_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26572'
+bash: line 0: kill: (26572) - No such process
+ ssh hec-49 -n  'kill -9 23253'
+bash: line 0: kill: (23253) - No such process
+ ssh hec-50 -n  'kill -9 4933'
+bash: line 0: kill: (4933) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+INGEST time (sec) = 0.034
+INGEST time (sec) = 0.034
+Saving alpha to alpha_t
+INGEST time (sec) = 0.033
+Result of alpha[9] =0.70227 is saved.
+Submitting parallel_sax_beta on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26677'
+bash: line 0: kill: (26677) - No such process
+ ssh hec-49 -n  'kill -9 23400'
+bash: line 0: kill: (23400) - No such process
+ ssh hec-50 -n  'kill -9 5066'
+bash: line 0: kill: (5066) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4
+Iteration 9 beta 0.16328 times lz_q8
+INGEST time (sec) = 0.037
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.011
+Submitting parallel_sax_alpha on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26766'
+bash: line 0: kill: (26766) - No such process
+ ssh hec-49 -n  'kill -9 23522'
+bash: line 0: kill: (23522) - No such process
+ ssh hec-50 -n  'kill -9 5203'
+bash: line 0: kill: (5203) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating 0.70227 times vector: lz_q9
+start index: 1 end index: 4
+INGEST time (sec) = 0.02
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+Submitting parallel_sax_v on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26861'
+bash: line 0: kill: (26861) - No such process
+ ssh hec-49 -n  'kill -9 23670'
+bash: line 0: kill: (23670) - No such process
+ ssh hec-50 -n  'kill -9 5322'
+bash: line 0: kill: (5322) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 4
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.02
+INGEST time (sec) = 0.01
+v is saved in lz_vpath table
+Computing beta[9]...
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 26959'
+bash: line 0: kill: (26959) - No such process
+ ssh hec-49 -n  'kill -9 23850'
+bash: line 0: kill: (23850) - No such process
+ ssh hec-50 -n  'kill -9 5472'
+bash: line 0: kill: (5472) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 0.000000000000000,
+INGEST time (sec) = 0.042
+Running p2!
+(1,1)     0.000000000000000
+(2,1)     0.000000000000000
+(3,1)     0.000000000000000
+(4,1)     0.000000000000000
+temp 1th is: 0
+temp 2th is: 0
+temp 3th is: 0
+temp 4th is: 0
+Before sqrt: 0.000000000000000,
+After sqrt: 0.000000000000000,
+INGEST time (sec) = 0.033
+In p2 Sum is: 0.000000000000000
+In table: 0.000000000000000
+
+beta[9] = 0
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+    0.9696    1.8226         0         0         0         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0         0         0         0
+         0         0    0.7440    0.4680    1.5740         0         0         0         0
+         0         0         0    1.5740   -0.3588    0.8372         0         0         0
+         0         0         0         0    0.8372   -0.0113    1.6863         0         0
+         0         0         0         0         0    1.6863    0.2620    1.0170         0
+         0         0         0         0         0         0    1.0170   -1.1818    0.1633
+         0         0         0         0         0         0         0    0.1633    0.7023
+
+Starting so, iterations # is 9 beta_it value is: 0
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/9 th vector:0
+V need to be reorthogalized by 1th Ritz Vector
+Reorthogonalizing against1th Ritz vector
+Store j: 1 into cur_loop_j(1,1) table
+{??? Undefined function or variable 'cur_loop_j'.
+
+Error in ==> parallel_selective_orthogonalize at 44
+		put(cur_loop_j,loop_j_Assoc);
+
+Error in ==> Test16 at 202
+	num_ortho = parallel_selective_orthogonalize(it, bet(it), v_path, Q,D, NumOfNodes, NumOfMachines,NumOfProcessors);
+} 
+Tmatri = 0.9696    1.8226         0         0         0         0         0         0         0
+??? Tmatri = 0.9696    1.8226         0         0         0         0         0         0         0
+                       |
+{Error: Unexpected MATLAB expression.
+} 
+    1.8226   -0.5635    1.1038         0         0         0         0         0         0
+???     1.8226   -0.5635    1.1038         0         0         0         0         0         0
+                            |
+{Error: Unexpected MATLAB expression.
+} 
+         0    1.1038   -0.2864    0.7440         0         0         0         0         0
+???          0    1.1038   -0.2864    0.7440         0         0         0         0         0
+                  |
+{Error: Unexpected MATLAB expression.
+} 
+         0         0    0.7440    0.4680    1.5740         0         0         0         0
+???          0         0    0.7440    0.4680    1.5740         0         0         0         0
+                       |
+{Error: Unexpected MATLAB expression.
+} 
+         0         0         0    1.5740   -0.3588    0.8372         0         0         0
+???          0         0         0    1.5740   -0.3588    0.8372         0         0         0
+                       |
+{Error: Unexpected MATLAB expression.
+} 
+         0         0         0         0    0.8372   -0.0113    1.6863         0         0
+???          0         0         0         0    0.8372   -0.0113    1.6863         0         0
+                       |
+{Error: Unexpected MATLAB expression.
+} 
+         0         0         0         0         0    1.6863    0.2620    1.0170         0
+???          0         0         0         0         0    1.6863    0.2620    1.0170         0
+                       |
+{Error: Unexpected MATLAB expression.
+} 
+         0         0         0         0         0         0    1.0170   -1.1818    0.1633
+???          0         0         0         0         0         0    1.0170   -1.1818    0.1633
+                       |
+{Error: Unexpected MATLAB expression.
+} 
+         0         0         0         0         0         0         0    0.1633    0.7023T ={0.9696,1.8226,0          , 0     ,    0    ,     0     ,    0   ,      0   ,      0;    1.8226 ,  -0.5635 ,   1.1038   ,      0   ,      0   ,      0  ,       0      ,   0         ,0;         0  ,  1.1038  , -0.2864  ,  0.7440   ,      0  ,       0  ,       0     ,    0        , 0;         0  ,       0   , 0.7440  ,  0.4680  ,  1.5740  ,       0  ,       0    ,     0       ,  0;         0  ,       0   ,      0  ,  1.5740  , -0.3588 ,   0.8372  ,       0   ,      0      ,   0;         0  ,       0   ,      0  ,       0  ,  0.8372 ,  -0.0113  ,  1.6863  ,       0     ,    0;         0  ,       0   ,      0  ,       0  ,       0  ,  1.6863  ,  0.2620 ,   1.0170    ,     0;         0  ,       0  ,       0  ,       0  ,       0   ,      0  ,  1.0170 ,  -1.1818   , 0.1633;         0  ,       0 ,        0  ,       0  ,       0   ,      0  ,       0 ,   0.1633   , 0.7023;}
+???          0         0         0         0         0         0         0    0.1633    0.7023T ={0.9696,1.8226,0          , 0     ,    0    ,     0     ,    0   ,      0   ,      0;    1.8226 ,  -0.5635 ,   1.1038   ,      0   ,      0   ,      0  ,       0      ,   0         ,0;         0  ,  1.1038  , -0.2864  ,  0.7440   ,      0  ,       0  ,       0     ,    0        , 0;         0  ,       0   , 0.7440  ,  0.4680  ,  1.5740  ,       0  ,       0    ,     0       ,  0;         0  ,       0   ,      0  ,  1.5740  , -0.3588 ,   0.8372  ,       0   ,      0      ,   0;         0  ,       0   ,      0  ,       0  ,  0.8372 ,  -0.0113  ,  1.6863  ,       0     ,    0;         0  ,       0   ,      0  ,       0  ,       0  ,  1.6863  ,  0.2620 ,   1.0170    ,     0;         0  ,       0  ,       0  ,       0  ,       0   ,      0  ,  1.0170 ,  -1.1818   , 0.1633;         0  ,       0 ,        0  ,       0  ,       0   ,      0  ,       0 ,   0.1633   , 0.7023;}
+                       |
+{Error: Unexpected MATLAB expression.
+} 
+T ={0.9696,1.8226,0          , 0     ,    0    ,     0     ,    0   ,      0   ,      0;    1.8226 ,  -0.5635 ,   1.1038   ,      0   ,      0   ,      0  ,       0      ,   0         ,0;         0  ,  1.1038  , -0.2864  ,  0.7440   ,      0  ,       0  ,       0     ,    0        , 0;         0  ,       0   , 0.7440  ,  0.4680  ,  1.5740  ,       0  ,       0    ,     0       ,  0;         0  ,       0   ,      0  ,  1.5740  , -0.3588 ,   0.8372  ,       0   ,      0      ,   0;         0  ,       0   ,      0  ,       0  ,  0.8372 ,  -0.0113  ,  1.6863  ,       0     ,    0;         0  ,       0   ,      0  ,       0  ,       0  ,  1.6863  ,  0.2620 ,   1.0170    ,     0;         0  ,       0  ,       0  ,       0  ,       0   ,      0  ,  1.0170 ,  -1.1818   , 0.1633;         0  ,       0 ,        0  ,       0  ,       0   ,      0  ,       0 ,   0.1633   , 0.7023;}
+
+T = 
+
+    [0.9696]    [ 1.8226]    [      0]    [     0]    [      0]    [      0]    [     0]    [      0]    [     0]
+    [1.8226]    [-0.5635]    [ 1.1038]    [     0]    [      0]    [      0]    [     0]    [      0]    [     0]
+    [     0]    [ 1.1038]    [-0.2864]    [0.7440]    [      0]    [      0]    [     0]    [      0]    [     0]
+    [     0]    [      0]    [ 0.7440]    [0.4680]    [ 1.5740]    [      0]    [     0]    [      0]    [     0]
+    [     0]    [      0]    [      0]    [1.5740]    [-0.3588]    [ 0.8372]    [     0]    [      0]    [     0]
+    [     0]    [      0]    [      0]    [     0]    [ 0.8372]    [-0.0113]    [1.6863]    [      0]    [     0]
+    [     0]    [      0]    [      0]    [     0]    [      0]    [ 1.6863]    [0.2620]    [ 1.0170]    [     0]
+    [     0]    [      0]    [      0]    [     0]    [      0]    [      0]    [1.0170]    [-1.1818]    [0.1633]
+    [     0]    [      0]    [      0]    [     0]    [      0]    [      0]    [     0]    [ 0.1633]    [0.7023]
+
+size(T)
+
+ans =
+
+     9     9
+
+T ={1,2,3;4,5,6}
+
+T = 
+
+    [1]    [2]    [3]
+    [4]    [5]    [6]
+
+T ={0.9696,1.8226,0          , 0     ,    0    ,     0     ,    0   ,      0   ,      0;    1.8226 ,  -0.5635 ,   1.1038   ,      0   ,      0   ,      0  ,       0      ,   0         ,0;         0  ,  1.1038  , -0.2864  ,  0.7440   ,      0  ,       0  ,       0     ,    0        , 0;         0  ,       0   , 0.7440  ,  0.4680  ,  1.5740  ,       0  ,       0    ,     0       ,  0;         0  ,       0   ,      0  ,  1.5740  , -0.3588 ,   0.8372  ,       0   ,      0      ,   0;         0  ,       0   ,      0  ,       0  ,  0.8372 ,  -0.0113  ,  1.6863  ,       0     ,    0;         0  ,       0   ,      0  ,       0  ,       0  ,  1.6863  ,  0.2620 ,   1.0170    ,     0;         0  ,       0  ,       0  ,       0  ,       0   ,      0  ,  1.0170 ,  -1.1818   , 0.1633;         0  ,       0 ,        0  ,       0  ,       0   ,      0  ,       0 ,   0.1633   , 0.7023;}
+
+T = 
+
+    [0.9696]    [ 1.8226]    [      0]    [     0]    [      0]    [      0]    [     0]    [      0]    [     0]
+    [1.8226]    [-0.5635]    [ 1.1038]    [     0]    [      0]    [      0]    [     0]    [      0]    [     0]
+    [     0]    [ 1.1038]    [-0.2864]    [0.7440]    [      0]    [      0]    [     0]    [      0]    [     0]
+    [     0]    [      0]    [ 0.7440]    [0.4680]    [ 1.5740]    [      0]    [     0]    [      0]    [     0]
+    [     0]    [      0]    [      0]    [1.5740]    [-0.3588]    [ 0.8372]    [     0]    [      0]    [     0]
+    [     0]    [      0]    [      0]    [     0]    [ 0.8372]    [-0.0113]    [1.6863]    [      0]    [     0]
+    [     0]    [      0]    [      0]    [     0]    [      0]    [ 1.6863]    [0.2620]    [ 1.0170]    [     0]
+    [     0]    [      0]    [      0]    [     0]    [      0]    [      0]    [1.0170]    [-1.1818]    [0.1633]
+    [     0]    [      0]    [      0]    [     0]    [      0]    [      0]    [     0]    [ 0.1633]    [0.7023]
+
+[Q,D]=eigen(T)
+{??? Undefined function or method 'eigen' for input arguments of type 'cell'.
+} 
+[Q,D]=eig(T)
+{??? Undefined function or method 'eig' for input arguments of type 'cell'.
+} 
+T= cell2mat(T)
+
+T =
+
+    0.9696    1.8226         0         0         0         0         0         0         0
+    1.8226   -0.5635    1.1038         0         0         0         0         0         0
+         0    1.1038   -0.2864    0.7440         0         0         0         0         0
+         0         0    0.7440    0.4680    1.5740         0         0         0         0
+         0         0         0    1.5740   -0.3588    0.8372         0         0         0
+         0         0         0         0    0.8372   -0.0113    1.6863         0         0
+         0         0         0         0         0    1.6863    0.2620    1.0170         0
+         0         0         0         0         0         0    1.0170   -1.1818    0.1633
+         0         0         0         0         0         0         0    0.1633    0.7023
+
+[Q,D]=eig(T)
+
+Q =
+
+    0.2277    0.3412   -0.1759   -0.1442   -0.4014   -0.0104    0.2222    0.4212    0.6261
+   -0.4214   -0.6001    0.2525    0.1333    0.2136    0.0015    0.0825    0.2927    0.4927
+    0.3267    0.3459    0.0427    0.2199    0.7719    0.0189   -0.2017    0.0468    0.2906
+   -0.3044   -0.0161   -0.4527   -0.3243   -0.0197    0.0233   -0.6463   -0.2755    0.3200
+    0.4010   -0.1358    0.5880    0.1397   -0.3590   -0.0053   -0.3886   -0.3316    0.2562
+   -0.4073    0.3348   -0.0532    0.5503   -0.1168   -0.0506    0.2844   -0.5098    0.2438
+    0.3787   -0.3743   -0.2403   -0.2989    0.1774   -0.0192    0.4725   -0.5148    0.2220
+   -0.3174    0.3642    0.5392   -0.6254    0.1479    0.0754    0.1716   -0.1540    0.0632
+    0.0167   -0.0202   -0.0375    0.0721   -0.0344    0.9952    0.0297   -0.0164    0.0061
+
+
+D =
+
+   -2.4038         0         0         0         0         0         0         0         0
+         0   -2.2360         0         0         0         0         0         0         0
+         0         0   -1.6465         0         0         0         0         0         0
+         0         0         0   -0.7146         0         0         0         0         0
+         0         0         0         0   -0.0000         0         0         0         0
+         0         0         0         0         0    0.7147         0         0         0
+         0         0         0         0         0         0    1.6464         0         0
+         0         0         0         0         0         0         0    2.2361         0
+         0         0         0         0         0         0         0         0    2.4038
+
+num_ortho = parallel_selective_orthogonalize(it, bet(it), v_path, Q,D, NumOfNodes, NumOfMachines,NumOfProcessors);
+{??? Undefined function or variable 'it'.
+} 
+it = 9
+
+it =
+
+     9
+
+bet(it) =0
+
+bet =
+
+     0     0     0     0     0     0     0     0     0
+
+num_ortho = parallel_selective_orthogonalize(9, 0, , Q,D, NumOfNodes, NumOfMachines,NumOfProcessors);
+??? num_ortho = parallel_selective_orthogonalize(9, 0, , Q,D, NumOfNodes, NumOfMachines,NumOfProcessors);
+                                                       |
+{Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
+} 
+v_path='lz_vpath'
+
+v_path =
+
+lz_vpath
+
+NumOfNodes = 8
+
+NumOfNodes =
+
+     8
+
+NumOfMachines = 4
+
+NumOfMachines =
+
+     4
+
+NumOfNodes = 4
+
+NumOfNodes =
+
+     4
+
+NumOfNodes = 16
+
+NumOfNodes =
+
+    16
+
+NumOfProcessors = 4
+
+NumOfProcessors =
+
+     4
+
+num_ortho = parallel_selective_orthogonalize(9, 0, v_path, Q,D, NumOfNodes, NumOfMachines,NumOfProcessors);
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+
+machines = 
+
+    'hec-51'    'hec-50'    'hec-49'    'hec-48'
+
+Error of1/9 th vector:0
+V need to be reorthogalized by 1th Ritz Vector
+Reorthogonalizing against1th Ritz vector
+Store j: 1 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.121
+Submitting parallel_computeR on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27054'
+bash: line 0: kill: (27054) - No such process
+ ssh hec-49 -n  'kill -9 24004'
+bash: line 0: kill: (24004) - No such process
+ ssh hec-50 -n  'kill -9 5584'
+bash: line 0: kill: (5584) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Construting the T matrix...
+Row is 9
+INGEST time (sec) = 0.057
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.0090
+Submitting parallel_rtv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27181'
+bash: line 0: kill: (27181) - No such process
+ ssh hec-49 -n  'kill -9 24528'
+bash: line 0: kill: (24528) - No such process
+ ssh hec-50 -n  'kill -9 6047'
+bash: line 0: kill: (6047) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 4
+INGEST time (sec) = 0.039
+INGEST time (sec) = 0.05
+Submitting parallel_so_rrtv on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27293'
+bash: line 0: kill: (27293) - No such process
+ ssh hec-49 -n  'kill -9 24695'
+bash: line 0: kill: (24695) - No such process
+ ssh hec-50 -n  'kill -9 6192'
+bash: line 0: kill: (6192) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 4
+INGEST time (sec) = 0.036
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.012
+Submitting parallel_so_updatev on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27382'
+bash: line 0: kill: (27382) - No such process
+ ssh hec-49 -n  'kill -9 24851'
+bash: line 0: kill: (24851) - No such process
+ ssh hec-50 -n  'kill -9 6320'
+bash: line 0: kill: (6320) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 4
+INGEST time (sec) = 0.033
+INGEST time (sec) = 0.02
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.01
+Error of2/9 th vector:0
+V need to be reorthogalized by 2th Ritz Vector
+Reorthogonalizing against2th Ritz vector
+Store j: 2 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.019
+Submitting parallel_computeR on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27477'
+bash: line 0: kill: (27477) - No such process
+ ssh hec-49 -n  'kill -9 24995'
+bash: line 0: kill: (24995) - No such process
+ ssh hec-50 -n  'kill -9 6445'
+bash: line 0: kill: (6445) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Construting the T matrix...
+Row is 9
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.01
+Submitting parallel_rtv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27572'
+bash: line 0: kill: (27572) - No such process
+ ssh hec-49 -n  'kill -9 25136'
+bash: line 0: kill: (25136) - No such process
+ ssh hec-50 -n  'kill -9 6581'
+bash: line 0: kill: (6581) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 4
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.019
+Submitting parallel_so_rrtv on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27684'
+bash: line 0: kill: (27684) - No such process
+ ssh hec-49 -n  'kill -9 25318'
+bash: line 0: kill: (25318) - No such process
+ ssh hec-50 -n  'kill -9 6750'
+bash: line 0: kill: (6750) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 4
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+Submitting parallel_so_updatev on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27778'
+bash: line 0: kill: (27778) - No such process
+ ssh hec-49 -n  'kill -9 25475'
+bash: line 0: kill: (25475) - No such process
+ ssh hec-50 -n  'kill -9 6892'
+bash: line 0: kill: (6892) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 4
+INGEST time (sec) = 0.031
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.022
+Error of3/9 th vector:0
+V need to be reorthogalized by 3th Ritz Vector
+Reorthogonalizing against3th Ritz vector
+Store j: 3 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.01
+Submitting parallel_computeR on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27873'
+bash: line 0: kill: (27873) - No such process
+ ssh hec-49 -n  'kill -9 25637'
+bash: line 0: kill: (25637) - No such process
+ ssh hec-50 -n  'kill -9 7008'
+bash: line 0: kill: (7008) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Construting the T matrix...
+Row is 9
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+Submitting parallel_rtv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 27968'
+bash: line 0: kill: (27968) - No such process
+ ssh hec-49 -n  'kill -9 25786'
+bash: line 0: kill: (25786) - No such process
+ ssh hec-50 -n  'kill -9 7143'
+bash: line 0: kill: (7143) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 4
+INGEST time (sec) = 0.024
+INGEST time (sec) = 0.0090
+Submitting parallel_so_rrtv on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28083'
+bash: line 0: kill: (28083) - No such process
+ ssh hec-49 -n  'kill -9 25961'
+bash: line 0: kill: (25961) - No such process
+ ssh hec-50 -n  'kill -9 7298'
+bash: line 0: kill: (7298) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 4
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.012
+Submitting parallel_so_updatev on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28172'
+bash: line 0: kill: (28172) - No such process
+ ssh hec-49 -n  'kill -9 26110'
+bash: line 0: kill: (26110) - No such process
+ ssh hec-50 -n  'kill -9 7438'
+bash: line 0: kill: (7438) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 4
+INGEST time (sec) = 0.035
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.0090
+Error of4/9 th vector:0
+V need to be reorthogalized by 4th Ritz Vector
+Reorthogonalizing against4th Ritz vector
+Store j: 4 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.01
+Submitting parallel_computeR on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28269'
+bash: line 0: kill: (28269) - No such process
+ ssh hec-49 -n  'kill -9 26272'
+bash: line 0: kill: (26272) - No such process
+ ssh hec-50 -n  'kill -9 7567'
+bash: line 0: kill: (7567) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Construting the T matrix...
+Row is 9
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.027
+INGEST time (sec) = 0.01
+Submitting parallel_rtv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28364'
+bash: line 0: kill: (28364) - No such process
+ ssh hec-49 -n  'kill -9 26429'
+bash: line 0: kill: (26429) - No such process
+ ssh hec-50 -n  'kill -9 7702'
+bash: line 0: kill: (7702) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 4
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.0090
+Submitting parallel_so_rrtv on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28476'
+bash: line 0: kill: (28476) - No such process
+ ssh hec-49 -n  'kill -9 26618'
+bash: line 0: kill: (26618) - No such process
+ ssh hec-50 -n  'kill -9 7859'
+bash: line 0: kill: (7859) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 4
+INGEST time (sec) = 0.019
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.0090
+Submitting parallel_so_updatev on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28565'
+bash: line 0: kill: (28565) - No such process
+ ssh hec-49 -n  'kill -9 26775'
+bash: line 0: kill: (26775) - No such process
+ ssh hec-50 -n  'kill -9 7985'
+bash: line 0: kill: (7985) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 4
+INGEST time (sec) = 0.051
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.0090
+Error of5/9 th vector:0
+V need to be reorthogalized by 5th Ritz Vector
+Reorthogonalizing against5th Ritz vector
+Store j: 5 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.013
+Submitting parallel_computeR on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28660'
+bash: line 0: kill: (28660) - No such process
+ ssh hec-49 -n  'kill -9 26937'
+bash: line 0: kill: (26937) - No such process
+ ssh hec-50 -n  'kill -9 8108'
+bash: line 0: kill: (8108) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Construting the T matrix...
+Row is 9
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+Submitting parallel_rtv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28755'
+bash: line 0: kill: (28755) - No such process
+ ssh hec-49 -n  'kill -9 27081'
+bash: line 0: kill: (27081) - No such process
+ ssh hec-50 -n  'kill -9 8235'
+bash: line 0: kill: (8235) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 4
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.0090
+Submitting parallel_so_rrtv on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28867'
+bash: line 0: kill: (28867) - No such process
+ ssh hec-49 -n  'kill -9 27247'
+bash: line 0: kill: (27247) - No such process
+ ssh hec-50 -n  'kill -9 8387'
+bash: line 0: kill: (8387) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 4
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.01
+Submitting parallel_so_updatev on 4 processor(s).
+ ssh hec-48 -n  'kill -9 28960'
+bash: line 0: kill: (28960) - No such process
+ ssh hec-49 -n  'kill -9 27394'
+bash: line 0: kill: (27394) - No such process
+ ssh hec-50 -n  'kill -9 8533'
+bash: line 0: kill: (8533) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 4
+INGEST time (sec) = 0.02
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+Error of6/9 th vector:0
+V need to be reorthogalized by 6th Ritz Vector
+Reorthogonalizing against6th Ritz vector
+Store j: 6 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.011
+Submitting parallel_computeR on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29055'
+bash: line 0: kill: (29055) - No such process
+ ssh hec-49 -n  'kill -9 27563'
+bash: line 0: kill: (27563) - No such process
+ ssh hec-50 -n  'kill -9 8663'
+bash: line 0: kill: (8663) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Construting the T matrix...
+Row is 9
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.0090
+Submitting parallel_rtv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29150'
+bash: line 0: kill: (29150) - No such process
+ ssh hec-49 -n  'kill -9 27720'
+bash: line 0: kill: (27720) - No such process
+ ssh hec-50 -n  'kill -9 8789'
+bash: line 0: kill: (8789) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 4
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.01
+Submitting parallel_so_rrtv on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29265'
+bash: line 0: kill: (29265) - No such process
+ ssh hec-49 -n  'kill -9 27892'
+bash: line 0: kill: (27892) - No such process
+ ssh hec-50 -n  'kill -9 8942'
+bash: line 0: kill: (8942) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 4
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.011
+Submitting parallel_so_updatev on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29358'
+bash: line 0: kill: (29358) - No such process
+ ssh hec-49 -n  'kill -9 28060'
+bash: line 0: kill: (28060) - No such process
+ ssh hec-50 -n  'kill -9 9091'
+bash: line 0: kill: (9091) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 4
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.023
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.012
+Error of7/9 th vector:0
+V need to be reorthogalized by 7th Ritz Vector
+Reorthogonalizing against7th Ritz vector
+Store j: 7 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.018
+Submitting parallel_computeR on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29455'
+bash: line 0: kill: (29455) - No such process
+ ssh hec-49 -n  'kill -9 28214'
+bash: line 0: kill: (28214) - No such process
+ ssh hec-50 -n  'kill -9 9222'
+bash: line 0: kill: (9222) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Construting the T matrix...
+Row is 9
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.01
+Submitting parallel_rtv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29550'
+bash: line 0: kill: (29550) - No such process
+ ssh hec-49 -n  'kill -9 28360'
+bash: line 0: kill: (28360) - No such process
+ ssh hec-50 -n  'kill -9 9364'
+bash: line 0: kill: (9364) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 4
+INGEST time (sec) = 0.025
+INGEST time (sec) = 0.0090
+Submitting parallel_so_rrtv on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29662'
+bash: line 0: kill: (29662) - No such process
+ ssh hec-49 -n  'kill -9 28537'
+bash: line 0: kill: (28537) - No such process
+ ssh hec-50 -n  'kill -9 9532'
+bash: line 0: kill: (9532) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 4
+INGEST time (sec) = 0.025
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.0090
+Submitting parallel_so_updatev on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29751'
+bash: line 0: kill: (29751) - No such process
+ ssh hec-49 -n  'kill -9 28681'
+bash: line 0: kill: (28681) - No such process
+ ssh hec-50 -n  'kill -9 9677'
+bash: line 0: kill: (9677) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 4
+INGEST time (sec) = 0.041
+INGEST time (sec) = 0.012
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.022
+Error of8/9 th vector:0
+V need to be reorthogalized by 8th Ritz Vector
+Reorthogonalizing against8th Ritz vector
+Store j: 8 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.0090
+Submitting parallel_computeR on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29846'
+bash: line 0: kill: (29846) - No such process
+ ssh hec-49 -n  'kill -9 28852'
+bash: line 0: kill: (28852) - No such process
+ ssh hec-50 -n  'kill -9 9813'
+bash: line 0: kill: (9813) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Construting the T matrix...
+Row is 9
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+Submitting parallel_rtv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 29943'
+bash: line 0: kill: (29943) - No such process
+ ssh hec-49 -n  'kill -9 29019'
+bash: line 0: kill: (29019) - No such process
+ ssh hec-50 -n  'kill -9 9956'
+bash: line 0: kill: (9956) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 4
+INGEST time (sec) = 0.036
+INGEST time (sec) = 0.0090
+Submitting parallel_so_rrtv on 4 processor(s).
+ ssh hec-48 -n  'kill -9 30055'
+bash: line 0: kill: (30055) - No such process
+ ssh hec-49 -n  'kill -9 29182'
+bash: line 0: kill: (29182) - No such process
+ ssh hec-50 -n  'kill -9 10123'
+bash: line 0: kill: (10123) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 4
+INGEST time (sec) = 0.027
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.011
+Submitting parallel_so_updatev on 4 processor(s).
+ ssh hec-48 -n  'kill -9 30144'
+bash: line 0: kill: (30144) - No such process
+ ssh hec-49 -n  'kill -9 29328'
+bash: line 0: kill: (29328) - No such process
+ ssh hec-50 -n  'kill -9 10306'
+bash: line 0: kill: (10306) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 4
+INGEST time (sec) = 0.026
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.015
+INGEST time (sec) = 0.012
+Error of9/9 th vector:0
+V need to be reorthogalized by 9th Ritz Vector
+Reorthogonalizing against9th Ritz vector
+Store j: 9 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.01
+Submitting parallel_computeR on 4 processor(s).
+ ssh hec-48 -n  'kill -9 30242'
+bash: line 0: kill: (30242) - No such process
+ ssh hec-49 -n  'kill -9 29472'
+bash: line 0: kill: (29472) - No such process
+ ssh hec-50 -n  'kill -9 10534'
+bash: line 0: kill: (10534) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Construting the T matrix...
+Row is 9
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.0090
+Submitting parallel_rtv_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 30337'
+bash: line 0: kill: (30337) - No such process
+ ssh hec-49 -n  'kill -9 29631'
+bash: line 0: kill: (29631) - No such process
+ ssh hec-50 -n  'kill -9 10675'
+bash: line 0: kill: (10675) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+start index: 1 end index: 4
+INGEST time (sec) = 0.025
+INGEST time (sec) = 0.0080
+Submitting parallel_so_rrtv on 4 processor(s).
+ ssh hec-48 -n  'kill -9 30460'
+bash: line 0: kill: (30460) - No such process
+ ssh hec-49 -n  'kill -9 29824'
+bash: line 0: kill: (29824) - No such process
+ ssh hec-50 -n  'kill -9 10849'
+bash: line 0: kill: (10849) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calculating so_rrtv ....
+start index: 1 end index: 4
+INGEST time (sec) = 0.022
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+Submitting parallel_so_updatev on 4 processor(s).
+ ssh hec-48 -n  'kill -9 30549'
+bash: line 0: kill: (30549) - No such process
+ ssh hec-49 -n  'kill -9 29987'
+bash: line 0: kill: (29987) - No such process
+ ssh hec-50 -n  'kill -9 10981'
+bash: line 0: kill: (10981) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+start index: 1 end index: 4
+INGEST time (sec) = 0.028
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.014
+INGEST time (sec) = 0.0090
+num_ortho
+
+num_ortho =
+
+     9
+
+if(num_ortho > 0)
+disp(['Recomputing beta[' num2str(it) ']']);
+eval(pRUN('parallel_lz_norm_v_p1',NumOfProcessors,{'hec-51' 'hec-50' 'hec-49' 'hec-48'}));
+parallel_lz_norm_v_p2; %% scalar_v is written to beta_i in the table beta_t('i,','1,')
+bet(it) = scalar_v;
+disp(['beta[' num2str(it) ']=' num2str(bet(it))]);
+end
+Recomputing beta[9]
+Submitting parallel_lz_norm_v_p1 on 4 processor(s).
+ ssh hec-48 -n  'kill -9 30645'
+bash: line 0: kill: (30645) - No such process
+ ssh hec-49 -n  'kill -9 30156'
+bash: line 0: kill: (30156) - No such process
+ ssh hec-50 -n  'kill -9 11124'
+bash: line 0: kill: (11124) - No such process
+Launching MPI rank: 3 on: hec-48
+Launching MPI rank: 2 on: hec-49
+Launching MPI rank: 1 on: hec-50
+Launching MPI rank: 0 on: hec-51
+
+unix_launch =
+
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-48.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-49.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/ModifiedCode; /bin/sh ./MatMPI/Unix_Commands.hec-50.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-51.0.sh &
+
+
+start index: 1 end index: 4length: 4
+Result in 1 th processor is 0.000000000000000,
+INGEST time (sec) = 0.039
+Running p2!
+(1,1)     0.000000000000000
+(2,1)     0.000000000000000
+(3,1)     0.000000000000000
+(4,1)     0.000000000000000
+temp 1th is: 0
+temp 2th is: 0
+temp 3th is: 0
+temp 4th is: 0
+Before sqrt: 0.000000000000000,
+After sqrt: 0.000000000000000,
+INGEST time (sec) = 0.019
+In p2 Sum is: 0.000000000000000
+In table: 0.000000000000000
+
+beta[9]=0
+T
+
+T =
+
+  Columns 1 through 6
+
+   0.969600000000000   1.822600000000000                   0                   0                   0                   0
+   1.822600000000000  -0.563500000000000   1.103800000000000                   0                   0                   0
+                   0   1.103800000000000  -0.286400000000000   0.744000000000000                   0                   0
+                   0                   0   0.744000000000000   0.468000000000000   1.574000000000000                   0
+                   0                   0                   0   1.574000000000000  -0.358800000000000   0.837200000000000
+                   0                   0                   0                   0   0.837200000000000  -0.011300000000000
+                   0                   0                   0                   0                   0   1.686300000000000
+                   0                   0                   0                   0                   0                   0
+                   0                   0                   0                   0                   0                   0
+
+  Columns 7 through 9
+
+                   0                   0                   0
+                   0                   0                   0
+                   0                   0                   0
+                   0                   0                   0
+                   0                   0                   0
+   1.686300000000000                   0                   0
+   0.262000000000000   1.017000000000000                   0
+   1.017000000000000  -1.181800000000000   0.163300000000000
+                   0   0.163300000000000   0.702300000000000
+
+[Q,D]=eig(T)
+
+Q =
+
+  Columns 1 through 6
+
+   0.227695190463399   0.341172371920000  -0.175916169679737  -0.144211710678361  -0.401432726172666  -0.010444738271900
+  -0.421435536360983  -0.600059688638295   0.252500884016998   0.133262746894086   0.213557725393497   0.001460894625248
+   0.326665385816709   0.345887597905413   0.042738924019846   0.219877872329803   0.771870319843733   0.018938085461682
+  -0.304439284334278  -0.016133469511345  -0.452739495742971  -0.324263690791617  -0.019709069559670   0.023314389035729
+   0.401049321802322  -0.135778372055567   0.587994916535136   0.139703028838928  -0.358988321148845  -0.005297879497386
+  -0.407263484095372   0.334782466365876  -0.053187327132992   0.550264567675759  -0.116796363552020  -0.050625882350490
+   0.378711968500680  -0.374265201145631  -0.240348274549844  -0.298863257899954   0.177445030510493  -0.019164877112616
+  -0.317408425950663   0.364186898629674   0.539219299708154  -0.625402560255971   0.147947498908903   0.075412947561367
+   0.016687385939064  -0.020240045958048  -0.037489709098868   0.072077478340482  -0.034400867100273   0.995158835938612
+
+  Columns 7 through 9
+
+   0.222165170250947   0.421246989455779   0.626058369026860
+   0.082503291865207   0.292711592547083   0.492654946951643
+  -0.201658661511841   0.046839522153187   0.290647557400508
+  -0.646292024119712  -0.275462130259084   0.320049476390000
+  -0.388553358295058  -0.331565812619056   0.256239018179057
+   0.284424886114413  -0.509785443167454   0.243832081810746
+   0.472513592780064  -0.514789169387186   0.222002811865553
+   0.171623907015868  -0.153960688102275   0.063243532601652
+   0.029684319941489  -0.016392158434298   0.006069629760501
+
+
+D =
+
+  Columns 1 through 6
+
+  -2.403806381611720                   0                   0                   0                   0                   0
+                   0  -2.236019442035615                   0                   0                   0                   0
+                   0                   0  -1.646464867983486                   0                   0                   0
+                   0                   0                   0  -0.714623017303176                   0                   0
+                   0                   0                   0                   0  -0.000002837350059                   0
+                   0                   0                   0                   0                   0   0.714674842981881
+                   0                   0                   0                   0                   0                   0
+                   0                   0                   0                   0                   0                   0
+                   0                   0                   0                   0                   0                   0
+
+  Columns 7 through 9
+
+                   0                   0                   0
+                   0                   0                   0
+                   0                   0                   0
+                   0                   0                   0
+                   0                   0                   0
+                   0                   0                   0
+   1.646441016905011                   0                   0
+                   0   2.236068750947164                   0
+                   0                   0   2.403831935450001
+
+diag(D)
+
+ans =
+
+  -2.403806381611720
+  -2.236019442035615
+  -1.646464867983486
+  -0.714623017303176
+  -0.000002837350059
+   0.714674842981881
+   1.646441016905011
+   2.236068750947164
+   2.403831935450001
+
+exit

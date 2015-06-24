@@ -1,0 +1,3245 @@
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_vpath in hec-59.cs.iit.edu:2181 Accumulo
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_B50_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: extraDB.user: rootDB.type: Accumulo
+Creating alpha in hec-59.cs.iit.edu:2181 Accumulo
+Creating beta in hec-59.cs.iit.edu:2181 Accumulo
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating so_rpath in hec-59.cs.iit.edu:2181 Accumulo
+Creating cur_loop_j in hec-59.cs.iit.edu:2181 Accumulo
+Creating rtv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating so_rrtv in hec-59.cs.iit.edu:2181 Accumulo
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_vpath in hec-59.cs.iit.edu:2181 Accumulo
+Creating extra in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.506
+INGEST time (sec) = 0.065
+INGEST time (sec) = 0.074
+INGEST time (sec) = 0.069
+Creating 50lz_q2 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q2DB.user: rootDB.type: Accumulo
+Creating 50lz_q3 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q3DB.user: rootDB.type: Accumulo
+Creating 50lz_q4 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q4DB.user: rootDB.type: Accumulo
+Creating 50lz_q5 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q5DB.user: rootDB.type: Accumulo
+Creating 50lz_q6 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q6DB.user: rootDB.type: Accumulo
+Creating 50lz_q7 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q7DB.user: rootDB.type: Accumulo
+Creating 50lz_q8 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q8DB.user: rootDB.type: Accumulo
+Creating 50lz_q9 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q9DB.user: rootDB.type: Accumulo
+Creating 50lz_q10 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q10DB.user: rootDB.type: Accumulo
+Creating 50lz_q1 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q2 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q3 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q4 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q5 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q6 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q7 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q8 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q9 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q10 in hec-59.cs.iit.edu:2181 Accumulo
+	Running Yingen with the following configuration:
+
+    '3'    'machines:'    'hec-63'    'hec-62'    'hec-60'    [1x1 char]
+
+5 processors	
+50 nodes	
+9 max iterations	
+6 top eigen values
+Initializing the random vector b in table B50
+In initB.m: 
+
+NumOfNodes: 50	NumOfProcessors: 5
+
+    'Machines: '    'hec-63'    'hec-62'    'hec-60'
+
+Creating B50 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: B50DB.user: rootDB.type: Accumulo
+Creating B50 in hec-59.cs.iit.edu:2181 Accumulo
+Now initialize vector B!
+Submitting SaveB on 5 processor(s).
+ ssh hec-58 -n  'kill -9 8170'
+bash: line 0: kill: (8170) - No such process
+ ssh hec-59 -n  'kill -9 12546'
+bash: line 0: kill: (12546) - No such process
+ ssh hec-60 -n  'kill -9 13325'
+bash: line 0: kill: (13325) - No such process
+ ssh hec-62 -n  'kill -9 30728'
+bash: line 0: kill: (30728) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+INGEST time (sec) = 0.126
+Total time to initialize B50 is 66.0807
+Submitting parallel_lz_norm_B_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 25679'
+bash: line 0: kill: (25679) - No such process
+ ssh hec-60 -n  'kill -9 25698'
+bash: line 0: kill: (25698) - No such process
+ ssh hec-62 -n  'kill -9 10980'
+bash: line 0: kill: (10980) - No such process
+ ssh hec-62 -n  'kill -9 11023'
+bash: line 0: kill: (11023) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+start index: 1 end index: 10length: 10
+INGEST time (sec) = 0.085
+Time to parallel_lz_norm_B_p1: 0.23091
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     1.455041037228382
+(2,1)     2.931587614854357
+(3,1)     0.824274889324365
+(4,1)     2.815925848393613
+(5,1)     2.761212574694262
+Before sqrt: 10.788041964494980,
+After sqrt: 3.284515483978570,
+INGEST time (sec) = 0.052
+In p2 Sum is: 3.284515483978570
+In table: 3.284515483978570
+
+Time for summing the local files0.17796
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_B50_tempDB.user: rootDB.type: Accumulo
+In main process Sum is: 3.284515483978570
+Store scalar_b in table scalar_b
+Time for normalizing B vector is: 0.6276
+Submitting parallel_scalarmult_B on 5 processor(s).
+ ssh hec-60 -n  'kill -9 25870'
+bash: line 0: kill: (25870) - No such process
+ ssh hec-60 -n  'kill -9 25899'
+bash: line 0: kill: (25899) - No such process
+ ssh hec-62 -n  'kill -9 11173'
+bash: line 0: kill: (11173) - No such process
+ ssh hec-62 -n  'kill -9 11202'
+bash: line 0: kill: (11202) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Scalar value is: 0.30446
+start index: 1 end index: 10length: 10
+INGEST time (sec) = 0.047
+Time for parallel_scalarmult_B is: 0.081425
+Time for scalar multiply B vector is: 29.2048
+Time for running initializing B is: 29.2056
+InitB takes: 140.4828
+Creating Cut50 in hec-59.cs.iit.edu:2181 Accumulo
+Creating Entries50 in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: Cut50DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: Entries50DB.user: rootDB.type: Accumulo
+Creating Cut50 in hec-59.cs.iit.edu:2181 Accumulo
+Creating Entries50 in hec-59.cs.iit.edu:2181 Accumulo
+Submitting myscheduler on 5 processor(s).
+ ssh hec-60 -n  'kill -9 26065'
+bash: line 0: kill: (26065) - No such process
+ ssh hec-60 -n  'kill -9 26108'
+bash: line 0: kill: (26108) - No such process
+ ssh hec-62 -n  'kill -9 11361'
+bash: line 0: kill: (11361) - No such process
+ ssh hec-62 -n  'kill -9 11400'
+bash: line 0: kill: (11400) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My processes # is :1
+I am just waiting!
+Scheduler 1 running time: 65.704s
+
+In testscheduler!
+Even load is: 625
+Even col is: 12.5
+Total entries are: 2500
+Range query time: 0.029019
+INGEST time (sec) = 0.045
+INGEST time (sec) = 0.016
+INGEST time (sec) = 0.015
+Done
+Scheduler 2 running time: 1.4892s
+**************myEigen iterations***********************
+computing v=Aq 1 ...
+INGEST time (sec) = 0.056
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting iterator_mv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 26263'
+bash: line 0: kill: (26263) - No such process
+ ssh hec-60 -n  'kill -9 26280'
+bash: line 0: kill: (26280) - No such process
+ ssh hec-62 -n  'kill -9 11572'
+bash: line 0: kill: (11572) - No such process
+ ssh hec-62 -n  'kill -9 11603'
+bash: line 0: kill: (11603) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 50lz_q1 into mv_temp ************
+I am just waiting!
+Iteration 1 Matrix * vector p1 takes: 35.5614
+Submitting parallel_mv_p2 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 26493'
+bash: line 0: kill: (26493) - No such process
+ ssh hec-60 -n  'kill -9 26514'
+bash: line 0: kill: (26514) - No such process
+ ssh hec-62 -n  'kill -9 11802'
+bash: line 0: kill: (11802) - No such process
+ ssh hec-62 -n  'kill -9 11826'
+bash: line 0: kill: (11826) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 50lz_q1 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+I am just waiting
+Iteration 1 Matrix * vector p2 takes: 65.5322
+Result of v = Aq 1 is saved in table 50lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(1)
+Submitting parallel_dotproduct_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 26842'
+bash: line 0: kill: (26842) - No such process
+ ssh hec-60 -n  'kill -9 26876'
+bash: line 0: kill: (26876) - No such process
+ ssh hec-62 -n  'kill -9 12170'
+bash: line 0: kill: (12170) - No such process
+ ssh hec-62 -n  'kill -9 12213'
+bash: line 0: kill: (12213) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 1 Calculating alpha takes: 65.5471
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.131
+Result of alpha[1] =157.4269 is saved.
+Submitting parallel_sax_alpha on 5 processor(s).
+ ssh hec-60 -n  'kill -9 27072'
+bash: line 0: kill: (27072) - No such process
+ ssh hec-60 -n  'kill -9 27101'
+bash: line 0: kill: (27101) - No such process
+ ssh hec-62 -n  'kill -9 12427'
+bash: line 0: kill: (12427) - No such process
+ ssh hec-62 -n  'kill -9 12446'
+bash: line 0: kill: (12446) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating 157.4269 times vector: 50lz_q1
+I am just waiting
+Iteration 1 sax_alpha takes: 65.5283
+Submitting parallel_sax_v on 5 processor(s).
+ ssh hec-60 -n  'kill -9 27275'
+bash: line 0: kill: (27275) - No such process
+ ssh hec-60 -n  'kill -9 27318'
+bash: line 0: kill: (27318) - No such process
+ ssh hec-62 -n  'kill -9 12689'
+bash: line 0: kill: (12689) - No such process
+ ssh hec-62 -n  'kill -9 12733'
+bash: line 0: kill: (12733) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 12
+I am just waiting
+Iteration 1 sax_v takes: 65.5697
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 50lz_vpath table
+Computing beta[1]...
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 27467'
+bash: line 0: kill: (27467) - No such process
+ ssh hec-60 -n  'kill -9 27501'
+bash: line 0: kill: (27501) - No such process
+ ssh hec-62 -n  'kill -9 12923'
+bash: line 0: kill: (12923) - No such process
+ ssh hec-62 -n  'kill -9 12941'
+bash: line 0: kill: (12941) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     2389.718692304028991
+(2,1)     1961.080681832146865
+(3,1)     2744.135192556280799
+(4,1)     1821.783903275424564
+INGEST time (sec) = 0.071
+Iteration 1 beta takes: 35.6978
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+beta[1] = 94.4284
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+NumOfMachines in SO: 3Starting so, iterations # is 1 beta_it value is: 94.4284
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/1 th vector:94.4284compare to 2.3371e-06
+Iteration 1 SO takes: 0.14346
+Number of orthongalization: 0
+Computing q2...
+Submitting parallel_update_q on 5 processor(s).
+ ssh hec-60 -n  'kill -9 27675'
+bash: line 0: kill: (27675) - No such process
+ ssh hec-60 -n  'kill -9 27709'
+bash: line 0: kill: (27709) - No such process
+ ssh hec-62 -n  'kill -9 13153'
+bash: line 0: kill: (13153) - No such process
+ ssh hec-62 -n  'kill -9 13183'
+bash: line 0: kill: (13183) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 1 Update Q takes: 65.6315
+q_{2} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+----------EigenValues of Tm are:--------------
+
+myD =
+
+     1.574268601946983e+02
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.012
+**************Now constructing T matrix from alpha and beta******************
+INGEST time (sec) = 0.016
+Iteration: 1: 402.8035s
+**************myEigen iterations***********************
+computing v=Aq 2 ...
+INGEST time (sec) = 0.042
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting iterator_mv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 27863'
+bash: line 0: kill: (27863) - No such process
+ ssh hec-60 -n  'kill -9 27898'
+bash: line 0: kill: (27898) - No such process
+ ssh hec-62 -n  'kill -9 13388'
+bash: line 0: kill: (13388) - No such process
+ ssh hec-62 -n  'kill -9 13412'
+bash: line 0: kill: (13412) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 50lz_q2 into mv_temp ************
+I am just waiting!
+Iteration 2 Matrix * vector p1 takes: 36.6618
+Submitting parallel_mv_p2 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 28065'
+bash: line 0: kill: (28065) - No such process
+ ssh hec-60 -n  'kill -9 28097'
+bash: line 0: kill: (28097) - No such process
+ ssh hec-62 -n  'kill -9 13634'
+bash: line 0: kill: (13634) - No such process
+ ssh hec-62 -n  'kill -9 13655'
+bash: line 0: kill: (13655) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 50lz_q2 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+I am just waiting
+Iteration 2 Matrix * vector p2 takes: 65.4941
+Result of v = Aq 2 is saved in table 50lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(2)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_dotproduct_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 28428'
+bash: line 0: kill: (28428) - No such process
+ ssh hec-60 -n  'kill -9 28462'
+bash: line 0: kill: (28462) - No such process
+ ssh hec-62 -n  'kill -9 14019'
+bash: line 0: kill: (14019) - No such process
+ ssh hec-62 -n  'kill -9 14033'
+bash: line 0: kill: (14033) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 2 Calculating alpha takes: 65.5418
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.152
+Result of alpha[2] =56.6663 is saved.
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 5 processor(s).
+ ssh hec-60 -n  'kill -9 28661'
+bash: line 0: kill: (28661) - No such process
+ ssh hec-60 -n  'kill -9 28681'
+bash: line 0: kill: (28681) - No such process
+ ssh hec-62 -n  'kill -9 14291'
+bash: line 0: kill: (14291) - No such process
+ ssh hec-62 -n  'kill -9 14319'
+bash: line 0: kill: (14319) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 2 sax_beta: 3427.3133
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 5 processor(s).
+ ssh hec-60 -n  'kill -9 28864'
+bash: line 0: kill: (28864) - No such process
+ ssh hec-60 -n  'kill -9 28903'
+bash: line 0: kill: (28903) - No such process
+ ssh hec-62 -n  'kill -9 14535'
+bash: line 0: kill: (14535) - No such process
+ ssh hec-62 -n  'kill -9 14575'
+bash: line 0: kill: (14575) - No such process
+ ssh hec-62 -n  'kill -9 15699'
+bash: line 0: kill: (15699) - No such process
+ ssh hec-62 -n  'kill -9 15723'
+bash: line 0: kill: (15723) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating 56.6663 times vector: 50lz_q2
+I am just waiting
+Iteration 2 sax_alpha takes: 65.9321
+Submitting parallel_sax_v on 5 processor(s).
+ ssh hec-60 -n  'kill -9 29984'
+bash: line 0: kill: (29984) - No such process
+ ssh hec-60 -n  'kill -9 30028'
+bash: line 0: kill: (30028) - No such process
+ ssh hec-62 -n  'kill -9 15932'
+bash: line 0: kill: (15932) - No such process
+ ssh hec-62 -n  'kill -9 15971'
+bash: line 0: kill: (15971) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 12
+I am just waiting
+Iteration 2 sax_v takes: 65.4502
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 50lz_vpath table
+Computing beta[2]...
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 30181'
+bash: line 0: kill: (30181) - No such process
+ ssh hec-60 -n  'kill -9 30212'
+bash: line 0: kill: (30212) - No such process
+ ssh hec-62 -n  'kill -9 16171'
+bash: line 0: kill: (16171) - No such process
+ ssh hec-62 -n  'kill -9 16191'
+bash: line 0: kill: (16191) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     64.113842096046952
+(2,1)     122.478943550714860
+(3,1)     199.088028025657536
+(4,1)     115.575999171484327
+INGEST time (sec) = 0.05
+Iteration 2 beta takes: 35.9258
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+beta[2] = 22.3888
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01
+     9.442837746126892e+01     5.666628817780005e+01
+
+NumOfMachines in SO: 3Starting so, iterations # is 2 beta_it value is: 22.3888
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/2 th vector:19.1991compare to 3.1781e-06
+Error of2/2 th vector:11.5175compare to 3.1781e-06
+Iteration 2 SO takes: 0.11775
+Number of orthongalization: 0
+Computing q3...
+Submitting parallel_update_q on 5 processor(s).
+ ssh hec-60 -n  'kill -9 30381'
+bash: line 0: kill: (30381) - No such process
+ ssh hec-60 -n  'kill -9 30401'
+bash: line 0: kill: (30401) - No such process
+ ssh hec-62 -n  'kill -9 16402'
+bash: line 0: kill: (16402) - No such process
+ ssh hec-62 -n  'kill -9 16431'
+bash: line 0: kill: (16431) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 2 Update Q takes: 65.5969
+q_{3} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01
+     9.442837746126892e+01     5.666628817780005e+01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+     1.904647369751444e-02
+     2.140741018988008e+02
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.012
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01
+     9.442837746126892e+01     5.666628817780005e+01
+
+INGEST time (sec) = 0.023
+Iteration: 2: 3832.363s
+**************myEigen iterations***********************
+computing v=Aq 3 ...
+INGEST time (sec) = 0.044
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting iterator_mv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 30566'
+bash: line 0: kill: (30566) - No such process
+ ssh hec-60 -n  'kill -9 30600'
+bash: line 0: kill: (30600) - No such process
+ ssh hec-62 -n  'kill -9 16633'
+bash: line 0: kill: (16633) - No such process
+ ssh hec-62 -n  'kill -9 16657'
+bash: line 0: kill: (16657) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 50lz_q3 into mv_temp ************
+I am just waiting!
+Iteration 3 Matrix * vector p1 takes: 65.5013
+Submitting parallel_mv_p2 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 30780'
+bash: line 0: kill: (30780) - No such process
+ ssh hec-60 -n  'kill -9 30801'
+bash: line 0: kill: (30801) - No such process
+ ssh hec-62 -n  'kill -9 16893'
+bash: line 0: kill: (16893) - No such process
+ ssh hec-62 -n  'kill -9 16926'
+bash: line 0: kill: (16926) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 50lz_q3 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+I am just waiting
+Iteration 3 Matrix * vector p2 takes: 65.4867
+Result of v = Aq 3 is saved in table 50lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(3)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_dotproduct_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 31133'
+bash: line 0: kill: (31133) - No such process
+ ssh hec-60 -n  'kill -9 31172'
+bash: line 0: kill: (31172) - No such process
+ ssh hec-62 -n  'kill -9 17293'
+bash: line 0: kill: (17293) - No such process
+ ssh hec-62 -n  'kill -9 17332'
+bash: line 0: kill: (17332) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 3 Calculating alpha takes: 65.674
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.129
+Result of alpha[3] =-4.4995 is saved.
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 5 processor(s).
+ ssh hec-60 -n  'kill -9 31400'
+bash: line 0: kill: (31400) - No such process
+ ssh hec-60 -n  'kill -9 31431'
+bash: line 0: kill: (31431) - No such process
+ ssh hec-62 -n  'kill -9 17569'
+bash: line 0: kill: (17569) - No such process
+ ssh hec-62 -n  'kill -9 17602'
+bash: line 0: kill: (17602) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 3 sax_beta: 65.5805
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 5 processor(s).
+ ssh hec-60 -n  'kill -9 31607'
+bash: line 0: kill: (31607) - No such process
+ ssh hec-60 -n  'kill -9 31636'
+bash: line 0: kill: (31636) - No such process
+ ssh hec-62 -n  'kill -9 17812'
+bash: line 0: kill: (17812) - No such process
+ ssh hec-62 -n  'kill -9 17841'
+bash: line 0: kill: (17841) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating -4.4995 times vector: 50lz_q3
+I am just waiting
+Iteration 3 sax_alpha takes: 36.6591
+Submitting parallel_sax_v on 5 processor(s).
+ ssh hec-60 -n  'kill -9 31800'
+bash: line 0: kill: (31800) - No such process
+ ssh hec-60 -n  'kill -9 31820'
+bash: line 0: kill: (31820) - No such process
+ ssh hec-62 -n  'kill -9 18066'
+bash: line 0: kill: (18066) - No such process
+ ssh hec-62 -n  'kill -9 18090'
+bash: line 0: kill: (18090) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 12
+I am just waiting
+Iteration 3 sax_v takes: 65.87
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 50lz_vpath table
+Computing beta[3]...
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 31990'
+bash: line 0: kill: (31990) - No such process
+ ssh hec-60 -n  'kill -9 32019'
+bash: line 0: kill: (32019) - No such process
+ ssh hec-62 -n  'kill -9 18307'
+bash: line 0: kill: (18307) - No such process
+ ssh hec-62 -n  'kill -9 18335'
+bash: line 0: kill: (18335) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     116.406328580211650
+(2,1)     83.044526572185077
+(3,1)     55.040947788400281
+(4,1)     63.501284552686023
+INGEST time (sec) = 0.05
+Iteration 3 beta takes: 35.7092
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+beta[3] = 17.8324
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01
+                         0     2.238876532647354e+01    -4.499489268882435e+00
+
+NumOfMachines in SO: 3Starting so, iterations # is 3 beta_it value is: 17.8324
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/3 th vector:13.4019compare to 3.1872e-06
+Error of2/3 th vector:11.7257compare to 3.1872e-06
+Error of3/3 th vector:0.94311compare to 3.1872e-06
+Iteration 3 SO takes: 0.10886
+Number of orthongalization: 0
+Computing q4...
+Submitting parallel_update_q on 5 processor(s).
+ ssh hec-60 -n  'kill -9 32196'
+bash: line 0: kill: (32196) - No such process
+ ssh hec-60 -n  'kill -9 32225'
+bash: line 0: kill: (32225) - No such process
+ ssh hec-62 -n  'kill -9 18540'
+bash: line 0: kill: (18540) - No such process
+ ssh hec-62 -n  'kill -9 18570'
+bash: line 0: kill: (18570) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 3 Update Q takes: 65.4399
+q_{4} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01
+                         0     2.238876532647354e+01    -4.499489268882435e+00
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.188773081751927e+01
+     1.679730004290664e+01
+     2.146840898782285e+02
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.01
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01
+                         0     2.238876532647354e+01    -4.499489268882435e+00
+
+INGEST time (sec) = 0.01
+Iteration: 3: 470.4257s
+**************myEigen iterations***********************
+computing v=Aq 4 ...
+INGEST time (sec) = 0.062
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting iterator_mv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 32378'
+bash: line 0: kill: (32378) - No such process
+ ssh hec-60 -n  'kill -9 32412'
+bash: line 0: kill: (32412) - No such process
+ ssh hec-62 -n  'kill -9 18768'
+bash: line 0: kill: (18768) - No such process
+ ssh hec-62 -n  'kill -9 18798'
+bash: line 0: kill: (18798) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 50lz_q4 into mv_temp ************
+I am just waiting!
+Iteration 4 Matrix * vector p1 takes: 65.509
+Submitting parallel_mv_p2 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 32591'
+bash: line 0: kill: (32591) - No such process
+ ssh hec-60 -n  'kill -9 32619'
+bash: line 0: kill: (32619) - No such process
+ ssh hec-62 -n  'kill -9 19003'
+bash: line 0: kill: (19003) - No such process
+ ssh hec-62 -n  'kill -9 19036'
+bash: line 0: kill: (19036) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 50lz_q4 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+I am just waiting
+Iteration 4 Matrix * vector p2 takes: 65.6755
+Result of v = Aq 4 is saved in table 50lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(4)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_dotproduct_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 491'
+bash: line 0: kill: (491) - No such process
+ ssh hec-60 -n  'kill -9 509'
+bash: line 0: kill: (509) - No such process
+ ssh hec-62 -n  'kill -9 19394'
+bash: line 0: kill: (19394) - No such process
+ ssh hec-62 -n  'kill -9 19425'
+bash: line 0: kill: (19425) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 4 Calculating alpha takes: 65.6607
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.13
+Result of alpha[4] =-7.5646 is saved.
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 5 processor(s).
+ ssh hec-60 -n  'kill -9 724'
+bash: line 0: kill: (724) - No such process
+ ssh hec-60 -n  'kill -9 763'
+bash: line 0: kill: (763) - No such process
+ ssh hec-62 -n  'kill -9 19631'
+bash: line 0: kill: (19631) - No such process
+ ssh hec-62 -n  'kill -9 19658'
+bash: line 0: kill: (19658) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 4 sax_beta: 37752.9748
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 5 processor(s).
+ ssh hec-60 -n  'kill -9 930'
+bash: line 0: kill: (930) - No such process
+ ssh hec-60 -n  'kill -9 953'
+bash: line 0: kill: (953) - No such process
+ ssh hec-62 -n  'kill -9 19886'
+bash: line 0: kill: (19886) - No such process
+ ssh hec-62 -n  'kill -9 19922'
+bash: line 0: kill: (19922) - No such process
+ ssh hec-62 -n  'kill -9 30901'
+bash: line 0: kill: (30901) - No such process
+ ssh hec-62 -n  'kill -9 30930'
+bash: line 0: kill: (30930) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating -7.5646 times vector: 50lz_q4
+I am just waiting
+Iteration 4 sax_alpha takes: 66.0907
+Submitting parallel_sax_v on 5 processor(s).
+ ssh hec-60 -n  'kill -9 12141'
+bash: line 0: kill: (12141) - No such process
+ ssh hec-60 -n  'kill -9 12159'
+bash: line 0: kill: (12159) - No such process
+ ssh hec-62 -n  'kill -9 31118'
+bash: line 0: kill: (31118) - No such process
+ ssh hec-62 -n  'kill -9 31162'
+bash: line 0: kill: (31162) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 12
+I am just waiting
+Iteration 4 sax_v takes: 65.5255
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 50lz_vpath table
+Computing beta[4]...
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 12338'
+bash: line 0: kill: (12338) - No such process
+ ssh hec-60 -n  'kill -9 12366'
+bash: line 0: kill: (12366) - No such process
+ ssh hec-62 -n  'kill -9 31337'
+bash: line 0: kill: (31337) - No such process
+ ssh hec-62 -n  'kill -9 31357'
+bash: line 0: kill: (31357) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     104.661161590345898
+(2,1)     61.866088751861220
+(3,1)     151.084630244248643
+(4,1)     167.014840980570568
+INGEST time (sec) = 0.04
+Iteration 4 beta takes: 65.6288
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+beta[4] = 22.0142
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00
+
+NumOfMachines in SO: 3Starting so, iterations # is 4 beta_it value is: 22.0142
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/4 th vector:12.0253compare to 3.1872e-06
+Error of2/4 th vector:16.0485compare to 3.1872e-06
+Error of3/4 th vector:9.0805compare to 3.1872e-06
+Error of4/4 th vector:0.094029compare to 3.1872e-06
+Iteration 4 SO takes: 0.10823
+Number of orthongalization: 0
+Computing q5...
+Submitting parallel_update_q on 5 processor(s).
+ ssh hec-60 -n  'kill -9 12548'
+bash: line 0: kill: (12548) - No such process
+ ssh hec-60 -n  'kill -9 12579'
+bash: line 0: kill: (12579) - No such process
+ ssh hec-62 -n  'kill -9 31575'
+bash: line 0: kill: (31575) - No such process
+ ssh hec-62 -n  'kill -9 31595'
+bash: line 0: kill: (31595) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 4 Update Q takes: 65.668
+q_{5} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -3.074306846621908e+01
+    -4.073777965004588e+00
+     2.215782574416193e+01
+     2.146881181985792e+02
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.012
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00
+
+INGEST time (sec) = 0.011
+Iteration: 4: 38218.3493s
+**************myEigen iterations***********************
+computing v=Aq 5 ...
+INGEST time (sec) = 0.038
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting iterator_mv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 12739'
+bash: line 0: kill: (12739) - No such process
+ ssh hec-60 -n  'kill -9 12778'
+bash: line 0: kill: (12778) - No such process
+ ssh hec-62 -n  'kill -9 31814'
+bash: line 0: kill: (31814) - No such process
+ ssh hec-62 -n  'kill -9 31837'
+bash: line 0: kill: (31837) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 50lz_q5 into mv_temp ************
+I am just waiting!
+Iteration 5 Matrix * vector p1 takes: 606.6731
+Submitting parallel_mv_p2 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 12956'
+bash: line 0: kill: (12956) - No such process
+ ssh hec-60 -n  'kill -9 12984'
+bash: line 0: kill: (12984) - No such process
+ ssh hec-60 -n  'kill -9 13466'
+bash: line 0: kill: (13466) - No such process
+ ssh hec-60 -n  'kill -9 13480'
+bash: line 0: kill: (13480) - No such process
+ ssh hec-62 -n  'kill -9 32068'
+bash: line 0: kill: (32068) - No such process
+ ssh hec-62 -n  'kill -9 32088'
+bash: line 0: kill: (32088) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 50lz_q5 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+I am just waiting
+Iteration 5 Matrix * vector p2 takes: 66.3194
+Result of v = Aq 5 is saved in table 50lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(5)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_dotproduct_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 13853'
+bash: line 0: kill: (13853) - No such process
+ ssh hec-60 -n  'kill -9 13873'
+bash: line 0: kill: (13873) - No such process
+ ssh hec-62 -n  'kill -9 32674'
+bash: line 0: kill: (32674) - No such process
+ ssh hec-62 -n  'kill -9 32694'
+bash: line 0: kill: (32694) - No such process
+ ssh hec-62 -n  'kill -9 420'
+bash: line 0: kill: (420) - No such process
+ ssh hec-62 -n  'kill -9 451'
+bash: line 0: kill: (451) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 5 Calculating alpha takes: 65.9838
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.127
+Result of alpha[5] =-5.9788 is saved.
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 5 processor(s).
+ ssh hec-60 -n  'kill -9 14097'
+bash: line 0: kill: (14097) - No such process
+ ssh hec-60 -n  'kill -9 14126'
+bash: line 0: kill: (14126) - No such process
+ ssh hec-62 -n  'kill -9 663'
+bash: line 0: kill: (663) - No such process
+ ssh hec-62 -n  'kill -9 695'
+bash: line 0: kill: (695) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 5 sax_beta: 36.6761
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 5 processor(s).
+ ssh hec-60 -n  'kill -9 14313'
+bash: line 0: kill: (14313) - No such process
+ ssh hec-60 -n  'kill -9 14342'
+bash: line 0: kill: (14342) - No such process
+ ssh hec-62 -n  'kill -9 935'
+bash: line 0: kill: (935) - No such process
+ ssh hec-62 -n  'kill -9 968'
+bash: line 0: kill: (968) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating -5.9788 times vector: 50lz_q5
+I am just waiting
+Iteration 5 sax_alpha takes: 65.7645
+Submitting parallel_sax_v on 5 processor(s).
+ ssh hec-60 -n  'kill -9 14506'
+bash: line 0: kill: (14506) - No such process
+ ssh hec-60 -n  'kill -9 14537'
+bash: line 0: kill: (14537) - No such process
+ ssh hec-62 -n  'kill -9 1161'
+bash: line 0: kill: (1161) - No such process
+ ssh hec-62 -n  'kill -9 1184'
+bash: line 0: kill: (1184) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 12
+I am just waiting
+Iteration 5 sax_v takes: 35.5873
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 50lz_vpath table
+Computing beta[5]...
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 14716'
+bash: line 0: kill: (14716) - No such process
+ ssh hec-60 -n  'kill -9 14750'
+bash: line 0: kill: (14750) - No such process
+ ssh hec-62 -n  'kill -9 1399'
+bash: line 0: kill: (1399) - No such process
+ ssh hec-62 -n  'kill -9 1418'
+bash: line 0: kill: (1418) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     92.032500462313507
+(2,1)     102.350316421659670
+(3,1)     66.967091140514157
+(4,1)     60.756010998277169
+INGEST time (sec) = 0.054
+Iteration 5 beta takes: 65.803
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+beta[5] = 17.9473
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+
+NumOfMachines in SO: 3Starting so, iterations # is 5 beta_it value is: 17.9473
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/5 th vector:8.3236compare to 3.1872e-06
+Error of2/5 th vector:9.8162compare to 3.1872e-06
+Error of3/5 th vector:10.3998compare to 3.1872e-06
+Error of4/5 th vector:6.9506compare to 3.1872e-06
+Error of5/5 th vector:0.0077244compare to 3.1872e-06
+Iteration 5 SO takes: 0.10712
+Number of orthongalization: 0
+Computing q6...
+Submitting parallel_update_q on 5 processor(s).
+ ssh hec-60 -n  'kill -9 14913'
+bash: line 0: kill: (14913) - No such process
+ ssh hec-60 -n  'kill -9 14944'
+bash: line 0: kill: (14944) - No such process
+ ssh hec-62 -n  'kill -9 1630'
+bash: line 0: kill: (1630) - No such process
+ ssh hec-62 -n  'kill -9 1658'
+bash: line 0: kill: (1658) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 5 Update Q takes: 36.5475
+q_{6} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -3.727225615950247e+01
+    -1.714535840392265e+01
+     9.692227373344071e+00
+     2.608753543775492e+01
+     2.146881586683579e+02
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.015
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+
+INGEST time (sec) = 0.013
+Iteration: 5: 983.6405s
+**************myEigen iterations***********************
+computing v=Aq 6 ...
+INGEST time (sec) = 0.037
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting iterator_mv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 15126'
+bash: line 0: kill: (15126) - No such process
+ ssh hec-60 -n  'kill -9 15157'
+bash: line 0: kill: (15157) - No such process
+ ssh hec-62 -n  'kill -9 1888'
+bash: line 0: kill: (1888) - No such process
+ ssh hec-62 -n  'kill -9 1929'
+bash: line 0: kill: (1929) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 50lz_q6 into mv_temp ************
+I am just waiting!
+Iteration 6 Matrix * vector p1 takes: 65.6371
+Submitting parallel_mv_p2 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 15336'
+bash: line 0: kill: (15336) - No such process
+ ssh hec-60 -n  'kill -9 15379'
+bash: line 0: kill: (15379) - No such process
+ ssh hec-62 -n  'kill -9 2150'
+bash: line 0: kill: (2150) - No such process
+ ssh hec-62 -n  'kill -9 2203'
+bash: line 0: kill: (2203) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 50lz_q6 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+I am just waiting
+Iteration 6 Matrix * vector p2 takes: 65.6109
+Result of v = Aq 6 is saved in table 50lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(6)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_dotproduct_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 15708'
+bash: line 0: kill: (15708) - No such process
+ ssh hec-60 -n  'kill -9 15737'
+bash: line 0: kill: (15737) - No such process
+ ssh hec-62 -n  'kill -9 2551'
+bash: line 0: kill: (2551) - No such process
+ ssh hec-62 -n  'kill -9 2582'
+bash: line 0: kill: (2582) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 6 Calculating alpha takes: 65.5221
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.12
+Result of alpha[6] =4.1526 is saved.
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 5 processor(s).
+ ssh hec-60 -n  'kill -9 15941'
+bash: line 0: kill: (15941) - No such process
+ ssh hec-60 -n  'kill -9 15958'
+bash: line 0: kill: (15958) - No such process
+ ssh hec-62 -n  'kill -9 2808'
+bash: line 0: kill: (2808) - No such process
+ ssh hec-62 -n  'kill -9 2863'
+bash: line 0: kill: (2863) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 6 sax_beta: 66.5766
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 5 processor(s).
+ ssh hec-60 -n  'kill -9 16142'
+bash: line 0: kill: (16142) - No such process
+ ssh hec-60 -n  'kill -9 16170'
+bash: line 0: kill: (16170) - No such process
+ ssh hec-62 -n  'kill -9 3076'
+bash: line 0: kill: (3076) - No such process
+ ssh hec-62 -n  'kill -9 3106'
+bash: line 0: kill: (3106) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating 4.1526 times vector: 50lz_q6
+I am just waiting
+Iteration 6 sax_alpha takes: 65.5913
+Submitting parallel_sax_v on 5 processor(s).
+ ssh hec-60 -n  'kill -9 16371'
+bash: line 0: kill: (16371) - No such process
+ ssh hec-60 -n  'kill -9 16414'
+bash: line 0: kill: (16414) - No such process
+ ssh hec-62 -n  'kill -9 3331'
+bash: line 0: kill: (3331) - No such process
+ ssh hec-62 -n  'kill -9 3354'
+bash: line 0: kill: (3354) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 12
+I am just waiting
+Iteration 6 sax_v takes: 65.8585
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 50lz_vpath table
+Computing beta[6]...
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 16567'
+bash: line 0: kill: (16567) - No such process
+ ssh hec-60 -n  'kill -9 16586'
+bash: line 0: kill: (16586) - No such process
+ ssh hec-62 -n  'kill -9 3575'
+bash: line 0: kill: (3575) - No such process
+ ssh hec-62 -n  'kill -9 3595'
+bash: line 0: kill: (3595) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     111.244707782934356
+(2,1)     45.987825518822959
+(3,1)     126.422869718803739
+(4,1)     114.145046490926788
+INGEST time (sec) = 0.039
+Iteration 6 beta takes: 35.7124
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+beta[6] = 19.9449
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+
+  Column 6
+
+                         0
+                         0
+                         0
+                         0
+     1.794730952044803e+01
+     4.152571747695733e+00
+
+NumOfMachines in SO: 3Starting so, iterations # is 6 beta_it value is: 19.9449
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/6 th vector:4.4612compare to 3.1872e-06
+Error of2/6 th vector:7.1299compare to 3.1872e-06
+Error of3/6 th vector:12.6098compare to 3.1872e-06
+Error of4/6 th vector:10.4605compare to 3.1872e-06
+Error of5/6 th vector:7.6572compare to 3.1872e-06
+Error of6/6 th vector:0.00073693compare to 3.1872e-06
+Iteration 6 SO takes: 0.10852
+Number of orthongalization: 0
+Computing q7...
+Submitting parallel_update_q on 5 processor(s).
+ ssh hec-60 -n  'kill -9 16765'
+bash: line 0: kill: (16765) - No such process
+ ssh hec-60 -n  'kill -9 16782'
+bash: line 0: kill: (16782) - No such process
+ ssh hec-62 -n  'kill -9 3835'
+bash: line 0: kill: (3835) - No such process
+ ssh hec-62 -n  'kill -9 3866'
+bash: line 0: kill: (3866) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 6 Update Q takes: 726.5488
+q_{7} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+
+  Column 6
+
+                         0
+                         0
+                         0
+                         0
+     1.794730952044803e+01
+     4.152571747695733e+00
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -3.919539265095008e+01
+    -2.101748984608350e+01
+    -5.411460147587900e-01
+     1.719999613989548e+01
+     2.906875208186262e+01
+     2.146881589537617e+02
+
+TOP K eigenValues are:
+
+ans =
+
+    -3.919539265095008e+01
+    -2.101748984608350e+01
+    -5.411460147587900e-01
+     1.719999613989548e+01
+     2.906875208186262e+01
+     2.146881589537617e+02
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.013
+INGEST time (sec) = 0.016
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+
+  Column 6
+
+                         0
+                         0
+                         0
+                         0
+     1.794730952044803e+01
+     4.152571747695733e+00
+
+INGEST time (sec) = 0.013
+Iteration: 6: 1161.9774s
+**************myEigen iterations***********************
+computing v=Aq 7 ...
+INGEST time (sec) = 0.063
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting iterator_mv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 16955'
+bash: line 0: kill: (16955) - No such process
+ ssh hec-60 -n  'kill -9 16984'
+bash: line 0: kill: (16984) - No such process
+ ssh hec-60 -n  'kill -9 17305'
+bash: line 0: kill: (17305) - No such process
+ ssh hec-60 -n  'kill -9 17323'
+bash: line 0: kill: (17323) - No such process
+ ssh hec-62 -n  'kill -9 4079'
+bash: line 0: kill: (4079) - No such process
+ ssh hec-62 -n  'kill -9 4112'
+bash: line 0: kill: (4112) - No such process
+ ssh hec-62 -n  'kill -9 4547'
+bash: line 0: kill: (4547) - No such process
+ ssh hec-62 -n  'kill -9 4565'
+bash: line 0: kill: (4565) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 50lz_q7 into mv_temp ************
+I am just waiting!
+Iteration 7 Matrix * vector p1 takes: 66.5664
+Submitting parallel_mv_p2 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 17520'
+bash: line 0: kill: (17520) - No such process
+ ssh hec-60 -n  'kill -9 17551'
+bash: line 0: kill: (17551) - No such process
+ ssh hec-62 -n  'kill -9 4774'
+bash: line 0: kill: (4774) - No such process
+ ssh hec-62 -n  'kill -9 4814'
+bash: line 0: kill: (4814) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 50lz_q7 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+I am just waiting
+Iteration 7 Matrix * vector p2 takes: 65.4892
+Result of v = Aq 7 is saved in table 50lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(7)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_dotproduct_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 17873'
+bash: line 0: kill: (17873) - No such process
+ ssh hec-60 -n  'kill -9 17902'
+bash: line 0: kill: (17902) - No such process
+ ssh hec-62 -n  'kill -9 5301'
+bash: line 0: kill: (5301) - No such process
+ ssh hec-62 -n  'kill -9 5378'
+bash: line 0: kill: (5378) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 7 Calculating alpha takes: 66.5655
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.122
+Result of alpha[7] =4.7468 is saved.
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 5 processor(s).
+ ssh hec-60 -n  'kill -9 18118'
+bash: line 0: kill: (18118) - No such process
+ ssh hec-60 -n  'kill -9 18152'
+bash: line 0: kill: (18152) - No such process
+ ssh hec-62 -n  'kill -9 5614'
+bash: line 0: kill: (5614) - No such process
+ ssh hec-62 -n  'kill -9 5638'
+bash: line 0: kill: (5638) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 7 sax_beta: 65.5215
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 5 processor(s).
+ ssh hec-60 -n  'kill -9 18327'
+bash: line 0: kill: (18327) - No such process
+ ssh hec-60 -n  'kill -9 18355'
+bash: line 0: kill: (18355) - No such process
+ ssh hec-62 -n  'kill -9 5861'
+bash: line 0: kill: (5861) - No such process
+ ssh hec-62 -n  'kill -9 5904'
+bash: line 0: kill: (5904) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating 4.7468 times vector: 50lz_q7
+I am just waiting
+Iteration 7 sax_alpha takes: 36.7903
+Submitting parallel_sax_v on 5 processor(s).
+ ssh hec-60 -n  'kill -9 18521'
+bash: line 0: kill: (18521) - No such process
+ ssh hec-60 -n  'kill -9 18550'
+bash: line 0: kill: (18550) - No such process
+ ssh hec-62 -n  'kill -9 6106'
+bash: line 0: kill: (6106) - No such process
+ ssh hec-62 -n  'kill -9 6132'
+bash: line 0: kill: (6132) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 12
+I am just waiting
+Iteration 7 sax_v takes: 65.6692
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 50lz_vpath table
+Computing beta[7]...
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 18731'
+bash: line 0: kill: (18731) - No such process
+ ssh hec-60 -n  'kill -9 18759'
+bash: line 0: kill: (18759) - No such process
+ ssh hec-62 -n  'kill -9 6345'
+bash: line 0: kill: (6345) - No such process
+ ssh hec-62 -n  'kill -9 6374'
+bash: line 0: kill: (6374) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     111.969895246790102
+(2,1)     66.755326328472307
+(3,1)     61.807475739874342
+(4,1)     106.268406579101722
+INGEST time (sec) = 0.038
+Iteration 7 beta takes: 65.6471
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+beta[7] = 18.6226
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+                         0                         0                         0                         0                         0
+
+  Columns 6 through 7
+
+                         0                         0
+                         0                         0
+                         0                         0
+                         0                         0
+     1.794730952044803e+01                         0
+     4.152571747695733e+00     1.994493543512959e+01
+     1.994493543512959e+01     4.746765535040852e+00
+
+NumOfMachines in SO: 3Starting so, iterations # is 7 beta_it value is: 18.6226
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/7 th vector:2.3509compare to 3.1872e-06
+Error of2/7 th vector:6.3465compare to 3.1872e-06
+Error of3/7 th vector:10.3746compare to 3.1872e-06
+Error of4/7 th vector:8.6943compare to 3.1872e-06
+Error of5/7 th vector:7.4474compare to 3.1872e-06
+Error of6/7 th vector:7.8935compare to 3.1872e-06
+Error of7/7 th vector:6.5966e-05compare to 3.1872e-06
+Iteration 7 SO takes: 0.12055
+Number of orthongalization: 0
+Computing q8...
+Submitting parallel_update_q on 5 processor(s).
+ ssh hec-60 -n  'kill -9 18956'
+bash: line 0: kill: (18956) - No such process
+ ssh hec-60 -n  'kill -9 18998'
+bash: line 0: kill: (18998) - No such process
+ ssh hec-62 -n  'kill -9 6583'
+bash: line 0: kill: (6583) - No such process
+ ssh hec-62 -n  'kill -9 6613'
+bash: line 0: kill: (6613) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 7 Update Q takes: 65.4393
+q_{8} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+                         0                         0                         0                         0                         0
+
+  Columns 6 through 7
+
+                         0                         0
+                         0                         0
+                         0                         0
+                         0                         0
+     1.794730952044803e+01                         0
+     4.152571747695733e+00     1.994493543512959e+01
+     1.994493543512959e+01     4.746765535040852e+00
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -3.976447234834519e+01
+    -2.368504032239527e+01
+    -1.069259748079522e+01
+     8.618781545427343e+00
+     2.286800353819741e+01
+     3.291681031030710e+01
+     2.146881589563722e+02
+
+TOP K eigenValues are:
+
+ans =
+
+    -3.976447234834519e+01
+    -2.368504032239527e+01
+    -1.069259748079522e+01
+     8.618781545427343e+00
+     2.286800353819741e+01
+     3.291681031030710e+01
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.01
+INGEST time (sec) = 0.01
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+                         0                         0                         0                         0                         0
+
+  Columns 6 through 7
+
+                         0                         0
+                         0                         0
+                         0                         0
+                         0                         0
+     1.794730952044803e+01                         0
+     4.152571747695733e+00     1.994493543512959e+01
+     1.994493543512959e+01     4.746765535040852e+00
+
+INGEST time (sec) = 0.01
+Iteration: 7: 502.2668s
+**************myEigen iterations***********************
+computing v=Aq 8 ...
+INGEST time (sec) = 0.042
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting iterator_mv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 19144'
+bash: line 0: kill: (19144) - No such process
+ ssh hec-60 -n  'kill -9 19178'
+bash: line 0: kill: (19178) - No such process
+ ssh hec-62 -n  'kill -9 6832'
+bash: line 0: kill: (6832) - No such process
+ ssh hec-62 -n  'kill -9 6861'
+bash: line 0: kill: (6861) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 50lz_q8 into mv_temp ************
+I am just waiting!
+Iteration 8 Matrix * vector p1 takes: 36.593
+Submitting parallel_mv_p2 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 19345'
+bash: line 0: kill: (19345) - No such process
+ ssh hec-60 -n  'kill -9 19373'
+bash: line 0: kill: (19373) - No such process
+ ssh hec-62 -n  'kill -9 7091'
+bash: line 0: kill: (7091) - No such process
+ ssh hec-62 -n  'kill -9 7118'
+bash: line 0: kill: (7118) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 50lz_q8 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+I am just waiting
+Iteration 8 Matrix * vector p2 takes: 65.4866
+Result of v = Aq 8 is saved in table 50lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(8)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_dotproduct_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 19689'
+bash: line 0: kill: (19689) - No such process
+ ssh hec-60 -n  'kill -9 19732'
+bash: line 0: kill: (19732) - No such process
+ ssh hec-62 -n  'kill -9 7458'
+bash: line 0: kill: (7458) - No such process
+ ssh hec-62 -n  'kill -9 7503'
+bash: line 0: kill: (7503) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 8 Calculating alpha takes: 65.7082
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.126
+Result of alpha[8] =4.1722 is saved.
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 5 processor(s).
+ ssh hec-60 -n  'kill -9 19941'
+bash: line 0: kill: (19941) - No such process
+ ssh hec-60 -n  'kill -9 19975'
+bash: line 0: kill: (19975) - No such process
+ ssh hec-62 -n  'kill -9 7724'
+bash: line 0: kill: (7724) - No such process
+ ssh hec-62 -n  'kill -9 7748'
+bash: line 0: kill: (7748) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 8 sax_beta: 65.5438
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 5 processor(s).
+ ssh hec-60 -n  'kill -9 20146'
+bash: line 0: kill: (20146) - No such process
+ ssh hec-60 -n  'kill -9 20181'
+bash: line 0: kill: (20181) - No such process
+ ssh hec-62 -n  'kill -9 7988'
+bash: line 0: kill: (7988) - No such process
+ ssh hec-62 -n  'kill -9 8010'
+bash: line 0: kill: (8010) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating 4.1722 times vector: 50lz_q8
+I am just waiting
+Iteration 8 sax_alpha takes: 65.4831
+Submitting parallel_sax_v on 5 processor(s).
+ ssh hec-60 -n  'kill -9 20342'
+bash: line 0: kill: (20342) - No such process
+ ssh hec-60 -n  'kill -9 20362'
+bash: line 0: kill: (20362) - No such process
+ ssh hec-62 -n  'kill -9 8245'
+bash: line 0: kill: (8245) - No such process
+ ssh hec-62 -n  'kill -9 8281'
+bash: line 0: kill: (8281) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 12
+I am just waiting
+Iteration 8 sax_v takes: 65.4488
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 50lz_vpath table
+Computing beta[8]...
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 20541'
+bash: line 0: kill: (20541) - No such process
+ ssh hec-60 -n  'kill -9 20561'
+bash: line 0: kill: (20561) - No such process
+ ssh hec-62 -n  'kill -9 8493'
+bash: line 0: kill: (8493) - No such process
+ ssh hec-62 -n  'kill -9 8513'
+bash: line 0: kill: (8513) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     64.922944300368400
+(2,1)     44.806353387659918
+(3,1)     35.722987520766985
+(4,1)     115.838906683746288
+INGEST time (sec) = 0.041
+Iteration 8 beta takes: 65.7172
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+beta[8] = 16.1645
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+                         0                         0                         0                         0                         0
+                         0                         0                         0                         0                         0
+
+  Columns 6 through 8
+
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+     1.794730952044803e+01                         0                         0
+     4.152571747695733e+00     1.994493543512959e+01                         0
+     1.994493543512959e+01     4.746765535040852e+00     1.862259659376851e+01
+                         0     1.862259659376851e+01     4.172190073622533e+00
+
+NumOfMachines in SO: 3Starting so, iterations # is 8 beta_it value is: 16.1645
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/8 th vector:1.0937compare to 3.1872e-06
+Error of2/8 th vector:5.0003compare to 3.1872e-06
+Error of3/8 th vector:6.8239compare to 3.1872e-06
+Error of4/8 th vector:8.8722compare to 3.1872e-06
+Error of5/8 th vector:7.4862compare to 3.1872e-06
+Error of6/8 th vector:4.948compare to 3.1872e-06
+Error of7/8 th vector:5.4115compare to 3.1872e-06
+Error of8/8 th vector:5.1057e-06compare to 3.1872e-06
+Iteration 8 SO takes: 0.11117
+Number of orthongalization: 0
+Computing q9...
+Submitting parallel_update_q on 5 processor(s).
+ ssh hec-60 -n  'kill -9 20757'
+bash: line 0: kill: (20757) - No such process
+ ssh hec-60 -n  'kill -9 20777'
+bash: line 0: kill: (20777) - No such process
+ ssh hec-62 -n  'kill -9 8736'
+bash: line 0: kill: (8736) - No such process
+ ssh hec-62 -n  'kill -9 8756'
+bash: line 0: kill: (8756) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 8 Update Q takes: 65.7172
+q_{9} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+                         0                         0                         0                         0                         0
+                         0                         0                         0                         0                         0
+
+  Columns 6 through 8
+
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+     1.794730952044803e+01                         0                         0
+     4.152571747695733e+00     1.994493543512959e+01                         0
+     1.994493543512959e+01     4.746765535040852e+00     1.862259659376851e+01
+                         0     1.862259659376851e+01     4.172190073622533e+00
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -3.992403065958029e+01
+    -2.581882343342597e+01
+    -1.607161493441250e+01
+     9.202171211028953e-01
+     1.404310227856013e+01
+     2.547164282390733e+01
+     3.581318211984626e+01
+     2.146881589563930e+02
+
+TOP K eigenValues are:
+
+ans =
+
+    -3.992403065958029e+01
+    -2.581882343342597e+01
+    -1.607161493441250e+01
+     9.202171211028953e-01
+     1.404310227856013e+01
+     2.547164282390733e+01
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.0090
+INGEST time (sec) = 0.012
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+                         0                         0                         0                         0                         0
+                         0                         0                         0                         0                         0
+
+  Columns 6 through 8
+
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+                         0                         0                         0
+     1.794730952044803e+01                         0                         0
+     4.152571747695733e+00     1.994493543512959e+01                         0
+     1.994493543512959e+01     4.746765535040852e+00     1.862259659376851e+01
+                         0     1.862259659376851e+01     4.172190073622533e+00
+
+INGEST time (sec) = 0.011
+Iteration: 8: 500.4672s
+**************myEigen iterations***********************
+computing v=Aq 9 ...
+INGEST time (sec) = 0.045
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting iterator_mv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 20968'
+bash: line 0: kill: (20968) - No such process
+ ssh hec-60 -n  'kill -9 21002'
+bash: line 0: kill: (21002) - No such process
+ ssh hec-62 -n  'kill -9 8966'
+bash: line 0: kill: (8966) - No such process
+ ssh hec-62 -n  'kill -9 8985'
+bash: line 0: kill: (8985) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 50lz_q9 into mv_temp ************
+I am just waiting!
+Iteration 9 Matrix * vector p1 takes: 65.5717
+Submitting parallel_mv_p2 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 21161'
+bash: line 0: kill: (21161) - No such process
+ ssh hec-60 -n  'kill -9 21179'
+bash: line 0: kill: (21179) - No such process
+ ssh hec-62 -n  'kill -9 9200'
+bash: line 0: kill: (9200) - No such process
+ ssh hec-62 -n  'kill -9 9234'
+bash: line 0: kill: (9234) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 50lz_q9 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+I am just waiting
+Iteration 9 Matrix * vector p2 takes: 65.4354
+Result of v = Aq 9 is saved in table 50lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(9)
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_dotproduct_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 21525'
+bash: line 0: kill: (21525) - No such process
+ ssh hec-60 -n  'kill -9 21564'
+bash: line 0: kill: (21564) - No such process
+ ssh hec-62 -n  'kill -9 9582'
+bash: line 0: kill: (9582) - No such process
+ ssh hec-62 -n  'kill -9 9624'
+bash: line 0: kill: (9624) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 9 Calculating alpha takes: 65.8045
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.126
+Result of alpha[9] =1.461 is saved.
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 5 processor(s).
+ ssh hec-60 -n  'kill -9 21761'
+bash: line 0: kill: (21761) - No such process
+ ssh hec-60 -n  'kill -9 21781'
+bash: line 0: kill: (21781) - No such process
+ ssh hec-62 -n  'kill -9 9850'
+bash: line 0: kill: (9850) - No such process
+ ssh hec-62 -n  'kill -9 9870'
+bash: line 0: kill: (9870) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 9 sax_beta: 65.4947
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 5 processor(s).
+ ssh hec-60 -n  'kill -9 21977'
+bash: line 0: kill: (21977) - No such process
+ ssh hec-60 -n  'kill -9 22012'
+bash: line 0: kill: (22012) - No such process
+ ssh hec-62 -n  'kill -9 10105'
+bash: line 0: kill: (10105) - No such process
+ ssh hec-62 -n  'kill -9 10131'
+bash: line 0: kill: (10131) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating 1.461 times vector: 50lz_q9
+I am just waiting
+Iteration 9 sax_alpha takes: 65.6396
+Submitting parallel_sax_v on 5 processor(s).
+ ssh hec-60 -n  'kill -9 22173'
+bash: line 0: kill: (22173) - No such process
+ ssh hec-60 -n  'kill -9 22201'
+bash: line 0: kill: (22201) - No such process
+ ssh hec-62 -n  'kill -9 10356'
+bash: line 0: kill: (10356) - No such process
+ ssh hec-62 -n  'kill -9 10386'
+bash: line 0: kill: (10386) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp with colGap: 12
+I am just waiting
+Iteration 9 sax_v takes: 65.5011
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 50lz_vpath table
+Computing beta[9]...
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 22362'
+bash: line 0: kill: (22362) - No such process
+ ssh hec-60 -n  'kill -9 22390'
+bash: line 0: kill: (22390) - No such process
+ ssh hec-62 -n  'kill -9 10593'
+bash: line 0: kill: (10593) - No such process
+ ssh hec-62 -n  'kill -9 10624'
+bash: line 0: kill: (10624) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     57.652694570531473
+(2,1)     69.972739829101599
+(3,1)     67.603980413951845
+(4,1)     96.062567240824080
+INGEST time (sec) = 0.034
+Iteration 9 beta takes: 486.8294
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+beta[9] = 17.0673
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     1.574268601946983e+02     9.442837746126892e+01                         0                         0                         0
+     9.442837746126892e+01     5.666628817780005e+01     2.238876532647354e+01                         0                         0
+                         0     2.238876532647354e+01    -4.499489268882435e+00     1.783236068201524e+01                         0
+                         0                         0     1.783236068201524e+01    -7.564561592098478e+00     2.201423906400188e+01
+                         0                         0                         0     2.201423906400188e+01    -5.978790595485690e+00
+                         0                         0                         0                         0     1.794730952044803e+01
+                         0                         0                         0                         0                         0
+                         0                         0                         0                         0                         0
+                         0                         0                         0                         0                         0
+
+  Columns 6 through 9
+
+                         0                         0                         0                         0
+                         0                         0                         0                         0
+                         0                         0                         0                         0
+                         0                         0                         0                         0
+     1.794730952044803e+01                         0                         0                         0
+     4.152571747695733e+00     1.994493543512959e+01                         0                         0
+     1.994493543512959e+01     4.746765535040852e+00     1.862259659376851e+01                         0
+                         0     1.862259659376851e+01     4.172190073622533e+00     1.616450407196402e+01
+                         0                         0     1.616450407196402e+01     1.460976031230930e+00
+
+NumOfMachines in SO: 3Starting so, iterations # is 9 beta_it value is: 17.0673
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/9 th vector:0.54901compare to 3.1872e-06
+Error of2/9 th vector:4.2005compare to 3.1872e-06
+Error of3/9 th vector:6.013compare to 3.1872e-06
+Error of4/9 th vector:9.6551compare to 3.1872e-06
+Error of5/9 th vector:8.0591compare to 3.1872e-06
+Error of6/9 th vector:7.1663compare to 3.1872e-06
+Error of7/9 th vector:4.1033compare to 3.1872e-06
+Error of8/9 th vector:3.2902compare to 3.1872e-06
+Error of9/9 th vector:4.1108e-07compare to 3.1872e-06
+V need to be reorthogalized by 9th Ritz Vector
+Reorthogonalizing against9th Ritz vector
+Store j: 9 into cur_loop_j(1,1) table
+INGEST time (sec) = 0.026
+Submitting parallel_computeR on 5 processor(s).
+ ssh hec-60 -n  'kill -9 22562'
+bash: line 0: kill: (22562) - No such process
+ ssh hec-60 -n  'kill -9 22605'
+bash: line 0: kill: (22605) - No such process
+ ssh hec-60 -n  'kill -9 22860'
+bash: line 0: kill: (22860) - No such process
+ ssh hec-60 -n  'kill -9 22879'
+bash: line 0: kill: (22879) - No such process
+ ssh hec-62 -n  'kill -9 10833'
+bash: line 0: kill: (10833) - No such process
+ ssh hec-62 -n  'kill -9 10875'
+bash: line 0: kill: (10875) - No such process
+ ssh hec-62 -n  'kill -9 11157'
+bash: line 0: kill: (11157) - No such process
+ ssh hec-62 -n  'kill -9 11175'
+bash: line 0: kill: (11175) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Submitting parallel_rtv_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 23049'
+bash: line 0: kill: (23049) - No such process
+ ssh hec-60 -n  'kill -9 23068'
+bash: line 0: kill: (23068) - No such process
+ ssh hec-62 -n  'kill -9 11404'
+bash: line 0: kill: (11404) - No such process
+ ssh hec-62 -n  'kill -9 11448'
+bash: line 0: kill: (11448) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Computing rtv in parallel...rtv = dotproduct(so_rpath,lz_vpath,numofnodes, numofmachines)
+I am just waiting
+INGEST time (sec) = 0.032
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+Submitting parallel_so_rrtv on 5 processor(s).
+ ssh hec-60 -n  'kill -9 23288'
+bash: line 0: kill: (23288) - No such process
+ ssh hec-60 -n  'kill -9 23306'
+bash: line 0: kill: (23306) - No such process
+ ssh hec-62 -n  'kill -9 11671'
+bash: line 0: kill: (11671) - No such process
+ ssh hec-62 -n  'kill -9 11705'
+bash: line 0: kill: (11705) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calculating so_rrtv ....
+I am just waiting
+Submitting parallel_so_updatev on 5 processor(s).
+ ssh hec-60 -n  'kill -9 23478'
+bash: line 0: kill: (23478) - No such process
+ ssh hec-60 -n  'kill -9 23507'
+bash: line 0: kill: (23507) - No such process
+ ssh hec-62 -n  'kill -9 11897'
+bash: line 0: kill: (11897) - No such process
+ ssh hec-62 -n  'kill -9 11925'
+bash: line 0: kill: (11925) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - so_rrtv
+I am just waiting
+Iteration 9 SO takes: 263.8564
+Number of orthongalization: 1
+Recomputing beta[9]
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Submitting parallel_lz_norm_v_p1 on 5 processor(s).
+ ssh hec-60 -n  'kill -9 23701'
+bash: line 0: kill: (23701) - No such process
+ ssh hec-60 -n  'kill -9 23744'
+bash: line 0: kill: (23744) - No such process
+ ssh hec-62 -n  'kill -9 12121'
+bash: line 0: kill: (12121) - No such process
+ ssh hec-62 -n  'kill -9 12160'
+bash: line 0: kill: (12160) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+My i is:1
+I am just waiting
+Running p2!
+Try to verify if temp_t has 5 elemetns!
+(1,1)     57.652694441869308
+(2,1)     69.972740404368849
+(3,1)     67.603980047902382
+(4,1)     96.062567160268344
+INGEST time (sec) = 0.035
+beta[9]=17.0673
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+Computing q10...
+Submitting parallel_update_q on 5 processor(s).
+ ssh hec-60 -n  'kill -9 23907'
+bash: line 0: kill: (23907) - No such process
+ ssh hec-60 -n  'kill -9 23941'
+bash: line 0: kill: (23941) - No such process
+ ssh hec-62 -n  'kill -9 12343'
+bash: line 0: kill: (12343) - No such process
+ ssh hec-62 -n  'kill -9 12386'
+bash: line 0: kill: (12386) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+I am just waiting
+Iteration 9 Update Q takes: 65.6095
+q_{10} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+02 *
+
+  Columns 1 through 7
+
+   1.574268601946983   0.944283774612689                   0                   0                   0                   0                   0
+   0.944283774612689   0.566662881778001   0.223887653264735                   0                   0                   0                   0
+                   0   0.223887653264735  -0.044994892688824   0.178323606820152                   0                   0                   0
+                   0                   0   0.178323606820152  -0.075645615920985   0.220142390640019                   0                   0
+                   0                   0                   0   0.220142390640019  -0.059787905954857   0.179473095204480                   0
+                   0                   0                   0                   0   0.179473095204480   0.041525717476957   0.199449354351296
+                   0                   0                   0                   0                   0   0.199449354351296   0.047467655350409
+                   0                   0                   0                   0                   0                   0   0.186225965937685
+                   0                   0                   0                   0                   0                   0                   0
+
+  Columns 8 through 9
+
+                   0                   0
+                   0                   0
+                   0                   0
+                   0                   0
+                   0                   0
+                   0                   0
+   0.186225965937685                   0
+   0.041721900736225   0.161645040719640
+   0.161645040719640   0.014609760312309
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+   1.0e+02 *
+
+  -0.399592370099550
+  -0.271111758438373
+  -0.187968435501525
+  -0.067025645383280
+   0.069810012193878
+   0.178685474237643
+   0.267307091909280
+   0.368842144554215
+   2.146881589563931
+
+TOP K eigenValues are:
+
+ans =
+
+ -39.959237009955032
+ -27.111175843837337
+ -18.796843550152531
+  -6.702564538328000
+   6.981001219387835
+  17.868547423764326
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-59.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.011
+INGEST time (sec) = 0.0090
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+   1.0e+02 *
+
+  Columns 1 through 7
+
+   1.574268601946983   0.944283774612689                   0                   0                   0                   0                   0
+   0.944283774612689   0.566662881778001   0.223887653264735                   0                   0                   0                   0
+                   0   0.223887653264735  -0.044994892688824   0.178323606820152                   0                   0                   0
+                   0                   0   0.178323606820152  -0.075645615920985   0.220142390640019                   0                   0
+                   0                   0                   0   0.220142390640019  -0.059787905954857   0.179473095204480                   0
+                   0                   0                   0                   0   0.179473095204480   0.041525717476957   0.199449354351296
+                   0                   0                   0                   0                   0   0.199449354351296   0.047467655350409
+                   0                   0                   0                   0                   0                   0   0.186225965937685
+                   0                   0                   0                   0                   0                   0                   0
+
+  Columns 8 through 9
+
+                   0                   0
+                   0                   0
+                   0                   0
+                   0                   0
+                   0                   0
+                   0                   0
+   0.186225965937685                   0
+   0.041721900736225   0.161645040719640
+   0.161645040719640   0.014609760312309
+
+INGEST time (sec) = 0.0090
+Iteration: 9: 1280.7775s
+!!!!!!Reached the max iterations. Finishing...
+Summarizing alpha[] and bet[]...
+
+	alpha	beta
+1	157.4269		94.4284
+2	56.6663		22.3888
+3	-4.4995		17.8324
+4	-7.5646		22.0142
+5	-5.9788		17.9473
+6	4.1526		19.9449
+7	4.7468		18.6226
+8	4.1722		16.1645
+9	1.461		17.0673
+Total running time is: 47589.7058
+Ending time: 14-Mar-2015 00:10:10
+
+Begin time: 13-Mar-2015 10:57:00
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating rtv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_v50_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: lz_norm_B50_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: extraDB.user: rootDB.type: Accumulo
+Creating alpha in hec-59.cs.iit.edu:2181 Accumulo
+Creating beta in hec-59.cs.iit.edu:2181 Accumulo
+Creating alpha_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B50_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating so_rpath in hec-59.cs.iit.edu:2181 Accumulo
+Creating cur_loop_j in hec-59.cs.iit.edu:2181 Accumulo
+Creating rtv_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating so_rrtv in hec-59.cs.iit.edu:2181 Accumulo
+Creating dot_temp in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_vpath in hec-59.cs.iit.edu:2181 Accumulo
+Creating extra in hec-59.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.664
+INGEST time (sec) = 0.071
+INGEST time (sec) = 0.072
+INGEST time (sec) = 0.044
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q2DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q3DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q4DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q5DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q6DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q7DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q8DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q9DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-59.cs.iit.edu:2181Table Name to be deleted: 50lz_q10DB.user: rootDB.type: Accumulo
+Creating 50lz_q2 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q3 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q4 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q5 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q6 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q7 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q8 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q9 in hec-59.cs.iit.edu:2181 Accumulo
+Creating 50lz_q10 in hec-59.cs.iit.edu:2181 Accumulo
+	Running Yingen with the following configuration:
+
+    '3'    'machines:'    'hec-63'    'hec-62'    'hec-60'    [1x1 char]
+
+5 processors	
+50 nodes	
+9 max iterations	
+6 top eigen values
+Initializing the random vector b in table B50
+Submitting store on 5 processor(s).
+ ssh hec-60 -n  'kill -9 24097'
+bash: line 0: kill: (24097) - No such process
+ ssh hec-60 -n  'kill -9 24117'
+bash: line 0: kill: (24117) - No such process
+ ssh hec-62 -n  'kill -9 12606'
+bash: line 0: kill: (12606) - No such process
+ ssh hec-62 -n  'kill -9 12650'
+bash: line 0: kill: (12650) - No such process
+Launching MPI rank: 4 on: hec-60
+Launching MPI rank: 3 on: hec-60
+Launching MPI rank: 2 on: hec-62
+Launching MPI rank: 1 on: hec-62
+Launching MPI rank: 0 on: hec-63
+
+unix_launch =
+
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/StoreDisk; /bin/sh ./MatMPI/Unix_Commands.hec-60.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/StoreDisk; /bin/sh ./MatMPI/Unix_Commands.hec-62.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-63.0.sh &
+
+
+****************** Now Running Store.m ***********************
+I am just waiting!
+Store running time: 36.083s
+!!!!!!Reached the max iterations. Finishing...
+Summarizing alpha[] and bet[]...
+
+	alpha	beta
+1	0		0
+2	0		0
+3	0		0
+4	0		0
+5	0		0
+6	0		0
+7	0		0
+8	0		0
+9	0		0
+Total running time is: 66.0267
+Ending time: 14-Mar-2015 23:25:16
+
+Begin time: 14-Mar-2015 23:24:10

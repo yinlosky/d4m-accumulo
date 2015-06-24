@@ -1,0 +1,641 @@
+***********************************************
+Initializing the input matrix, start time: 26-May-2015 19:32:41
+*********************************************Commands:  initMatrix( 8,16,18,512)***********************************************
+Initializing the input matrix, end time: 26-May-2015 20:56:48
+******************************************************************************************
+Begin time: 27-May-2015 11:36:02
+*********************************************Commands:  startYingen( 9,9,262144,20,6,1,1)sparseness: 512Iteration 1 Row_mv takes: 103.1265
+Iteration 1 Calculating alpha takes: 97.0972
+Iteration 1 onetime_saxv: 96.8258
+Iteration 1 beta takes: 67.0019
+Iteration 1 SO takes: 0.090597
+Iteration 1 Update Q takes: 68.9625
+Iteration: 1: 435.1735s
+Iteration 2 Row_mv takes: 216.9469
+Iteration 2 Calculating alpha takes: 66.9405
+Iteration 2 onetime_saxv: 1777.0226
+Iteration 2 beta takes: 67.3441
+Iteration 2 SO takes: 0.06643
+Iteration 2 Update Q takes: 68.6329
+Iteration: 2: 2198.8533s
+Iteration 3 Row_mv takes: 96.9208
+Iteration 3 Calculating alpha takes: 68.1872
+Iteration 3 onetime_saxv: 98.4803
+Iteration 3 beta takes: 67.1251
+Iteration 3 SO takes: 0.061279
+Iteration 3 Update Q takes: 38.3109
+Iteration: 3: 371.0459s
+Iteration 4 Row_mv takes: 128.1803
+Iteration 4 Calculating alpha takes: 67.0838
+Iteration 4 onetime_saxv: 127.0041
+Iteration 4 beta takes: 67.1538
+Iteration 4 SO takes: 0.073169
+Iteration 4 Update Q takes: 68.7293
+Iteration: 4: 460.0841s
+Iteration 5 Row_mv takes: 186.844
+Iteration 5 Calculating alpha takes: 96.9766
+Iteration 5 onetime_saxv: 126.6107
+Iteration 5 beta takes: 67.2616
+Iteration 5 SO takes: 0.077193
+Iteration 5 Update Q takes: 68.1946
+Iteration: 5: 547.8009s
+Iteration 6 Row_mv takes: 188.258
+Iteration 6 Calculating alpha takes: 66.8027
+Iteration 6 onetime_saxv: 96.8011
+Iteration 6 beta takes: 68.8563
+Iteration 6 SO takes: 0.06853
+Iteration 6 Update Q takes: 68.5819
+Iteration: 6: 491.1246s
+Iteration 7 Row_mv takes: 96.9453
+Iteration 7 Calculating alpha takes: 66.9798
+Iteration 7 onetime_saxv: 98.5973
+Iteration 7 beta takes: 97.0891
+Iteration 7 SO takes: 0.0812
+Iteration 7 Update Q takes: 68.3901
+Iteration: 7: 429.9397s
+Iteration 8 Row_mv takes: 96.7695
+Iteration 8 Calculating alpha takes: 96.9518
+Iteration 8 onetime_saxv: 98.6832
+Iteration 8 beta takes: 66.9813
+Iteration 8 SO takes: 0.068519
+Iteration 8 Update Q takes: 98.5805
+Iteration: 8: 459.9929s
+Iteration 9 Row_mv takes: 186.791
+Iteration 9 Calculating alpha takes: 66.883
+Iteration 9 onetime_saxv: 96.6259
+Iteration 9 beta takes: 67.0288
+Iteration 9 SO takes: 0.10061
+Iteration 9 Update Q takes: 68.4093
+Iteration: 9: 487.7873s
+Iteration 10 Row_mv takes: 188.4959
+Iteration 10 Calculating alpha takes: 66.8205
+Iteration 10 onetime_saxv: 96.8208
+Iteration 10 beta takes: 66.8717
+Iteration 10 SO takes: 0.075898
+Iteration 10 Update Q takes: 66.7282
+Iteration: 10: 487.5569s
+Iteration 11 Row_mv takes: 126.792
+***********************************************
+Begin time: 27-May-2015 14:01:03
+*********************************************Commands:  startYingen( 9,17,262144,20,6,1,1,0)sparseness: 512***********************************************
+Begin time: 02-Jun-2015 12:05:57
+*********************************************Commands:  startYingen( 9,17,262144,20,6,1,0,1)sparseness: 512Scheduler 1 running time: 6009.5272s
+***********************************************
+Begin time: 02-Jun-2015 13:59:17
+*********************************************Commands:  startYingen( 9,17,262144,20,6,1,0,1)sparseness: 512Scheduler 1 running time: 5955.1549s
+***********************************************
+Begin time: 02-Jun-2015 20:00:09
+*********************************************Commands:  startYingen( 9,17,262144,20,6,1,0,1)sparseness: 512Scheduler 1 running time: 0.000184s
+***********************************************
+Begin time: 02-Jun-2015 20:07:56
+*********************************************Commands:  startYingen( 9,17,262144,20,6,1,0,1)sparseness: 512Scheduler 1 running time: 0.000406s
+Scheduler 2 running time: 7296.0898s
+***********************************************
+Begin time: 04-Jun-2015 21:43:48
+*********************************************Commands:  startYingen( 9,17,262144,20,6,1,1,1)sparseness: 512***********************************************
+Begin time: 04-Jun-2015 21:46:00
+*********************************************Commands:  startYingen( 9,17,262144,20,6,1,1,1)sparseness: 512***********************************************
+Begin time: 06-Jun-2015 20:43:27
+*********************************************Commands:  MainForEigenSolver( 9,17,262144,20,6,1,0,1)sparseness: 512Scheduler 1 running time: 5930.0193s
+Scheduler 2 running time: 7385.1976s
+***********************************************
+Begin time: 07-Jun-2015 21:18:08
+*********************************************Commands:  MainForEigenSolver( 9,17,262144,20,6,1,1,0)sparseness: 512Iteration 1 Row_mv takes: 104.065
+Iteration 1 Calculating alpha takes: 72.7397
+Iteration 1 onetime_saxv: 102.0875
+Iteration 1 beta takes: 69.8128
+Iteration 1 SO takes: 0.086654
+Iteration 1 Update Q takes: 102.8489
+Iteration: 1: 453.8377s
+Iteration 2 Row_mv takes: 189.4606
+Iteration 2 Calculating alpha takes: 99.1085
+Iteration 2 onetime_saxv: 99.519
+Iteration 2 beta takes: 71.094
+Iteration 2 SO takes: 0.076629
+Iteration 2 Update Q takes: 69.3584
+Iteration: 2: 530.5055s
+Iteration 3 Row_mv takes: 129.2606
+Iteration 3 Calculating alpha takes: 69.6295
+Iteration 3 onetime_saxv: 69.4417
+Iteration 3 beta takes: 101.5629
+Iteration 3 SO takes: 0.074368
+Iteration 3 Update Q takes: 99.5848
+Iteration: 3: 471.3349s
+Iteration 4 Row_mv takes: 159.2529
+Iteration 4 Calculating alpha takes: 68.9493
+Iteration 4 onetime_saxv: 98.9971
+Iteration 4 beta takes: 130.9709
+Iteration 4 SO takes: 0.059839
+Iteration 4 Update Q takes: 69.2431
+Iteration: 4: 529.2722s
+Iteration 5 Row_mv takes: 189.3266
+Iteration 5 Calculating alpha takes: 99.3168
+Iteration 5 onetime_saxv: 102.5352
+Iteration 5 beta takes: 69.5312
+Iteration 5 SO takes: 0.059633
+Iteration 5 Update Q takes: 1060.1563
+Iteration: 5: 1522.7772s
+***********************************************
+Initializing the input matrix, start time: 07-Jun-2015 22:29:06
+*********************************************Commands:  initMatrix( 8,56,20,512)***********************************************
+Begin time: 07-Jun-2015 22:29:12
+*********************************************Commands:  MainForEigenSolver( 9,9,1048576,20,6,0,0,1)sparseness: 512***********************************************
+Initializing the input matrix, start time: 07-Jun-2015 22:34:06
+*********************************************Commands:  initMatrix( 8,56,20,512)***********************************************
+***********************************************
+Bluewave Initializing the input matrix, start time: 09-Jun-2015 22:40:52
+*********************************************Commands:  initMatrix( 8,22,20,512)***********************************************
+Bluewave Initializing the input matrix, start time: 09-Jun-2015 23:22:59
+*********************************************Commands:  initMatrix( 16,61,20,512)***********************************************
+Bluewave Initializing the input matrix, start time: 11-Jun-2015 09:18:13
+*********************************************Commands:  initMatrix( 16,76,20,256)***********************************************
+Initializing the input matrix, end time: 11-Jun-2015 10:21:57
+******************************************************************************************
+Begin time: 11-Jun-2015 14:36:36
+*********************************************Bluewave Commands:  MainForEigenSolver( 9,9,1048576,20,6,0,0,1)sparseness: 256InitB takes: 308.2376
+***********************************************
+Bluewave Initializing the input matrix, start time: 11-Jun-2015 21:14:24
+*********************************************Commands:  initMatrix( 16,76,20,256)***********************************************
+Bluewave Initializing the input matrix, start time: 11-Jun-2015 21:39:58
+*********************************************Commands:  initMatrix( 16,76,20,256)***********************************************
+Bluewave Initializing the input matrix, start time: 11-Jun-2015 21:47:49
+*********************************************Commands:  initMatrix( 16,76,20,256)***********************************************
+Bluewave Initializing the input matrix, start time: 11-Jun-2015 21:54:54
+*********************************************Commands:  initMatrix( 16,76,20,256)***********************************************
+Bluewave Initializing the input matrix, start time: 11-Jun-2015 23:34:48
+*********************************************Commands:  initMatrix( 16,76,20,256)***********************************************
+Bluewave Initializing the input matrix, start time: 12-Jun-2015 10:47:04
+*********************************************Commands:  initMatrix( 4,4,10,32)***********************************************
+Initializing the input matrix, end time: 12-Jun-2015 10:48:25
+******************************************************************************************
+Bluewave Initializing the input matrix, start time: 12-Jun-2015 10:52:58
+*********************************************Commands:  initMatrix( 16,76,20,256)***********************************************
+Initializing the input matrix, end time: 12-Jun-2015 12:04:06
+******************************************************************************************
+Begin time: 12-Jun-2015 12:32:07
+*********************************************Bluewave Commands:  MainForEigenSolver( 9,9,1048576,20,6,0,0,1)sparseness: 256InitB takes: 275.5018
+Scheduler 1 running time: 4956.9682s
+Scheduler 2 running time: 12043.6294s
+Store running time: 2705.7755s
+***********************************************
+Begin time: 13-Jun-2015 14:40:50
+*********************************************Bluewave Commands:  MainForLoop( 9,9,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 397.7734
+Iteration 1 Calculating alpha takes: 128.0146
+Iteration 1 onetime_saxv: 126.3263
+Iteration 1 beta takes: 98.3186
+Iteration 1 SO takes: 0.05158
+Iteration 1 Update Q takes: 126.8568
+Iteration: 1: 882.4297s
+Iteration 2 Row_mv takes: 456.1677
+Iteration 2 Calculating alpha takes: 97.6582
+Iteration 2 onetime_saxv: 128.5919
+Iteration 2 beta takes: 10207.6054
+Iteration 2 SO takes: 0.04078
+***********************************************
+Begin time: 13-Jun-2015 21:12:28
+*********************************************Bluewave Commands:  MainForLoop( 9,9,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 426.1828
+Iteration 1 Calculating alpha takes: 97.6342
+Iteration 1 onetime_saxv: 2891.2869
+Iteration 1 beta takes: 101.2175
+Iteration 1 SO takes: 0.052327
+Iteration 1 Update Q takes: 303.3387
+Iteration: 1: 3823.8844s
+Iteration 2 Row_mv takes: 418.0558
+Iteration 2 Calculating alpha takes: 127.7979
+Iteration 2 onetime_saxv: 158.1105
+Iteration 2 beta takes: 128.6728
+Iteration 2 SO takes: 0.041062
+Iteration 2 Update Q takes: 98.1527
+Iteration: 2: 937.4421s
+Iteration 3 Row_mv takes: 1407.3536
+Iteration 3 Calculating alpha takes: 101.4875
+Iteration 3 onetime_saxv: 128.5786
+Iteration 3 beta takes: 639.1263
+Iteration 3 SO takes: 0.039766
+Iteration 3 Update Q takes: 100.0544
+Iteration: 3: 2383.0866s
+***********************************************
+Begin time: 16-Jun-2015 11:04:38
+*********************************************Bluewave Commands:  MainForLoop( 9,9,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 399.4119
+***********************************************
+Begin time: 16-Jun-2015 11:51:03
+*********************************************Bluewave Commands:  MainForLoop( 9,9,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 420.1428
+Iteration 1 Calculating alpha takes: 135.8209
+Iteration 1 onetime_saxv: 126.2358
+Iteration 1 beta takes: 99.3981
+Iteration 1 SO takes: 0.052311
+Iteration 1 Update Q takes: 130.5145
+Iteration: 1: 916.7716s
+Iteration 2 Row_mv takes: 426.2464
+***********************************************
+Begin time: 16-Jun-2015 13:55:55
+*********************************************Bluewave Commands:  MainForLoop( 9,9,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 426.083
+Iteration 1 Calculating alpha takes: 215.9308
+***********************************************
+Begin time: 16-Jun-2015 15:07:47
+*********************************************Bluewave Commands:  MainForLoop( 9,9,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 7.4557
+Iteration 1 Calculating alpha takes: 9.5755
+Iteration 1 onetime_saxv: 8.4101
+Iteration 1 beta takes: 8.6571
+***********************************************
+Begin time: 16-Jun-2015 15:11:28
+*********************************************Bluewave Commands:  MainForLoop( 9,9,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 472.0989
+Iteration 1 Calculating alpha takes: 97.6226
+Iteration 1 onetime_saxv: 159.0017
+Iteration 1 beta takes: 67.0744
+Iteration 1 SO takes: 0.05723
+Iteration 1 Update Q takes: 158.9936
+Iteration: 1: 959.1648s
+Iteration 2 Row_mv takes: 126.1097
+***********************************************
+Begin time: 16-Jun-2015 23:23:47
+*********************************************Bluewave Commands:  MainForLoop( 9,9,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 131.1577
+***********************************************
+Begin time: 17-Jun-2015 11:43:57
+*********************************************Bluewave Commands:  MainForLoop( 9,9,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 155.9216
+Iteration 1 Calculating alpha takes: 130.8171
+Iteration 1 onetime_saxv: 128.3281
+Iteration 1 beta takes: 98.2537
+Iteration 1 SO takes: 0.043523
+Iteration 1 Update Q takes: 96.9888
+Iteration: 1: 614.6589s
+Iteration 2 Row_mv takes: 787.0719
+Iteration 2 Calculating alpha takes: 127.465
+Iteration 2 onetime_saxv: 188.5143
+Iteration 2 beta takes: 68.4908
+Iteration 2 SO takes: 0.036174
+Iteration 2 Update Q takes: 98.6695
+Iteration: 2: 1276.4255s
+Iteration 3 Row_mv takes: 187.1301
+Iteration 3 Calculating alpha takes: 128.0703
+Iteration 3 onetime_saxv: 157.8116
+Iteration 3 beta takes: 129.0039
+Iteration 3 SO takes: 0.044133
+Iteration 3 Update Q takes: 98.1986
+Iteration: 3: 706.4916s
+Iteration 4 Row_mv takes: 366.4427
+Iteration 4 Calculating alpha takes: 127.3859
+Iteration 4 onetime_saxv: 128.4574
+Iteration 4 beta takes: 68.5302
+Iteration 4 SO takes: 0.038151
+Iteration 4 Update Q takes: 128.8323
+Iteration: 4: 825.366s
+Iteration 5 Row_mv takes: 126.7671
+Iteration 5 Calculating alpha takes: 128.5282
+Iteration 5 onetime_saxv: 158.3036
+Iteration 5 beta takes: 128.5197
+Iteration 5 SO takes: 0.037049
+Iteration 5 Update Q takes: 97.8207
+Iteration: 5: 647.0043s
+Iteration 6 Row_mv takes: 788.2353
+Iteration 6 Calculating alpha takes: 97.516
+Iteration 6 onetime_saxv: 188.6303
+Iteration 6 beta takes: 67.9862
+Iteration 6 SO takes: 0.041069
+Iteration 6 Update Q takes: 97.2079
+Iteration: 6: 1245.5237s
+Iteration 7 Row_mv takes: 98.5003
+Iteration 7 Calculating alpha takes: 98.8416
+Iteration 7 onetime_saxv: 158.8285
+Iteration 7 beta takes: 128.3868
+Iteration 7 SO takes: 0.03456
+Iteration 7 Update Q takes: 128.6073
+Iteration: 7: 619.7347s
+Iteration 8 Row_mv takes: 396.6378
+Iteration 8 Calculating alpha takes: 97.7295
+Iteration 8 onetime_saxv: 128.5507
+Iteration 8 beta takes: 68.8965
+Iteration 8 SO takes: 0.034263
+Iteration 8 Update Q takes: 98.8843
+Iteration: 8: 797.5828s
+Iteration 9 Row_mv takes: 97.0545
+Iteration 9 Calculating alpha takes: 158.7164
+Iteration 9 onetime_saxv: 127.9933
+Iteration 9 beta takes: 127.079
+Iteration 9 SO takes: 0.032178
+Iteration 9 Update Q takes: 128.043
+Iteration: 9: 645.9599s
+Iteration 10 Row_mv takes: 758.2496
+Iteration 10 Calculating alpha takes: 125.9285
+Iteration 10 onetime_saxv: 188.2309
+Iteration 10 beta takes: 68.5654
+Iteration 10 SO takes: 0.031813
+Iteration 10 Update Q takes: 98.9462
+Iteration: 10: 1248.3252s
+Iteration 11 Row_mv takes: 128.496
+Iteration 11 Calculating alpha takes: 127.9957
+Iteration 11 onetime_saxv: 158.2813
+Iteration 11 beta takes: 69.2948
+Iteration 11 SO takes: 0.031666
+Iteration 11 Update Q takes: 99.1684
+Iteration: 11: 590.8921s
+Iteration 12 Row_mv takes: 339.378
+Iteration 12 Calculating alpha takes: 97.7249
+Iteration 12 onetime_saxv: 128.9128
+Iteration 12 beta takes: 68.8471
+Iteration 12 SO takes: 0.035399
+Iteration 12 Update Q takes: 97.3629
+Iteration: 12: 738.7927s
+Iteration 13 Row_mv takes: 127.0576
+Iteration 13 Calculating alpha takes: 98.607
+Iteration 13 onetime_saxv: 188.7836
+Iteration 13 beta takes: 98.1435
+Iteration 13 SO takes: 0.032352
+Iteration 13 Update Q takes: 98.4891
+Iteration: 13: 618.3347s
+Iteration 14 Row_mv takes: 758.3128
+Iteration 14 Calculating alpha takes: 127.3895
+Iteration 14 onetime_saxv: 158.3401
+Iteration 14 beta takes: 97.5354
+Iteration 14 SO takes: 0.040338
+Iteration 14 Update Q takes: 127.0003
+Iteration: 14: 1275.6066s
+Iteration 15 Row_mv takes: 98.2639
+Iteration 15 Calculating alpha takes: 128.295
+Iteration 15 onetime_saxv: 158.2179
+Iteration 15 beta takes: 98.4565
+Iteration 15 SO takes: 0.039031
+Iteration 15 Update Q takes: 128.3097
+Iteration: 15: 617.1303s
+Iteration 16 Row_mv takes: 367.8417
+Iteration 16 Calculating alpha takes: 97.5404
+Iteration 16 onetime_saxv: 127.0711
+Iteration 16 beta takes: 68.1739
+Iteration 16 SO takes: 0.034443
+Iteration 16 Update Q takes: 98.7163
+Iteration: 16: 767.2001s
+Iteration 17 Row_mv takes: 128.2699
+Iteration 17 Calculating alpha takes: 128.077
+Iteration 17 onetime_saxv: 157.9531
+Iteration 17 beta takes: 98.7145
+Iteration 17 SO takes: 0.03443
+Iteration 17 Update Q takes: 98.502
+Iteration: 17: 617.6866s
+Iteration 18 Row_mv takes: 788.5077
+Iteration 18 Calculating alpha takes: 97.4171
+Iteration 18 onetime_saxv: 188.6259
+Iteration 18 beta takes: 67.632
+Iteration 18 SO takes: 0.038624
+Iteration 18 Update Q takes: 98.8132
+Iteration: 18: 1248.2497s
+Iteration 19 Row_mv takes: 128.6245
+Iteration 19 Calculating alpha takes: 97.9263
+Iteration 19 onetime_saxv: 128.429
+Iteration 19 beta takes: 68.1693
+Iteration 19 SO takes: 0.034432
+Iteration 19 Update Q takes: 98.717
+Iteration: 19: 528.8773s
+Iteration 20 Row_mv takes: 368.3329
+Iteration 20 Calculating alpha takes: 97.5024
+Iteration 20 onetime_saxv: 128.0987
+Iteration 20 beta takes: 98.039
+Iteration 20 SO takes: 0.047607
+Iteration 20 Update Q takes: 128.4255
+Iteration: 20: 827.0155s
+***********************************************
+Begin time: 18-Jun-2015 01:28:01
+*********************************************Bluewave Commands:  MainForEigenSolver( 16,16,1048576,20,6,0,0,1)sparseness: 256InitB takes: 267.4401
+Scheduler 1 running time: 3822.178s
+***********************************************
+Begin time: 18-Jun-2015 15:43:09
+*********************************************Bluewave Commands:  MainForEigenSolver( 15,15,1048576,20,6,0,0,1)sparseness: 256InitB takes: 297.837
+Scheduler 1 running time: 4241.2898s
+Scheduler 2 running time: 11234.9073s
+***********************************************
+Begin time: 19-Jun-2015 01:10:56
+*********************************************Bluewave Commands:  MainForEigenSolver( 15,15,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 104.2091
+Iteration 1 Calculating alpha takes: 101.4542
+Iteration 1 onetime_saxv: 101.1234
+Iteration 1 beta takes: 102.4066
+Iteration 1 SO takes: 36.8481
+***********************************************
+Begin time: 19-Jun-2015 11:02:45
+*********************************************Bluewave Commands:  MainForEigenSolver( 15,15,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 397.1387
+Iteration 1 Calculating alpha takes: 97.3945
+Iteration 1 onetime_saxv: 101.4971
+Iteration 1 beta takes: 102.5026
+Iteration 1 SO takes: 0.049739
+Iteration 1 Update Q takes: 101.1596
+Iteration: 1: 804.0339s
+***********************************************
+Begin time: 19-Jun-2015 13:34:23
+*********************************************Bluewave Commands:  MainForEigenSolver( 15,15,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 397.2546
+Iteration 1 Calculating alpha takes: 99.6439
+Iteration 1 onetime_saxv: 101.3554
+Iteration 1 beta takes: 101.6442
+Iteration 1 SO takes: 0.048936
+Iteration 1 Update Q takes: 130.834
+Iteration: 1: 835.8656s
+Iteration 2 Row_mv takes: 1069.3205
+Iteration 2 Calculating alpha takes: 129.5697
+Iteration 2 onetime_saxv: 130.3112
+Iteration 2 beta takes: 102.8222
+Iteration 2 SO takes: 0.039264
+Iteration 2 Update Q takes: 131.4553
+Iteration: 2: 1572.1848s
+Iteration 3 Row_mv takes: 1001.1794
+Iteration 3 Calculating alpha takes: 129.4787
+Iteration 3 onetime_saxv: 130.6606
+Iteration 3 beta takes: 69.3554
+Iteration 3 SO takes: 0.038413
+Iteration 3 Update Q takes: 101.2263
+Iteration: 3: 1439.1822s
+Iteration 4 Row_mv takes: 761.4984
+Iteration 4 Calculating alpha takes: 97.1078
+Iteration 4 onetime_saxv: 101.3328
+Iteration 4 beta takes: 99.7432
+Iteration 4 SO takes: 0.04118
+Iteration 4 Update Q takes: 101.3567
+Iteration: 4: 1168.85s
+Iteration 5 Row_mv takes: 728.802
+Iteration 5 Calculating alpha takes: 99.749
+Iteration 5 onetime_saxv: 101.022
+Iteration 5 beta takes: 102.3241
+Iteration 5 SO takes: 0.039473
+Iteration 5 Update Q takes: 131.1466
+Iteration: 5: 1169.3829s
+Iteration 6 Row_mv takes: 911.1324
+Iteration 6 Calculating alpha takes: 129.7195
+Iteration 6 onetime_saxv: 100.3499
+Iteration 6 beta takes: 102.1399
+Iteration 6 SO takes: 0.040868
+Iteration 6 Update Q takes: 131.2083
+Iteration: 6: 1381.5947s
+Iteration 7 Row_mv takes: 1001.3433
+Iteration 7 Calculating alpha takes: 129.9114
+Iteration 7 onetime_saxv: 220.95
+Iteration 7 beta takes: 101.2959
+Iteration 7 SO takes: 0.04499
+Iteration 7 Update Q takes: 131.3377
+Iteration: 7: 1592.1445s
+Iteration 8 Row_mv takes: 701.2527
+Iteration 8 Calculating alpha takes: 69.8187
+Iteration 8 onetime_saxv: 131.0869
+Iteration 8 beta takes: 71.7124
+Iteration 8 SO takes: 34.8254
+***********************************************
+Begin time: 19-Jun-2015 16:45:54
+*********************************************Bluewave Commands:  MainForEigenSolver( 10,10,1048576,20,6,1,0,1)sparseness: 256Scheduler 1 running time: 4984.8474s
+Scheduler 2 running time: 11087.465s
+Store running time: 9817.93s
+Iteration 1 Row_mv takes: 457.8664
+Iteration 1 Calculating alpha takes: 97.9592
+Iteration 1 onetime_saxv: 128.8498
+Iteration 1 beta takes: 99.417
+Iteration 1 SO takes: 0.041889
+Iteration 1 Update Q takes: 128.7585
+Iteration: 1: 918.3346s
+Iteration 2 Row_mv takes: 1146.5736
+Iteration 2 Calculating alpha takes: 96.2126
+Iteration 2 onetime_saxv: 128.7019
+Iteration 2 beta takes: 127.3193
+Iteration 2 SO takes: 0.036024
+Iteration 2 Update Q takes: 98.4864
+Iteration: 2: 1605.9984s
+Iteration 3 Row_mv takes: 1058.2499
+Iteration 3 Calculating alpha takes: 97.9349
+Iteration 3 onetime_saxv: 158.8103
+Iteration 3 beta takes: 99.3271
+Iteration 3 SO takes: 0.038644
+Iteration 3 Update Q takes: 98.5992
+Iteration: 3: 1521.357s
+Iteration 4 Row_mv takes: 819.0687
+Iteration 4 Calculating alpha takes: 98.0544
+Iteration 4 onetime_saxv: 158.5987
+Iteration 4 beta takes: 99.9467
+Iteration 4 SO takes: 0.03401
+Iteration 4 Update Q takes: 98.8433
+Iteration: 4: 1281.8949s
+Iteration 5 Row_mv takes: 818.7466
+Iteration 5 Calculating alpha takes: 98.4402
+Iteration 5 onetime_saxv: 128.918
+Iteration 5 beta takes: 129.3794
+Iteration 5 SO takes: 0.033716
+Iteration 5 Update Q takes: 128.8933
+Iteration: 5: 1311.3584s
+Iteration 6 Row_mv takes: 1028.3633
+Iteration 6 Calculating alpha takes: 157.9189
+Iteration 6 onetime_saxv: 156.8947
+Iteration 6 beta takes: 129.6014
+Iteration 6 SO takes: 0.038929
+Iteration 6 Update Q takes: 128.3956
+Iteration: 6: 1608.0002s
+Iteration 7 Row_mv takes: 1088.588
+Iteration 7 Calculating alpha takes: 126.5374
+Iteration 7 onetime_saxv: 188.7511
+Iteration 7 beta takes: 99.1062
+Iteration 7 SO takes: 0.035036
+Iteration 7 Update Q takes: 126.9363
+Iteration: 7: 1636.1567s
+Iteration 8 Row_mv takes: 788.9225
+Iteration 8 Calculating alpha takes: 98.0816
+Iteration 8 onetime_saxv: 157.0146
+Iteration 8 beta takes: 99.5174
+Iteration 8 SO takes: 30.3689
+***********************************************
+Begin time: 20-Jun-2015 16:33:58
+*********************************************Bluewave Commands:  MainForEigenSolver( 10,10,1048576,20,6,1,0,1)sparseness: 256***********************************************
+Begin time: 20-Jun-2015 21:03:39
+*********************************************Bluewave Commands:  MainForEigenSolver( 10,10,1048576,20,6,1,0,1)sparseness: 256Scheduler 1 running time: 5106.2769s
+***********************************************
+Begin time: 21-Jun-2015 14:38:18
+*********************************************Bluewave Commands:  MainForEigenSolver( 15,15,1048576,20,6,1,0,1)sparseness: 256Scheduler 1 running time: 4236.3706s
+Scheduler 2 running time: 11114.1375s
+Store running time: 4119.6878s
+Iteration 1 Row_mv takes: 311.6197
+Iteration 1 Calculating alpha takes: 129.6639
+Iteration 1 onetime_saxv: 86.3708
+Iteration 1 beta takes: 101.4247
+Iteration 1 SO takes: 0.054383
+Iteration 1 Update Q takes: 130.9598
+Iteration: 1: 766.1737s
+Iteration 2 Row_mv takes: 310.4875
+Iteration 2 Calculating alpha takes: 189.9533
+Iteration 2 onetime_saxv: 156.9154
+Iteration 2 beta takes: 70.476
+Iteration 2 SO takes: 0.045297
+Iteration 2 Update Q takes: 101.1529
+Iteration: 2: 836.1929s
+Iteration 3 Row_mv takes: 305.5365
+Iteration 3 Calculating alpha takes: 130.4622
+Iteration 3 onetime_saxv: 130.9487
+Iteration 3 beta takes: 90.4665
+Iteration 3 SO takes: 0.044042
+Iteration 3 Update Q takes: 85.3043
+Iteration: 3: 749.7676s
+Iteration 4 Row_mv takes: 311.4822
+Iteration 4 Calculating alpha takes: 129.2513
+Iteration 4 onetime_saxv: 107.2163
+Iteration 4 beta takes: 101.352
+Iteration 4 SO takes: 0.03639
+Iteration 4 Update Q takes: 70.935
+Iteration: 4: 727.2665s
+Iteration 5 Row_mv takes: 310.9282
+Iteration 5 Calculating alpha takes: 129.6447
+Iteration 5 onetime_saxv: 130.3559
+Iteration 5 beta takes: 41.3264
+Iteration 5 SO takes: 0.038501
+Iteration 5 Update Q takes: 131.2174
+Iteration: 5: 750.2673s
+Iteration 6 Row_mv takes: 307.7199
+Iteration 6 Calculating alpha takes: 129.7009
+***********************************************
+Begin time: 21-Jun-2015 21:16:30
+*********************************************Bluewave Commands:  MainForEigenSolver( 15,15,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 303.0909
+Iteration 1 Calculating alpha takes: 90.6841
+***********************************************
+Begin time: 21-Jun-2015 21:27:00
+*********************************************Bluewave Commands:  MainForEigenSolver( 15,15,1048576,20,6,1,1,0)sparseness: 256Iteration 1 Row_mv takes: 304.5361
+Iteration 1 Calculating alpha takes: 100.3623
+Iteration 1 onetime_saxv: 101.8634
+Iteration 1 beta takes: 101.9419
+Iteration 1 SO takes: 0.050696
+Iteration 1 Update Q takes: 98.2199
+Iteration: 1: 711.6469s
+Iteration 2 Row_mv takes: 310.9901
+Iteration 2 Calculating alpha takes: 69.6372
+Iteration 2 onetime_saxv: 100.918
+Iteration 2 beta takes: 71.8099
+Iteration 2 SO takes: 0.038359
+Iteration 2 Update Q takes: 131.2211
+Iteration: 2: 691.5054s
+Iteration 3 Row_mv takes: 311.2026
+Iteration 3 Calculating alpha takes: 129.9065
+Iteration 3 onetime_saxv: 128.0358
+Iteration 3 beta takes: 71.2647
+Iteration 3 SO takes: 0.038313
+Iteration 3 Update Q takes: 68.3515
+Iteration: 3: 714.8317s
+Iteration 4 Row_mv takes: 310.9672
+Iteration 4 Calculating alpha takes: 99.6408
+Iteration 4 onetime_saxv: 130.5041
+Iteration 4 beta takes: 100.7139
+Iteration 4 SO takes: 0.040924
+Iteration 4 Update Q takes: 100.7912
+Iteration: 4: 749.3033s
+Iteration 5 Row_mv takes: 310.857
+Iteration 5 Calculating alpha takes: 67.1533
+Iteration 5 onetime_saxv: 101.1983
+Iteration 5 beta takes: 101.8132
+Iteration 5 SO takes: 0.042109
+Iteration 5 Update Q takes: 100.363
+Iteration: 5: 687.4036s
+Iteration 6 Row_mv takes: 310.8596
+Iteration 6 Calculating alpha takes: 127.0378
+Iteration 6 onetime_saxv: 130.0468
+Iteration 6 beta takes: 101.4967
+Iteration 6 SO takes: 0.031661
+Iteration 6 Update Q takes: 70.665
+Iteration: 6: 745.9867s
+Iteration 7 Row_mv takes: 311.3069
+Iteration 7 Calculating alpha takes: 99.6914
+Iteration 7 onetime_saxv: 128.0511
+Iteration 7 beta takes: 101.3838
+Iteration 7 SO takes: 0.037858
+Iteration 7 Update Q takes: 100.787
+Iteration: 7: 747.8016s
+Iteration 8 Row_mv takes: 310.7781
+Iteration 8 Calculating alpha takes: 99.5604
+Iteration 8 onetime_saxv: 130.6561
+Iteration 8 beta takes: 101.6956
+Iteration 8 SO takes: 34.2991

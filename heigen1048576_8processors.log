@@ -1,0 +1,10 @@
+nohup: ignoring input
+Not a valid JAR: /home/yhuang9/MeasureTimeOfAccumuloAndD4M/heigen-0.9.jar
+wc: lanczos.ab: No such file or directory
+/home/yhuang9/HEIGEN/run_heigen.sh: line 27: ./run_qtoritz.sh: No such file or directory
+/home/yhuang9/HEIGEN/run_heigen.sh: line 28: ./run_ritz_cimv.sh: No such file or directory
+
+HEigen finished. Here are top 6 eigenvalues:
+cat: ritz.map: No such file or directory
+
+The eigenvectors are saved in HDFS rz_v1 to rz_v6.

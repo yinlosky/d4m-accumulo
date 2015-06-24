@@ -1,0 +1,10 @@
+1. Query the table and get the row, col, val of the associative array
+temp = B('1,','1,')
+str2num(Row(temp)) == 1 % ans = 1
+
+2. In matlab delete table operation:
+delete(T) T is the database binding to the table
+
+3. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+In mv.m function, the matrix A is very sparse, so we parallel the computation by splitting the columns of the matrix into work nodes.
+In computeR.m function, the input matrix is dense, tall and thin, and the vector is very small, so we parallel the computation by splitting the rows of the matrix.

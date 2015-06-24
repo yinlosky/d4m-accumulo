@@ -1,0 +1,48 @@
+***********************************************
+Begin time: 23-May-2015 20:04:44
+*********************************************Commands:  startYingen( 9,9,262144,20,6,0,0)***********************************************
+Begin time: 23-May-2015 20:07:26
+*********************************************Commands:  startYingen( 9,9,262144,20,6,0,0)***********************************************
+Begin time: 23-May-2015 20:10:01
+*********************************************Commands:  startYingen( 9,9,262144,20,6,0,0)***********************************************
+Begin time: 23-May-2015 20:11:28
+*********************************************Commands:  startYingen( 9,9,262144,20,6,0,0)***********************************************
+Begin time: 23-May-2015 20:16:04
+*********************************************Commands:  startYingen( 9,9,262144,20,6,0,0)***********************************************
+Begin time: 23-May-2015 20:18:13
+*********************************************Commands:  startYingen( 9,9,262144,20,6,0,0)InitB takes: 214.5503
+Scheduler 1 running time: 996.8869s
+*************************************
+Configurations: 
+	NumOfNodes: 262144	NumOfProcessors: 	9
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	18054.875
+	Even col is: 	32768
+	Total entries are: 	144439
+Machine 1
+	 Total col: 	26213	Total load: 40123
+	 start:end 	1:26214
+Machine 2
+	 Total col: 	32288	Total load: 22569
+	 start:end 	26215:58502
+Machine 3
+	 Total col: 	32768	Total load: 20968
+	 start:end 	58503:91270
+Machine 4
+	 Total col: 	36045	Total load: 11694
+	 start:end 	91271:127315
+Machine 5
+	 Total col: 	32768	Total load: 22200
+	 start:end 	127316:160083
+Machine 6
+	 Total col: 	36045	Total load: 11278
+	 start:end 	160084:196128
+Machine 7
+	 Total col: 	36045	Total load: 12003
+	 start:end 	196129:232173
+Machine 8
+	 Total col: 	29970	Total load: 3605
+	 start:end 	232174:262144
+Scheduler 2 running time: 2435.1044s
+Store running time: 8.459s

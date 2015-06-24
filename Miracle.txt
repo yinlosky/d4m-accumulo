@@ -1,0 +1,291 @@
+Warning: No display specified.  You will not be able to display graphics on the screen.
+[?1h=Warning: No window system found.  Java option 'MWT' ignored
+
+                                                                         < M A T L A B (R) >
+                                                               Copyright 1984-2012 The MathWorks, Inc.
+                                                    Version 7.11.2.1031 (R2010b) Service Pack 2 64-bit (glnxa64)
+                                                                            March 2, 2012
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+[H[2JStart time: 
+
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_v16384_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_B16384_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Creating alpha in hec-53.cs.iit.edu:2181 Accumulo
+Creating beta in hec-53.cs.iit.edu:2181 Accumulo
+Creating alpha_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v16384_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B16384_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating so_rpath in hec-53.cs.iit.edu:2181 Accumulo
+Creating cur_loop_j in hec-53.cs.iit.edu:2181 Accumulo
+Creating rtv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating so_rrtv in hec-53.cs.iit.edu:2181 Accumulo
+Creating dot_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating 16384lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.492
+INGEST time (sec) = 0.051
+INGEST time (sec) = 0.052
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_q2DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_q3DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_q4DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_q5DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_q6DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_q7DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_q8DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_q9DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 16384lz_q10DB.user: rootDB.type: Accumulo
+Creating 16384lz_q2 in hec-53.cs.iit.edu:2181 Accumulo
+Creating 16384lz_q3 in hec-53.cs.iit.edu:2181 Accumulo
+Creating 16384lz_q4 in hec-53.cs.iit.edu:2181 Accumulo
+Creating 16384lz_q5 in hec-53.cs.iit.edu:2181 Accumulo
+Creating 16384lz_q6 in hec-53.cs.iit.edu:2181 Accumulo
+Creating 16384lz_q7 in hec-53.cs.iit.edu:2181 Accumulo
+Creating 16384lz_q8 in hec-53.cs.iit.edu:2181 Accumulo
+Creating 16384lz_q9 in hec-53.cs.iit.edu:2181 Accumulo
+Creating 16384lz_q10 in hec-53.cs.iit.edu:2181 Accumulo
+	Running Yingen with the following configuration:
+
+    '8'    'machines:'    'hec-53'    'hec-55'    'hec-56'    'hec-58'    'hec-59'    'hec-60'    'hec-61'    'hec-62'    [1x1 char]
+
+56 processors	
+16384 nodes	
+9 max iterations	
+6 top eigen values
+Initializing the random vector b in table B16384
+**************myEigen iterations***********************
+computing v=Aq 1 ...
+INGEST time (sec) = 0.11
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+[?1h=Submitting parallel_mv_p1 on 56 processor(s).
+No pid files found
+No MPI_COMM_WORLD, deleting anyway, files may be leftover.
+[?1h=[?1h=[?1h=Launching MPI rank: 55 on: hec-62
+[?1h=Launching MPI rank: 54 on: hec-62
+[?1h=Launching MPI rank: 53 on: hec-62
+[?1h=Launching MPI rank: 52 on: hec-62
+[?1h=Launching MPI rank: 51 on: hec-62
+[?1h=Launching MPI rank: 50 on: hec-62
+[?1h=Launching MPI rank: 49 on: hec-62
+[?1h=Launching MPI rank: 48 on: hec-61
+[?1h=Launching MPI rank: 47 on: hec-61
+[?1h=Launching MPI rank: 46 on: hec-61
+[?1h=Launching MPI rank: 45 on: hec-61
+[?1h=Launching MPI rank: 44 on: hec-61
+[?1h=Launching MPI rank: 43 on: hec-61
+[?1h=Launching MPI rank: 42 on: hec-61
+[?1h=Launching MPI rank: 41 on: hec-60
+[?1h=Launching MPI rank: 40 on: hec-60
+[?1h=Launching MPI rank: 39 on: hec-60
+[?1h=Launching MPI rank: 38 on: hec-60
+[?1h=Launching MPI rank: 37 on: hec-60
+[?1h=Launching MPI rank: 36 on: hec-60
+[?1h=Launching MPI rank: 35 on: hec-60
+[?1h=Launching MPI rank: 34 on: hec-59
+[?1h=Launching MPI rank: 33 on: hec-59
+[?1h=Launching MPI rank: 32 on: hec-59
+[?1h=Launching MPI rank: 31 on: hec-59
+[?1h=Launching MPI rank: 30 on: hec-59
+[?1h=Launching MPI rank: 29 on: hec-59
+[?1h=Launching MPI rank: 28 on: hec-59
+[?1h=Launching MPI rank: 27 on: hec-58
+[?1h=Launching MPI rank: 26 on: hec-58
+[?1h=Launching MPI rank: 25 on: hec-58
+[?1h=Launching MPI rank: 24 on: hec-58
+[?1h=Launching MPI rank: 23 on: hec-58
+[?1h=Launching MPI rank: 22 on: hec-58
+[?1h=Launching MPI rank: 21 on: hec-58
+[?1h=Launching MPI rank: 20 on: hec-56
+[?1h=Launching MPI rank: 19 on: hec-56
+[?1h=Launching MPI rank: 18 on: hec-56
+[?1h=Launching MPI rank: 17 on: hec-56
+[?1h=Launching MPI rank: 16 on: hec-56
+[?1h=Launching MPI rank: 15 on: hec-56
+[?1h=Launching MPI rank: 14 on: hec-56
+[?1h=Launching MPI rank: 13 on: hec-55
+[?1h=Launching MPI rank: 12 on: hec-55
+[?1h=Launching MPI rank: 11 on: hec-55
+[?1h=Launching MPI rank: 10 on: hec-55
+[?1h=Launching MPI rank: 9 on: hec-55
+[?1h=Launching MPI rank: 8 on: hec-55
+[?1h=Launching MPI rank: 7 on: hec-55
+[?1h=Launching MPI rank: 6 on: hec-53
+[?1h=Launching MPI rank: 5 on: hec-53
+[?1h=Launching MPI rank: 4 on: hec-53
+[?1h=Launching MPI rank: 3 on: hec-53
+[?1h=Launching MPI rank: 2 on: hec-53
+[?1h=Launching MPI rank: 1 on: hec-53
+[?1h=Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+ ssh hec-62 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-62.49.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-61 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-61.42.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-60 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-60.35.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-59 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-59.28.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-58.21.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-56.14.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/TwoDimension; /bin/sh ./MatMPI/Unix_Commands.hec-55.7.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+[?1h=!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 16384lz_q1 into mv_temp ************
+I am the lazy one, I just wait!
+Total Running time is: 1.2695
+Total syn time is: 1000.7786
+[?1h=Submitting parallel_mv_p2 on 56 processor(s).
+ ssh hec-53 -n  'kill -9 11749'
+I am the lazy one, I just wait!
+Total Running time is: 998.1303
+bash: line 0: kill: (11749) - No such process
+[?1h= ssh hec-53 -n  'kill -9 11770'
+bash: line 0: kill: (11770) - No such process
+[?1h= ssh hec-53 -n  'kill -9 11801'
+bash: line 0: kill: (11801) - No such process
+[?1h= ssh hec-53 -n  'kill -9 11831'
+bash: line 0: kill: (11831) - No such process
+[?1h= ssh hec-53 -n  'kill -9 11880'
+bash: line 0: kill: (11880) - No such process
+[?1h= ssh hec-53 -n  'kill -9 11894'
+bash: line 0: kill: (11894) - No such process
+[?1h= ssh hec-53 -n  'kill -9 14028'
+bash: line 0: kill: (14028) - No such process
+[?1h= ssh hec-53 -n  'kill -9 14045'
+bash: line 0: kill: (14045) - No such process
+[?1h= ssh hec-53 -n  'kill -9 14079'
+bash: line 0: kill: (14079) - No such process
+[?1h= ssh hec-53 -n  'kill -9 14119'
+bash: line 0: kill: (14119) - No such process
+[?1h= ssh hec-53 -n  'kill -9 14159'
+bash: line 0: kill: (14159) - No such process
+[?1h= ssh hec-53 -n  'kill -9 14202'
+bash: line 0: kill: (14202) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24359'
+bash: line 0: kill: (24359) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24374'
+bash: line 0: kill: (24374) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24384'
+bash: line 0: kill: (24384) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24416'
+bash: line 0: kill: (24416) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24448'
+bash: line 0: kill: (24448) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24580'
+bash: line 0: kill: (24580) - No such process
+[?1h= ssh hec-55 -n  'kill -9 24671'
+bash: line 0: kill: (24671) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10009'
+bash: line 0: kill: (10009) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10034'
+bash: line 0: kill: (10034) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10094'
+bash: line 0: kill: (10094) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10205'
+bash: line 0: kill: (10205) - No such process
+[?1h= ssh hec-56 -n  'kill -9 10343'
+bash: line 0: kill: (10343) - No such process
+[?1h= ssh hec-56 -n  'kill -9 9973'
+bash: line 0: kill: (9973) - No such process
+[?1h= ssh hec-56 -n  'kill -9 9998'
+bash: line 0: kill: (9998) - No such process
+[?1h= ssh hec-58 -n  'kill -9 17096'
+bash: line 0: kill: (17096) - No such process
+[?1h= ssh hec-58 -n  'kill -9 17105'
+bash: line 0: kill: (17105) - No such process
+[?1h= ssh hec-58 -n  'kill -9 17117'
+bash: line 0: kill: (17117) - No such process
+[?1h= ssh hec-58 -n  'kill -9 17136'
+bash: line 0: kill: (17136) - No such process
+[?1h= ssh hec-58 -n  'kill -9 17229'
+bash: line 0: kill: (17229) - No such process
+[?1h= ssh hec-58 -n  'kill -9 17313'
+bash: line 0: kill: (17313) - No such process
+[?1h= ssh hec-58 -n  'kill -9 17435'
+bash: line 0: kill: (17435) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22327'
+bash: line 0: kill: (22327) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22336'
+bash: line 0: kill: (22336) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22350'
+bash: line 0: kill: (22350) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22385'
+bash: line 0: kill: (22385) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22427'
+bash: line 0: kill: (22427) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22549'
+bash: line 0: kill: (22549) - No such process
+[?1h= ssh hec-59 -n  'kill -9 22677'
+bash: line 0: kill: (22677) - No such process
+[?1h= ssh hec-60 -n  'kill -9 25477'
+bash: line 0: kill: (25477) - No such process
+[?1h= ssh hec-60 -n  'kill -9 25484'
+bash: line 0: kill: (25484) - No such process
+[?1h= ssh hec-60 -n  'kill -9 25496'
+bash: line 0: kill: (25496) - No such process
+[?1h= ssh hec-60 -n  'kill -9 25514'
+bash: line 0: kill: (25514) - No such process
+[?1h= ssh hec-60 -n  'kill -9 25551'
+bash: line 0: kill: (25551) - No such process
+[?1h= ssh hec-60 -n  'kill -9 25660'
+bash: line 0: kill: (25660) - No such process
+[?1h= ssh hec-60 -n  'kill -9 25735'
+bash: line 0: kill: (25735) - No such process
+[?1h= ssh hec-61 -n  'kill -9 31832'
+bash: line 0: kill: (31832) - No such process
+[?1h= ssh hec-61 -n  'kill -9 31846'
+bash: line 0: kill: (31846) - No such process
+[?1h= ssh hec-61 -n  'kill -9 31858'
+bash: line 0: kill: (31858) - No such process
+[?1h= ssh hec-61 -n  'kill -9 31886'
+bash: line 0: kill: (31886) - No such process
+[?1h= ssh hec-61 -n  'kill -9 31933'
+bash: line 0: kill: (31933) - No such process
+[?1h= ssh hec-61 -n  'kill -9 32047'
+bash: line 0: kill: (32047) - No such process
+[?1h= ssh hec-61 -n  'kill -9 32164'
+bash: line 0: kill: (32164) - No such process
+[?1h= ssh hec-62 -n  'kill -9 26671'
+bash: line 0: kill: (26671) - No such process
+[?1h= ssh hec-62 -n  'kill -9 26682'
+bash: line 0: kill: (26682) - No such process
+[?1h= ssh hec-62 -n  'kill -9 26692'
+bash: line 0: kill: (26692) - No such process
+[?1h= ssh hec-62 -n  'kill -9 26734'
+bash: line 0: kill: (26734) - No such process
+[?1h= ssh hec-62 -n  'kill -9 26755'
+bash: line 0: kill: (26755) - No such process
+[?1h= ssh hec-62 -n  'kill -9 26882'
+bash: line 0: kill: (26882) - No such process
+[?1h= ssh hec-62 -n  'kill -9 26952'
+bash: line 0: kill: (26952) - No such process
+{??? Error using ==> rmdir
+/mnt/common/yhuang9/TwoDimension/MatMPI could not be removed.
+
+
+Error in ==> MatMPI_Delete_all at 54
+  rmdir(['.' dir_sep 'MatMPI'],'s');
+
+Error in ==> pRUN at 37
+      MatMPI_Delete_all;
+
+Error in ==> startYingen at 180
+	eval(pRUN('parallel_mv_p2',NumOfProcessors,machines)); %% mv result will be stored in table '{NumOfNodes}lz_vpath'
+} 
+[?1h=

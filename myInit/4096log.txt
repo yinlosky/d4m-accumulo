@@ -1,0 +1,13 @@
+i = 5
+
+i =
+
+     5
+
+if(i>0)
+disp[num2str(i)];
+??? disp[num2str(i)];
+        |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+diary off

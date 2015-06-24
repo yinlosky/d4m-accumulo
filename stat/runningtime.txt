@@ -1,0 +1,615 @@
+Machine 1 start:end 1:541
+Machine 2 start:end 541:1826
+Machine 3 start:end 1827:3450
+Machine 4 start:end 3451:5019
+Machine 5 start:end 5020:6924
+Machine 1 start:end 1:644
+Machine 2 start:end 644:2117
+Machine 3 start:end 2118:3938
+Machine 4 start:end 3939:5712
+Machine 5 start:end 5713:7630
+Machine 1 start:end 1:769
+Machine 2 start:end 769:2309
+Machine 3 start:end 2310:4172
+Machine 4 start:end 4173:6012
+Machine 5 start:end 6013:7930
+Machine 1 start:end 1:1918
+Machine 2 start:end 1918:3835
+Machine 3 start:end 3836:5753
+Machine 4 start:end 5754:7671
+Machine 5 start:end 7672:9589
+Begin time: 27-Feb-2015 14:46:55
+Scheduler 1 running time: 111.0448s
+Machine 1 start:end 1:1918
+Machine 2 start:end 1918:3835
+Machine 3 start:end 3836:5753
+Machine 4 start:end 5754:7671
+Machine 5 start:end 7672:9589
+Scheduler 2 running time: 77.6891s
+Begin time: 27-Feb-2015 15:07:50
+Begin time: 27-Feb-2015 15:08:35
+Scheduler 1 running time: 101.2389s
+Machine 1 start:end 1:1880
+Machine 2 start:end 1880:3759
+Machine 3 start:end 3760:5639
+Machine 4 start:end 5640:7519
+Machine 5 start:end 7520:9399
+Machine 6 start:end 9400:11279
+Scheduler 2 running time: 78.3641s
+Iteration 1 Matrix * vector p1 takes: 408.3441
+Iteration 1 Matrix * vector p2 takes: 167.913
+Iteration 1 Calculating alpha takes: 107.6826
+Iteration 1 sax_alpha takes: 83.1734
+Iteration 1 sax_v takes: 111.1986
+Iteration 1 beta takes: 77.8813
+Iteration 1 SO takes: 0.062751
+Iteration 1 Update Q takes: 111.2155
+Iteration: 1: 1069.523s
+Iteration 2 Matrix * vector p1 takes: 378.3918
+Iteration 2 Matrix * vector p2 takes: 174.6568
+Iteration 2 Calculating alpha takes: 78.1169
+Iteration 2 sax_beta: 114.2296
+Iteration 2 sax_alpha takes: 78.7398
+Iteration 2 sax_v takes: 168.4815
+Iteration 2 beta takes: 108.8002
+Iteration 2 SO takes: 0.049826
+Iteration 2 Update Q takes: 174.7764
+Iteration: 2: 1278.8901s
+Iteration 3 Matrix * vector p1 takes: 378.6719
+Iteration 3 Matrix * vector p2 takes: 138.6609
+Iteration 3 Calculating alpha takes: 78.7618
+Iteration 3 sax_beta: 84.4571
+Iteration 3 sax_alpha takes: 108.6028
+Iteration 3 sax_v takes: 168.9529
+Iteration 3 beta takes: 84.6656
+Iteration 3 SO takes: 0.043825
+Iteration 3 Update Q takes: 136.421
+Iteration: 3: 1181.9433s
+Iteration 4 Matrix * vector p1 takes: 396.2152
+Iteration 4 Matrix * vector p2 takes: 138.1379
+Iteration 4 Calculating alpha takes: 107.9389
+Iteration 4 sax_beta: 108.0315
+Iteration 4 sax_alpha takes: 82.8932
+Iteration 4 sax_v takes: 198.0949
+Iteration 4 beta takes: 78.0783
+Iteration 4 SO takes: 0.044354
+Iteration 4 Update Q takes: 142.8524
+Iteration: 4: 1255.2525s
+Iteration 5 Matrix * vector p1 takes: 378.5037
+Iteration 5 Matrix * vector p2 takes: 167.8107
+Iteration 5 Calculating alpha takes: 109.1137
+Iteration 5 sax_beta: 107.7503
+Iteration 5 sax_alpha takes: 77.7982
+Iteration 5 sax_v takes: 167.8424
+Iteration 5 beta takes: 78.8666
+Iteration 5 SO takes: 0.046739
+Iteration 5 Update Q takes: 139.0616
+Iteration: 5: 1229.4704s
+Iteration 6 Matrix * vector p1 takes: 378.4561
+Iteration 6 Matrix * vector p2 takes: 182.5826
+**************************************************************************************************8
+** Below is after I optimize the scheduler *****************************************************
+Begin time: 27-Feb-2015 17:02:53
+Scheduler 1 running time: 143.4726s
+Even load is: 115543.8393
+Even col is: 292.5714
+Total entries are: 6470455
+Begin time: 27-Feb-2015 17:07:32
+Scheduler 1 running time: 144.9742s
+Even load is: 115543.8393
+Even col is: 292.5714
+Total entries are: 6470455
+Machine 1 start:end 1:1880
+Machine 2 start:end 1880:3759
+Machine 3 start:end 3760:5639
+Machine 4 start:end 5640:7519
+Machine 5 start:end 7520:9399
+Machine 6 start:end 9400:11279
+Machine 56 start:end 12925:13363Scheduler 2 running time: 96.459s
+Begin time: 27-Feb-2015 17:18:53
+Scheduler 1 running time: 146.3187s
+Even load is: 115543.8393
+Even col is: 292.5714
+Total entries are: 6470455
+Machine 1 start:end 1:1880
+Machine 2 start:end 1880:3759
+Machine 3 start:end 3760:5639
+Machine 4 start:end 5640:7519
+Machine 5 start:end 7520:9399
+Machine 6 start:end 9400:11279
+Machine 56 start:end 12925:13363Scheduler 2 running time: 78.5493s
+Begin time: 27-Feb-2015 17:31:23
+Scheduler 1 running time: 114.9605s
+Even load is: 115543.8393
+Even col is: 292.5714
+Total entries are: 6470455
+Machine 1 start:end 1:1880
+Machine 2 start:end 1880:3759
+Machine 3 start:end 3760:5639
+Machine 4 start:end 5640:7519
+Machine 5 start:end 7520:9399
+Machine 6 start:end 9400:11279
+Machine 8 start:end 12925:13363Scheduler 2 running time: 78.041s
+Iteration 1 Matrix * vector p1 takes: 498.9143
+Iteration 1 Matrix * vector p2 takes: 197.9295
+Iteration 1 Calculating alpha takes: 108.0816
+Iteration 1 sax_alpha takes: 78.1001
+Iteration 1 sax_v takes: 109.3526
+Iteration 1 beta takes: 109.0776
+Iteration 1 SO takes: 0.063584
+Iteration 1 Update Q takes: 99.3223
+Iteration: 1: 1203.0209s
+Iteration 2 Matrix * vector p1 takes: 413.8763
+Iteration 2 Matrix * vector p2 takes: 174.4884
+Begin time: 27-Feb-2015 18:12:13
+Scheduler 1 running time: 145.7075s
+Even load is: 115543.8393
+Even col is: 292.5714
+Total entries are: 6470455
+Machine 1 start:end 1:1408
+Machine 2 start:end 1408:2815
+Machine 3 start:end 2816:4223
+Machine 4 start:end 4224:5631
+Machine 5 start:end 5632:7039
+Machine 6 start:end 7040:8447
+Scheduler 2 running time: 60.2524s
+Iteration 1 Matrix * vector p1 takes: 593.1124
+Iteration 1 Matrix * vector p2 takes: 250.0166
+Iteration 1 Calculating alpha takes: 83.9215
+Iteration 1 sax_alpha takes: 78.0363
+Iteration 1 sax_v takes: 137.6079
+Iteration 1 beta takes: 108.6453
+Iteration 1 SO takes: 0.064375
+Iteration 1 Update Q takes: 107.8885
+Iteration: 1: 1361.3233s
+Iteration 2 Matrix * vector p1 takes: 588.1525
+Iteration 2 Matrix * vector p2 takes: 258.0913
+Iteration 2 Calculating alpha takes: 108.0227
+Iteration 2 sax_beta: 78.5781
+Iteration 2 sax_alpha takes: 77.5311
+Begin time: 27-Feb-2015 19:00:14
+***********************************************
+Begin time: 27-Feb-2015 19:01:43
+******************************************************************************************
+Begin time: 27-Feb-2015 19:02:35
+*******************************************Scheduler 1 running time: 101.8216s
+***********************************************
+Begin time: 27-Feb-2015 19:06:11
+*******************************************Scheduler 1 running time: 116.0785s
+*************************************
+Configurations: 
+	loadLower: 0.95 loadUpper: 1.05
+	colLower: 0.5 colUpper: 1.3Even load is: 115543.8393
+Even col is: 292.5714
+Total entries are: 6470455
+Machine 1 start:end 1:1176
+Machine 2
+	 Total col: 	1176	Total load: 808729
+	 start:end 	1176:2351
+Machine 3
+	 Total col: 	1176	Total load: 507650
+	 start:end 	2352:3527
+Machine 4
+	 Total col: 	1176	Total load: 655612
+	 start:end 	3528:4703
+Machine 5
+	 Total col: 	1176	Total load: 394513
+	 start:end 	4704:5879
+Machine 6
+	 Total col: 	1176	Total load: 321290
+	 start:end 	5880:7055
+Scheduler 2 running time: 106.9008s
+Iteration 1 Matrix * vector p1 takes: 707.9379
+Iteration 1 Matrix * vector p2 takes: 287.8815
+Iteration 1 Calculating alpha takes: 108.2645
+Iteration 1 sax_alpha takes: 107.6878
+Iteration 1 sax_v takes: 112.8041
+Iteration 1 beta takes: 108.5873
+Iteration 1 SO takes: 0.06334
+Iteration 1 Update Q takes: 137.9453
+Iteration: 1: 1573.2216s
+Iteration 2 Matrix * vector p1 takes: 708.132
+Iteration 2 Matrix * vector p2 takes: 293.8669
+Iteration 2 Calculating alpha takes: 77.8902
+Iteration 2 sax_beta: 83.5947
+Iteration 2 sax_alpha takes: 77.4999
+Iteration 2 sax_v takes: 198.7867
+Iteration 2 beta takes: 108.8196
+Iteration 2 SO takes: 0.051671
+Iteration 2 Update Q takes: 168.3553
+Iteration: 2: 1719.4823s
+Iteration 3 Matrix * vector p1 takes: 708.459
+Iteration 3 Matrix * vector p2 takes: 288.5235
+Iteration 3 Calculating alpha takes: 113.26
+Iteration 3 sax_beta: 112.5768
+Iteration 3 sax_alpha takes: 107.8095
+Iteration 3 sax_v takes: 168.5482
+Iteration 3 beta takes: 83.6904
+Iteration 3 SO takes: 0.045465
+Iteration 3 Update Q takes: 138.3749
+Iteration: 3: 1723.8994s
+Iteration 4 Matrix * vector p1 takes: 708.5968
+Iteration 4 Matrix * vector p2 takes: 287.7398
+Iteration 4 Calculating alpha takes: 108.0358
+Iteration 4 sax_beta: 114.2395
+Iteration 4 sax_alpha takes: 107.8388
+Iteration 4 sax_v takes: 168.0343
+Iteration 4 beta takes: 78.665
+Iteration 4 SO takes: 0.044049
+Iteration 4 Update Q takes: 108.2056
+Iteration: 4: 1683.9644s
+Iteration 5 Matrix * vector p1 takes: 738.4605
+Iteration 5 Matrix * vector p2 takes: 287.9665
+Iteration 5 Calculating alpha takes: 83.0516
+Iteration 5 sax_beta: 107.4041
+Iteration 5 sax_alpha takes: 108.6283
+Iteration 5 sax_v takes: 198.3434
+Iteration 5 beta takes: 108.7012
+Iteration 5 SO takes: 0.047943
+Iteration 5 Update Q takes: 168.0592
+Iteration: 5: 1803.2393s
+Iteration 6 Matrix * vector p1 takes: 707.9508
+Iteration 6 Matrix * vector p2 takes: 317.9803
+Iteration 6 Calculating alpha takes: 108.099
+Iteration 6 sax_beta: 108.4229
+Iteration 6 sax_alpha takes: 83.9637
+Iteration 6 sax_v takes: 167.9056
+Iteration 6 beta takes: 108.589
+Iteration 6 SO takes: 0.04754
+***********************************************
+Begin time: 27-Feb-2015 22:01:08
+*******************************************Scheduler 1 running time: 144.9324s
+*************************************
+Configurations: 
+	loadLower: 0.75 loadUpper: 1.3
+	colLower: 0.8 colUpper: 1.2
+Even load is: 115543.8393
+Even col is: 292.5714
+Total entries are: 6470455
+Machine 1
+	 Total col: 	1878	Total load: 2067473
+	 start:end 	1:1879
+Machine 2
+	 Total col: 	1880	Total load: 976544
+	 start:end 	1880:3759
+Machine 3
+	 Total col: 	1880	Total load: 937339
+	 start:end 	3760:5639
+Machine 4
+	 Total col: 	1880	Total load: 457216
+	 start:end 	5640:7519
+Machine 5
+	 Total col: 	1880	Total load: 857786
+	 start:end 	7520:9399
+Machine 6
+	 Total col: 	1880	Total load: 481705
+	 start:end 	9400:11279
+Machine 8
+	 Total col: 	3459	Total load: 329797
+	 start:end 	12925:16384
+Scheduler 2 running time: 212.8757s
+Iteration 1 Matrix * vector p1 takes: 408.0052
+Iteration 1 Matrix * vector p2 takes: 168.3709
+Iteration 1 Calculating alpha takes: 84.0178
+Iteration 1 sax_alpha takes: 109.0433
+
+**************************************
+I found hec-58 is the slowest one, hec-62 is the fastest, I switch them this time
+***************************************************
+***********************************************
+Begin time: 27-Feb-2015 22:29:15
+*******************************************
+*************************************
+Configurations: 
+	loadLower: 0.75 loadUpper: 1.3
+	colLower: 0.8 colUpper: 1.2
+Even load is: 115543.8393
+Even col is: 292.5714
+Total entries are: 6470455
+Machine 1
+	 Total col: 	1878	Total load: 2067473
+	 start:end 	1:1879
+Machine 2
+	 Total col: 	1880	Total load: 976544
+	 start:end 	1880:3759
+Machine 3
+	 Total col: 	1880	Total load: 937339
+	 start:end 	3760:5639
+Machine 4
+	 Total col: 	1880	Total load: 457216
+	 start:end 	5640:7519
+Machine 5
+	 Total col: 	1880	Total load: 857786
+	 start:end 	7520:9399
+Machine 6
+	 Total col: 	1880	Total load: 481705
+	 start:end 	9400:11279
+Machine 8
+	 Total col: 	3459	Total load: 329797
+	 start:end 	12925:16384
+*****						437s
+
+********************************************************
+Test my row based matrix*vector approach 
+***********************************************
+Begin time: 27-Feb-2015 23:54:30
+********************************************************************************
+Configurations: 
+	loadLower: 0.75 loadUpper: 1.3
+	colLower: 0.8 colUpper: 1.2
+Even load is: 115543.8393
+Even col is: 292.5714
+Total entries are: 6470455
+Machine 1
+	 Total col: 	1878	Total load: 2067473
+	 start:end 	1:1879
+Machine 2
+	 Total col: 	1880	Total load: 976544
+	 start:end 	1880:3759
+Machine 3
+	 Total col: 	1880	Total load: 937339
+	 start:end 	3760:5639
+Machine 4
+	 Total col: 	1880	Total load: 457216
+	 start:end 	5640:7519
+Machine 5
+	 Total col: 	1880	Total load: 857786
+	 start:end 	7520:9399
+Machine 6
+	 Total col: 	1880	Total load: 481705
+	 start:end 	9400:11279
+Machine 8
+	 Total col: 	3459	Total load: 329797
+	 start:end 	12925:16384
+Scheduler 2 running time: 213.477s
+***********************************************
+Begin time: 27-Feb-2015 23:59:45
+******************************************************************************************
+Begin time: 28-Feb-2015 00:01:44
+*******************************************
+Row based approach is running forever. Abandon..
+*******************************************************************88
+
+
+***********************************************
+Begin time: 28-Feb-2015 00:49:39
+*********************************************Commands:  startYingen( 9,65,65536,9,6,0,0,0)***********************************************
+Begin time: 28-Feb-2015 00:50:59
+*********************************************Commands:  startYingen( 9,65,65536,9,6,0,0,0)***********************************************
+Begin time: 28-Feb-2015 00:58:41
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,0,0)Scheduler 1 running time: 286.5434s
+*************************************
+Configurations: 
+	loadLower: 0.75 loadUpper: 1.3
+	colLower: 0.8 colUpper: 1.2
+Even load is: 174435.8906
+Even col is: 1024
+Total entries are: 11163897
+***********************************************
+Begin time: 28-Feb-2015 02:03:27
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,0,0)***********************************************
+Begin time: 28-Feb-2015 02:06:20
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,0,0)Scheduler 1 running time: 274.5554s
+*************************************
+Configurations: 
+	loadLower: 0.75 loadUpper: 1.3
+	colLower: 0.8 colUpper: 1.2
+Even load is: 174435.8906
+Even col is: 1024
+Total entries are: 11163897
+Machine 1
+	 Total col: 	6558	Total load: 4045377
+	 start:end 	1:6559
+Machine 2
+	 Total col: 	6560	Total load: 1595064
+	 start:end 	6560:13119
+Machine 3
+	 Total col: 	6560	Total load: 1372479
+	 start:end 	13120:19679
+Machine 4
+	 Total col: 	6560	Total load: 805584
+	 start:end 	19680:26239
+Machine 5
+	 Total col: 	6560	Total load: 394516
+	 start:end 	26240:32799
+Machine 6
+	 Total col: 	6560	Total load: 1483192
+	 start:end 	32800:39359
+Machine 7
+	 Total col: 	6560	Total load: 584969
+	 start:end 	39360:45919
+Machine 8
+	 Total col: 	13876	Total load: 417679
+	 start:end 	51660:65536
+Scheduler 2 running time: 1022.1583s
+Iteration 1 Matrix * vector p1 takes: 953.0016
+Iteration 1 Matrix * vector p2 takes: 625.8795
+Iteration 1 Calculating alpha takes: 140.0924
+Iteration 1 sax_alpha takes: 113.0864
+Iteration 1 sax_v takes: 321.6509
+Iteration 1 beta takes: 111.8575
+Iteration 1 SO takes: 0.073937
+Iteration 1 Update Q takes: 480.1247
+Iteration: 1: 2748.1753s
+Iteration 2 Matrix * vector p1 takes: 922.957
+Iteration 2 Matrix * vector p2 takes: 652.0579
+Iteration 2 Calculating alpha takes: 122.1096
+Iteration 2 sax_beta: 111.5169
+Iteration 2 sax_alpha takes: 112.4901
+Iteration 2 sax_v takes: 1019.1656
+Iteration 2 beta takes: 119.9897
+Iteration 2 SO takes: 0.062751
+Iteration 2 Update Q takes: 389.9061
+Iteration: 2: 3453.1298s
+Iteration 3 Matrix * vector p1 takes: 959.1116
+Iteration 3 Matrix * vector p2 takes: 652.1203
+Iteration 3 Calculating alpha takes: 121.5389
+Iteration 3 sax_beta: 143.4064
+Iteration 3 sax_alpha takes: 119.8543
+Iteration 3 sax_v takes: 592.7826
+Iteration 3 beta takes: 143.351
+Iteration 3 SO takes: 0.057416
+
+******************************************************************
+Test my scheduler compare with previous result
+*****************************************************************
+***********************************************
+Begin time: 28-Feb-2015 13:44:41
+******************************************************************************************
+Begin time: 28-Feb-2015 13:45:27
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)***********************************************
+Begin time: 28-Feb-2015 13:46:38
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)***********************************************
+Begin time: 28-Feb-2015 13:48:33
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)Iteration 1 Matrix * vector p1 takes: 26.5558
+***********************************************
+Begin time: 28-Feb-2015 13:51:43
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)***********************************************
+Begin time: 28-Feb-2015 13:52:47
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)***********************************************
+Begin time: 28-Feb-2015 13:53:36
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)
+
+**************************************************************
+Fix a small bug for the last column has empty tasks
+
+***********************************************
+Begin time: 28-Feb-2015 14:40:19
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)***********************************************
+Begin time: 28-Feb-2015 14:40:55
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)Iteration 1 Matrix * vector p1 takes: 514.1175
+Iteration 1 Matrix * vector p2 takes: 421.1258
+Iteration 1 Calculating alpha takes: 141.8646
+Iteration 1 sax_alpha takes: 112.4447
+Iteration 1 sax_v takes: 352.9536
+Iteration 1 beta takes: 111.9344
+Iteration 1 SO takes: 0.082455
+Iteration 1 Update Q takes: 471.6144
+Iteration: 1: 2128.4881s
+Iteration 2 Matrix * vector p1 takes: 503.0381
+Iteration 2 Matrix * vector p2 takes: 412.0637
+Iteration 2 Calculating alpha takes: 149.2611
+Iteration 2 sax_beta: 119.3507
+Iteration 2 sax_alpha takes: 142.5186
+Iteration 2 sax_v takes: 803.4144
+Iteration 2 beta takes: 145.0825
+Iteration 2 SO takes: 0.072092
+Iteration 2 Update Q takes: 383.6001
+Iteration: 2: 2661.474s
+Iteration 3 Matrix * vector p1 takes: 509.5815
+Iteration 3 Matrix * vector p2 takes: 442.3096
+Iteration 3 Calculating alpha takes: 149.1273
+Iteration 3 sax_beta: 111.4888
+Iteration 3 sax_alpha takes: 111.6898
+Iteration 3 sax_v takes: 749.1182
+Iteration 3 beta takes: 142.2681
+Iteration 3 SO takes: 0.062094
+Iteration 3 Update Q takes: 742.348
+Iteration: 3: 2960.8477s
+************************************************************************************
+Machine 1 has a huge load, so I need change the load balance. 
+
+****************************************************************************************
+Change lower to higher 0.7 - 1.35
+***********************************************
+Begin time: 28-Feb-2015 17:47:57
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)***********************************************
+Begin time: 28-Feb-2015 17:49:19
+*********************************************Commands:  startYingen( 9,65,65536,9,6,1,1)Iteration 1 Matrix * vector p1 takes: 576.4354
+*************************************
+Configurations: 
+	NumOfNodes: 65536	NumOfProcessors: 	65
+	loadLower: 0.85 loadUpper: 1.25
+	colLower: 0.8 colUpper: 1.1
+Even load is: 174435.8906
+Even col is: 1024
+Total entries are: 11163897
+Iteration 1 Matrix * vector p2 takes: 440.5121
+Machine 1
+	 Total col: 	6663	Total load: 4061057
+	 start:end 	1:6664
+Iteration 1 Calculating alpha takes: 170.6978
+Iteration 1 sax_alpha takes: 86.4339
+Machine 2
+	 Total col: 	7347	Total load: 1668190
+	 start:end 	6665:14011
+Machine 3
+	 Total col: 	7621	Total load: 1601340
+	 start:end 	14012:21632
+Machine 4
+	 Total col: 	8606	Total load: 726468
+	 start:end 	21633:30238
+Iteration 1 sax_v takes: 321.0235
+Machine 5
+	 Total col: 	7692	Total load: 1511262
+	 start:end 	30239:37930
+Machine 6
+	 Total col: 	8606	Total load: 736495
+	 start:end 	37931:46536
+Machine 7
+	 Total col: 	8606	Total load: 610571
+	 start:end 	46537:55142
+Machine 8
+	 Total col: 	2811	Total load: 16850
+	 start:end 	62725:65536
+	First case: 	28	Second case: 	8	Third case: 	27*************************************
+Configurations: 
+	loadLower: 0.75 loadUpper: 1.3
+	colLower: 0.8 colUpper: 1.2
+Even load is: 11100.375
+Even col is: 128
+Total entries are: 88803
+Machine 8
+	 Total col: 	303	Total load: 9723
+	 start:end 	721:1024
+*************************************
+Configurations: 
+	loadLower: 0.75 loadUpper: 1.3
+	colLower: 0.8 colUpper: 1.2
+Even load is: 59961.875
+Even col is: 512
+Total entries are: 479695
+Machine 8
+	 Total col: 	1226	Total load: 45976
+	 start:end 	2870:4096
+*************************************
+Configurations: 
+	loadLower: 0.75 loadUpper: 1.3
+	colLower: 0.8 colUpper: 1.2
+Even load is: 298007.5
+Even col is: 2048
+Total entries are: 2384060
+Machine 8
+	 Total col: 	4911	Total load: 205536
+	 start:end 	11473:16384
+*************************************
+Configurations: 
+	loadLower: 0.75 loadUpper: 1.3
+	colLower: 0.8 colUpper: 1.2
+Even load is: 37250.9375
+Even col is: 256
+Total entries are: 2384060
+Machine 1
+	 Total col: 	1638	Total load: 812950
+	 start:end 	1:1639
+Machine 2
+	 Total col: 	1640	Total load: 344143
+	 start:end 	1640:3279
+Machine 3
+	 Total col: 	1640	Total load: 296175
+	 start:end 	3280:4919
+Machine 4
+	 Total col: 	1640	Total load: 180884
+	 start:end 	4920:6559
+Machine 5
+	 Total col: 	1640	Total load: 86391
+	 start:end 	6560:8199
+Machine 6
+	 Total col: 	1640	Total load: 326004
+	 start:end 	8200:9839
+Machine 7
+	 Total col: 	1640	Total load: 133818
+	 start:end 	9840:11479
+Machine 8
+	 Total col: 	3469	Total load: 99677
+	 start:end 	12915:16384

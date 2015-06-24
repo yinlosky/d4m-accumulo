@@ -1,0 +1,76 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% File Name:parallel_mv_p2.m
+%% Function: p2 of parallel matrix 'InputMatrix' multiply the vector (lz_q{i}), this function will read data from 'mv_temp' and write result in 'mv_output' 
+%%
+%%
+
+myDB; %% connect to DB and return a binding named DB.
+machines_t = DB('NumOfMachines');
+nodes_t = DB('NumOfNodes');
+cur_it = DB('cur_it');
+
+NumOfMachines = str2num(Val(machines_t('1,','1,')));
+NumOfNodes = str2num(Val(nodes_t('1,','1,')));
+vector = ['lz_q' num2str(str2num(Val(cur_it('1,','1,'))))];
+
+disp(['!!!!!!!Now running matrix multiply the vector ' vector ' P2 !!!!!!!!!!!!!']);
+disp(['********matrix: mv_temp ************']);
+
+temp = DB('mv_temp'); %%hard coded temporary output table
+output = DB('lz_vpath');
+
+
+gap = floor(NumOfNodes / NumOfMachines);
+
+myMachine = 1:NumOfMachines;
+w = zeros(NumOfMachines,1,map([Np 1],{},0:Np-1));
+myMachine = global_ind(w); %Parallel
+
+for i = myMachine
+	tic;
+        start_node = (i-1)*gap+1;
+	if (i<NumOfMachines)
+	end_node = i*gap ;
+	else 
+	end_node = NumOfNodes ;
+	end
+	disp(['start index: ' num2str(start_node) ' end index: ' num2str(end_node)]);
+
+for j = start_node:end_node  % j is the row_id for the matrix! We need to sum the elements in the same row. 
+%% consider each column might be too big we want to do one column at one time 
+%% This operation might need optimization 
+
+%%  myCol = str2num(Col(temp('8,',:))) Get all columns in row 8 and myRow is a num matrix !Note: j is the row
+%   myCol = str2num(Col(temp(sprintf('%d,',j),:)));   Get all columns in m in row j
+ 
+
+%  [M,N] = size(myCol) N will be the total number of non-zero elements in the matrix
+%  sum = 0;
+%  if(N>0)
+% 	 for i=1:N   // myCol(i) will be the col of a non-zero element in the matrix, j is the row
+%   	 matrix_i = str2num(Val(temp(sprintf('%d,',j),myCol(i))));
+%    	sum = sum + matrix_i;
+%  	end
+%    newAssoc = Assoc(sprintf('%d,',j),sprintf('%d,','1,'),sprintf('%.15f,',sum));           
+%    put(output,newAssoc);
+%  end
+
+	myCol = str2num(Col(temp(sprintf('%d,',j),:)));   %myCol = str2num(Col(temp(sprintf('%d,',j),:)));   Get all columns in m in row j
+ 
+	[M,N] = size(myCol); %M will be the total number of non-zero elements in the matrix
+	mysum = 0;
+	if(M>0)
+		for i=1:M
+		matrix_i = str2num(Val(temp(sprintf('%d,',j),sprintf('%d,',myCol(i)))));
+		mysum = mysum + matrix_i;
+		end
+		newAssoc = Assoc(sprintf('%d,',j),'1,',sprintf('%.15f,',mysum));
+		put(output,newAssoc);
+	end
+end
+	
+	fileTime = toc;
+	disp(['Time: ' num2str(fileTime)]);
+ end
+
+

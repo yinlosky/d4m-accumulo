@@ -1,0 +1,446 @@
+Commands: MainForEigenSolver(16,16,1048576,20,6,0,0,1)
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+        Version 7.11.2.1031 (R2010b) Service Pack 2 64-bit (glnxa64)
+                               March 2, 2012
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+Start time: 
+
+Creating lz_norm_v1048576_temp in n117.bluewave.umbc.edu:2181 Accumulo
+Creating dot_temp in n117.bluewave.umbc.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: lz_norm_v1048576_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: lz_norm_B1048576_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: extraDB.user: rootDB.type: Accumulo
+Creating alpha in n117.bluewave.umbc.edu:2181 Accumulo
+Creating beta in n117.bluewave.umbc.edu:2181 Accumulo
+Creating alpha_sax_temp in n117.bluewave.umbc.edu:2181 Accumulo
+Creating beta_sax_temp in n117.bluewave.umbc.edu:2181 Accumulo
+Creating lz_norm_v1048576_temp in n117.bluewave.umbc.edu:2181 Accumulo
+Creating lz_norm_B1048576_temp in n117.bluewave.umbc.edu:2181 Accumulo
+Creating so_rpath in n117.bluewave.umbc.edu:2181 Accumulo
+Creating cur_loop_j in n117.bluewave.umbc.edu:2181 Accumulo
+Creating rtv_temp in n117.bluewave.umbc.edu:2181 Accumulo
+Creating so_rrtv in n117.bluewave.umbc.edu:2181 Accumulo
+Creating dot_temp in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_vpath in n117.bluewave.umbc.edu:2181 Accumulo
+Creating extra in n117.bluewave.umbc.edu:2181 Accumulo
+INGEST time (sec) = 0.327
+INGEST time (sec) = 0.151
+INGEST time (sec) = 0.18
+INGEST time (sec) = 0.164
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q2DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q3DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q4DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q5DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q6DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q7DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q8DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q9DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q10DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q11DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q12DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q13DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q14DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q15DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q16DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q17DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q18DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q19DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q20DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: 1048576lz_q21DB.user: rootDB.type: Accumulo
+Creating 1048576lz_q2 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q3 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q4 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q5 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q6 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q7 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q8 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q9 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q10 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q11 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q12 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q13 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q14 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q15 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q16 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q17 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q18 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q19 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q20 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating 1048576lz_q21 in n117.bluewave.umbc.edu:2181 Accumulo
+	Running Yingen with the following configuration:
+
+  Columns 1 through 7
+
+    '16'    'machines:'    'n117'    'n118'    'n119'    'n120'    'n121'
+
+  Columns 8 through 14
+
+    'n122'    'n123'    'n124'    'n125'    'n126'    'n127'    'n128'
+
+  Columns 15 through 19
+
+    'n129'    'n130'    'n131'    'n132'    [1x1 char]
+
+16 processors	
+1048576 nodes	
+20 max iterations	
+6 top eigen values
+Initializing the random vector b in table B1048576
+In initB.m: 
+
+NumOfNodes: 1048576	NumOfProcessors: 16
+
+  Columns 1 through 7
+
+    'Machines: '    'n117'    'n118'    'n119'    'n120'    'n121'    'n122'
+
+  Columns 8 through 14
+
+    'n123'    'n124'    'n125'    'n126'    'n127'    'n128'    'n129'
+
+  Columns 15 through 17
+
+    'n130'    'n131'    'n132'
+
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: B1048576DB.user: rootDB.type: Accumulo
+Creating B1048576 in n117.bluewave.umbc.edu:2181 Accumulo
+Now initialize vector B!
+Submitting SaveB on 16 processor(s).
+ ssh n118 -n  'kill -9 14168'
+bash: line 0: kill: (14168) - No such process
+ ssh n119 -n  'kill -9 24399'
+bash: line 0: kill: (24399) - No such process
+ ssh n120 -n  'kill -9 31520'
+bash: line 0: kill: (31520) - No such process
+ ssh n121 -n  'kill -9 23889'
+bash: line 0: kill: (23889) - No such process
+ ssh n122 -n  'kill -9 16427'
+bash: line 0: kill: (16427) - No such process
+ ssh n123 -n  'kill -9 25086'
+bash: line 0: kill: (25086) - No such process
+ ssh n124 -n  'kill -9 5715'
+bash: line 0: kill: (5715) - No such process
+ ssh n125 -n  'kill -9 17113'
+bash: line 0: kill: (17113) - No such process
+Launching MPI rank: 15 on: n132
+Launching MPI rank: 14 on: n131
+Launching MPI rank: 13 on: n130
+Launching MPI rank: 12 on: n129
+Launching MPI rank: 11 on: n128
+Launching MPI rank: 10 on: n127
+Launching MPI rank: 9 on: n126
+Launching MPI rank: 8 on: n125
+Launching MPI rank: 7 on: n124
+Launching MPI rank: 6 on: n123
+Launching MPI rank: 5 on: n122
+Launching MPI rank: 4 on: n121
+Launching MPI rank: 3 on: n120
+Launching MPI rank: 2 on: n119
+Launching MPI rank: 1 on: n118
+Launching MPI rank: 0 on: n117
+
+unix_launch =
+
+ ssh n132 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n132.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh n131 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n131.14.sh  ' 2>>./MatMPI/remote.out &
+ ssh n130 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n130.13.sh  ' 2>>./MatMPI/remote.out &
+ ssh n129 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n129.12.sh  ' 2>>./MatMPI/remote.out &
+ ssh n128 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n128.11.sh  ' 2>>./MatMPI/remote.out &
+ ssh n127 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n127.10.sh  ' 2>>./MatMPI/remote.out &
+ ssh n126 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n126.9.sh  ' 2>>./MatMPI/remote.out &
+ ssh n125 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n125.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh n124 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n124.7.sh  ' 2>>./MatMPI/remote.out &
+ ssh n123 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n123.6.sh  ' 2>>./MatMPI/remote.out &
+ ssh n122 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n122.5.sh  ' 2>>./MatMPI/remote.out &
+ ssh n121 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n121.4.sh  ' 2>>./MatMPI/remote.out &
+ ssh n120 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n120.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh n119 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n119.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh n118 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n118.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.n117.0.sh &
+
+
+INGEST time (sec) = 2.251
+INGEST time (sec) = 3.457
+INGEST time (sec) = 3.479
+INGEST time (sec) = 2.58
+Total time to initialize B1048576 is 95.8717
+Submitting parallel_lz_norm_B_p1 on 16 processor(s).
+ ssh n118 -n  'kill -9 28592'
+bash: line 0: kill: (28592) - No such process
+ ssh n119 -n  'kill -9 22755'
+bash: line 0: kill: (22755) - No such process
+ ssh n120 -n  'kill -9 11776'
+bash: line 0: kill: (11776) - No such process
+ ssh n121 -n  'kill -9 4755'
+bash: line 0: kill: (4755) - No such process
+ ssh n122 -n  'kill -9 23947'
+bash: line 0: kill: (23947) - No such process
+ ssh n123 -n  'kill -9 21061'
+bash: line 0: kill: (21061) - No such process
+ ssh n124 -n  'kill -9 14837'
+bash: line 0: kill: (14837) - No such process
+ ssh n125 -n  'kill -9 26782'
+bash: line 0: kill: (26782) - No such process
+ ssh n126 -n  'kill -9 27770'
+bash: line 0: kill: (27770) - No such process
+ ssh n127 -n  'kill -9 9456'
+bash: line 0: kill: (9456) - No such process
+ ssh n128 -n  'kill -9 31939'
+bash: line 0: kill: (31939) - No such process
+ ssh n129 -n  'kill -9 27960'
+bash: line 0: kill: (27960) - No such process
+ ssh n130 -n  'kill -9 9153'
+bash: line 0: kill: (9153) - No such process
+ ssh n131 -n  'kill -9 28970'
+bash: line 0: kill: (28970) - No such process
+ ssh n132 -n  'kill -9 12740'
+bash: line 0: kill: (12740) - No such process
+Launching MPI rank: 15 on: n132
+Launching MPI rank: 14 on: n131
+Launching MPI rank: 13 on: n130
+Launching MPI rank: 12 on: n129
+Launching MPI rank: 11 on: n128
+Launching MPI rank: 10 on: n127
+Launching MPI rank: 9 on: n126
+Launching MPI rank: 8 on: n125
+Launching MPI rank: 7 on: n124
+Launching MPI rank: 6 on: n123
+Launching MPI rank: 5 on: n122
+Launching MPI rank: 4 on: n121
+Launching MPI rank: 3 on: n120
+Launching MPI rank: 2 on: n119
+Launching MPI rank: 1 on: n118
+Launching MPI rank: 0 on: n117
+
+unix_launch =
+
+ ssh n132 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n132.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh n131 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n131.14.sh  ' 2>>./MatMPI/remote.out &
+ ssh n130 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n130.13.sh  ' 2>>./MatMPI/remote.out &
+ ssh n129 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n129.12.sh  ' 2>>./MatMPI/remote.out &
+ ssh n128 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n128.11.sh  ' 2>>./MatMPI/remote.out &
+ ssh n127 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n127.10.sh  ' 2>>./MatMPI/remote.out &
+ ssh n126 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n126.9.sh  ' 2>>./MatMPI/remote.out &
+ ssh n125 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n125.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh n124 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n124.7.sh  ' 2>>./MatMPI/remote.out &
+ ssh n123 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n123.6.sh  ' 2>>./MatMPI/remote.out &
+ ssh n122 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n122.5.sh  ' 2>>./MatMPI/remote.out &
+ ssh n121 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n121.4.sh  ' 2>>./MatMPI/remote.out &
+ ssh n120 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n120.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh n119 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n119.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh n118 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n118.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.n117.0.sh &
+
+
+start index: 1 end index: 65536length: 65536
+INGEST time (sec) = 5.477
+Time to parallel_lz_norm_B_p1: 10.9132
+Running p2!
+Try to verify if temp_t has 16 elemetns!
+(1,1)     21834.695752439547505
+(10,1)     21771.873077955875488
+(11,1)     21746.546071173426753
+(12,1)     21847.761704108532285
+(13,1)     21895.560876200779603
+(14,1)     21921.344465885878890
+(15,1)     21838.193183655268513
+(16,1)     21864.647116042393463
+(2,1)     21753.501593981884071
+(3,1)     21888.319456443445233
+(4,1)     21877.446415109818190
+(5,1)     21744.542380197966850
+(6,1)     21855.961296332447091
+(7,1)     21850.203171469609515
+(8,1)     21933.175848377075454
+(9,1)     21881.091341338360508
+Before sqrt: 349504.863750712247565,
+After sqrt: 591.189363698901730,
+INGEST time (sec) = 1.14
+In p2 Sum is: 591.189363698901730
+In table: 591.189363698901730
+
+Time for summing the local files1.2324
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: lz_norm_B1048576_tempDB.user: rootDB.type: Accumulo
+In main process Sum is: 591.189363698901730
+Store scalar_b in table scalar_b
+Time for normalizing B vector is: 1.9512
+Submitting parallel_scalarmult_B on 16 processor(s).
+ ssh n118 -n  'kill -9 28841'
+bash: line 0: kill: (28841) - No such process
+ ssh n119 -n  'kill -9 23072'
+bash: line 0: kill: (23072) - No such process
+ ssh n120 -n  'kill -9 11990'
+bash: line 0: kill: (11990) - No such process
+ ssh n121 -n  'kill -9 4941'
+bash: line 0: kill: (4941) - No such process
+ ssh n122 -n  'kill -9 24166'
+bash: line 0: kill: (24166) - No such process
+ ssh n123 -n  'kill -9 21340'
+bash: line 0: kill: (21340) - No such process
+ ssh n124 -n  'kill -9 15019'
+bash: line 0: kill: (15019) - No such process
+ ssh n125 -n  'kill -9 26971'
+bash: line 0: kill: (26971) - No such process
+ ssh n126 -n  'kill -9 27956'
+bash: line 0: kill: (27956) - No such process
+ ssh n127 -n  'kill -9 9653'
+bash: line 0: kill: (9653) - No such process
+ ssh n128 -n  'kill -9 32151'
+bash: line 0: kill: (32151) - No such process
+ ssh n129 -n  'kill -9 28136'
+bash: line 0: kill: (28136) - No such process
+ ssh n130 -n  'kill -9 9310'
+bash: line 0: kill: (9310) - No such process
+ ssh n131 -n  'kill -9 29150'
+bash: line 0: kill: (29150) - No such process
+ ssh n132 -n  'kill -9 12918'
+bash: line 0: kill: (12918) - No such process
+Launching MPI rank: 15 on: n132
+Launching MPI rank: 14 on: n131
+Launching MPI rank: 13 on: n130
+Launching MPI rank: 12 on: n129
+Launching MPI rank: 11 on: n128
+Launching MPI rank: 10 on: n127
+Launching MPI rank: 9 on: n126
+Launching MPI rank: 8 on: n125
+Launching MPI rank: 7 on: n124
+Launching MPI rank: 6 on: n123
+Launching MPI rank: 5 on: n122
+Launching MPI rank: 4 on: n121
+Launching MPI rank: 3 on: n120
+Launching MPI rank: 2 on: n119
+Launching MPI rank: 1 on: n118
+Launching MPI rank: 0 on: n117
+
+unix_launch =
+
+ ssh n132 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n132.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh n131 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n131.14.sh  ' 2>>./MatMPI/remote.out &
+ ssh n130 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n130.13.sh  ' 2>>./MatMPI/remote.out &
+ ssh n129 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n129.12.sh  ' 2>>./MatMPI/remote.out &
+ ssh n128 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n128.11.sh  ' 2>>./MatMPI/remote.out &
+ ssh n127 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n127.10.sh  ' 2>>./MatMPI/remote.out &
+ ssh n126 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n126.9.sh  ' 2>>./MatMPI/remote.out &
+ ssh n125 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n125.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh n124 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n124.7.sh  ' 2>>./MatMPI/remote.out &
+ ssh n123 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n123.6.sh  ' 2>>./MatMPI/remote.out &
+ ssh n122 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n122.5.sh  ' 2>>./MatMPI/remote.out &
+ ssh n121 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n121.4.sh  ' 2>>./MatMPI/remote.out &
+ ssh n120 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n120.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh n119 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n119.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh n118 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n118.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.n117.0.sh &
+
+
+Scalar value is: 0.0016915
+start index: 1 end index: 65536length: 65536
+INGEST time (sec) = 1.621
+INGEST time (sec) = 1.199
+INGEST time (sec) = 1.218
+INGEST time (sec) = 1.439
+Time for parallel_scalarmult_B is: 12.4083
+Time for scalar multiply B vector is: 57.2638
+Time for running initializing B is: 57.2641
+InitB takes: 267.4401
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: Cut1048576DB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: n117.bluewave.umbc.edu:2181Table Name to be deleted: Entries1048576DB.user: rootDB.type: Accumulo
+Creating Cut1048576 in n117.bluewave.umbc.edu:2181 Accumulo
+Creating Entries1048576 in n117.bluewave.umbc.edu:2181 Accumulo
+Submitting myscheduler on 16 processor(s).
+ ssh n118 -n  'kill -9 29081'
+bash: line 0: kill: (29081) - No such process
+ ssh n119 -n  'kill -9 23400'
+bash: line 0: kill: (23400) - No such process
+ ssh n120 -n  'kill -9 12199'
+bash: line 0: kill: (12199) - No such process
+ ssh n121 -n  'kill -9 5144'
+bash: line 0: kill: (5144) - No such process
+ ssh n122 -n  'kill -9 24367'
+bash: line 0: kill: (24367) - No such process
+ ssh n123 -n  'kill -9 21616'
+bash: line 0: kill: (21616) - No such process
+ ssh n124 -n  'kill -9 15201'
+bash: line 0: kill: (15201) - No such process
+ ssh n125 -n  'kill -9 27151'
+bash: line 0: kill: (27151) - No such process
+ ssh n126 -n  'kill -9 28125'
+bash: line 0: kill: (28125) - No such process
+ ssh n127 -n  'kill -9 9853'
+bash: line 0: kill: (9853) - No such process
+ ssh n128 -n  'kill -9 32352'
+bash: line 0: kill: (32352) - No such process
+ ssh n129 -n  'kill -9 28326'
+bash: line 0: kill: (28326) - No such process
+ ssh n130 -n  'kill -9 9451'
+bash: line 0: kill: (9451) - No such process
+ ssh n131 -n  'kill -9 29327'
+bash: line 0: kill: (29327) - No such process
+ ssh n132 -n  'kill -9 13100'
+bash: line 0: kill: (13100) - No such process
+Launching MPI rank: 15 on: n132
+Launching MPI rank: 14 on: n131
+Launching MPI rank: 13 on: n130
+Launching MPI rank: 12 on: n129
+Launching MPI rank: 11 on: n128
+Launching MPI rank: 10 on: n127
+Launching MPI rank: 9 on: n126
+Launching MPI rank: 8 on: n125
+Launching MPI rank: 7 on: n124
+Launching MPI rank: 6 on: n123
+Launching MPI rank: 5 on: n122
+Launching MPI rank: 4 on: n121
+Launching MPI rank: 3 on: n120
+Launching MPI rank: 2 on: n119
+Launching MPI rank: 1 on: n118
+Launching MPI rank: 0 on: n117
+
+unix_launch =
+
+ ssh n132 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n132.15.sh  ' 2>>./MatMPI/remote.out &
+ ssh n131 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n131.14.sh  ' 2>>./MatMPI/remote.out &
+ ssh n130 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n130.13.sh  ' 2>>./MatMPI/remote.out &
+ ssh n129 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n129.12.sh  ' 2>>./MatMPI/remote.out &
+ ssh n128 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n128.11.sh  ' 2>>./MatMPI/remote.out &
+ ssh n127 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n127.10.sh  ' 2>>./MatMPI/remote.out &
+ ssh n126 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n126.9.sh  ' 2>>./MatMPI/remote.out &
+ ssh n125 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n125.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh n124 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n124.7.sh  ' 2>>./MatMPI/remote.out &
+ ssh n123 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n123.6.sh  ' 2>>./MatMPI/remote.out &
+ ssh n122 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n122.5.sh  ' 2>>./MatMPI/remote.out &
+ ssh n121 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n121.4.sh  ' 2>>./MatMPI/remote.out &
+ ssh n120 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n120.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh n119 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n119.2.sh  ' 2>>./MatMPI/remote.out &
+ ssh n118 -n 'cd /home/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.n118.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.n117.0.sh &
+
+
+My processes # is :1
+I am just waiting!
+Scheduler 1 running time: 3822.178s
+
+In testscheduler!
+Even load is: 26038213.3333
+Even col is: 69905.0667
+Total entries are: 390573200
+Range query time: 4.8693
+INGEST time (sec) = 0.642
+INGEST time (sec) = 0.997
+INGEST time (sec) = 0.626
+INGEST time (sec) = 0.968

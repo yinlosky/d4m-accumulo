@@ -1,0 +1,488 @@
+nohup: ignoring input
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Warning: No window system found.  Java option 'MWT' ignored
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+        Version 7.11.2.1031 (R2010b) Service Pack 2 64-bit (glnxa64)
+                               March 2, 2012
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+DB.instanceName: myaccumuloDB.host: hec-43.cs.iit.edu:2181Table Name to be deleted: M262144_512DB.user: rootDB.type: Accumulo
+Creating M262144_512 in hec-43.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.6
+INGEST time (sec) = 0.162
+INGEST time (sec) = 0.102
+Now initializing the input matrix in M262144
+  Columns 1 through 6
+
+    'Machines are'    'hec-45'    'hec-48'    'hec-49'    'hec-50'    'hec-51'
+
+  Columns 7 through 9
+
+    'hec-55'    'hec-56'    'hec-58'
+
+Submitting SaveGraphData on 16 processor(s).
+ ssh hec-48 -n  'kill -9 16957'
+bash: line 0: kill: (16957) - No such process
+ ssh hec-48 -n  'kill -9 17000'
+bash: line 0: kill: (17000) - No such process
+ ssh hec-49 -n  'kill -9 10066'
+bash: line 0: kill: (10066) - No such process
+ ssh hec-49 -n  'kill -9 10109'
+bash: line 0: kill: (10109) - No such process
+ ssh hec-49 -n  'kill -9 10152'
+bash: line 0: kill: (10152) - No such process
+ ssh hec-50 -n  'kill -9 30677'
+bash: line 0: kill: (30677) - No such process
+ ssh hec-50 -n  'kill -9 30764'
+bash: line 0: kill: (30764) - No such process
+ ssh hec-51 -n  'kill -9 19990'
+bash: line 0: kill: (19990) - No such process
+ ssh hec-51 -n  'kill -9 20033'
+bash: line 0: kill: (20033) - No such process
+ ssh hec-55 -n  'kill -9 19084'
+bash: line 0: kill: (19084) - No such process
+ ssh hec-55 -n  'kill -9 19112'
+bash: line 0: kill: (19112) - No such process
+ ssh hec-56 -n  'kill -9 27656'
+bash: line 0: kill: (27656) - No such process
+ ssh hec-56 -n  'kill -9 27709'
+bash: line 0: kill: (27709) - No such process
+ ssh hec-58 -n  'kill -9 30253'
+bash: line 0: kill: (30253) - No such process
+ ssh hec-58 -n  'kill -9 30296'
+bash: line 0: kill: (30296) - No such process
+Launching MPI rank: 15 on: hec-58
+Launching MPI rank: 14 on: hec-58
+Launching MPI rank: 13 on: hec-56
+Launching MPI rank: 12 on: hec-56
+Launching MPI rank: 11 on: hec-55
+Launching MPI rank: 10 on: hec-55
+Launching MPI rank: 9 on: hec-51
+Launching MPI rank: 8 on: hec-51
+Launching MPI rank: 7 on: hec-50
+Launching MPI rank: 6 on: hec-50
+Launching MPI rank: 5 on: hec-49
+Launching MPI rank: 4 on: hec-49
+Launching MPI rank: 3 on: hec-49
+Launching MPI rank: 2 on: hec-48
+Launching MPI rank: 1 on: hec-48
+Launching MPI rank: 0 on: hec-45
+
+unix_launch =
+
+ ssh hec-58 -n 'cd /mnt/common/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.hec-58.14.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-56 -n 'cd /mnt/common/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.hec-56.12.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-55 -n 'cd /mnt/common/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.hec-55.10.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-51 -n 'cd /mnt/common/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.hec-51.8.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-50 -n 'cd /mnt/common/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.hec-50.6.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-49 -n 'cd /mnt/common/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.hec-49.3.sh  ' 2>>./MatMPI/remote.out &
+ ssh hec-48 -n 'cd /mnt/common/yhuang9/MeasureTimeOfAccumuloAndD4M; /bin/sh ./MatMPI/Unix_Commands.hec-48.1.sh  ' 2>>./MatMPI/remote.out &
+/bin/sh ./MatMPI/Unix_Commands.hec-45.0.sh &
+
+
+INGEST time (sec) = 14.027
+INGEST time (sec) = 6.199
+INGEST time (sec) = 34.192
+INGEST time (sec) = 50.758
+INGEST time (sec) = 31.974
+INGEST time (sec) = 8.824
+INGEST time (sec) = 11.591
+INGEST time (sec) = 7.392
+INGEST time (sec) = 11.008
+INGEST time (sec) = 7.209
+INGEST time (sec) = 8.302
+INGEST time (sec) = 6.339
+INGEST time (sec) = 9.583
+INGEST time (sec) = 7.62
+INGEST time (sec) = 9.923
+INGEST time (sec) = 10.878
+INGEST time (sec) = 11.207
+INGEST time (sec) = 6.606
+INGEST time (sec) = 7.377
+INGEST time (sec) = 7.757
+INGEST time (sec) = 7.841
+INGEST time (sec) = 7.103
+INGEST time (sec) = 9.498
+INGEST time (sec) = 7.647
+INGEST time (sec) = 14.215
+INGEST time (sec) = 8.933
+INGEST time (sec) = 11.339
+INGEST time (sec) = 10.094
+INGEST time (sec) = 11.102
+INGEST time (sec) = 10.15
+INGEST time (sec) = 8.735
+INGEST time (sec) = 10.108
+INGEST time (sec) = 6.289
+INGEST time (sec) = 7.459
+INGEST time (sec) = 7.534
+INGEST time (sec) = 13.056
+INGEST time (sec) = 12.609
+INGEST time (sec) = 9.854
+INGEST time (sec) = 6.838
+INGEST time (sec) = 7.88
+INGEST time (sec) = 8.808
+INGEST time (sec) = 9.805
+INGEST time (sec) = 11.426
+INGEST time (sec) = 7.995
+INGEST time (sec) = 7.186
+INGEST time (sec) = 12.821
+INGEST time (sec) = 9.698
+INGEST time (sec) = 15.683
+INGEST time (sec) = 6.501
+INGEST time (sec) = 8.073
+INGEST time (sec) = 9.268
+INGEST time (sec) = 11.561
+INGEST time (sec) = 9.101
+INGEST time (sec) = 10.15
+INGEST time (sec) = 8.073
+INGEST time (sec) = 8.999
+INGEST time (sec) = 7.713
+INGEST time (sec) = 9.534
+INGEST time (sec) = 9.295
+INGEST time (sec) = 11.902
+INGEST time (sec) = 11.568
+INGEST time (sec) = 9.925
+INGEST time (sec) = 14.116
+INGEST time (sec) = 17.123
+INGEST time (sec) = 9.839
+INGEST time (sec) = 9.816
+INGEST time (sec) = 9.84
+INGEST time (sec) = 8.934
+INGEST time (sec) = 9.183
+INGEST time (sec) = 8.85
+INGEST time (sec) = 9.811
+INGEST time (sec) = 10.621
+INGEST time (sec) = 7.939
+INGEST time (sec) = 8.938
+INGEST time (sec) = 14.942
+INGEST time (sec) = 11.028
+INGEST time (sec) = 8.598
+INGEST time (sec) = 11.496
+INGEST time (sec) = 9.987
+INGEST time (sec) = 13.636
+INGEST time (sec) = 12.835
+INGEST time (sec) = 10.246
+INGEST time (sec) = 7.602
+INGEST time (sec) = 8.266
+INGEST time (sec) = 16.385
+INGEST time (sec) = 11.147
+INGEST time (sec) = 10.513
+INGEST time (sec) = 7.047
+INGEST time (sec) = 9.051
+INGEST time (sec) = 11.139
+INGEST time (sec) = 11.849
+INGEST time (sec) = 11.291
+INGEST time (sec) = 11.547
+INGEST time (sec) = 8.12
+INGEST time (sec) = 8.301
+INGEST time (sec) = 8.206
+INGEST time (sec) = 13.578
+INGEST time (sec) = 15.828
+INGEST time (sec) = 10.78
+INGEST time (sec) = 12.533
+INGEST time (sec) = 10.723
+INGEST time (sec) = 13.641
+INGEST time (sec) = 9.974
+INGEST time (sec) = 10.139
+INGEST time (sec) = 14.992
+INGEST time (sec) = 7.471
+INGEST time (sec) = 10.096
+INGEST time (sec) = 8.643
+INGEST time (sec) = 10.079
+INGEST time (sec) = 10.231
+INGEST time (sec) = 7.857
+INGEST time (sec) = 9.193
+INGEST time (sec) = 13.116
+INGEST time (sec) = 10.01
+INGEST time (sec) = 9.869
+INGEST time (sec) = 7.988
+INGEST time (sec) = 7.489
+INGEST time (sec) = 8.191
+INGEST time (sec) = 9.739
+INGEST time (sec) = 9.413
+INGEST time (sec) = 11.491
+INGEST time (sec) = 8.878
+INGEST time (sec) = 6.754
+INGEST time (sec) = 10.023
+INGEST time (sec) = 9.892
+INGEST time (sec) = 10.341
+INGEST time (sec) = 11.522
+INGEST time (sec) = 14.131
+INGEST time (sec) = 7.517
+INGEST time (sec) = 11.6
+INGEST time (sec) = 9.563
+INGEST time (sec) = 10.359
+INGEST time (sec) = 10.386
+INGEST time (sec) = 5.657
+INGEST time (sec) = 9.464
+INGEST time (sec) = 8.869
+INGEST time (sec) = 10.015
+INGEST time (sec) = 15.356
+INGEST time (sec) = 14.096
+INGEST time (sec) = 7.317
+INGEST time (sec) = 8.227
+INGEST time (sec) = 8.781
+INGEST time (sec) = 10.224
+INGEST time (sec) = 10.753
+INGEST time (sec) = 13.819
+INGEST time (sec) = 7.208
+INGEST time (sec) = 11.0
+INGEST time (sec) = 11.369
+INGEST time (sec) = 9.885
+INGEST time (sec) = 10.892
+INGEST time (sec) = 13.582
+INGEST time (sec) = 9.034
+INGEST time (sec) = 8.568
+INGEST time (sec) = 11.342
+INGEST time (sec) = 10.275
+INGEST time (sec) = 10.202
+INGEST time (sec) = 10.663
+INGEST time (sec) = 8.548
+INGEST time (sec) = 9.412
+INGEST time (sec) = 9.334
+INGEST time (sec) = 15.17
+INGEST time (sec) = 13.606
+INGEST time (sec) = 9.052
+INGEST time (sec) = 6.354
+INGEST time (sec) = 8.182
+INGEST time (sec) = 14.622
+INGEST time (sec) = 10.426
+INGEST time (sec) = 9.875
+INGEST time (sec) = 11.023
+INGEST time (sec) = 5.527
+INGEST time (sec) = 7.604
+INGEST time (sec) = 15.072
+INGEST time (sec) = 12.892
+INGEST time (sec) = 12.717
+INGEST time (sec) = 11.389
+INGEST time (sec) = 10.822
+INGEST time (sec) = 9.757
+INGEST time (sec) = 9.687
+INGEST time (sec) = 9.76
+INGEST time (sec) = 6.412
+INGEST time (sec) = 9.04
+INGEST time (sec) = 12.432
+INGEST time (sec) = 13.952
+INGEST time (sec) = 11.601
+INGEST time (sec) = 9.138
+INGEST time (sec) = 9.035
+INGEST time (sec) = 15.448
+INGEST time (sec) = 9.094
+INGEST time (sec) = 9.818
+INGEST time (sec) = 12.729
+INGEST time (sec) = 10.579
+INGEST time (sec) = 11.396
+INGEST time (sec) = 10.16
+INGEST time (sec) = 10.514
+INGEST time (sec) = 8.683
+INGEST time (sec) = 7.454
+INGEST time (sec) = 8.696
+INGEST time (sec) = 12.189
+INGEST time (sec) = 10.041
+INGEST time (sec) = 9.542
+INGEST time (sec) = 8.94
+INGEST time (sec) = 7.23
+INGEST time (sec) = 9.781
+INGEST time (sec) = 8.693
+INGEST time (sec) = 9.483
+INGEST time (sec) = 9.404
+INGEST time (sec) = 10.793
+INGEST time (sec) = 10.735
+INGEST time (sec) = 3.925
+INGEST time (sec) = 6.707
+INGEST time (sec) = 10.582
+INGEST time (sec) = 11.545
+INGEST time (sec) = 16.496
+INGEST time (sec) = 11.072
+INGEST time (sec) = 9.06
+INGEST time (sec) = 7.186
+INGEST time (sec) = 9.85
+INGEST time (sec) = 8.138
+INGEST time (sec) = 8.969
+INGEST time (sec) = 9.637
+INGEST time (sec) = 9.527
+INGEST time (sec) = 12.67
+INGEST time (sec) = 9.013
+INGEST time (sec) = 8.314
+INGEST time (sec) = 9.203
+INGEST time (sec) = 9.206
+INGEST time (sec) = 5.974
+INGEST time (sec) = 9.006
+INGEST time (sec) = 8.586
+INGEST time (sec) = 9.25
+INGEST time (sec) = 10.307
+INGEST time (sec) = 9.049
+INGEST time (sec) = 6.3
+INGEST time (sec) = 7.928
+INGEST time (sec) = 9.314
+INGEST time (sec) = 9.372
+INGEST time (sec) = 11.642
+INGEST time (sec) = 11.617
+INGEST time (sec) = 4.958
+INGEST time (sec) = 9.98
+INGEST time (sec) = 10.595
+INGEST time (sec) = 9.774
+INGEST time (sec) = 9.905
+INGEST time (sec) = 10.371
+INGEST time (sec) = 11.438
+INGEST time (sec) = 7.201
+INGEST time (sec) = 13.049
+INGEST time (sec) = 9.996
+INGEST time (sec) = 10.482
+INGEST time (sec) = 14.062
+INGEST time (sec) = 11.292
+INGEST time (sec) = 9.287
+INGEST time (sec) = 7.934
+INGEST time (sec) = 9.34
+INGEST time (sec) = 9.727
+INGEST time (sec) = 16.855
+INGEST time (sec) = 10.49
+INGEST time (sec) = 6.797
+INGEST time (sec) = 10.094
+INGEST time (sec) = 7.756
+INGEST time (sec) = 9.089
+INGEST time (sec) = 9.968
+INGEST time (sec) = 9.954
+INGEST time (sec) = 6.502
+INGEST time (sec) = 6.937
+INGEST time (sec) = 11.948
+INGEST time (sec) = 10.233
+INGEST time (sec) = 9.734
+INGEST time (sec) = 8.251
+INGEST time (sec) = 9.727
+INGEST time (sec) = 8.806
+INGEST time (sec) = 8.207
+INGEST time (sec) = 14.148
+INGEST time (sec) = 13.394
+INGEST time (sec) = 10.161
+INGEST time (sec) = 8.055
+INGEST time (sec) = 9.486
+INGEST time (sec) = 10.387
+INGEST time (sec) = 10.283
+INGEST time (sec) = 12.352
+INGEST time (sec) = 9.701
+INGEST time (sec) = 8.161
+INGEST time (sec) = 8.65
+INGEST time (sec) = 7.623
+INGEST time (sec) = 12.843
+INGEST time (sec) = 10.1
+INGEST time (sec) = 10.038
+INGEST time (sec) = 5.773
+INGEST time (sec) = 7.744
+INGEST time (sec) = 9.318
+INGEST time (sec) = 10.101
+INGEST time (sec) = 12.01
+INGEST time (sec) = 10.13
+INGEST time (sec) = 5.856
+INGEST time (sec) = 11.755
+INGEST time (sec) = 9.062
+INGEST time (sec) = 9.689
+INGEST time (sec) = 11.253
+INGEST time (sec) = 5.471
+INGEST time (sec) = 9.372
+INGEST time (sec) = 9.005
+INGEST time (sec) = 12.281
+INGEST time (sec) = 10.184
+INGEST time (sec) = 6.674
+INGEST time (sec) = 9.353
+INGEST time (sec) = 9.957
+INGEST time (sec) = 11.959
+INGEST time (sec) = 16.036
+INGEST time (sec) = 10.207
+INGEST time (sec) = 14.923
+INGEST time (sec) = 15.3
+INGEST time (sec) = 16.051
+INGEST time (sec) = 12.953
+INGEST time (sec) = 7.711
+INGEST time (sec) = 7.37
+INGEST time (sec) = 9.556
+INGEST time (sec) = 8.823
+INGEST time (sec) = 9.289
+INGEST time (sec) = 13.089
+INGEST time (sec) = 6.604
+INGEST time (sec) = 7.457
+INGEST time (sec) = 9.219
+INGEST time (sec) = 10.057
+INGEST time (sec) = 9.603
+INGEST time (sec) = 9.715
+INGEST time (sec) = 8.922
+INGEST time (sec) = 7.428
+INGEST time (sec) = 8.486
+INGEST time (sec) = 9.068
+INGEST time (sec) = 9.714
+INGEST time (sec) = 9.067
+INGEST time (sec) = 10.542
+INGEST time (sec) = 8.068
+INGEST time (sec) = 8.31
+INGEST time (sec) = 10.799
+INGEST time (sec) = 11.997
+INGEST time (sec) = 10.806
+INGEST time (sec) = 5.123
+INGEST time (sec) = 8.503
+INGEST time (sec) = 8.653
+INGEST time (sec) = 10.152
+INGEST time (sec) = 9.608
+INGEST time (sec) = 12.488
+INGEST time (sec) = 6.917
+INGEST time (sec) = 9.754
+INGEST time (sec) = 13.128
+INGEST time (sec) = 9.317
+INGEST time (sec) = 13.418
+INGEST time (sec) = 8.99
+INGEST time (sec) = 9.283
+INGEST time (sec) = 8.844
+INGEST time (sec) = 14.517
+INGEST time (sec) = 9.991
+INGEST time (sec) = 7.446
+INGEST time (sec) = 6.515
+INGEST time (sec) = 10.693
+INGEST time (sec) = 10.52
+INGEST time (sec) = 10.198
+INGEST time (sec) = 10.452
+INGEST time (sec) = 10.859
+INGEST time (sec) = 8.41
+INGEST time (sec) = 9.98
+INGEST time (sec) = 14.575
+INGEST time (sec) = 15.016
+INGEST time (sec) = 8.734
+INGEST time (sec) = 9.199
+INGEST time (sec) = 11.897
+INGEST time (sec) = 9.977
+INGEST time (sec) = 17.368
+INGEST time (sec) = 13.19
+INGEST time (sec) = 7.909
+INGEST time (sec) = 8.435
+INGEST time (sec) = 11.715
+INGEST time (sec) = 10.21
+INGEST time (sec) = 9.88
+INGEST time (sec) = 10.609
+INGEST time (sec) = 6.342
+INGEST time (sec) = 11.452
+INGEST time (sec) = 9.65
+INGEST time (sec) = 9.714
+INGEST time (sec) = 10.997
+INGEST time (sec) = 10.229
+INGEST time (sec) = 6.79
+INGEST time (sec) = 6.606
+INGEST time (sec) = 7.356
+INGEST time (sec) = 8.504
+INGEST time (sec) = 9.046
+INGEST time (sec) = 10.108
+INGEST time (sec) = 11.113
+INGEST time (sec) = 8.176
+INGEST time (sec) = 9.937
+INGEST time (sec) = 16.074
+INGEST time (sec) = 10.684
+INGEST time (sec) = 11.112
+INGEST time (sec) = 9.038
+INGEST time (sec) = 9.454
+INGEST time (sec) = 12.028
+INGEST time (sec) = 15.026
+INGEST time (sec) = 8.064
+INGEST time (sec) = 5.984
+Total time to initialize M262144 is 5041.0567

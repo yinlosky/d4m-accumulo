@@ -1,0 +1,23 @@
+myDB;
+cur_it= DB('cur_it');nodes_t = DB('NumOfNodes');
+NumOfNodes = str2num(Val(nodes_t('1,','1,')));
+vector = [num2str(NumOfNodes) 'lz_q' num2str(str2num(Val(cur_it('1,','1,'))))];
+v = DB(vector);
+
+ this = tic;
+ purethis = tic;
+                        [vecr,vecc,vecv] = v(:,'1,');
+ pure = toc(purethis);
+disp(['Pure read Vector takes ' num2str(pure)]);
+ tranthis = tic;
+                        vecr = sscanf(vecr,'%f');
+                        %vecc = str2num(vecc);
+                        vecv = sscanf(vecv,'%f');
+ tran =toc(tranthis);
+disp(['Transfer to string takes ' num2str(tran)]);
+conthis =tic;
+                        myVector = sparse(vecr,1,vecv,NumOfNodes,1);
+con = toc(conthis);
+disp(['Constructing sparse matrix takes ' num2str(con)]);
+                        readv = toc(this);
+disp(['Total Reading vector took ' num2str(readv) 's']);

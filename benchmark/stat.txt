@@ -1,0 +1,301 @@
+***********************************************
+Begin time: 25-May-2015 14:14:35
+*********************************************Commands:  startYingen( 9,9,262144,20,6,1,1)Iteration 1 Row_mv takes: 190.7374
+Iteration 1 Calculating alpha takes: 133.9743
+Iteration 1 onetime_saxv: 75.7986
+Iteration 1 beta takes: 124.2289
+Iteration 1 SO takes: 0.096066
+Iteration 1 Update Q takes: 76.3375
+Iteration: 1: 603.1919s
+Iteration 2 Row_mv takes: 217.3342
+Iteration 2 Calculating alpha takes: 121.6702
+Iteration 2 onetime_saxv: 103.8186
+Iteration 2 beta takes: 127.5473
+Iteration 2 SO takes: 0.099273
+Iteration 2 Update Q takes: 82.5141
+Iteration: 2: 654.6815s
+Iteration 3 Row_mv takes: 137.8055
+Iteration 3 Calculating alpha takes: 78.3601
+*************************************
+Configurations: 
+	NumOfNodes: 262144	NumOfProcessors: 	17
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	9917949.6875
+	Even col is: 	16384
+	Total entries are: 	158687195
+*************************************
+Configurations: 
+	NumOfNodes: 262144	NumOfProcessors: 	17
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	9917949.6875
+	Even col is: 	16384
+	Total entries are: 	158687195
+*************************************
+Configurations: 
+	NumOfNodes: 262144	NumOfProcessors: 	17
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	0
+	Even col is: 	16384
+	Total entries are: 	0
+*************************************
+Configurations: 
+	NumOfNodes: 262144	NumOfProcessors: 	17
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	9917949.6875
+	Even col is: 	16384
+	Total entries are: 	158687195
+Machine 1
+	 Total col: 	26214	Total load: 56034472
+	 start:end 	1:26215
+Machine 2
+	 Total col: 	26216	Total load: 22692829
+	 start:end 	26216:52431
+Machine 3
+	 Total col: 	26216	Total load: 19542392
+	 start:end 	52432:78647
+Machine 4
+	 Total col: 	26216	Total load: 11751396
+	 start:end 	78648:104863
+Machine 5
+	 Total col: 	26216	Total load: 4554849
+	 start:end 	104864:131079
+Machine 6
+	 Total col: 	26216	Total load: 22413631
+	 start:end 	131080:157295
+Machine 7
+	 Total col: 	26216	Total load: 8591080
+	 start:end 	157296:183511
+Machine 8
+	 Total col: 	65524	Total load: 11829639
+	 start:end 	196620:262144
+*************************************
+Configurations: 
+	NumOfNodes: 262144	NumOfProcessors: 	17
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	9917949.6875
+	Even col is: 	16384
+	Total entries are: 	158687195
+Machine 1
+	 Total col: 	26214	Total load: 56034472
+	 start:end 	1:26215
+Machine 2
+	 Total col: 	29492	Total load: 23945576
+	 start:end 	26216:55707
+Machine 3
+	 Total col: 	31109	Total load: 23057427
+	 start:end 	55708:86816
+Machine 4
+	 Total col: 	36046	Total load: 10633780
+	 start:end 	86817:122862
+Machine 5
+	 Total col: 	31250	Total load: 22220779
+	 start:end 	122863:154112
+Machine 6
+	 Total col: 	36046	Total load: 10490626
+	 start:end 	154113:190158
+Machine 7
+	 Total col: 	36046	Total load: 9074923
+	 start:end 	190159:226204
+Machine 8
+	 Total col: 	17916	Total load: 824490
+	 start:end 	244228:262144
+*************************************
+Configurations: 
+	NumOfNodes: 1048576	NumOfProcessors: 	9
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	48821650
+	Even col is: 	131072
+	Total entries are: 	390573200
+Machine 1
+	 Total col: 	104856	Total load: 149096748
+	 start:end 	1:104857
+Machine 2
+	 Total col: 	131072	Total load: 60123727
+	 start:end 	104858:235929
+Machine 3
+	 Total col: 	131072	Total load: 56704914
+	 start:end 	235930:367001
+Machine 4
+	 Total col: 	144180	Total load: 21428249
+	 start:end 	367002:511181
+Machine 5
+	 Total col: 	131072	Total load: 56411601
+	 start:end 	511182:642253
+Machine 6
+	 Total col: 	144180	Total load: 20353262
+	 start:end 	642254:786433
+Machine 7
+	 Total col: 	144180	Total load: 22606074
+	 start:end 	786434:930613
+Machine 8
+	 Total col: 	117962	Total load: 3931845
+	 start:end 	930614:1048576
+*************************************
+Configurations: 
+	NumOfNodes: 1048576	NumOfProcessors: 	16
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	26038213.3333
+	Even col is: 	69905.0667
+	Total entries are: 	390573200
+Machine 1
+	 Total col: 	55923	Total load: 110105073
+	 start:end 	1:55924
+Machine 2
+	 Total col: 	55925	Total load: 41119759
+	 start:end 	55925:111849
+Machine 3
+	 Total col: 	55925	Total load: 38344056
+	 start:end 	111850:167774
+*************************************
+Configurations: 
+	NumOfNodes: 1048576	NumOfProcessors: 	15
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	27898085.7143
+	Even col is: 	74898.2857
+	Total entries are: 	390573200
+Machine 1
+	 Total col: 	59917	Total load: 111666047
+	 start:end 	1:59918
+Machine 2
+	 Total col: 	59919	Total load: 41651411
+	 start:end 	59919:119837
+Machine 3
+	 Total col: 	59919	Total load: 39962123
+	 start:end 	119838:179756
+Machine 4
+	 Total col: 	82389	Total load: 17822254
+	 start:end 	179757:262145
+Machine 5
+	 Total col: 	59919	Total load: 41657981
+	 start:end 	262146:322064
+Machine 6
+	 Total col: 	82389	Total load: 22617394
+	 start:end 	322065:404453
+Machine 7
+	 Total col: 	82389	Total load: 10966815
+	 start:end 	404454:486842
+Machine 8
+	 Total col: 	71306	Total load: 34869762
+	 start:end 	486843:558148
+Machine 9
+	 Total col: 	82389	Total load: 22583548
+	 start:end 	558149:640537
+Machine 10
+	 Total col: 	82389	Total load: 16559119
+	 start:end 	640538:722926
+Machine 11
+	 Total col: 	82389	Total load: 13457482
+	 start:end 	722927:805315
+Machine 12
+	 Total col: 	82389	Total load: 9487619
+	 start:end 	805316:887704
+Machine 13
+	 Total col: 	82389	Total load: 5648303
+	 start:end 	887705:970093
+Machine 14
+	 Total col: 	78482	Total load: 1791593
+	 start:end 	970094:1048576
+*************************************
+Configurations: 
+	NumOfNodes: 1048576	NumOfProcessors: 	10
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	43397022.2222
+	Even col is: 	116508.4444
+	Total entries are: 	390573200
+Machine 1
+	 Total col: 	93205	Total load: 142583067
+	 start:end 	1:93206
+Machine 2
+	 Total col: 	103466	Total load: 54210907
+	 start:end 	93207:196672
+Machine 3
+	 Total col: 	115904	Total load: 54243930
+	 start:end 	196673:312576
+Machine 4
+	 Total col: 	128160	Total load: 30457066
+	 start:end 	312577:440736
+Machine 5
+	 Total col: 	116509	Total load: 38032906
+	 start:end 	440737:557245
+Machine 6
+	 Total col: 	128160	Total load: 35644680
+	 start:end 	557246:685405
+Machine 7
+	 Total col: 	128160	Total load: 19666877
+	 start:end 	685406:813565
+Machine 8
+	 Total col: 	128160	Total load: 12592209
+	 start:end 	813566:941725
+Machine 9
+	 Total col: 	106850	Total load: 3142658
+	 start:end 	941726:1048576
+*************************************
+Configurations: 
+	NumOfNodes: 1048576	NumOfProcessors: 	10
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	43397022.2222
+	Even col is: 	116508.4444
+	Total entries are: 	390573200
+Machine 1
+	 Total col: 	93205	Total load: 142583067
+	 start:end 	1:93206
+*************************************
+Configurations: 
+	NumOfNodes: 1048576	NumOfProcessors: 	15
+	loadLower: 0.85	 loadUpper: 	1.25
+	colLower: 	0.8	 colUpper: 1.1
+	Even load is: 	27898085.7143
+	Even col is: 	74898.2857
+	Total entries are: 	390573200
+Machine 1
+	 Total col: 	59917	Total load: 111666047
+	 start:end 	1:59918
+Machine 2
+	 Total col: 	59919	Total load: 41651411
+	 start:end 	59919:119837
+Machine 3
+	 Total col: 	59919	Total load: 39962123
+	 start:end 	119838:179756
+Machine 4
+	 Total col: 	82389	Total load: 17822254
+	 start:end 	179757:262145
+Machine 5
+	 Total col: 	59919	Total load: 41657981
+	 start:end 	262146:322064
+Machine 6
+	 Total col: 	82389	Total load: 22617394
+	 start:end 	322065:404453
+Machine 7
+	 Total col: 	82389	Total load: 10966815
+	 start:end 	404454:486842
+Machine 8
+	 Total col: 	71306	Total load: 34869762
+	 start:end 	486843:558148
+Machine 9
+	 Total col: 	82389	Total load: 22583548
+	 start:end 	558149:640537
+Machine 10
+	 Total col: 	82389	Total load: 16559119
+	 start:end 	640538:722926
+Machine 11
+	 Total col: 	82389	Total load: 13457482
+	 start:end 	722927:805315
+Machine 12
+	 Total col: 	82389	Total load: 9487619
+	 start:end 	805316:887704
+Machine 13
+	 Total col: 	82389	Total load: 5648303
+	 start:end 	887705:970093
+Machine 14
+	 Total col: 	78482	Total load: 1791593
+	 start:end 	970094:1048576

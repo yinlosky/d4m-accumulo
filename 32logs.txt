@@ -1,0 +1,1310 @@
+Creating alpha_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v32_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B32_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating 32lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+Creating dot_temp in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_v32_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_B32_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Creating alpha in hec-53.cs.iit.edu:2181 Accumulo
+Creating beta in hec-53.cs.iit.edu:2181 Accumulo
+Creating alpha_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v32_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B32_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating so_rpath in hec-53.cs.iit.edu:2181 Accumulo
+Creating cur_loop_j in hec-53.cs.iit.edu:2181 Accumulo
+Creating rtv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating so_rrtv in hec-53.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.122
+INGEST time (sec) = 0.044
+INGEST time (sec) = 0.04
+Creating 32lz_q2 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q2DB.user: rootDB.type: Accumulo
+Creating 32lz_q3 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q3DB.user: rootDB.type: Accumulo
+Creating 32lz_q4 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q4DB.user: rootDB.type: Accumulo
+Creating 32lz_q5 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q5DB.user: rootDB.type: Accumulo
+Creating 32lz_q6 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q6DB.user: rootDB.type: Accumulo
+Creating 32lz_q7 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q7DB.user: rootDB.type: Accumulo
+	Running Yingen with the following configuration:
+
+    '1'    'machines:'    [1x1 char]
+
+1 processors	
+32 nodes	
+6 max iterations	
+6 top eigen values
+Initializing the random vector b in table B32
+{??? Input argument "KeepB" is undefined.
+
+Error in ==> startYingen at 140
+if (KeepB ~= 1)
+} 
+startYingen(1,1,32,6,6,0)
+Start time: 
+
+Creating 32lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating dot_temp in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alphaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: betaDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_v32_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_B32_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: so_rpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: cur_loop_jDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: rtv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: so_rrtvDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_vpathDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Creating alpha in hec-53.cs.iit.edu:2181 Accumulo
+Creating beta in hec-53.cs.iit.edu:2181 Accumulo
+Creating alpha_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating beta_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating lz_norm_v32_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating lz_norm_B32_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating so_rpath in hec-53.cs.iit.edu:2181 Accumulo
+Creating cur_loop_j in hec-53.cs.iit.edu:2181 Accumulo
+Creating rtv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Creating so_rrtv in hec-53.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.085
+INGEST time (sec) = 0.021
+INGEST time (sec) = 0.032
+Creating 32lz_q2 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q2DB.user: rootDB.type: Accumulo
+Creating 32lz_q3 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q3DB.user: rootDB.type: Accumulo
+Creating 32lz_q4 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q4DB.user: rootDB.type: Accumulo
+Creating 32lz_q5 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q5DB.user: rootDB.type: Accumulo
+Creating 32lz_q6 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q6DB.user: rootDB.type: Accumulo
+Creating 32lz_q7 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_q7DB.user: rootDB.type: Accumulo
+	Running Yingen with the following configuration:
+
+    '1'    'machines:'    [1x1 char]
+
+1 processors	
+32 nodes	
+6 max iterations	
+6 top eigen values
+Initializing the random vector b in table B32
+In initB.m: 
+
+NumOfNodes: 32	NumOfProcessors: 1
+
+    'Machines: '
+
+Creating B32 in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: B32DB.user: rootDB.type: Accumulo
+Creating B32 in hec-53.cs.iit.edu:2181 Accumulo
+Now initialize vector B!
+Submitting SaveB on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+INGEST time (sec) = 0.038
+Total time to initialize B32 is 4.7733
+Submitting parallel_lz_norm_B_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+start index: 1 end index: 32length: 32
+INGEST time (sec) = 0.026
+Time to parallel_lz_norm_B_p1: 0.18412
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     6.786183001067074
+Before sqrt: 6.786183001067074,
+After sqrt: 2.605030326323875,
+INGEST time (sec) = 0.031
+In p2 Sum is: 2.605030326323875
+In table: 2.605030326323875
+
+Time for summing the local files0.087933
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_B32_tempDB.user: rootDB.type: Accumulo
+In main process Sum is: 2.605030326323875
+Store scalar_b in table scalar_b
+Time for normalizing B vector is: 0.66347
+Submitting parallel_scalarmult_B on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating 32lz_q1 in hec-53.cs.iit.edu:2181 Accumulo
+Scalar value is: 0.38387
+start index: 1 end index: 32length: 32
+INGEST time (sec) = 0.038
+Time for parallel_scalarmult_B is: 0.086468
+Time for scalar multiply B vector is: 0.090696
+Time for running initializing B is: 0.091493
+**************myEigen iterations***********************
+computing v=Aq 1 ...
+INGEST time (sec) = 0.03
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 32lz_q1 into mv_temp ************
+INGEST time (sec) = 0.045
+Total Running time is: 1.1103
+Total syn time is: 0.00315
+Creating 32lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 32lz_q1 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 32lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.035
+Result of v = Aq 1 is saved in table 32lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(1)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating dot_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.02
+Total Running time is: 1.4504
+Total syn time is: 0.001243
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.113
+Result of alpha[1] =3.5593 is saved.
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating 3.5593 times vector: 32lz_q1
+start index: 1 end index: 32
+INGEST time (sec) = 0.03
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 32
+INGEST time (sec) = 0.018
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 32lz_vpath table
+Computing beta[1]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+start index: 1 end index: 32length: 32
+Result in 1 th processor is 20.372014335055635,
+INGEST time (sec) = 0.027
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     20.372014335055635
+Before sqrt: 20.372014335055635,
+After sqrt: 4.513536787825666,
+INGEST time (sec) = 0.026
+In p2 Sum is: 4.513536787825666
+In table: 4.513536787825666
+
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_v32_tempDB.user: rootDB.type: Accumulo
+beta[1] = 4.5135
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+Starting so, iterations # is 1 beta_it value is: 4.5135
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/1 th vector:4.5135compare to 5.2841e-08
+Number of orthongalization: 0
+Computing q2...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating 32lz_q2 in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+Iteration 1 beta 0.22156 times32lz_vpath
+INGEST time (sec) = 0.029
+q_{2} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+----------EigenValues of Tm are:--------------
+
+myD =
+
+     3.559335021069364e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-53.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-53.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.033
+INGEST time (sec) = 0.029
+**************Now constructing T matrix from alpha and beta******************
+INGEST time (sec) = 0.028
+Iteration: 1total running time is !!! 24.5756 !!!
+**************myEigen iterations***********************
+computing v=Aq 2 ...
+INGEST time (sec) = 0.012
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 32lz_q2 into mv_temp ************
+INGEST time (sec) = 0.049
+Total Running time is: 0.9755
+Total syn time is: 0.002195
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 32lz_q2 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 32lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.045
+Result of v = Aq 2 is saved in table 32lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(2)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating dot_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.019
+Total Running time is: 1.3323
+Total syn time is: 0.000901
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.054
+Result of alpha[2] =4.1389 is saved.
+Creating beta_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+start index: 1 end index: 32
+Iteration 2 beta 4.5135 times 32lz_q1
+INGEST time (sec) = 0.028
+Creating alpha_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating 4.1389 times vector: 32lz_q2
+start index: 1 end index: 32
+INGEST time (sec) = 0.029
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 32
+INGEST time (sec) = 0.018
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 32lz_vpath table
+Computing beta[2]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating lz_norm_v32_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32length: 32
+Result in 1 th processor is 3.964734891101286,
+INGEST time (sec) = 1.524
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     3.964734891101286
+Before sqrt: 3.964734891101286,
+After sqrt: 1.991164204956810,
+INGEST time (sec) = 0.013
+In p2 Sum is: 1.991164204956810
+In table: 1.991164204956810
+
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_v32_tempDB.user: rootDB.type: Accumulo
+beta[2] = 1.9912
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00
+     4.513536787825666e+00     4.138857673042922e+00
+
+Starting so, iterations # is 2 beta_it value is: 1.9912
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/2 th vector:1.3621compare to 1.2429e-07
+Error of2/2 th vector:1.4524compare to 1.2429e-07
+Number of orthongalization: 0
+Computing q3...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating 32lz_q3 in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+Iteration 2 beta 0.50222 times32lz_vpath
+INGEST time (sec) = 0.03
+q_{3} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00
+     4.513536787825666e+00     4.138857673042922e+00
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -6.737319672946513e-01
+     8.371924661406938e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-53.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-53.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.037
+INGEST time (sec) = 0.022
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00
+     4.513536787825666e+00     4.138857673042922e+00
+
+INGEST time (sec) = 0.021
+Iteration: 2total running time is !!! 33.2013 !!!
+**************myEigen iterations***********************
+computing v=Aq 3 ...
+INGEST time (sec) = 0.011
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 32lz_q3 into mv_temp ************
+INGEST time (sec) = 0.04
+Total Running time is: 0.88722
+Total syn time is: 0.002247
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 32lz_q3 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 32lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.036
+Result of v = Aq 3 is saved in table 32lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(3)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating dot_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.02
+Total Running time is: 1.4849
+Total syn time is: 0.000887
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.058
+Result of alpha[3] =-0.93055 is saved.
+Creating beta_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+start index: 1 end index: 32
+Iteration 3 beta 1.9912 times 32lz_q2
+INGEST time (sec) = 0.028
+Creating alpha_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating -0.93055 times vector: 32lz_q3
+start index: 1 end index: 32
+INGEST time (sec) = 0.028
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 32
+INGEST time (sec) = 0.018
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 32lz_vpath table
+Computing beta[3]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating lz_norm_v32_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32length: 32
+Result in 1 th processor is 1.975215021682872,
+INGEST time (sec) = 1.552
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     1.975215021682872
+Before sqrt: 1.975215021682872,
+After sqrt: 1.405423431455044,
+INGEST time (sec) = 0.012
+In p2 Sum is: 1.405423431455044
+In table: 1.405423431455044
+
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_v32_tempDB.user: rootDB.type: Accumulo
+beta[3] = 1.4054
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00
+                         0     1.991164204956810e+00    -9.305501562956490e-01
+
+Starting so, iterations # is 3 beta_it value is: 1.4054
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/3 th vector:1.0667compare to 1.2765e-07
+Error of2/3 th vector:0.88914compare to 1.2765e-07
+Error of3/3 th vector:0.21615compare to 1.2765e-07
+Number of orthongalization: 0
+Computing q4...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating 32lz_q4 in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+Iteration 3 beta 0.71153 times32lz_vpath
+INGEST time (sec) = 0.027
+q_{4} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00
+                         0     1.991164204956810e+00    -9.305501562956490e-01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.282104492541933e+00
+     4.517009737816798e-01
+     8.598046056576891e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-53.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-53.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.026
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00
+                         0     1.991164204956810e+00    -9.305501562956490e-01
+
+INGEST time (sec) = 0.075
+Iteration: 3total running time is !!! 33.1863 !!!
+**************myEigen iterations***********************
+computing v=Aq 4 ...
+INGEST time (sec) = 0.011
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 32lz_q4 into mv_temp ************
+INGEST time (sec) = 0.038
+Total Running time is: 0.88728
+Total syn time is: 0.002165
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 32lz_q4 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 32lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.027
+Result of v = Aq 4 is saved in table 32lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(4)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating dot_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.02
+Total Running time is: 1.4219
+Total syn time is: 0.000899
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.066
+Result of alpha[4] =-0.073632 is saved.
+Creating beta_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+start index: 1 end index: 32
+Iteration 4 beta 1.4054 times 32lz_q3
+INGEST time (sec) = 0.026
+Creating alpha_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating -0.073632 times vector: 32lz_q4
+start index: 1 end index: 32
+INGEST time (sec) = 0.03
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 32
+INGEST time (sec) = 0.017
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 32lz_vpath table
+Computing beta[4]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating lz_norm_v32_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32length: 32
+Result in 1 th processor is 1.467780363555656,
+INGEST time (sec) = 1.522
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     1.467780363555656
+Before sqrt: 1.467780363555656,
+After sqrt: 1.211519856855700,
+INGEST time (sec) = 0.015
+In p2 Sum is: 1.211519856855700
+In table: 1.211519856855700
+
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_v32_tempDB.user: rootDB.type: Accumulo
+beta[4] = 1.2115
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00                         0                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00                         0
+                         0     1.991164204956810e+00    -9.305501562956490e-01     1.405423431455044e+00
+                         0                         0     1.405423431455044e+00    -7.363181064835600e-02
+
+Starting so, iterations # is 4 beta_it value is: 1.2115
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/4 th vector:0.48455compare to 1.2773e-07
+Error of2/4 th vector:0.7805compare to 1.2773e-07
+Error of3/4 th vector:0.78921compare to 1.2773e-07
+Error of4/4 th vector:0.030887compare to 1.2773e-07
+Number of orthongalization: 0
+Computing q5...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating 32lz_q5 in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+Iteration 4 beta 0.82541 times32lz_vpath
+INGEST time (sec) = 0.031
+q_{5} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00                         0                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00                         0
+                         0     1.991164204956810e+00    -9.305501562956490e-01     1.405423431455044e+00
+                         0                         0     1.405423431455044e+00    -7.363181064835600e-02
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.751065074042767e+00
+    -4.010163300276483e-01
+     1.242533594812406e+00
+     8.603558536426288e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-53.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-53.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.017
+INGEST time (sec) = 0.022
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00                         0                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00                         0
+                         0     1.991164204956810e+00    -9.305501562956490e-01     1.405423431455044e+00
+                         0                         0     1.405423431455044e+00    -7.363181064835600e-02
+
+INGEST time (sec) = 0.019
+Iteration: 4total running time is !!! 33.0348 !!!
+**************myEigen iterations***********************
+computing v=Aq 5 ...
+INGEST time (sec) = 0.012
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 32lz_q5 into mv_temp ************
+INGEST time (sec) = 0.036
+Total Running time is: 0.8453
+Total syn time is: 0.002265
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 32lz_q5 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 32lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.027
+Result of v = Aq 5 is saved in table 32lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(5)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating dot_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.019
+Total Running time is: 1.2462
+Total syn time is: 0.000893
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.057
+Result of alpha[5] =0.047317 is saved.
+Creating beta_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+start index: 1 end index: 32
+Iteration 5 beta 1.2115 times 32lz_q4
+INGEST time (sec) = 0.031
+Creating alpha_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating 0.047317 times vector: 32lz_q5
+start index: 1 end index: 32
+INGEST time (sec) = 0.024
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 32
+INGEST time (sec) = 0.016
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 32lz_vpath table
+Computing beta[5]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating lz_norm_v32_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32length: 32
+Result in 1 th processor is 2.923988540805447,
+INGEST time (sec) = 1.526
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     2.923988540805447
+Before sqrt: 2.923988540805447,
+After sqrt: 1.709967409281664,
+INGEST time (sec) = 0.051
+In p2 Sum is: 1.709967409281664
+In table: 1.709967409281664
+
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_v32_tempDB.user: rootDB.type: Accumulo
+beta[5] = 1.71
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00                         0                         0                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00                         0                         0
+                         0     1.991164204956810e+00    -9.305501562956490e-01     1.405423431455044e+00                         0
+                         0                         0     1.405423431455044e+00    -7.363181064835600e-02     1.211519856855700e+00
+                         0                         0                         0     1.211519856855700e+00     4.731742737666200e-02
+
+Starting so, iterations # is 5 beta_it value is: 1.71
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/5 th vector:0.32568compare to 1.2773e-07
+Error of2/5 th vector:1.0429compare to 1.2773e-07
+Error of3/5 th vector:0.9965compare to 1.2773e-07
+Error of4/5 th vector:0.85868compare to 1.2773e-07
+Error of5/5 th vector:0.0062999compare to 1.2773e-07
+Number of orthongalization: 0
+Computing q6...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating 32lz_q6 in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+Iteration 5 beta 0.58481 times32lz_vpath
+INGEST time (sec) = 0.032
+q_{6} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00                         0                         0                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00                         0                         0
+                         0     1.991164204956810e+00    -9.305501562956490e-01     1.405423431455044e+00                         0
+                         0                         0     1.405423431455044e+00    -7.363181064835600e-02     1.211519856855700e+00
+                         0                         0                         0     1.211519856855700e+00     4.731742737666200e-02
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.845319922460819e+00
+    -1.040673278783458e+00
+     3.109392091814765e-01
+     1.712709814828758e+00
+     8.603672331778984e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-53.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-53.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.026
+INGEST time (sec) = 0.025
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+     3.559335021069364e+00     4.513536787825666e+00                         0                         0                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00                         0                         0
+                         0     1.991164204956810e+00    -9.305501562956490e-01     1.405423431455044e+00                         0
+                         0                         0     1.405423431455044e+00    -7.363181064835600e-02     1.211519856855700e+00
+                         0                         0                         0     1.211519856855700e+00     4.731742737666200e-02
+
+INGEST time (sec) = 0.028
+Iteration: 5total running time is !!! 33.0378 !!!
+**************myEigen iterations***********************
+computing v=Aq 6 ...
+INGEST time (sec) = 0.011
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: mv_tempDB.user: rootDB.type: Accumulo
+Creating mv_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_mv_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector!!!!!!!!!!!!!
+********matrix:  InputMatrix  times vector: 32lz_q6 into mv_temp ************
+INGEST time (sec) = 0.037
+Total Running time is: 0.84203
+Total syn time is: 0.003016
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: 32lz_vpathDB.user: rootDB.type: Accumulo
+Submitting parallel_mv_p2 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+!!!!!!!Now running matrix multiply the vector 32lz_q6 P2 !!!!!!!!!!!!!
+********matrix: mv_temp ************
+Creating 32lz_vpath in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.027
+Result of v = Aq 6 is saved in table 32lz_vpath
+Computing dotproduct of vi * v ... and saving the result in alpha(6)
+Submitting parallel_dotproduct_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating dot_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+INGEST time (sec) = 0.032
+Total Running time is: 1.4789
+Total syn time is: 0.00095
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: dot_tempDB.user: rootDB.type: Accumulo
+Saving alpha to alpha_t
+INGEST time (sec) = 0.078
+Result of alpha[6] =0.20253 is saved.
+Creating beta_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_beta on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+start index: 1 end index: 32
+Iteration 6 beta 1.71 times 32lz_q5
+INGEST time (sec) = 0.029
+Creating alpha_sax_temp in hec-53.cs.iit.edu:2181 Accumulo
+Submitting parallel_sax_alpha on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating 0.20253 times vector: 32lz_q6
+start index: 1 end index: 32
+INGEST time (sec) = 0.036
+Submitting parallel_sax_v on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Calcuating lz_vpath = lz_vpath - beta_sax_temp - alpha_sax_temp
+start index: 1 end index: 32
+INGEST time (sec) = 0.023
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: beta_sax_tempDB.user: rootDB.type: Accumulo
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: alpha_sax_tempDB.user: rootDB.type: Accumulo
+v is saved in 32lz_vpath table
+Computing beta[6]...
+Submitting parallel_lz_norm_v_p1 on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating lz_norm_v32_temp in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32length: 32
+Result in 1 th processor is 2.120928447989546,
+INGEST time (sec) = 1.548
+Running p2!
+Try to verify if temp_t has 1 elemetns!
+(1,1)     2.120928447989546
+Before sqrt: 2.120928447989546,
+After sqrt: 1.456340773304636,
+INGEST time (sec) = 0.012
+In p2 Sum is: 1.456340773304636
+In table: 1.456340773304636
+
+DB.instanceName: myaccumuloDB.host: hec-53.cs.iit.edu:2181Table Name to be deleted: lz_norm_v32_tempDB.user: rootDB.type: Accumulo
+beta[6] = 1.4563
+Constructing the Tridigonal matrix...
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     3.559335021069364e+00     4.513536787825666e+00                         0                         0                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00                         0                         0
+                         0     1.991164204956810e+00    -9.305501562956490e-01     1.405423431455044e+00                         0
+                         0                         0     1.405423431455044e+00    -7.363181064835600e-02     1.211519856855700e+00
+                         0                         0                         0     1.211519856855700e+00     4.731742737666200e-02
+                         0                         0                         0                         0     1.709967409281664e+00
+
+  Column 6
+
+                         0
+                         0
+                         0
+                         0
+     1.709967409281664e+00
+     2.025335302257510e-01
+
+Starting so, iterations # is 6 beta_it value is: 1.4563
+!!!!!!!Now running parallel_so !!!!!!!!!!!!!
+Error of1/6 th vector:0.22785compare to 1.2773e-07
+Error of2/6 th vector:0.80749compare to 1.2773e-07
+Error of3/6 th vector:0.60191compare to 1.2773e-07
+Error of4/6 th vector:0.66761compare to 1.2773e-07
+Error of5/6 th vector:0.78037compare to 1.2773e-07
+Error of6/6 th vector:0.0011394compare to 1.2773e-07
+Number of orthongalization: 0
+Computing q7...
+Submitting parallel_update_q on 1 processor(s).
+No pid files found
+Launching MPI rank: 0 on: hec-53
+
+unix_launch =
+
+/bin/sh ./MatMPI/Unix_Commands.hec-53.0.sh &
+
+
+Creating 32lz_q7 in hec-53.cs.iit.edu:2181 Accumulo
+start index: 1 end index: 32
+Iteration 6 beta 0.68665 times32lz_vpath
+INGEST time (sec) = 0.027
+q_{7} is calcualted
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     3.559335021069364e+00     4.513536787825666e+00                         0                         0                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00                         0                         0
+                         0     1.991164204956810e+00    -9.305501562956490e-01     1.405423431455044e+00                         0
+                         0                         0     1.405423431455044e+00    -7.363181064835600e-02     1.211519856855700e+00
+                         0                         0                         0     1.211519856855700e+00     4.731742737666200e-02
+                         0                         0                         0                         0     1.709967409281664e+00
+
+  Column 6
+
+                         0
+                         0
+                         0
+                         0
+     1.709967409281664e+00
+     2.025335302257510e-01
+
+----------EigenValues of Tm are:--------------
+
+myD =
+
+    -2.897200438157023e+00
+    -1.802627747382383e+00
+    -2.964422828085918e-01
+     1.035481166498892e+00
+     2.300973725945259e+00
+     8.603677260674541e+00
+
+TOP K eigenValues are:
+
+ans =
+
+    -2.897200438157023e+00
+    -1.802627747382383e+00
+    -2.964422828085918e-01
+     1.035481166498892e+00
+     2.300973725945259e+00
+     8.603677260674541e+00
+
+Saving the tridiagonal matrix
+Creating lanczos.ab in hec-53.cs.iit.edu:2181 Accumulo
+Creating lanczos.trimat in hec-53.cs.iit.edu:2181 Accumulo
+INGEST time (sec) = 0.018
+INGEST time (sec) = 0.022
+**************Now constructing T matrix from alpha and beta******************
+
+Tmatrix =
+
+  Columns 1 through 5
+
+     3.559335021069364e+00     4.513536787825666e+00                         0                         0                         0
+     4.513536787825666e+00     4.138857673042922e+00     1.991164204956810e+00                         0                         0
+                         0     1.991164204956810e+00    -9.305501562956490e-01     1.405423431455044e+00                         0
+                         0                         0     1.405423431455044e+00    -7.363181064835600e-02     1.211519856855700e+00
+                         0                         0                         0     1.211519856855700e+00     4.731742737666200e-02
+                         0                         0                         0                         0     1.709967409281664e+00
+
+  Column 6
+
+                         0
+                         0
+                         0
+                         0
+     1.709967409281664e+00
+     2.025335302257510e-01
+
+INGEST time (sec) = 0.019
+Iteration: 6total running time is !!! 33.0146 !!!
+!!!!!!Reached the max iterations. Finishing...
+Summarizing alpha[] and bet[]...
+
+	alpha	beta
+1	3.5593		4.5135
+2	4.1389		1.9912
+3	-0.93055		1.4054
+4	-0.073632		1.2115
+5	0.047317		1.71
+6	0.20253		1.4563
+Total running time is: 33.028
+Ending time: 
+
+
+ans =
+
+15-Feb-2015 18:19:14
+
+Begin time: 15-Feb-2015 18:13:23

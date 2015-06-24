@@ -1,0 +1,15 @@
+Arr_Vector = cell(1,3); //Declare vi vector 3 is the number of steps m
+Arr_Alpha = zeros(1,3);
+Arr_Beta = zeros(1,3);
+Beta_0 = 0;
+Arr_Vector_0 = zeros(3,1); // Column vector with 3 is the size of the input matrix n*n
+Vector_b =ones(3,1);
+Arr_Vector{1} = Vector_b ./ norm(Vector_b); // v1 = b / ||b||
+A = [1,2,3;4,5,6;7,8,9]
+for i = 1:3  
+   Vector_V = A*Arr_Vector{i};
+    Arr_Alpha(i) = Arr_Vector{i}'.*Vector_V;
+  Vector_V = Vector_V -  // need update Alpha and Beta Array since array in matlab starts from 1 instead of 0
+ Arr_Beta(i) = norm(Vector_V);
+  	// need to figure out how to construct the tridiagonal matrix from alpha and betay
+	

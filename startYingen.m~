@@ -1,0 +1,283 @@
+function startYingen(NumOfMachines,  NumOfProcessors, NumOfNodes, max_iteration,eig_k)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% File Name: startYingen.m
+%% usage: startYingen(2,16,9,1,6) for serial
+%%	      startYingen(2,16,9,2,6) for local 2 processors 
+%% Function: This file is used to test my parallel version of eigensovler in Accumulo and D4M since pRUN only supports program rather than function, I need utilize Accumulo table as a global storage for programs to get input value for each iteration. 
+%% 
+
+%% Note 1: the main process can read the variables in m files.
+%% Note 2: the parallel version should not delete the temporary table, it will mess up other processes' opertaions. So I move the delete temporary table in the main process.
+%% Note 3: The inputmatrix will be set as automatically as 'M{NumOfNodes}' say M4096
+% Note 4: The random vector B will be set as automatically 'B{NumOfNodes}' say B4096
+%% Note 5: The first lz_q1 will be named as {NumOfNodes}lz_q1
+
+%% Author: Yin Huang
+%% Date: Dec, 10 2014
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%BUG1: parallel_mv_p1.m needs inputmatrix to be renamed.
+
+diary ([num2str(NumOfNodes) '.txt']);
+
+switch NumOfMachines
+	case 4
+		machines = {'hec-51' 'hec-50' 'hec-49' 'hec-48'};
+	case 1
+		machines={};
+	case 2
+		machines  ={'hec-51' 'hec-50'};
+	case 8
+		machines={'hec-51' 'hec-50' 'hec-49' 'hec-48' 'hec-47' 'hec-46' 'hec-45' 'hec-44'};
+		end
+ 
+tic;
+myDB;  % Connect to DB
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% GLOBAL variables need be accessed by all processors. I store them in the table every processor will read from the table.
+NumOfMachines; % num of machines for computation
+NumOfNodes; %nodes in the graph
+max_iteration; % iteration times 
+
+machines_t = DB('NumOfMachines');
+nodes_t = DB('NumOfNodes');
+proc_t=DB('NumOfProcessors');
+cur_it = DB('cur_it');
+alpha_t = DB('alpha'); %% store the alpha array in accumulo table 'alpha'
+beta_t = DB('beta'); %% store the beta array in accumulo table 'beta'
+parallel_sax_alpha_output = DB('alpha_sax_temp'); % delete temp tables in main note2
+parallel_sax_beta_output = DB('beta_sax_temp');   % delete temp tables in main note2
+norm_v_temp = DB(['lz_norm_v' num2str(NumOfNodes) '_temp']);
+norm_b_temp = DB(['lz_norm_B' num2str(NumOfNodes) '_temp']);
+so_rpath = DB('so_rpath');  %% selective orthogonalize intermidate output table
+cur_loop_j = DB('cur_loop_j'); %% so inside loop identifier j every process need to know this value to computeR
+rtv_temp = DB('rtv_temp'); %% so inside we need calculate the dotproduct of rtv, this table is used to save the temp result
+so_rrtv = DB('so_rrtv'); %% so to store the vector 'rrtv' which is used to update lz_vpath, lz_vpath = lz_vpath - so_rrtv;
+temp_lz_vpath = DB([num2str(NumOfNodes) 'lz_vpath']);
+temp_mv_temp=DB('mv_temp');
+temp_dot_temp=DB('dot_temp');
+
+delete(alpha_t);
+delete(beta_t);
+delete(parallel_sax_alpha_output);
+delete(parallel_sax_beta_output);
+delete(norm_v_temp);
+delete(norm_b_temp);
+delete(so_rpath);
+delete(cur_loop_j);
+delete(rtv_temp);
+delete(so_rrtv);
+delete(temp_lz_vpath);
+delete(temp_mv_temp);
+delete(temp_dot_temp);
+
+
+alpha_t = DB('alpha');
+beta_t = DB('beta');
+parallel_sax_alpha_output = DB('alpha_sax_temp');
+parallel_sax_beta_output = DB('beta_sax_temp');
+norm_v_temp = DB(['lz_norm_v' num2str(NumOfNodes) '_temp']);
+norm_b_temp = DB(['lz_norm_B' num2str(NumOfNodes) '_temp']);
+so_rpath = DB('so_rpath');
+cur_loop_j = DB('cur_loop_j');
+rtv_temp = DB('rtv_temp');
+so_rrtv = DB('so_rrtv');
+
+m_assoc = Assoc('1,','1,',sprintf('%d,',NumOfMachines));
+put(machines_t,m_assoc);
+n_assoc = Assoc('1,','1,',sprintf('%d,',NumOfNodes));
+put(nodes_t,n_assoc);
+p_assoc = Assoc('1,','1,',sprintf('%d,',NumOfProcessors));
+put(proc_t,p_assoc);
+
+% 'scalar_b' is the norm of the random vector B
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% local variables to construct the Tridigonal matrix%%%%%%%%
+alpha = zeros(1,max_iteration);
+bet = zeros(1,max_iteration);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Hard coded variables
+v_prefix = [num2str(NumOfNodes) 'lz_q'];   %% v_prefix is lz_q to retrieve the tables named from lz_q{1:row}
+q_path = cell(max_iteration+1,1);
+scalar_b_path = 'scalar_b';
+B_path = ['B' num2str(NumOfNodes)];
+
+%%% initialize q_path array with the name lz_q{i}%%%%%%%%%%
+for i = 1:max_iteration+1
+	q_path{i} = [v_prefix num2str(i)];
+end
+for i = 2:max_iteration+1
+	tempary = DB(q_path{i});
+	delete(tempary);
+end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% assume InputMatrix has already been initilized and stored in 'InputMatrix' in my case yes it is the test case.%%%%%
+
+disp([sprintf('\tRunning Yingen with the following configuration:\n')]);
+disp([num2str(NumOfMachines) 'machines:' machines sprintf('\n')]);
+disp([num2str(NumOfProcessors) sprintf(' processors\t')]);
+disp([num2str(NumOfNodes) sprintf(' nodes\t')])
+disp([num2str(max_iteration) sprintf(' max iterations\t')]);
+disp([num2str(eig_k) sprintf(' top eigen values')]);
+
+
+%%% initialize random vector b stored in table 'B{NumOfNodes}'
+disp(['Initializing the random vector b in table B' num2str(NumOfNodes)]);
+% initB.m :
+%	1.create the random vector B in table B{NumOfNodes}
+%   2.calculate the norm of vector B in scalar_b table
+%	3.save the normalized vector B in {NumOfNodes}lz_q1 
+
+initB(NumOfMachines,NumOfProcessors, NumOfNodes,machines);
+
+%%%%% Task for Feb,10 modify the lz_q{i} to add the prefix {NumOfNodes} 1. parallel_mv_p2 
+% Add the time for each section 
+% remove the ingest time 
+
+
+%%Now start the for loop%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+for it = 1:max_iteration
+	tic;
+	disp('**************myEigen iterations***********************');
+	disp(['computing v=Aq ' num2str(it) ' ...']);
+
+    %%%%%%%%%%%%%%%%%%%%%%  matrix * vector begin **********************
+
+	it_assoc = Assoc('1,','1,',sprintf('%d,',it));
+	put(cur_it,it_assoc); %% globalize the current iteration so all processors will be able to read the right lz_q{it}
+	temp = DB('mv_temp'); delete(temp);temp = DB('mv_temp');  %% remove the temp table from previous operation for paralell_mv_p1.m
+    eval(pRUN('parallel_mv_p1',NumOfProcessors,machines));
+    output = DB([num2str(NumOfNodes) 'lz_vpath']); delete(output); %% remove the {NumOfNodes}lz_vpath table from previous iteration for parallel_mv_p2.m
+	eval(pRUN('parallel_mv_p2',NumOfProcessors,machines)); %% mv result will be stored in table '{NumOfNodes}lz_vpath'
+
+	disp(['Result of v = Aq ' num2str(it) ' is saved in table ' num2str(NumOfNodes) 'lz_vpath']);
+    
+    %%%%%%%%%%%%%  matrix * vector done! ***************************************   
+
+	%% alpha(it) = dotproduct(aqnpath,q_path{it}, NumOfNodes, NumOfMachines);
+	%% dotproduct should save the output in table 'dot_output' ('1,','1,'), also result could be read from dot_product;
+	%% alpha(it) will read from the dot_output table.
+
+    % num2str(NumOfNodes)
+ 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% vi * v begin **********************************************
+	disp(['Computing dotproduct of vi * v ... and saving the result in alpha(' num2str(it) ')']);
+	
+	eval(pRUN('parallel_dotproduct_p1',NumOfProcessors,machines));
+	alpha(it) = parallel_dotproduct_p2();
+
+	parallel_dotproduct_p1_temp = DB('dot_temp'); delete(parallel_dotproduct_p1_temp);
+	disp('Saving alpha to alpha_t');
+	alpha_temp_Assoc = Assoc(sprintf('%d,',it),'1,',sprintf('%.15f,',alpha(it)));
+	put(alpha_t, alpha_temp_Assoc);
+	disp(['Result of alpha[' num2str(it) '] =' num2str(alpha(it)) ' is saved.']);
+	
+	%%%%%%%%%%%%%%%%%%% vi * v done! *****************************************************
+
+    %%%%%%%%%%%%%%%%%%% Calculating v = v - beta{i-1}*v{i-1} - alpha{i}*v{i} **********************
+    	
+	if(it ~= 1) 
+	parallel_sax_beta_output = DB('beta_sax_temp');
+	eval(pRUN('parallel_sax_beta',NumOfProcessors,machines));
+	end 
+	parallel_sax_alpha_output = DB('alpha_sax_temp');
+	eval(pRUN('parallel_sax_alpha',NumOfProcessors,machines));
+	
+	eval(pRUN('parallel_sax_v',NumOfProcessors,machines));
+	parallel_sax_beta_output = DB('beta_sax_temp'); delete(parallel_sax_beta_output);
+	parallel_sax_alpha_output = DB('alpha_sax_temp'); delete(parallel_sax_alpha_output);
+
+	disp(['v is saved in ' num2str(NumOfNodes) 'lz_vpath table']);
+     
+
+	%%%%%%%%%%%%%%%%%%% Calculating v = v - beta{i-1}*v{i-1} - alpha{i}*v{i}  Done!**********************
+
+	%*************  Calculating beta{i} = ||v|| *************************************************************
+
+        disp(['Computing beta[' num2str(it) ']...']);
+	eval(pRUN('parallel_lz_norm_v_p1',NumOfProcessors,machines));
+	parallel_lz_norm_v_p2; %% scalar_v is written to beta_i in the table beta_t('i,','1,')
+	bet(it) = scalar_v;
+	parallel_lz_norm_v_tempt = DB(['lz_norm_v' num2str(NumOfNodes) '_temp']);
+	delete(parallel_lz_norm_v_tempt);
+	disp(['beta[' num2str(it) '] = ' num2str(bet(it))]);
+	
+	%********* Calculating beta{i} Done locally %%%%%%%%%%%%%%%%%%%
+
+
+	disp(['Constructing the Tridigonal matrix...']);
+	num_ortho = 0;
+	tempTmatrix = constructT(it, alpha, bet); 
+	[Q,D] = eig(tempTmatrix);
+        D = diag(D);
+	%% Do selective_orthogonalize locally%%%%
+	v_path = ([num2str(NumOfNodes) 'lz_vpath']);
+	disp(['Starting so, iterations # is ' num2str(it) ' beta_it value is: ' num2str(bet(it))]);
+	num_ortho = parallel_selective_orthogonalize(it, bet(it), v_path, Q,D, NumOfNodes, NumOfMachines,NumOfProcessors);
+	disp(['Number of orthongalization: ' num2str(num_ortho)]);
+
+   	
+
+	if(num_ortho > 0)
+		disp(['Recomputing beta[' num2str(it) ']']);
+		eval(pRUN('parallel_lz_norm_v_p1',NumOfProcessors,machines));
+		parallel_lz_norm_v_p2; %% scalar_v is written to beta_i in the table beta_t('i,','1,')
+		bet(it) = scalar_v;
+		disp(['beta[' num2str(it) ']=' num2str(bet(it))]);
+		parallel_lz_norm_v_tempt = DB(['lz_norm_v' num2str(NumOfNodes) '_temp']);
+		delete(parallel_lz_norm_v_tempt);
+	end
+
+	if(num_ortho > it - 1)
+	disp('The new vector converged. Finishing ...');
+        compute_eigval(it, alpha, bet, eig_k);
+	save_tridiagonal_matrix(alpha, bet, it);
+	break
+	end 
+	if(bet(it) == 0.0)
+	disp(['beta[' num2str(it) ']=0. finishing']);
+	disp('Saving the tridiagonal matrix');
+	compute_eigval(it, alpha, bet, eig_k);
+	save_tridiagonal_matrix(alpha, bet, it);
+	break
+	end
+	
+	disp(['Computing q' num2str(it+1) '...']);
+
+	%%%%%%%%%%%%%%  Update {NumOfNodes}lz_vpath %%%%%%%%%%%%%%%%%%%%%%
+
+	eval(pRUN('parallel_update_q',NumOfProcessors,machines));
+	disp(['q_{' num2str(it+1) '} is calcualted']);
+
+	compute_eigval(it, alpha, bet, eig_k);
+	disp('Saving the tridiagonal matrix');
+	save_tridiagonal_matrix(alpha, bet, it);
+    oneIterationTime=toc;
+    disp(['Iteration: ' num2str(it) 'total running time is !!! ' num2str(oneIterationTime) ' !!!']);
+
+end  %% end for loop
+	
+
+	disp('!!!!!!Reached the max iterations. Finishing...');
+	
+	disp('Summarizing alpha[] and bet[]...');
+	disp(sprintf('\n\talpha\tbeta'));
+	for n = 1:max_iteration
+	disp([num2str(n) sprintf('\t') num2str(alpha(n)) sprintf('\t\t') num2str(bet(n))]);
+	end
+	
+	alltime = toc;
+	disp(['Total running time is: ' num2str(alltime)]);
+
+	diary off;
+end %end function
+g

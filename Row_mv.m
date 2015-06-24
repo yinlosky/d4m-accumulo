@@ -90,48 +90,45 @@ for i = myProc
 			%%%%%%
      disp('Now start reading from Accumulo and do the calculation');
      
+     tmark = tic;
      
-     
-	 for rows = start_col:end_col
-         disp(['Row is ' num2str(rows)]);
-         [mr,mc,maxCol] = num(sprintf('%d,',rows),:);
-		 maxCol= str2num(maxCol);
-			if(maxCol~=0)
-			mIt = Iterator(m,'elements',maxCol);
-            
+
+     %%%% Below we try to read all rows at one time and see
+     %%%% performance
+
             this = tic;
             
-            [localr,localc,localv] = mIt(sprintf('%d,',columns),:);
+            [localr,localc,localv] = m(sprintf('%d,',start_col:end_col),:);
             
             readdb = toc(this);
             
             fwrite(fstat, ['Read from accumulo: ' num2str(readdb) 's' sprintf('\t') ]);
-                           % localr = str2num(localr);
-			%for the row we use 1, because we are doing row of matrix times the vector
-            
+                           
             this = tic;
 			localc = sscanf(localc,'%d');
             localv = sscanf(localv,'%f');
+            localr = sscanf(localr,'%d');
             trans = toc(this);
             
             fwrite(fstat, ['Transfer to string: ' num2str(trans) 's' sprintf('\t') ]);
-			   % localr = ones(size(localc,1),1);
-			   % localr = sscanf(localr,'%d');
-            myMatrix = sparse(1,localc,localv,1,NumOfNodes);
-                
-            this = tic;
+			  
+			this = tic;
+		    myMatrix = sparse(localr-start_col+1,localc,localv,end_col-start_col+1,NumOfNodes);
+			const = toc(this);
+			 fwrite(fstat, ['Construct sparse: ' num2str(const) 's' sprintf('\n') ]);
+				
+			this = tic;
             myresult = myMatrix * myVector;
 			multt = toc(this);
-			fwrite(fstat, ['Multiplication: ' num2str(multt) 's' sprintf('\t') ]);
-            this = tic;
-			put(output, Assoc(sprintf('%d,',rows),'1,',sprintf('%.15f,',full(myresult)))); %% columns is actually the row id
+			 fwrite(fstat, ['Multiplication: ' num2str(multt) 's' sprintf('\t') ]);
+			this = tic;
+			 put(output, Assoc(sprintf('%d,',start_col:end_col),'1,',sprintf('%.15f,',full(myresult)))); %% columns is actually the row id
 			putt = toc(this);
-            fwrite(fstat, ['Write back: ' num2str(putt) 's' sprintf('\n') ]); 
+			   fwrite(fstat, ['Write back: ' num2str(putt) 's' sprintf('\n') ]); 
 
-            end
-     end
-     disp('Insertation done!');
-     fwrite(fstat, 'Done' );
+     totaltime= toc(tmark);
+     disp(['Multiplication takes ' num2str(totaltime) ' s!']);
+     fwrite(fstat, ['Multiplication takes ' num2str(totaltime) ' s!']);
      fclose(fstat);
         else
         disp('I am just waiting!');
@@ -162,4 +159,49 @@ agg(w);
 			putt = toc(this);
 			   fwrite(fstat, ['Write back: ' num2str(putt) 's' sprintf('\n') ]); 
                    end
+%}
+
+
+%{
+Read row by row is lame!!
+ %for rows = start_col:end_col
+         disp(['Row is ' num2str(rows)]);
+         [mr,mc,maxCol] = num(sprintf('%d,',rows),:);
+		 maxCol= str2num(maxCol);
+			if(maxCol~=0)
+			mIt = Iterator(m,'elements',maxCol);
+            
+            this = tic;
+            
+            [localr,localc,localv] = mIt(sprintf('%d,',rows),:);
+            
+            readdb = toc(this);
+            
+            fwrite(fstat, ['Read from accumulo: ' num2str(readdb) 's' sprintf('\t') ]);
+                           % localr = str2num(localr);
+			%for the row we use 1, because we are doing row of matrix times the vector
+            
+            this = tic;
+			localc = sscanf(localc,'%d');
+            localv = sscanf(localv,'%f');
+            trans = toc(this);
+            
+            fwrite(fstat, ['Transfer to string: ' num2str(trans) 's' sprintf('\t') ]);
+			   % localr = ones(size(localc,1),1);
+			   % localr = sscanf(localr,'%d');
+            myMatrix = sparse(1,localc,localv,1,NumOfNodes);
+                
+            this = tic;
+            myresult = myMatrix * myVector;
+			multt = toc(this);
+			fwrite(fstat, ['Multiplication: ' num2str(multt) 's' sprintf('\t') ]);
+            this = tic;
+			put(output, Assoc(sprintf('%d,',rows),'1,',sprintf('%.15f,',full(myresult)))); %% columns is actually the row id
+			putt = toc(this);
+            fwrite(fstat, ['Write back: ' num2str(putt) 's' sprintf('\n') ]); 
+
+            end
+    % end
+
+
 %}
